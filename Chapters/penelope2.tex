@@ -1,6 +1,6 @@
 % Chapter 1
 
-\chapter{Chapter Title Here} % Main chapter title
+\chapter{Physics of PENELOPE} % Main chapter title
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
@@ -25,99 +25,165 @@
 %4. PENELOPE's treatment of the material-dependent energy-loss function.
 %Discuss the program MATERIAL and justify penelope's use of Bragg's rule.
 %May need to discuss the estar database?
-Elastic scattering of electrons refers to interactions do not alter target atoms' states. Above energies of a few hundred eV it may be described as an interaction between an electron and a target atom's electrostatic field (static field approximation. Cite Mott and Masse 1965). The atom's electrostatic potential is expressed in terms of the nuclear and electronic charge densities $\rho _n (r)$ and $\rho _e (r)$, respectively:
+% TODO: compare to the version of Dec 30 2016 (some changes were lost).
+PENELOPE performs Monte Carlo simulations of coupled electron-photon transport in arbitrary materials in the energy range of 100 eV to 1 GeV. It uses a mixed simulation method that treats soft interactions (that is, those involving small angular deflections) with a multiple-scattering approach while individually simulating hard interactions. It is paired with a geometry-definition program, PENGEOM, that allows defining samples with volumes of different material composition separated by arbitrary quartic surfaces.
 
-\begin{amsmath}
-\phi (r) = e~4~\pi [\frac{1}{r}\int_0^{r}\rho(r')r'^{2} + \int_r^{\infty}\rho_n(r')r'dr'] - e~4~\pi \frac{1}{r} \int_0^r\rho_e(r')r'^2 dr' + \int_r^\infty \rho_e(r') r' dr'].
-\end{amsmath}
-At the energy scales of the simulations described in chapter (which chapter?) the nucleus may be considered a point charge, but PENELOPE accounts for the effect of the finite nuclear size on the high-energy (> MeV) elastic DCS with the following approximation using the Fermi distribution:
+\section{Types of interactions}
+In this section we consider the interactions that must be simulated to accurately model the spatials distribution of energy in a nanostructured target material heated by x-ray photons with energy on the order of 10 keV.
+PENELOPE simulates the following interactions: electron scattering (elastic and inelastic), Bremsstrahlung emission, photon scattering (both elastic (Rayleigh) and inelastic (Computon)), photoelectric absorption and Auger emission, x-ray fluorescence, and pair production and anihillation. 
+Figs. \ref{fig:sp} and \ref{fig:photon_sigma} show the energy dependence of the relative strengths of the above electron and photon interactions, respectively. 
+Several of the processes have negligible or nonexistent roles on the < 10 keV energy scale considered in the current work, allowing us to limit our scope to the electron scattering and photoabsorption (with consequent fluorescence and Auger emission).
+
+\begin{figure}[h] \label{fig:col_rad}
+\caption{Collisional and radiative electron stopping powers as a function of energy (cite)}
+\centering
+\includegraphics[scale=0.4]{../Figures/collisional_sp.png}
+\label{fig:sp}
+\end{figure}
+
+\begin{figure}[h] 
+\caption{Photon cross section components in C as a function of energy (cite LCL and Hubbell 1980)}
+\centering
+\includegraphics[scale=1]{../Figures/photon_sigma.png}
+\label{photon_sigma}
+\end{figure}
+
+In what follows we introduce the physics of photoabsorption and elastic and inelastic scattering with attention to each process's contribution to the spatial distribution of deposited energy in a relaxation cascade beginning with photoionization by a hard x-ray photon. We discuss standard modeling approaches relevant to the 100 eV-10 keV regime, in addition to cursory overviews of PENELOPE's treatments within the limited scope relevant to the current regime of interest. % (including, for example, including relativistic energies).
+%In the case of inelastic electron scattering, where numerous treatments of the central quantity (the generalized oscillator strength, or GOS) exist, we discuss necessary common features of all GOS models before introducing PENELOPE's specific treatment.
+
+\subsection{Fluorescence}
+Fig (insert fig. 2.2 from penelope manual) illustrates the photoionization of inner atomic shells and introduces the notation used to describe atomic energy leves and transitions between them.
+Both the photoelectric effect and secondary (Auger) emission resulting from high-energy atomic excitations can be accurately modeled using established treatments that combine theoretical calculation of atomic states via self-consistent modeling (cite Pratt et al. 1973) with experimental data. Associated quantities are compiled in databases; PENELOPE uses tabulated ionization energies from Carlson (cite Carlson et al.) and photoelectic cross sections from the LLNL Evaluated Photon Data Library (EPDL). The EPDL additionally provides emission probabilities for fluorescence photons and Auger electrons in the relaxation of ionized atoms to the ground state.
+
+\begin{figure}[h] 
+\caption{Atomic energy levels of the first three principal quantum numbers (left) and corresponding allowed radiative transitions (right).}
+\centering
+\includegraphics[scale=0.4]{../Figures/penelope_2_2.png}
+\label{fig:photoionization}
+\end{figure}
+
+
+
+\subsubsection{Assumptions}
+The above data sources are known to be accurate to the $1\%$ level above $1$ keV, under the condition (assumed by PENELOPE) of low incident photon densities, such that only single-electron transitions occur (cite PENELOPE manual).
+
+PENELOPE assumes that incident photons are unpolarized and consequently fails to reproduce the polarization-dependent angular distribution (cite?) of emitted electrons. 
+We note that it does incorporate the angular distribution from Sauter's (cite sauter 1931) treatment of relativistic photoelectron emission--which, however, reduces to isotropic emission in the nonrelativistic regime covered here.
+
+
+
+\subsection{Elastic scattering}
+Elastic scattering of electrons refers to interactions that do not alter target atoms' states. 
+% TODO: consider moving some of the below text to the end of this section
+%PENELOPE uses the static field approximation (cite Mott and Massey), which is accurate above energies of a few hundred eV (cite PENELOPE manual, page 102) but introduces a considerable error to the elastic DCS at and below 1 keV (discuss in next section). 
+%An atom's electrostatic potential is expressed in terms of the nuclear and electronic charge densities, $\rho _n (r)$ and $\rho _e (r)$ respectively: 
+%
+%% TODO: nuclear charge should be a point
+%\begin{multline}
+%\phi (r) = e~4~\pi [\frac{1}{r}\int_0^{r}\rho(r')r'^{2} + \int_r^{\infty}\rho_n(r')r'dr'] -\\ e~4~\pi \frac{1}{r} \int_0^r\rho_e(r')r'^2 dr' + \int_r^\infty \rho_e(r') r' dr'].
+%\end{multline}
+%We note that, although PENELOPE accounts for the effect of the finite nuclear size on the elastic DCS, we simply treat the nucleus as a point source as this is sufficient for electrons with energy below 1 MeV. (cite PENELOPE manual)
+
+%Fermi distribution:
+%
+%\begin{equation}
+%\rho_n(r) = \frac{\rho_0}{exp[(r - R_n)(4ln3/t)] + 1},
+%\end{equation},
+
+%(cite Hahn et al. 1956 and understand the orgin of this expression)  $R_n$ is the mean radius and $t$ is the 'skin` thickness of $\rho_n$ defined in Hahn et al. 1956. 
+
+%The total interaction energy for electrons is
+%
+%\begin{equation}
+%V(r) = -e\phi(r) + V_{ex}(r),
+%\end{equation}
+%
+%where $V_{ex}(r)$ is a local approximation of the exchange interaction between the incident electron and atomic electrons. The angular distribution of elastic scattering off this central field is axially symmetric, and the DCS $d\sigma_{el}/d\Omega$ may therefore be expanded into a sum of Legendre polynomials. [Citing Salvat 2005 or Walker, describe how the phase shifts are obtained from the Dirac radial wave functions. What's the role of the exchange term in all this?]
+
+%\section{First view: Yukawa potential}
+The simplest widely-used model for elastic scattering of electrons in a solid is the semi-classical approach of Wentzel and Lenz (Egerton page 114 ), known as the Lenz model, which uses the Yukawa potential for the interaction between a fast electron and a target atom:
 
 \begin{equation}
-\rho_n(r) = \frac{\rho_0}{exp[(r - R_n)(4ln3/t)] + 1},
-\end{equation},
-
-(cite Hahn et al. 1956 and understand the orgin of this expression)  $R_n$ is the mean radius and $t$ is the 'skin` thickness of $\rho_n$ defined in Hahn et al. 1956. 
-
-The total interaction energy for electrons is
-
-\begin{equation}
-V(r) = -e\phi(r) + V_{ex}(r),
+	V(r) = \alpha^2 \frac{e^{-r/r_0}}{r}
 \end{equation}
 
-where $V_{ex}(r)$ is a local approximation of the exchange interaction. The angular distribution of elastic scattering off this central field is axially symmetric, and the DCS $d\sigma_{el}/d\Omega$ may therefore be expanded into a sum of Legendre polynomials. [Citing Salvat 2005 or Walker, describe how the phase shifts are obtained from the Dirac radial wave functions. What's the role of the exchange term in all this?]
-
-\section{First view: Yukawa potential}
-The Yukawa potential,
-
-\begin{equation}
-V(r) = \alpha^2 \frac{e^{-\mu r}}{r}
-\end{equation}
-
-is a crude description of an atomic potential that is nevertheless sufficient to derive the approximate differential cross section of elastic scattering and to describe its influence on the spatial distribution of scattered electrons at our energy scale of interest. 
+%sufficient to derive the approximate differential cross section of elastic scattering and to describe its influence on the spatial distribution of scattered electrons at our energy scale of interest. 
 
 The first Born approximation gives the amplitude for a particle's scattering off of a spherically symmetric potential as
+% TODO cite http://itp.uni-frankfurt.de/~valenti/SS14/QMII_2014_chap1.pdf or other
 
 \begin{equation}
-f(\theta) \simeq -\frac{m}{2\pi \hbar^2} \int e^{i q r_0 cos \theta_0 sin \theta_0 d\theta_0
+	f(\theta) \simeq -2 \frac{m}{\hbar^2 q} \int_0^\infty r V(r) \sin (qr) dr
 \end{equation}
 
 Substituting (how do I reference equations) into (), yields 
 %from http://itp.uni-frankfurt.de/~valenti/SS14/QMII_2014_chap1.pdf
 %TODO: make the notation here consistent.
 \begin{equation}
-\begin{split}
-f(\theta)  \simeq -\frac{2m\alpha^2}{\hbar^2q} \int_0^\infty e^{-r \mu} sin(q r) dr = -\frac{2m\alpha^2}{\hbar^2 (\mu^2 + q^2)} \\
-& \frac{4 Z^2}{a_0^2 k_0^4} \frac{1}{(\theta^2 + \theta_0^2)^2},
-\end{split}
+	f(\theta) \simeq -2 \frac{m \alpha^2}{\hbar^2 q} \int_0^\infty e^{-r/r_0} \sin (qr) dr = -\frac{2m\alpha^2}{\hbar^2 (r_0^{-2} + q^2)},
 \end{equation}
-where $\theta_0 = (k_0 r_0)^{-1}$ is the characteristic angle for elastic scattering.
 
-Integrating over scattering angles gives
+therefore giving the following differential scattering cross section:
+$$
+\frac{d\sigma}{d\Omega} = |f(\theta)| = \frac{4 Z^2}{a_0^2 k_0^4} \frac{1}{(\theta^2 + \theta_0^2)^2},
+$$
+where $k_0 = m_0 v$ is the momentum of the incident electron, $\theta_0 = (k_0 r_0)^{-1}$ is the characteristic angle for elastic scattering and $a_0 = 4 \pi \epsilon_0 \hbar^2/m_0 e^2$ is the Bohr radius.
+
+Using the Thomas-Fermi model, Wentzel and Lenz obtain $r_0 = a_0 Z^{-1/3}$ (cites). Doing this substitution and integrating over scattering angles gives
 \begin{equation}
 \sigma_e = \int_0^\pi \frac{d\sigma}{d\Omega} 2 \pi sin \theta d \theta = \frac{4 \pi}{k_0^2} Z^{4/3}
 \end{equation}
 
-For 10 keV electrons $\theta_0 = $ how much??? and $\sigma_e = $ how much???. Taking the atomic number of density of Fe, the mean free path between inelastic collisions is (insert the right expression) = (insert the right number). The corresponding expectation value of angular deflection per distance traveled is (insert the right number). In comparison, the inelastic mean free path of 10 keV photons in Fe (potential see-saw here is (insert number). where should i introduce inelastic scattering?) This suggests that path deflections caused by elastic scattering will have a significant influence on the spatial distribution of energy deposited 10 keV-scale electrons in Fe and other mid-Z materials. 
+% TODO: copper->iron
+We thus see that the angular deflections produced by elastic scattering decrease with increasing energy. For 10 keV electrons $\theta_0 \simeq 0.1$ rad and $\sigma_e = 4.2 \times 10^{-20}~\mathrm{m}^2$. The elastic mean free path, an alternate measure of the collision frequency, is equal to $\lambda_e = 1/(\sigma_e n)$, where $n$ is atomic number density. As an example, inserting the value of $n$ for Fe yields 2.8 \AA (at the same 10 keV electron energy) (\emph{sounds far too small; check this calculation}). This corresponds to a large number of collisions on length scales of interest (> 10 nm) which, combined with the appreciable value of the characteristic scattering angle, demonstrates that elastic scattering has a substantial influence on the propagation of electrons below 10 keV. 
+
+Taking the atomic number of density of Fe, the mean free path between inelastic collisions is (insert the right expression) = (insert the right number). The corresponding expectation value of angular deflection per distance traveled is (insert the right number). In comparison, the inelastic mean free path of 10 keV photons in Fe (potential see-saw here is (insert number). where should i introduce inelastic scattering?) This suggests that path deflections caused by elastic scattering will have a significant influence on the spatial distribution of energy deposited 10 keV-scale electrons in Fe and other mid-Z materials. 
+
+Despite its simplicity, the Lenz model gives total cross sections to within 10 \% for light elements (cite Geiger 1964). For heavier species it underestimates the small-angle differential cross section (Fig. \ref{fig:e3.3}) but correctly reproduces the large-angle DCS.
+
+\begin{figure}[h] 
+	\caption{Angular dependence of elastic DCS of 30 keV electrons from a Hg atom under the Lenz model using the Wentzel potential (solid), and based on Hartree-Fock (dotted), Hartree-Slater (dot-dashed) and Dirac-Slater (dashed) wavefunctions.  \parencite{Reference1} }
+\centering
+\includegraphics[scale=0.5]{../Figures/egerton_3_3.png}
+\label{fig:e3.3}
+\end{figure}
+
+More accurate approaches use iterative (e.g. Hartree-Fock) solutions to the Schroedinger equation (or of the Dirac equation, where relativistic and spin effects are needed) to solve for the atomic potential. (cite rez 1984 or starostin, applicability of the born approximation to collisions between electrons and excited atoms). Additionally, partial wave approaches can be used to avoid the Born approximation in regimes for which it fails (low electron energy and high-Z species). PENELOPE combines the above techniques: it solves the partial-wave expanded Dirac equation with a potential based on the Dirac-Fock electron density of Desclaux (1975, see citation on pg 102 of penelope manual) and exchange interaction of Furness and McCarthy (1973). We will elaborate on PENELOPE's modeling of elastic scattering only within the narrow concern of assesing its range of applicability; for more detail the reader may refer to chapter 3 of the PENELOPE manual. 
 
 
-Fig. (fig reference) shows the angular dependence of scattering for Fe. 
+% Fig. (fig reference) shows the angular dependence of scattering for Fe. 
 
 \section{Inelastic scattering}
-Inelastic collisions are the dominant mechanism for energy loss of electrons up to (how many keV?) (reference figure with plot of cross secions as a function of energy)
+Inelastic collisions are the dominant mechanism for energy loss of electrons up to above 10 keV (\ref{fig:col_rad}).
 %The double differential cross section for collisions with momentum transfer $q$ and energy loss $\omega$ is given by Fano (cite Fano 1963, see page 114 of PENELOPE manual) as
 
 In an atomic system, the differential cross section for a transition from initial state wavefunction $\psi_0$ to final state wavefunction $\psi_n$ is
 
 \begin{equation} \label{bornDCS}
-\frac{d\sigma_n}{d\Omega} = (\frac{m_0}{2\pi \hbar^2}^2 \frac{k_1}{k_0} \mid \int V(r) \psi_0 \psi_n* exp(i q r) d\tau \mid ^2
+\frac{d\sigma_n}{d\Omega} = \frac{m_0}{2\pi \hbar^2}^2 \frac{k_1}{k_0} \mid \int V(r) \psi_0 \psi_n exp(i q r) d\tau \mid ^2
 \end{equation}
 %TODO: fix the notation here. How does one do bolded text? dot products?
 where $\textbf{k}_0$ and $\textbf{k}_1$ are the wave vectors of the incident electron before and after scattering and $q = \hbar (\textbf{k}_1 - \textbf{k}_1)$ is the corresponding momentum transfer. 
 
-For electron energies below 300 keV (elaborate on how this breaks down) the potential between electron and atom may be expressed as the sum of Coulomb potentials of the nucleus and atomic electrons:
+At nonrelativistic velocities the potential between electron and atom may be expressed as the following sum of Coulomb potentials of the nucleus and atomic electrons:
 
 \begin{equation} \label{cpotential}
-V(r) = \frac{Ze^2}{4\pi \epsilon_0 r} - \frac{1}{4 \pi \epsilon_0} \sum_{j = 1}^Z \frac{e^2}{\mid \textbf{r} - \textbf{r_j} \mid}
+V(r) = \frac{Ze^2}{4\pi \epsilon_0 r} - \frac{1}{4 \pi \epsilon_0} \sum_{j = 1}^Z \frac{e^2}{\mid \mathbf{r} - \mathbf{r_j} \mid}
 \end{equation}
 %TODO
-%(explain here why the nuclear potential term drops out in the integral)
-%TODO
 %(define whichever quantities haven't been introduced yet)
-Substituting the second term of equation \ref{cpotential} into \ref{bornDCS} gives the following expression for the differential cross section of inelastic scattering: 
+Substituting the second term of equation \ref{cpotential} into \ref{bornDCS}, we note that the nuclear potential is independent of the coordinates of the atomic electrons and can therefore be removed from the integral. The orthogonality of the wave functions $\psi_n$ implies that the nuclear potential does not contribute to inelastic scattering; the expression for the differential cross section of inelastic scattering is therefore:
 
 \begin{equation} \label{inelasticDCS}
-\frac{d\sigma_n}{d\Omega} = (\frac{4 \gamma^2}{a_0^2 q^4}) \frac{k1}{k0} \mid \epsilon(q)\mid^2,
+\frac{d\sigma_n}{d\Omega} = (\frac{4}{a_0^2 q^4}) \frac{k1}{k0} \mid \epsilon(q)\mid^2,
 \end{equation}
 
 where
 
 \begin{equation}
-\epsilon_n = \int \psi_n* \sum_j exp(i q r_j) \psi_0 dd\tau.
+	\epsilon_n = \int \psi_n \sum_j e^{i q r_j} \psi_0 d\tau.
 \end{equation}
 
-We note that PENELOPE incorporates Fano's (1963) relativistic treatment of inelastic scattering of electrons in condensed media in place of the current treatment. 
-equation \ref{inlasticDCS}. 
-Because this simplified treatment is equivalent in our regime of interest (scattering of $< 100eV$ electrons), (citation needed?) we confine the current discussion to 
 
 The generalized oscillator strength is an important related quantity:
 
@@ -128,19 +194,159 @@ f_n(q) = \frac{E_n}{R} \frac{\mid \epsilon_n(q)\mid ^2}{(q a_0)^2},
 
 where $R = (m_0 e^4 / 2)(4 \pi \epsilon_0 \hbar)^{-2}$, the Rydberg energy, and $E_n$ is the energy change of the transition. 
 
-Because the energy-loss spectrum is in general continuous it is customary to describe inelastic scattering by a double-differential cross section:
+The GOS is in general continuous and therefore better expressed as a density with dimensions 1/energy, i.e. $df(q, E)/dE$. This allows us to write the double-differential cross section of inelastic scattering:
 
 \begin{equation} \label{inelastic_DDCS}
-\frac{d^2\sigma}{d\Omega dE} = {4 \gamma^2 R}{Eq^2} \frac{k_1}{k_0} \frac{df}{dE}(q, E)
+\frac{d^2\sigma}{d\Omega dE} = {4 R}{Eq^2} \frac{k_1}{k_0} \frac{df}{dE}(q, E),
 \end{equation}
 
-The GOS per unit energy loss is the central quantity which, within the first Born approximation, fully determines the scattering cross section.  and 
+TODO: calculate a typical inelastic scattering cross section for comparison elastic scattering. The fact that the ratio is of order unity demonstrates that both matter.
 
+\subsection{Dielectric function}
+While this formulation makes it possible to calculate the GOS and associated quantities starting from an atomic model, in solid state systems the scattering cross section of outer-shell bonding is influenced by collective effects and chemical bonding. It's therefore preferable to describe the inelastic scattering of an electron off a solid using the solid's dielectric response function, $\epsilon(q, E)$. 
+
+Ritchie (cite Ritche 1957) showed, using Poisson's equation and fourier transforms, that an electron moving in the z-direction in an infinite medium experiences a force of the following magnitude opposite its direction of motion: 
+
+
+\begin{equation} \label{stp}
+\frac{dE}{dz} = \frac{2\hbar^2}{\pi a_0 m_0 v^2} \int \int \frac{q_y \omega Im[-1/\epsilon(q, \omega)]}{q_y^2 + (\omega/v)^2},
+\end{equation}
+
+% TODO: vectors?
+where $q_y$ is the component of the momentum transfer vector perpendicular to $v$ and $\omega = E/\hbar$ is an angular frequency. This quantity is referred to as the stopping power. It can be expressed in terms of the previously-defined DDCS:
+
+\begin{equation} \label{stp2}
+\frac{dE}{dz} = \int \int n E \frac{d^2\sigma}{d\Omega dE} d\Omega dE,
+\end{equation}
+
+%\frac{d^2\sigma}{d\Omega dE} = 
+
+where $E$ is energy loss and $\Omega$ is solid angle. By equating equations \ref{stp} and \ref{stp2} in the small-angle limit it can be shown, by comparison with the atomic treatment (cite), that 
+
+$$
+\frac{df}{dE}(q, E) = \frac{2E}{\pi E_a^2} Im[\frac{-1}{\epsilon(q, E)}],
+$$
+
+thus demonstrating the equivalence of the atomic and dielectric approaches.
+
+Note, finally, that the GOS fully determines the the value of equation \ref{inelastic_DDCS} within the first Born approximation. As such, given the potential of equation \ref{bornDCS} all modeling of the inelastic scattering of electrons at intermediate energies (1 keV - 300 keV) reduces to construction of a GOS model. 
+
+
+%For a continuous energy loss spectrum, it takes the differential form $dF/dE(q, E)$, a density with respect to energy loss.
+
+% TODO: move this somewhere
+% We note that PENELOPE incorporates Fano's (1963) relativistic treatment of inelastic scattering of electrons in condensed media in place of the current treatment. 
+
+\subsection{Modeling the generalized oscillator strength}
+Analytical expressions for the GOS are known for only two simple cases of the free electron gas and hydrogen atom. In practice, however, it has been shown that the physics of inelastic scattering is mostly determined by a few global features of the GOS (cite Salvat and Fernandez-Varea, 1992) and that relatively simple models are therefore adequate in most situations.
+
+
+% TODO: read Salvat and Varea, 1992
+The GOS is conventionally represented as a two-dimensional surface plot called the Bethe surface (Fig. \ref{fig:bethe}). 
+We identify two constraints on the behavior of the Bethe surface which any GOS model must reproduce. First, in the limit $Q\rightarrow 0$, the GOS of the dielectric formulation becomes proportional to  the optical oscillator strength $Im[-1/\epsilon(0, E)$, which is experimentally constrained by x-ray emission measurements. Second, in the limit of large momentum transfer the most probable energy loss is equal to the kinematically-determined value for collision between two free electrons, $E = q^2/2$. (cite Sorini). The corresponding trace in energy and momentum is a feature of the Bethe surface known as the Bethe ridge.
+
+\begin{figure}[h] 
+\caption{Bethe surface for ionization of the K shell in C.......... (cite)}
+\centering
+\includegraphics[scale=0.5]{../Figures/bethe.png}
+\label{fig:bethe}
+\end{figure}
+
+As in Compton scattering, the shape of cuts throught the Bethe surface (i.e. spectra of scattered intensity as a function of energy at fixed momentum transfer) is determined by the momentum distribution of atomic electrons. Certain models, such as that of Sorini et al (cite sorini 2006), derive a value for the width of the Bethe ridge from Fermi velocity calculations. PENELOPE adopts a simpler form based on the `$\delta$ -oscillator' model of Liljequist (cite Liljequist 1983) which splits the GOS into contributions from generalized `shells' (each corresponding to either an atomic shell or a collective excitation). The total GOS under this model is a sum over indices \emph{k} of the shells:
+
+$$
+\frac{df(q, E)}{dE} = \Sigma f_k [\delta(E - E_k) \Theta (q_k - q) + \delta(E-q) \Theta(q - q_k)],
+$$
+where for the \emph{k}th shell $f_k$ is the shell's number of electrons, $q_k$ is the cutoff recoil energy, and $E_k$ is the shell's resonance energy. $Q_k$ is equal to the shell's binding energy $U_k$ (excluding the band, for which it is set to 0), and $E_k$ is computed from from $U_k$ and the material's mean electron density, following Sternheimer (cite Sternheimer 1952). Within this model the GOS is fully determined by the shells' occupations and cutoff (binding) energies $U_k$, which PENELOPE obtains from Carlson (cite Carlson 1975). It is possible, optionally, to direct PENELOPE to fit its GOS model to experimental stopping power data provided in material input files. It performs this fit through reweighting of the GOS model's oscillators (\emph{this is actually a guess, as the PENELOPE manual is totally opaque about how the GOS/DDCS is fit to stopping power input data. Better understanding would require me to revisit PENELOPE's code or contact the authors}).
+
+Substantial additional detail on the construction and interpretation of PENELOPE's GOS model can be found in its manual.
+
+% TODO: talk about convergence with the Bethe model
+% readily measured experimentally via the photoelectric cross sections in the diplole limit. (TODO: show this relationship between the photoelectric cross section and GOS mathematically, or cite Fernandez-Varea 1993 a). (cites. also, is this true (about the zero-angle energy loss spectrum?). Where Q is much larger than binding energies of the target electrons, the latter behave as though they were free and the GOS is described by the Bethe ridge, a peak along $W = Q$. 
+
+% TODO numerical implementation and coarse graining
+% TODO fluorescence
+\section{Accuracy and useful regimes}
+In the context of simulation of nanostructured materials, errors in PENELOPE's DCSs for electron scattering originate from both (1) the limited range of validity of PENELOPE's physical models with respect to the bulk properties PENELOPE seeks to reproduce, and (2) from the difference between scattering DCSs of ambient-condition bulk materials on the one hand and high-temperature nanostructured materials on the other. We address these two issues in combination.
+
+As mentioned previously, a material's inelastic scattering DCS is fully determined by its loss function, the imaginary component of the dielectric function. Any difference between the responses of bulk and nanophases arises from the contribution to the loss function of collective electronic excitations, i.e. plasmons. Plasmon modes in nanostructured materials form a large research topic on their own (find and cite review article on surface plasmons in nano-materials), but there there has been little (no?) (cites) prior work in the context of high-temperature dense matter. The study of heated nanophase materials thus manifests itself as both a problem and an opportunity. On the one hand, the lack of experimental data and accurate modeling makes it impossible to fully quantify the inaccuracy of simulations of ambient, bulk materials. On the other hand, XFEL heating experiments could be used to discriminate between computed dielectric response functions and their underlying finite-temperature electronic strucure theory--to the extent that alternative models generate experimentally measureable differences in inelastic DDCSs. We thus suggest that XFEL heating of nanostrucured materials could enable a joint modeling/experimental program to validate WDM electronic structure theory.
+
+\subsection{Low-energy loss DCS} \label{ledcs}
+In the current situation, wherein the plasmon contribution to the loss function is not known, we can take advantage of the fact that plasmon resonance are confined to energy losses smaller than approximately 100 eV. The influence of the low-energy region of the loss function on the spatial distribution of deposited energy can therefore be bounded using the continuous slowing down approximation (CSDA) of 100 eV electrons. The CSDA for electrons of energy $E_0$ is the following integral over stopping power: 
+
+$$
+l_{CSDA} = \int_{E_{final}} ^ {E_0} (\frac{dE}{dz})^{-1},
+$$
+
+where $E_{final}$, the final energy of the electron, is usually taken to be 10 eV. For elements heavier than boron, $l_{CSDA} < 10$ nm for $E = 100 eV$. We therefore conclude that inaccuracy in treatments of collective excitations affect the spatial distribution of energy deposited by electrons on a length scale below 10 nm (Fig. \ref{fig:csda}) (\hyperref[cite]{http://xdb.lbl.gov/Section3/Sec\_3-2.html}) 
+
+\begin{figure}[h] 
+\caption{CSDA range as a function of energy for several materials, based on stopping powers of..... (cite)}
+\centering
+\includegraphics[scale=0.7]{../Figures/csda.png}
+\label{fig:csda}
+\end{figure}
+
+\subsection{Energy cutoffs} \label{cutoffs}
+PENELOPE stops simulation of an electron's motion once its energy drops below a prescribed cutoff value; at the endpoint of an electron's simulated track all of the electron's final energy is deposited at its final position. The resulting distortion in the spatial distribution of deposited energy can be bounded, as above, using the CSDA. PENELOPE's cutoff energy can be set as low as 50 eV. Assuming this value is chosen, the resulting error is much smaller than the bound from section \ref{ledcs} on the error attributed to inaccuracy in the low-energy dielectric function. Simulation error due to PENELOPE's energy cutoff can therefore be safely neglected.
+
+% TODO: see berger and seltzer 1982 calculation of mean excitation energies
+\subsection{Elastic scattering}
+% TODO also need to talk about the absorption correction / dual channel thing
+PENELOPE's use of the static field approximation in its elastic scattering model introduces a low-energy error in the DCS due to the effect of the polarizability of atomic charge (cite Salvat 2003). The size of this error is 20\% at 1 keV and 50\% at 100 eV (PENELOPE manual, pg. 102). The CSDA range at 1 keV, where uncertainty at the DCS level is considerabe, ranges from 10 nm for high-Z elements to over 100 nm for low-Z ones. Because the results of the PENELOPE simulations discussed in chapter (which chapter?) are sensitive to errors on the 10 nm - 100 nm length scale, the CSDA does not usefully constrain the elastic DCS model's contribution to uncertainty in the spatial distribution of deposited energy. 
+
+A crude estimate taking into account the magnitude of uncertainty in the elasatic DCS may be obtained by considering elastic scattering of an electron as a correlated random walk. Given a mean free path $\lambda_e$ and characteristic scattering angle $\theta_0$, the number of steps after which the electron's direction of motion becomes uncorrelated with its initial direction is of the order $n = \pi/\theta_0 \lambda_e$. The number of elastic scattering events an electron experiences as it slows from an energy of 1 keV to 100 eV (the previously-established--but arbitrary--cutoff below which the treatment of section \ref{ledcs} applies) is
+
+sketch: basically I have to calculate the number of scattering events, and associated dephasing of the electron's direction, for several `bins' of energy between 100 eV and 1 keV. For each bin we calculate the equivalent number of steps under an uncorrelated random walk. This yields an expected displacement proportional to the square root of the number of steps in the uncorrelated random walk, which we can multiply by the elastic DCS uncertainty in order to get an associated displacement uncertainty. All displacement uncertainties can then be added in quadrature, yielding a final uncertainty. 
+
+
+\section{Inelastic scattering}
+% TODO In the prior discussion of scattering models I need to add the equation for the inelastic/elastic scattering ratio and also compare characteristic scattering angles.
+Inelastic scattering has much smaller characteristic angles than elastic scattering scattering but comparable total cross sections. As a result the influence of angular deflections by inelastic scattering on the propagation of electrons is relatively small. The effect of uncertainties in the inelastic scattering DDCS can thus be neglected, and we confine our attention to uncertainty at the level of the stopping power, a more coarse-grained quantity.
+
+Fig \ref{fig:stp_accuracy} compares PENELOPE's computed stopping powers and inelastic mean free paths (for what???) to several experimental datasets. The level of disagreement between different datasets is of the order 2 in the 1 keV - 10 keV energy loss range; the discrepancy between PENELOPE's modeled stopping power and the experimental datasets is also of this order. Because all transport lengths are proportional to stopping power we must thus contend with a factor of 2 uncertainty in the length scale of computed spatial distributions--far larger than any of the other uncertainties we have considered until now. 
+
+The conclusions of chapter (WHICH CHAPTER?) can nevertheless be conserved, with one modification, if we consider PENELOPE's error in modeling the 1 - 10 keV stopping power as an unknown constant-factor scaling in stopping power. Such an uncertainty corresponds to an unknown scaling of both (1) the length scale of spatial distributions of deposited energy and (2) the flux magnitude of nonlocally-transported energy crossing a given material interface. To give a simple illustration, consider a one-dimensional configuration consisting of an infinite extent of source material from $x = -\infty$ to $x = \infty$. When the sample receives x ray illumination of magnitude unity at position $x0$ the density distribution $\rho(x)$ of deposited energy is given by a response function $f(x)$ (fully determined by the sample material's stopping power and incident x-ray spectrum): $ \rho(x) = f(x - x0) $. If the material is uniformly illuminated by x rays in the region spanning $x = 0$ to $x = \infty$ then (in arbitrary units):
+
+$$
+\rho(x) = \int_0^{\infty} f(x - x') dx'.
+$$
+
+Under the substitution $f(x) \rightarrow g(x) = f(c x)$ (equivalent to scaling $dE/dz \rightarrow (1/c) dE/dz$ of the stopping power), and maintaining normalization of the response function, the distribution becomes:
+
+% TODO: there's something wrong here
+$$
+\rho'(x) = \int_0^{\infty} c f((c (x -  x'))) dx = \int_{cx}^{\infty} f((u)) u.
+$$
+
+Therefore constant-factor scaling of the stopping power is equivalent to a change in units of length, implying that, under our assumed form of the uncertainty in $dE/dz$, and adding the assumption that the unkown scaling factor $c$ is equal for all materials, the simulated spatial distributions of deposited energy density are correct up to a uniform scaling of the sample geometry. 
+
+%all the modeling error is captured by deviations in the stopping power.
+
+
+
+\begin{figure}[h] 
+\caption{Stopping power and inelastic mean free path for electrons as a function of energy in Al..... (cite)}
+\centering
+\includegraphics[scale=0.7]{../Figures/penelope_3_11.png}
+\label{fig:stp_accuracy}
+\end{figure}
+
+\section{Dosimetry}
+PENELOPE's dosimetry includes both linear energy transfer from radiation to matter and the contribution of particle track ends, as mentioned in section \ref{cutoffs}. At the energy scales of interest the former contribution may be neglected, and the distribution of energy deposited by a particle shower is entirely dependent on simulated inelastic scattering events. PENELOPE's dosimetry calculation is tied to the termination of electron tracks: when an electron's energy drops below the (previously-defined) cutoff value its simulation ceases, and its entire energy is deposited at the track's endpoint.  Similarly, the energy loss of soft inelastic collisions (ones having energy loss greater than the cutoff energy $W_{cc}$) is deposited locally (whereas hard inelastic collisions generate secondary electrons that are individually tracked). 
+
+Coarse-graining of the dose distribution is done by dividing the simulation volume into a three-dimensional grid of cells, in each of which PENELOPE calculates the total dose of deposited energy. This grid is defined by the parameters GRIDX, GRIDY, GRIZ and GRIDBN in PENELOPE's input. 
+% see section 5.2.1.2 in penelope manual
+
+% TODO itemize with numbers
+
+%TODO: Settle on one notation. E or W for energy loss?
+%TODO: introduce the dielectric formulation of the ddcs?
 %TODO: introduce the GOS in the first expression for the DDCS.
 
 
-NOTES:
-See appendix a in Egerton for justification of the simplified interaction potential for an incident electron and an atom below 300 keV. 
+%NOTES:
+%See appendix a in Egerton for justification of the simplified interaction potential for an incident electron and an atom below 300 keV. 
 
 
 %\section{Welcome and Thank You}

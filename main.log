@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.10.9)  6 FEB 2017 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.10.9)  1 MAY 2017 05:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1241,7 +1241,7 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./main.aux
-(./Chapters/penelope2.aux))
+(./Chapters/Introduction.aux) (./Chapters/penelope2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -1470,29 +1470,167 @@ LaTeX Info: Redefining \nameref on input line 88.
 
 1: section
 1: section
-\openout2 = `Chapters/penelope2.aux'.
+\openout2 = `Chapters/Introduction.aux'.
 
-(./Chapters/penelope2.tex
+(./Chapters/Introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+<Figures/../Figures/atlas.png, id=116, 1355.0625pt x 929.4725pt>
+File: Figures/../Figures/atlas.png Graphic file (type png)
+
+<use Figures/../Figures/atlas.png>
+Package pdftex.def Info: Figures/../Figures/atlas.png used on input line 34.
+(pdftex.def)             Requested size: 338.7648pt x 232.36755pt.
+
+1: section
+[1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+
+
+ <./Figures/../Figures/atlas.png>]
+Overfull \hbox (11.48079pt too wide) in paragraph at lines 39--40
+\T1/ppl/m/n/10.95 ef-fects are in-cor-po-rated per-tur-ba-tively. WDM oc-cu-pie
+s the tran-si-tional regime
+ []
+
+
+Overfull \hbox (5.96324pt too wide) in paragraph at lines 41--42
+\T1/ppl/m/n/10.95 Hueckel ap-prox-i-ma-tion and ion sphere model, which cover o
+p-po-site regimes
+ []
+
+
+Overfull \hbox (26.28578pt too wide) in paragraph at lines 43--49
+\T1/ppl/m/n/10.95 Boltzmann-distributed ions or elec-trolytes. This re-sults in
+ the Poisson-Boltzmann
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 50.
+
+Missing character: There is no Å in font cmr10!
+
+Overfull \hbox (0.82733pt too wide) in paragraph at lines 50--51
+\T1/ppl/m/n/10.95 nonperturbative--again in con-flict with the ion-sphere model
+'s as-sump-tions. 
+ []
+
+[2]
+Overfull \hbox (5.6952pt too wide) in paragraph at lines 57--60
+[]\T1/ppl/m/n/10.95 Leaving aside, mo-men-tar-ily, the ion sphere model's lim-i
+-ta-tions, we might
+ []
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
+
+Overfull \hbox (0.96938pt too wide) in paragraph at lines 63--64
+\T1/ppl/m/n/10.95 with un-prece-dented ex-per-i-men-tal ca-pa-bil-ity for pro-d
+uc-ing WDM and prob-
+ []
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 65.
+[3]
+<Figures/../Figures/wilson_solubility.png, id=141, 340.27126pt x 291.33844pt>
+File: Figures/../Figures/wilson_solubility.png Graphic file (type png)
+
+<use Figures/../Figures/wilson_solubility.png>
+Package pdftex.def Info: Figures/../Figures/wilson_solubility.png used on input
+ line 77.
+(pdftex.def)             Requested size: 221.17369pt x 189.36774pt.
+
+Overfull \hbox (3.5865pt too wide) in paragraph at lines 90--91
+\T1/ppl/m/n/10.95 The ef-fort to reach con-trolled fu-sion through im-plo-sion 
+of deuterium-tritium
+ []
+
+
+Overfull \hbox (11.27412pt too wide) in paragraph at lines 90--91
+\T1/ppl/m/n/10.95 fuel capsules--an ap-proach termed in-er-tial con-fine-ment f
+usion--has pro-gressed
+ []
+
+[4 <./Figures/../Figures/wilson_solubility.png>]
+<Figures/../Figures/indirect-drive.jpg, id=148, 702.625pt x 171.64125pt>
+File: Figures/../Figures/indirect-drive.jpg Graphic file (type jpg)
+
+<use Figures/../Figures/indirect-drive.jpg>
+Package pdftex.def Info: Figures/../Figures/indirect-drive.jpg used on input li
+ne 96.
+(pdftex.def)             Requested size: 351.31163pt x 85.8204pt.
+ [5 <./Figures/../Figures/indirect-drive.jpg>] [6]
+Overfull \hbox (10.83543pt too wide) in paragraph at lines 140--141
+\T1/ppl/m/n/10.95 Elastic scat-ter-ing and non-res-o-nant in-elas-tic X-ray sca
+t-ter-ing (NIXS) are among
+ []
+
+[7]
+Overfull \hbox (3.92143pt too wide) in paragraph at lines 159--160
+[]\T1/ppl/m/n/10.95 Following Chi-hara (cite Chi-hara), the typ-i-cal treat-men
+t of a dense plasma
+ []
+
+[8] [9]
+Overfull \hbox (1.70944pt too wide) in paragraph at lines 210--211
+[]\T1/ppl/m/n/10.95 Second, in ma-te-ri-als with long-range crys-talline or-der
+, as typ-i-cally found
+ []
+
+<Figures/../Figures/ma_Al.png, id=184, 501.875pt x 421.575pt>
+File: Figures/../Figures/ma_Al.png Graphic file (type png)
+
+<use Figures/../Figures/ma_Al.png>
+Package pdftex.def Info: Figures/../Figures/ma_Al.png used on input line 222.
+(pdftex.def)             Requested size: 250.93687pt x 210.78697pt.
+ [10 <./Figures/../Figures/ma_Al.png>]
+<Figures/../Figures/yaakobi_shock_xafs.png, id=193, 334.24875pt x 544.28343pt>
+File: Figures/../Figures/yaakobi_shock_xafs.png Graphic file (type png)
+
+<use Figures/../Figures/yaakobi_shock_xafs.png>
+Package pdftex.def Info: Figures/../Figures/yaakobi_shock_xafs.png used on inpu
+t line 239.
+(pdftex.def)             Requested size: 200.55078pt x 326.57257pt.
+ [11 <./Figures/../Figures/yaakobi_shock_xafs.png>]
+<Figures/../Figures/nilson_branching.png, id=199, 722.7pt x 585.68813pt>
+File: Figures/../Figures/nilson_branching.png Graphic file (type png)
+
+<use Figures/../Figures/nilson_branching.png>
+Package pdftex.def Info: Figures/../Figures/nilson_branching.png used on input 
+line 257.
+(pdftex.def)             Requested size: 361.3491pt x 292.84334pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12]) [13 <./Figures/../Figures/nilson_branching.png>]
+\openout2 = `Chapters/penelope2.aux'.
+
+
+(./Chapters/penelope2.tex [14
+
+
+
+]
+Chapter 2.
 
 Overfull \hbox (5.86429pt too wide) in paragraph at lines 29--30
 \T1/ppl/m/n/10.95 while in-di-vid-u-ally sim-u-lat-ing hard in-ter-ac-tions. It
  is paired with a geometry-
  []
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 34.
 
-LaTeX Warning: Reference `fig:photon_sigma' on page 1 undefined on input line 3
-4.
+LaTeX Warning: Reference `fig:photon_sigma' on page 15 undefined on input line 
+34.
 
-<Figures/../Figures/collisional_sp.png, id=61, 853.1875pt x 511.9125pt>
+<Figures/../Figures/collisional_sp.png, id=216, 853.1875pt x 511.9125pt>
 File: Figures/../Figures/collisional_sp.png Graphic file (type png)
 
 <use Figures/../Figures/collisional_sp.png>
@@ -1503,7 +1641,7 @@ ne 40.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/../Figures/photon_sigma.png, id=63, 255.20343pt x 248.42813pt>
+<Figures/../Figures/photon_sigma.png, id=217, 255.20343pt x 248.42813pt>
 File: Figures/../Figures/photon_sigma.png Graphic file (type png)
 
 <use Figures/../Figures/photon_sigma.png>
@@ -1514,17 +1652,8 @@ Package pdftex.def Info: Figures/../Figures/photon_sigma.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
 1: section
-[1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
-
-
-
-
-
-]
-<Figures/../Figures/penelope_2_2.png, id=72, 810.77907pt x 537.50812pt>
+[15] <Figures/../Figures/penelope_2_2.png, id=223, 810.77907pt x 537.50812pt>
 File: Figures/../Figures/penelope_2_2.png Graphic file (type png)
 
 <use Figures/../Figures/penelope_2_2.png>
@@ -1535,17 +1664,17 @@ Package pdftex.def Info: Figures/../Figures/penelope_2_2.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./Figures/../Figures/collisional_sp.png>] [3 <./Figures/../Figures/photon_s
-igma.png>]
+[16 <./Figures/../Figures/collisional_sp.png>] [17 <./Figures/../Figures/photon
+_sigma.png>]
 
-LaTeX Warning: Citation 'Reference1' on page 4 undefined on input line 145.
+LaTeX Warning: Citation 'Reference1' on page 18 undefined on input line 145.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 145.
 
-LaTeX Warning: Citation 'Reference1' on page 4 undefined on input line 145.
+LaTeX Warning: Citation 'Reference1' on page 18 undefined on input line 145.
 
-<Figures/../Figures/egerton_3_3.png, id=99, 641.39626pt x 574.39594pt>
+<Figures/../Figures/egerton_3_3.png, id=240, 641.39626pt x 574.39594pt>
 File: Figures/../Figures/egerton_3_3.png Graphic file (type png)
 
 <use Figures/../Figures/egerton_3_3.png>
@@ -1561,54 +1690,59 @@ Package caption Warning: \label without proper \caption on input line 37.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:col_rad' on page 4 undefined on input line 157.
+LaTeX Warning: Reference `fig:col_rad' on page 18 undefined on input line 157.
 
-[4 <./Figures/../Figures/penelope_2_2.png>] [5 <./Figures/../Figures/egerton_3_
-3.png>] [6] <Figures/../Figures/bethe.png, id=133, 673.01437pt x 681.29532pt>
+[18 <./Figures/../Figures/penelope_2_2.png>] [19 <./Figures/../Figures/egerton_
+3_3.png>] [20]
+<Figures/../Figures/bethe.png, id=274, 673.01437pt x 681.29532pt>
 File: Figures/../Figures/bethe.png Graphic file (type png)
 
 <use Figures/../Figures/bethe.png>
-Package pdftex.def Info: Figures/../Figures/bethe.png used on input line 253.
+Package pdftex.def Info: Figures/../Figures/bethe.png used on input line 251.
 (pdftex.def)             Requested size: 336.50636pt x 340.64682pt.
- [7 <./Figures/../Figures/bethe.png>]
-Overfull \hbox (19.62839pt too wide) in paragraph at lines 274--275
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
+Overfull \hbox (19.62839pt too wide) in paragraph at lines 272--273
 \T1/ppl/m/n/10.95 heat-ing of nanos-tru-cured ma-te-ri-als could en-able a join
 t mod-el-ing/experimental
  []
 
-[8]
+[22 <./Figures/../Figures/bethe.png>]
 
-LaTeX Warning: Hyper reference `cite' on page 9 undefined on input line 283.
+LaTeX Warning: Hyper reference `cite' on page 23 undefined on input line 281.
 
-<Figures/../Figures/csda.png, id=145, 231.86626pt x 223.58531pt>
+<Figures/../Figures/csda.png, id=285, 231.86626pt x 223.58531pt>
 File: Figures/../Figures/csda.png Graphic file (type png)
 
 <use Figures/../Figures/csda.png>
-Package pdftex.def Info: Figures/../Figures/csda.png used on input line 288.
+Package pdftex.def Info: Figures/../Figures/csda.png used on input line 286.
 (pdftex.def)             Requested size: 162.30525pt x 156.50864pt.
- [9 <./Figures/../Figures/csda.png>] [10]
-<Figures/../Figures/penelope_3_11.png, id=161, 357.58594pt x 429.10312pt>
+ [23 <./Figures/../Figures/csda.png>] [24]
+<Figures/../Figures/penelope_3_11.png, id=301, 357.58594pt x 429.10312pt>
 File: Figures/../Figures/penelope_3_11.png Graphic file (type png)
 
 <use Figures/../Figures/penelope_3_11.png>
 Package pdftex.def Info: Figures/../Figures/penelope_3_11.png used on input lin
-e 333.
+e 331.
 (pdftex.def)             Requested size: 250.30844pt x 300.37013pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [11] [12 <./Figures/../Figures/penelope_3_11.png>]
+[25]) [26 <./Figures/../Figures/penelope_3_11.png>]
 
 LaTeX Warning: Empty bibliography on input line 281.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
-(./main.aux (./Chapters/penelope2.aux))
+(./main.aux (./Chapters/Introduction.aux) (./Chapters/penelope2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CA573E7EE38B6B35845B30FB4649E18C;2175.
+(rerunfilecheck)             Checksum: 7575D2B313D120E422A331C6FE73AE4D;4565.
 
 
 LaTeX Warning: There were undefined references.
@@ -1623,32 +1757,33 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28924 strings out of 493339
- 588874 string characters out of 6141382
- 705609 words of memory out of 5000000
- 31995 multiletter control sequences out of 15000+600000
- 33881 words of font info for 65 fonts, out of 8000000 for 9000
+ 29040 strings out of 493339
+ 591084 string characters out of 6141382
+ 707609 words of memory out of 5000000
+ 32057 multiletter control sequences out of 15000+600000
+ 37297 words of font info for 75 fonts, out of 8000000 for 9000
  953 hyphenation exceptions out of 8191
- 57i,20n,83p,10402b,1757s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,20n,78p,10402b,1757s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
-atino/uplri8a.pfb>
-Output written on main.pdf (12 pages, 924538 bytes).
+amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
+plri8a.pfb>
+Output written on main.pdf (26 pages, 1645616 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

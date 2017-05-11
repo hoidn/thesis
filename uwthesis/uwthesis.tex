@@ -57,6 +57,9 @@
 
 % --- sample stuff only -----
 % These format the sample code in this document
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{fixltx2e}
 \usepackage{hyperref}
 \usepackage[pdftex]{graphicx}     
 \usepackage[style=authoryear]{biblatex}
@@ -148,6 +151,7 @@
 % ----- contents & etc.
 %
 \tableofcontents
+\raggedbottom
 %\listoffigures
 %%\listoftables  % I have no tables
 % 
@@ -834,6 +838,9 @@ Therefore constant-factor scaling of the stopping power is equivalent to a chang
 PENELOPE's dosimetry includes both linear energy transfer from radiation to matter and the contribution of particle track ends, as mentioned in section \ref{cutoffs}. At the energy scales of interest the former contribution may be neglected, and the distribution of energy deposited by a particle shower is entirely dependent on simulated inelastic scattering events. PENELOPE's dosimetry calculation is tied to the termination of electron tracks: when an electron's energy drops below the (previously-defined) cutoff value its simulation ceases, and its entire energy is deposited at the track's endpoint.  Similarly, the energy loss of soft inelastic collisions (ones having energy loss greater than the cutoff energy $W_{cc}$) is deposited locally (whereas hard inelastic collisions generate secondary electrons that are individually tracked). 
 
 Coarse-graining of the dose distribution is done by dividing the simulation volume into a three-dimensional grid of cells, in each of which PENELOPE calculates the total dose of deposited energy. This grid is defined by the parameters GRIDX, GRIDY, GRIZ and GRIDBN in PENELOPE's input. 
+
+\chapter{A Photometric Study of Energy-Dispersive X-ray Diffraction at a Laser Plasma Facility}
+\input{../pandoc/edxrd.tex}
 
 \chapter{X-ray Free Electron Laser-Based Studies of WDM}
 \section{X-ray Free Electron Lasers}

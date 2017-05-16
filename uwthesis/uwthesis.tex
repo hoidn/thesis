@@ -244,8 +244,9 @@
  
 In this thesis I introduce the development of new techniques for the production of materials in the warm dense matter (WDM) regime, and for interrogation of the strucure and thermodynamic state of such systems using x-ray diffraction and (to a lesser extent) spectroscopy. The main results include a scheme for single-shot determination of the static structure factors of WDM systems generated at laser plasma facilities; a techinique for enhancing the density of deposited energy in WDM generated at fourth-generation X-ray sources such as the Linac Coherent Light Source (LCLS); and interpretation of experimental data that puts new constraints on the thermalization (both electronic and lattice) of a solid state material upon fs-scale XFEL heating. In addition to this thread of research I discuss some secondary work on the development of software and electronics for energy- and position-sensitive pixel detectors including current applications in the context of soft x-ray laboratory and possible future ones in XFEL, synchrotron, and laser plasma facility-based experiments.
 
-\begin{figure}[h] \label{fig:atlas}
+\begin{figure}[h] 
 \caption{The atlas of high-energy density physics (cite)}
+\label{fig:atlas}
 \centering
 \includegraphics[scale=0.25]{../Figures/atlas.png}
 \end{figure}
@@ -287,8 +288,9 @@ The interiors of both rocky and gas giant planets contain dense, and in some cas
 % of metallic H
 The solubility physics of two-component WDM mixtures containing H with other species found in rocky planetary bodies has direct consequences on mass transport accross the core-mantle boundary in gas giant planets. It also has crucial importance in the modeling of gas giant formation, where the solubility of H with rocky elements bears on the plausibility of the planetesimal accretion hypothesis for gas gian genesis, which requires condensation of H and He around a rocky core. (cite Wilson MgO solubility paper). 
 
-\begin{figure}[h] \label{fig:wilson}
+\begin{figure}[h] 
 \caption{Saturation solubility of MgO in H as a function of pressure and temperature from \emph{ab initio} calculation by Wilson et al. The temperature conditions of the core-mantle boundaries of Saturn and Jupiter are indicated. (cite Wilson)}
+\label{fig:wilson}
 \centering
 \includegraphics[scale=0.65]{../Figures/wilson_solubility.png}
 \end{figure}
@@ -305,8 +307,9 @@ Another case in which the material properties of warm dense matter determine the
 \subsection{Inertial Confinement Fusion}
 The effort to reach controlled fusion through implosion of deuterium-tritium fuel capsules--an approach termed inertial confinement fusion--has progressed significantly in the last decade due to completion of laboratory facilities capable of producing HED (definition?) plasmas with densities and temperatures approaching levels needed for ignition. Fig. (which figure) shows a schematic of an ignition technique called indirect drive. In this configuration the ICF target, which consists of a hollow spherical capsule of ablator material filled with deuterium-tritium fuel, is confined in a hollow capsule of a high-Z material (the Hohlraum). A multi-TW, ns-duration duration laser passes through apertures in the Hohlraum and heats the Hohlraum to blackbody temperatures on the order of several hundred eV. The resulting thermal spectrum of soft X rays isotropically heats and ablates the fuel capsule's surface, causing its interior to implode by conservation of momentum. Typical parameters of the plasma created at maximum compression include areal densities (capsule density x radius) of 0.3 g/cm$^2$ and temperatures of the order 10 keV. (cite. see x-games pg 113)
 
-\begin{figure}[h] \label{icf}
+\begin{figure}[h] 
 \caption{Schematic of indirect-drive inertial confinement fusion shot. (cite)}
+\label{icf}
 %(cite https://lasers.llnl.gov/science/icf/how-icf-works)}
 \centering
 \includegraphics[scale=0.5]{../Figures/indirect-drive.jpg}
@@ -431,8 +434,9 @@ F(\vec{q}) = \Sigma_n e^{i \vec{q} \cdot \vec{R_n}} \Sigma_j f_j(\vec{q}) e^{i \
 
 where the first summation is over all lattice vectors $\vec{R_n}$ and the second, reffered to as the \emph{unit cell structure factor}, is over postions $\vec{r_j}$ of atoms within the unit cell. By the convolution theorem, the crystal's scattering amplitude in reciprocal space is equal to the product of the lattice and unit cell structure factor. The coherent scattering signal is therefore a discrete sampling of the unit cell structure factor at individual Bragg peaks with momentum transfers corresponding to vectors of the reciprocal lattice.
 
-\begin{figure}[h] \label{fig:ma}
+\begin{figure}[h] 
 \caption{Experimental elastic scattering intensity of shock-compressed Al at OMEGA-60, compared to several hypernetted chain (HNC), Debye-Hueckel (DH), and screened one-component plasma (SOCP) models. (cite Ma et al.)}
+\label{fig:ma}
 %(cite https://lasers.llnl.gov/science/icf/how-icf-works)}
 \centering
 \includegraphics[scale=0.5]{../Figures/ma_Al.png}
@@ -448,8 +452,9 @@ In the context of XRD from a material undergoing thermalization under fs XFEL he
 \subsection{X-ray absorption}
 X-ray absorption spectroscopy (XAS) may be used to measure the structure and unoccupied electronic density of states of WDM systems. The information available by X-ray absorption near-edge spectroscopy (XANES) and X-ray absorption fine structure (XAFS) is the same as in other scientific contexts, but the experimental implementation differs in a few respects. In all instances, the short duration of WDM states requires instantaneous collection of absorption spectra using a source with broad-band spectrum. At laser plasma facilities this is arranged using a spherical capsule of CH polymer imploded using a long-pulse laser (cite yaakobi 2003) that emits a thermal spectrum with a \textbackslash 1 MeV temperature (check this). This so-called broadband backlighter has been used to collect XAFS for the study of compression-induced phase transitions, such as that from bcc to hcp Fe driven by ns shock-comression (cite Yaakobi 2005).
 
-\begin{figure}[h] \label{fig:xafs}
+\begin{figure}[h] 
 \caption{FEFF calculation of XAFS for hcp and bcc phases of Fe (a), compared to experimental data taken on ambient and shock-compressed Fe at the OMEGA laser (b). (cite Yaakobi)}
+\label{fig:xafs}
 %(cite https://lasers.llnl.gov/science/icf/how-icf-works)}
 \centering
 \includegraphics[scale=0.6]{../Figures/yaakobi_shock_xafs.png}
@@ -462,8 +467,9 @@ Laser wakefield accelerator X-ray sources generate fs-duration broadband X-ray e
 % One appealing possibility is that of simultaneous XAS and XRD.
 % TODO: use the figure from Albert et al., and cite it.
 
-\begin{figure}[h] \label{albert_sources}
+\begin{figure}[h] 
 \caption{Parameter spaces of several x-ray techniques (X-ray phase contrast imaging (XPCI), x-ray absorption, and nuclear resonance fluorescence (NRF)), overlaid with curves indicating the regions of parameter space accessible by various x-ray source technologies and individual facilities (cite Albert).}
+\label{albert_sources}
 %(cite https://lasers.llnl.gov/science/icf/how-icf-works)}
 \centering
 \includegraphics[scale=0.5]{../Figures/albert_sources.png}
@@ -473,8 +479,9 @@ Laser wakefield accelerator X-ray sources generate fs-duration broadband X-ray e
 \subsection{X-ray Emission and X-ray Fluorescence}
 X-ray fluorescence spectroscopy (XRF) is an extensively used probe in experiments studying the interaction of high-intensity lasers with solid targets. In short-pulse laser experiments involving mid-Z elements heated to temperatures comparable to or larger than M-shell binding energies the ratio of $K_\beta$ to $K_\alpha$ emission is used as a measurement of temperature. Modeling the coupling efficiency between high-power laser and electrons in a solid-density target is of considerable significance to the effort to understand optical radiation-matter interactions at high laser intensities ($> 10^{19}$ W/cm$^2$); in this context, inference of target heating using $K_\beta/K_\alpha$ branching ratios provides a useful consistency check in the application of models to experimental data. (cite Myatt et all 2007, Nilson).
 
-\begin{figure}[h] \label{fig:nilson}
+\begin{figure}[h] 
 \caption{Experimental $K_\alpha/K_\beta$ ratios of emission from Cu foil heated by short-pulse lasers, with inferred electron temperature on the right vertical axis. Model calculations are heating for hot electron coupling efficiencies $\eta_e$ equal to 10\% and 30\% (cite Nilson)}
+\label{fig:nilson}
 %(cite https://lasers.llnl.gov/science/icf/how-icf-works)}
 \centering
 \includegraphics[scale=0.5]{../Figures/nilson_branching.png}
@@ -503,6 +510,7 @@ X-ray emission spectroscopy (XES), the finer-grained cousin of XRF, provides mor
 The overaching theme in this thesis is the relationship, and frequent feedback, between scientific discovery and the development of new experimental techinique. To begin, in chapter 2 I introduce a scheme for single-shot measurement of the static structure factors of disordered dense plasmas produced at large-scale laser facilities such as Omega and NIF. In Chapter 3 I present an experimental observation of nonlocal heat transport by keV-scale electrons in a nanophase material and consider the question of how this effect can be used to improve WDM experiments conducted at XFELs via optimized nanostructured target design. In chapter 4 I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapter 5 I describe an instrument-development effort toward a disposable CMOS-based X-ray camera for use in experimental environments hostile to electronics, particularly laser plasma facilities. Finally, in chapter 6 I introduce UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
  
 \chapter{Physics of PENELOPE} % Main chapter title
+This chapter serves as background material for Chapter 3 \ref{chap:hef_chapter}, in which we present the use of the Monte Carlo Code PENELOPE for the simulation of electron transport in nanostructured XFEL targets.
 
 \label{Penelope} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
@@ -521,9 +529,6 @@ The overaching theme in this thesis is the relationship, and frequent feedback, 
 %Context: splice this section into the HEF paper as part of an extended
 %methods section. Before talking about PENELOPE I need to state what it
 %is that we need to model, and with what accuracy.
-%1. Summarize what PENELOPE is.
-%2. PENELOPE's treatment of elastic scattering and how it satisfies our requirements. How much detail can I omit here? For example, treatment of the 
-%3. PENELOPE's treatment of inelastic scattering, including the Liljequist GOS model, and how it satisfies our requirements. 
 %4. PENELOPE's treatment of the material-dependent energy-loss function.
 %Discuss the program MATERIAL and justify penelope's use of Bragg's rule.
 %May need to discuss the estar database?
@@ -534,34 +539,34 @@ PENELOPE performs Monte Carlo simulations of coupled electron-photon transport i
 In this section we consider the interactions that must be simulated to accurately model the spatials distribution of energy in a nanostructured target material heated by x-ray photons with energy on the order of 10 keV.
 PENELOPE simulates the following interactions: electron scattering (elastic and inelastic), Bremsstrahlung emission, photon scattering (both elastic (Rayleigh) and inelastic (Computon)), photoelectric absorption and Auger emission, x-ray fluorescence, and pair production and anihillation. 
 Figs. \ref{fig:sp} and \ref{fig:photon_sigma} show the energy dependence of the relative strengths of the above electron and photon interactions, respectively. 
-Several of the processes have negligible or nonexistent roles on the < 10 keV energy scale considered in the current work, allowing us to limit our scope to the electron scattering and photoabsorption (with consequent fluorescence and Auger emission).
+Several of the processes have negligible or nonexistent roles on the $<$ 10 keV energy scale considered in the current work, allowing us to limit our scope to the electron scattering and photoabsorption (with consequent fluorescence and Auger emission).
 
-\begin{figure}[h] \label{fig:col_rad}
+\begin{figure}[h] 
 \caption{Collisional and radiative electron stopping powers as a function of energy (cite)}
+\label{fig:sp}
 \centering
 \includegraphics[scale=0.4]{../Figures/collisional_sp.png}
-\label{fig:sp}
 \end{figure}
 
 \begin{figure}[h] 
 \caption{Photon cross section components in C as a function of energy (cite LCL and Hubbell 1980)}
+\label{fig:photon_sigma}
 \centering
 \includegraphics[scale=1]{../Figures/photon_sigma.png}
-\label{photon_sigma}
 \end{figure}
 
-In what follows we introduce the physics of photoabsorption and elastic and inelastic scattering with attention to each process's contribution to the spatial distribution of deposited energy in a relaxation cascade beginning with photoionization by a hard x-ray photon. We discuss standard modeling approaches relevant to the 100 eV-10 keV regime, in addition to cursory overviews of PENELOPE's treatments within the limited scope relevant to the current regime of interest. % (including, for example, including relativistic energies).
+In what follows we introduce the physics of photoabsorption and elastic and inelastic scattering with attention to each process's contribution to the spatial distribution of deposited energy in a relaxation cascade beginning with photoionization by a hard x-ray photon. We discuss standard modeling approaches relevant to the 100 eV-10 keV regime, with a focus on the aspects of PENELOPE's treatments most relevant to our regime of interest. % (including, for example, including relativistic energies).
 %In the case of inelastic electron scattering, where numerous treatments of the central quantity (the generalized oscillator strength, or GOS) exist, we discuss necessary common features of all GOS models before introducing PENELOPE's specific treatment.
 
 \subsection{Fluorescence}
-Fig (insert fig. 2.2 from penelope manual) illustrates the photoionization of inner atomic shells and introduces the notation used to describe atomic energy leves and transitions between them.
-Both the photoelectric effect and secondary (Auger) emission resulting from high-energy atomic excitations can be accurately modeled using established treatments that combine theoretical calculation of atomic states via self-consistent modeling (cite Pratt et al. 1973) with experimental data. Associated quantities are compiled in databases; PENELOPE uses tabulated ionization energies from Carlson (cite Carlson et al.) and photoelectic cross sections from the LLNL Evaluated Photon Data Library (EPDL). The EPDL additionally provides emission probabilities for fluorescence photons and Auger electrons in the relaxation of ionized atoms to the ground state.
+Fig \ref{fig:photoionization} illustrates the photoionization of inner atomic shells and introduces the notation used to describe atomic energy leves and transitions between them.
+Both the photoelectric effect and secondary (Auger) emission resulting from high-energy atomic excitations can be accurately modeled using established treatments that combine theoretical calculation of atomic states via self-consistent modeling (cite Pratt et al. 1973) with experimental data. Associated quantities are compiled in existing public databases; PENELOPE uses tabulated ionization energies from Carlson (cite Carlson et al.) and photoelectic cross sections from the LLNL Evaluated Photon Data Library (EPDL). The EPDL additionally provides emission probabilities for fluorescence photons and Auger electrons in the relaxation of ionized atoms to the ground state.
 
 \begin{figure}[h] 
 \caption{Atomic energy levels of the first three principal quantum numbers (left) and corresponding allowed radiative transitions (right).}
+\label{fig:photoionization}
 \centering
 \includegraphics[scale=0.4]{../Figures/penelope_2_2.png}
-\label{fig:photoionization}
 \end{figure}
 
 
@@ -569,7 +574,8 @@ Both the photoelectric effect and secondary (Auger) emission resulting from high
 \subsubsection{Assumptions}
 The above data sources are known to be accurate to the $1\%$ level above $1$ keV, under the condition (assumed by PENELOPE) of low incident photon densities, such that only single-electron transitions occur (cite PENELOPE manual).
 
-PENELOPE assumes that incident photons are unpolarized and consequently fails to reproduce the polarization-dependent angular distribution (cite?) of emitted electrons. 
+% TODO: cite on the polarization dependence thing?
+PENELOPE assumes that incident photons are unpolarized and consequently fails to reproduce the polarization-dependent angular distribution of emitted electrons. 
 We note that it does incorporate the angular distribution from Sauter's (cite sauter 1931) treatment of relativistic photoelectron emission--which, however, reduces to isotropic emission in the nonrelativistic regime covered here.
 
 
@@ -603,10 +609,10 @@ Elastic scattering of electrons refers to interactions that do not alter target 
 %where $V_{ex}(r)$ is a local approximation of the exchange interaction between the incident electron and atomic electrons. The angular distribution of elastic scattering off this central field is axially symmetric, and the DCS $d\sigma_{el}/d\Omega$ may therefore be expanded into a sum of Legendre polynomials. [Citing Salvat 2005 or Walker, describe how the phase shifts are obtained from the Dirac radial wave functions. What's the role of the exchange term in all this?]
 
 %\section{First view: Yukawa potential}
-The simplest widely-used model for elastic scattering of electrons in a solid is the semi-classical approach of Wentzel and Lenz (Egerton page 114 ), known as the Lenz model, which uses the Yukawa potential for the interaction between a fast electron and a target atom:
+The simplest widely-used model for elastic scattering of electrons in a solid is the semi-classical approach of Wentzel and Lenz (cite Egerton p. 114 ), known as the Lenz model, which uses the Yukawa potential for the interaction between a fast electron and a target atom:
 
-\begin{equation}
-	V(r) = \alpha^2 \frac{e^{-r/r_0}}{r}
+\begin{equation}\label{eq:yukawa} 
+V(r) = \alpha^2 \frac{e^{-r/r_0}}{r}
 \end{equation}
 
 %sufficient to derive the approximate differential cross section of elastic scattering and to describe its influence on the spatial distribution of scattered electrons at our energy scale of interest. 
@@ -614,11 +620,11 @@ The simplest widely-used model for elastic scattering of electrons in a solid is
 The first Born approximation gives the amplitude for a particle's scattering off of a spherically symmetric potential as
 % TODO cite http://itp.uni-frankfurt.de/~valenti/SS14/QMII_2014_chap1.pdf or other
 
-\begin{equation}
+ \begin{equation}\label{born}
 	f(\theta) \simeq -2 \frac{m}{\hbar^2 q} \int_0^\infty r V(r) \sin (qr) dr
 \end{equation}
 
-Substituting (how do I reference equations) into (), yields 
+Substituting (\ref{eq:yukawa}) into (\ref{born}) yields 
 %from http://itp.uni-frankfurt.de/~valenti/SS14/QMII_2014_chap1.pdf
 %TODO: make the notation here consistent.
 \begin{equation}
@@ -637,29 +643,27 @@ Using the Thomas-Fermi model, Wentzel and Lenz obtain $r_0 = a_0 Z^{-1/3}$ (cite
 \end{equation}
 
 % TODO: copper->iron
-We thus see that the angular deflections produced by elastic scattering decrease with increasing energy. For 10 keV electrons $\theta_0 \simeq 0.1$ rad and $\sigma_e = 4.2 \times 10^{-20}~\mathrm{m}^2$. The elastic mean free path, an alternate measure of the collision frequency, is equal to $\lambda_e = 1/(\sigma_e n)$, where $n$ is atomic number density. As an example, inserting the value of $n$ for Fe yields 2.8 \AA (at the same 10 keV electron energy) (\emph{sounds far too small; check this calculation}). This corresponds to a large number of collisions on length scales of interest (> 10 nm) which, combined with the appreciable value of the characteristic scattering angle, demonstrates that elastic scattering has a substantial influence on the propagation of electrons below 10 keV. 
+We thus see that the angular deflections of elastic scattering decrease with increasing energy. For 10 keV electrons, $\theta_0 \simeq 0.1$ rad and $\sigma_e = 4.2 \times 10^{-20}~\mathrm{m}^2$. The elastic mean free path, an alternate measure of the collision frequency, is equal to $\lambda_e = 1/(\sigma_e n)$, where $n$ is atomic number density. As an example, inserting $\sigma_e = 39~\mathrm{\AA}^2$ and $n = 8.5\times 10^{25}/m^3$ for Fe yields $\lambda_e = 300$ \AA. The product of expected numbers of elastic collisions on typical transport length scales (whose values exceed 10 nm) and the characteristic scattering angle are therefore at least of order unity (in radians), demonstrating that elastic scattering has a substantial influence on the propagation of below-10 keV electrons.
 
-Taking the atomic number of density of Fe, the mean free path between inelastic collisions is (insert the right expression) = (insert the right number). The corresponding expectation value of angular deflection per distance traveled is (insert the right number). In comparison, the inelastic mean free path of 10 keV photons in Fe (potential see-saw here is (insert number). where should i introduce inelastic scattering?) This suggests that path deflections caused by elastic scattering will have a significant influence on the spatial distribution of energy deposited 10 keV-scale electrons in Fe and other mid-Z materials. 
 
 Despite its simplicity, the Lenz model gives total cross sections to within 10 \% for light elements (cite Geiger 1964). For heavier species it underestimates the small-angle differential cross section (Fig. \ref{fig:e3.3}) but correctly reproduces the large-angle DCS.
 
 \begin{figure}[h] 
 	\caption{Angular dependence of elastic DCS of 30 keV electrons from a Hg atom under the Lenz model using the Wentzel potential (solid), and based on Hartree-Fock (dotted), Hartree-Slater (dot-dashed) and Dirac-Slater (dashed) wavefunctions.  \parencite{Reference1} }
+	\label{fig:e3.3}
 \centering
 \includegraphics[scale=0.5]{../Figures/egerton_3_3.png}
-\label{fig:e3.3}
 \end{figure}
 
-More accurate approaches use iterative (e.g. Hartree-Fock) solutions to the Schroedinger equation (or of the Dirac equation, where relativistic and spin effects are needed) to solve for the atomic potential. (cite rez 1984 or starostin, applicability of the born approximation to collisions between electrons and excited atoms). Additionally, partial wave approaches can be used to avoid the Born approximation in regimes for which it fails (low electron energy and high-Z species). PENELOPE combines the above techniques: it solves the partial-wave expanded Dirac equation with a potential based on the Dirac-Fock electron density of Desclaux (1975, see citation on pg 102 of penelope manual) and exchange interaction of Furness and McCarthy (1973). We will elaborate on PENELOPE's modeling of elastic scattering only within the narrow concern of assesing its range of applicability; for more detail the reader may refer to chapter 3 of the PENELOPE manual. 
+% reference title: applicability of the born approximation to collisions between electrons and excited atoms
+More accurate approaches use iterative (e.g. Hartree-Fock) solutions to the Schroedinger or Dirac equations to solve for the atomic potential. (cite Rez 1984 or Starostin). Additionally, partial wave approaches can be used to avoid the Born approximation in regimes for which it fails (low electron energy and high-Z species). PENELOPE combines the above techniques: it solves the partial-wave expanded Dirac equation with a potential based on the Dirac-Fock electron density of Desclaux (1975, see citation on pg 102 of penelope manual) and exchange interaction of Furness and McCarthy (1973). We will elaborate on PENELOPE's modeling of elastic scattering only within the narrow concern of assessing its accuracy within the physical regimes that we simulate; for more detail the reader may refer to Chapter 3 of the PENELOPE manual. 
 
 
 % Fig. (fig reference) shows the angular dependence of scattering for Fe. 
 
 \section{Inelastic scattering}
-Inelastic collisions are the dominant mechanism for energy loss of electrons up to above 10 keV (\ref{fig:col_rad}).
+We now discuss the treatment of inelastic collisions, which are the dominant mechanism for energy loss of electrons up to above 10 keV (Fig. \ref{fig:photon_sigma}).  In an atomic system, the differential cross section for a transition from initial state wavefunction $\psi_0$ to final state wavefunction $\psi_n$ is
 %The double differential cross section for collisions with momentum transfer $q$ and energy loss $\omega$ is given by Fano (cite Fano 1963, see page 114 of PENELOPE manual) as
-
-In an atomic system, the differential cross section for a transition from initial state wavefunction $\psi_0$ to final state wavefunction $\psi_n$ is
 
 \begin{equation} \label{bornDCS}
 \frac{d\sigma_n}{d\Omega} = \frac{m_0}{2\pi \hbar^2}^2 \frac{k_1}{k_0} \mid \int V(r) \psi_0 \psi_n exp(i q r) d\tau \mid ^2
@@ -696,16 +700,16 @@ f_n(q) = \frac{E_n}{R} \frac{\mid \epsilon_n(q)\mid ^2}{(q a_0)^2},
 
 where $R = (m_0 e^4 / 2)(4 \pi \epsilon_0 \hbar)^{-2}$, the Rydberg energy, and $E_n$ is the energy change of the transition. 
 
-The GOS is in general continuous and therefore better expressed as a density with dimensions 1/energy, i.e. $df(q, E)/dE$. This allows us to write the double-differential cross section of inelastic scattering:
+The GOS is in general continuous and therefore better expressed as a density with dimensions 1/energy, i.e. $df(q, E)/dE$. This allows us to re-express the double-differential cross section of inelastic scattering as follows:
 
 \begin{equation} \label{inelastic_DDCS}
-\frac{d^2\sigma}{d\Omega dE} = {4 R}{Eq^2} \frac{k_1}{k_0} \frac{df}{dE}(q, E),
+\frac{d^2\sigma}{d\Omega dE} = {4 R}{Eq^2} \frac{k_1}{k_0} \frac{df}{dE}(q, E).
 \end{equation}
 
-TODO: calculate a typical inelastic scattering cross section for comparison elastic scattering. The fact that the ratio is of order unity demonstrates that both matter.
+%TODO: calculate a typical inelastic scattering cross section for comparison elastic scattering. The fact that the ratio is of order unity demonstrates that both matter.
 
 \subsection{Dielectric function}
-While this formulation makes it possible to calculate the GOS and associated quantities starting from an atomic model, in solid state systems the scattering cross section of outer-shell bonding is influenced by collective effects and chemical bonding. It's therefore preferable to describe the inelastic scattering of an electron off a solid using the solid's dielectric response function, $\epsilon(q, E)$. 
+While this formulation makes it possible to calculate the GOS and associated quantities starting from atomic models, in solid state systems the scattering cross section of outer-shell electrons is influenced by collective effects and chemical bonding. It's therefore preferable to describe the inelastic scattering of an electron from a solid using the solid's dielectric response function, $\epsilon(q, E)$. 
 
 Ritchie (cite Ritche 1957) showed, using Poisson's equation and fourier transforms, that an electron moving in the z-direction in an infinite medium experiences a force of the following magnitude opposite its direction of motion: 
 
@@ -740,18 +744,20 @@ Note, finally, that the GOS fully determines the the value of equation \ref{inel
 % We note that PENELOPE incorporates Fano's (1963) relativistic treatment of inelastic scattering of electrons in condensed media in place of the current treatment. 
 
 \subsection{Modeling the generalized oscillator strength}
-Analytical expressions for the GOS are known for only two simple cases of the free electron gas and hydrogen atom. In practice, however, it has been shown that the physics of inelastic scattering is mostly determined by a few global features of the GOS (cite Salvat and Fernandez-Varea, 1992) and that relatively simple models are therefore adequate in most situations.
+Analytical expressions for the GOS are known for only the two simple cases of the free electron gas and hydrogen atom. In practice, however, it has been shown that the physics of inelastic scattering is mostly determined by a few global features of the GOS (cite Salvat and Fernandez-Varea, 1992) and that relatively simple models are therefore adequate in most situations.
 
 
+% TODO: fix the E/omega inconsistency
 % TODO: read Salvat and Varea, 1992
 The GOS is conventionally represented as a two-dimensional surface plot called the Bethe surface (Fig. \ref{fig:bethe}). 
-We identify two constraints on the behavior of the Bethe surface which any GOS model must reproduce. First, in the limit $Q\rightarrow 0$, the GOS of the dielectric formulation becomes proportional to  the optical oscillator strength $Im[-1/\epsilon(0, E)$, which is experimentally constrained by x-ray emission measurements. Second, in the limit of large momentum transfer the most probable energy loss is equal to the kinematically-determined value for collision between two free electrons, $E = q^2/2$. (cite Sorini). The corresponding trace in energy and momentum is a feature of the Bethe surface known as the Bethe ridge.
+We identify two constraints on the behavior of the Bethe surface which any GOS model must reproduce. First, in the limit $Q\rightarrow 0$, the GOS of the dielectric formulation becomes proportional to  the optical oscillator strength $Im[-1/\epsilon(0, E)]$, which is experimentally constrained by x-ray emission measurements. Second, in the limit of large momentum transfer the most probable energy loss is equal to the kinematically-determined value for collision between two free electrons, $E = q^2/2$. (cite Sorini). The corresponding trace in energy and momentum is a feature of the Bethe surface known as the Bethe ridge.
 
+% From 3.36 in Egerton book
 \begin{figure}[h] 
-\caption{Bethe surface for ionization of the K shell in C.......... (cite)}
+\caption{Bethe surface for ionization of the K shell in C, based on a hydrogenic GOS model. (cite Egerton 1979)}
+\label{fig:bethe}
 \centering
 \includegraphics[scale=0.5]{../Figures/bethe.png}
-\label{fig:bethe}
 \end{figure}
 
 As in Compton scattering, the shape of cuts throught the Bethe surface (i.e. spectra of scattered intensity as a function of energy at fixed momentum transfer) is determined by the momentum distribution of atomic electrons. Certain models, such as that of Sorini et al (cite sorini 2006), derive a value for the width of the Bethe ridge from Fermi velocity calculations. PENELOPE adopts a simpler form based on the `$\delta$ -oscillator' model of Liljequist (cite Liljequist 1983) which splits the GOS into contributions from generalized `shells' (each corresponding to either an atomic shell or a collective excitation). The total GOS under this model is a sum over indices \emph{k} of the shells:
@@ -759,7 +765,8 @@ As in Compton scattering, the shape of cuts throught the Bethe surface (i.e. spe
 $$
 \frac{df(q, E)}{dE} = \Sigma f_k [\delta(E - E_k) \Theta (q_k - q) + \delta(E-q) \Theta(q - q_k)],
 $$
-where for the \emph{k}th shell $f_k$ is the shell's number of electrons, $q_k$ is the cutoff recoil energy, and $E_k$ is the shell's resonance energy. $Q_k$ is equal to the shell's binding energy $U_k$ (excluding the band, for which it is set to 0), and $E_k$ is computed from from $U_k$ and the material's mean electron density, following Sternheimer (cite Sternheimer 1952). Within this model the GOS is fully determined by the shells' occupations and cutoff (binding) energies $U_k$, which PENELOPE obtains from Carlson (cite Carlson 1975). It is possible, optionally, to direct PENELOPE to fit its GOS model to experimental stopping power data provided in material input files. It performs this fit through reweighting of the GOS model's oscillators (\emph{this is actually a guess, as the PENELOPE manual is totally opaque about how the GOS/DDCS is fit to stopping power input data. Better understanding would require me to revisit PENELOPE's code or contact the authors}).
+where for the \emph{k}th shell $f_k$ is the shell's number of electrons, $q_k$ is the cutoff recoil energy, and $E_k$ is the shell's resonance energy. $Q_k$ is equal to the shell's binding energy $U_k$ (excluding the conduction band, for which it is set to 0), and $E_k$ is computed from from $U_k$ and the material's mean electron density, following Sternheimer (cite Sternheimer 1952). Within this model the GOS is fully determined by the shells' occupations and cutoff (binding) energies $U_k$, which PENELOPE obtains from Carlson (cite Carlson 1975). It is possible, optionally, to direct PENELOPE to fit its GOS model to experimental stopping power data provided in material input files. It performs this fit through reweighting of the GOS model's oscillators .
+% TODO (\emph{this is actually a guess, as the PENELOPE manual is totally opaque about how the GOS/DDCS is fit to stopping power input data. Better understanding would require me to revisit PENELOPE's code or contact the authors})
 
 Substantial additional detail on the construction and interpretation of PENELOPE's GOS model can be found in its manual.
 
@@ -769,7 +776,7 @@ Substantial additional detail on the construction and interpretation of PENELOPE
 % TODO numerical implementation and coarse graining
 % TODO fluorescence
 \section{Accuracy and useful regimes}
-In the context of simulation of nanostructured materials, errors in PENELOPE's DCSs for electron scattering originate from both (1) the limited range of validity of PENELOPE's physical models with respect to the bulk properties PENELOPE seeks to reproduce, and (2) from the difference between scattering DCSs of ambient-condition bulk materials on the one hand and high-temperature nanostructured materials on the other. We address these two issues in combination.
+In the context of simulation of nanostructured materials, errors in PENELOPE's DCSs for electron scattering originate from both (1) the limited range of validity of PENELOPE's physical models with respect to the bulk properties PENELOPE seeks to reproduce, and (2) the difference between scattering DCSs of ambient-condition bulk materials on the one hand and high-temperature nanostructured materials on the other. We address these two issues in combination.
 
 As mentioned previously, a material's inelastic scattering DCS is fully determined by its loss function, the imaginary component of the dielectric function. Any difference between the responses of bulk and nanophases arises from the contribution to the loss function of collective electronic excitations, i.e. plasmons. Plasmon modes in nanostructured materials form a large research topic on their own (find and cite review article on surface plasmons in nano-materials), but there there has been little (no?) (cites) prior work in the context of high-temperature dense matter. The study of heated nanophase materials thus manifests itself as both a problem and an opportunity. On the one hand, the lack of experimental data and accurate modeling makes it impossible to fully quantify the inaccuracy of simulations of ambient, bulk materials. On the other hand, XFEL heating experiments could be used to discriminate between computed dielectric response functions and their underlying finite-temperature electronic strucure theory--to the extent that alternative models generate experimentally measureable differences in inelastic DDCSs. We thus suggest that XFEL heating of nanostrucured materials could enable a joint modeling/experimental program to validate WDM electronic structure theory.
 
@@ -784,9 +791,9 @@ where $E_{final}$, the final energy of the electron, is usually taken to be 10 e
 
 \begin{figure}[h] 
 \caption{CSDA range as a function of energy for several materials, based on stopping powers of..... (cite)}
+\label{fig:csda}
 \centering
 \includegraphics[scale=0.7]{../Figures/csda.png}
-\label{fig:csda}
 \end{figure}
 
 \subsection{Energy cutoffs} \label{cutoffs}
@@ -829,15 +836,17 @@ Therefore constant-factor scaling of the stopping power is equivalent to a chang
 
 \begin{figure}[h] 
 \caption{Stopping power and inelastic mean free path for electrons as a function of energy in Al..... (cite)}
+\label{fig:stp_accuracy}
 \centering
 \includegraphics[scale=0.7]{../Figures/penelope_3_11.png}
-\label{fig:stp_accuracy}
 \end{figure}
 
 \section{Dosimetry}
 PENELOPE's dosimetry includes both linear energy transfer from radiation to matter and the contribution of particle track ends, as mentioned in section \ref{cutoffs}. At the energy scales of interest the former contribution may be neglected, and the distribution of energy deposited by a particle shower is entirely dependent on simulated inelastic scattering events. PENELOPE's dosimetry calculation is tied to the termination of electron tracks: when an electron's energy drops below the (previously-defined) cutoff value its simulation ceases, and its entire energy is deposited at the track's endpoint.  Similarly, the energy loss of soft inelastic collisions (ones having energy loss greater than the cutoff energy $W_{cc}$) is deposited locally (whereas hard inelastic collisions generate secondary electrons that are individually tracked). 
 
 Coarse-graining of the dose distribution is done by dividing the simulation volume into a three-dimensional grid of cells, in each of which PENELOPE calculates the total dose of deposited energy. This grid is defined by the parameters GRIDX, GRIDY, GRIZ and GRIDBN in PENELOPE's input. 
+
+\input{../pandoc/hef.tex}
 
 \chapter{A Photometric Study of Energy-Dispersive X-ray Diffraction at a Laser Plasma Facility}
 \input{../pandoc/edxrd.tex}
@@ -864,9 +873,9 @@ At a synchrotron light source electrons in a bunch have uncorrelated positions, 
 
 \begin{figure}[h] 
 \caption{Operation of an x-ray free electron laser (cite McNeil). Electrons enter the undulator with random phases and originally emit uncoherent radiation at the undulator's resonant wavelength. As the electrons propagates, random fluctuations in the radiation field causes them to bunch at the resonant wavelength and emit coherently.}
+\label{fig:xfel}
 \centering
 \includegraphics[scale=0.5]{../Figures/XFEL.png}
-\label{fig:xfel}
 \end{figure}
 
 Electrons in an undulator experience a longitudinal force from the radiation field that is modulated by its period. The consequent bunching of electrons with a period equal to the X-ray wavelength is a self-reinforcing process referred to as self amplified stimulated emission (SASE) (cites). Crucially, the occurrence of SASE requires a sufficiently strong initial radiation field, which third-generation sychrotron storage rings--having 100 ps-duration electron bunches--are not capable of producing. The key feature of an XFEL is its use of a linear accellerator to to produce very compact electron bunches with sufficient electron density to bootstrap SASE.
@@ -889,9 +898,9 @@ Operating an XFEL in two-color mode opens up significant possibilities for truly
 
 \begin{figure}[h] 
 \caption{Schmematic representation of a two-color XFEL x-ray diffraction measurement wherein a chemical filter is used to reject pump photons.}
+\label{2cxrd}
 \centering
 \includegraphics[scale=0.7]{../Figures/2cxrd.png}
-\label{2cxrd}
 \end{figure}
 
 % TODO refereence the schematic (from general slides) of a two-color experiment with CF and all
@@ -921,9 +930,9 @@ This observation has led Valenza et al. to generate predictions of the consequen
 
 \begin{figure}[h] 
 \caption{Left: intensity of diffraction peaks as a function of temperature, using finite-temperature DFT calculations in VASP; right: intensity of diffraction peaks as a function of ionization, using an atomic form factor-based model of ionization. The four simulated compounds are (from top to bottom) LiF, diamond, graphite, and Be. Taken from Valenza et al. (cite Valenza et al.)}
+\label{fig:wdc}
 \centering
 \includegraphics[scale=0.7]{../Figures/wdc.png}
-\label{fig:wdc}
 \end{figure}
 
 The capability to test predictions of finite-temperature electronic structure models is a unique feature of XFEL-based experiments. We will explore the topic in some more detail in section (reference section), where we have the opportunity to apply it to experimental data. 
@@ -961,9 +970,9 @@ This is described in more detail in section (reference section), which details a
 
 \begin{figure}[h] 
 \caption{Progression of Bragg peak intensities as a function of incident x-ray flux density for (a) microphase and (b) nanophase $\mathrm{Fe}_3\mathrm{O}_4$, normalized to the intensity of the lowerst-flux density point. (c) displays the progression of Bragg peak intensities as a function of electron ionization in an atomic form-factor based model wherein the Fe 3d and O2p electrons are first ionized, followed by the more tightly-bound Fe 4s and 3p, and O 2s electrons. (cite Fe3O4 paper in preparation)}
+\label{fexrd}
 \centering
 \includegraphics[scale=1.0]{../Figures/fe3o4_xrd.png}
-\label{fexrd}
 \end{figure}
 
 Fig. \ref{fexrd} (a, b) displays the progression of Bragg peak intensities as a function of incident flux for two different $\mathrm{Fe}_3\mathrm{O}_4$ targets heated by 45 fs XFEL pulses. It demonstrates monotonic declines in the intensities of all Bragg peaks as a function of flux density, with the exception of the 222 peak, which rises to a maximum at the second-lowest flux density point before declining.
@@ -972,611 +981,28 @@ It is straightforward to evaluate the relative contributions of thermalization o
 
 \begin{figure}[h] 
 \caption{Same data as Fig. \ref{fexrd} plotted against Bragg angle and compared with the Debye-Waller factor for several values of RMS atomic displacement. (cite fe3o4 paper in preparation)}
+\label{debye}
 \centering
 \includegraphics[scale=1.0]{../Figures/fe3o4_debye.png}
-\label{debye}
-
 \end{figure}
 
 The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be further interpreted through comparison of the data to a simple atomic form factor-based model of ionization (the model is described more specifically in section (reference section)). We find that the model reproduces the anomalous rise in intensity of the 222 reflection (reference figure) via a loss of destructive interference between the valence wavefunctions of O and Fe as both are simulataneously ionized. (cite paper in preparation).
 
 \subsection{Observation of Nonlocal Heat Transport in Nanophase $\mathrm{Fe}_3\mathrm{O}_4$}
 \subsection{XES Signatures of Valence Electron Delocalization in XFEL-heated $\mathrm{Fe}_3\mathrm{O}_4$}
-% TODO come back here, maybe save until the end since Jerry says he's made progress on the paper
 
-% ========== Chapter 2
- 
-%\chapter{A Brief \\ Description of \protect\TeX}
-% 
-%The \TeX\ formatting program is the creation of
-%Donald Knuth of Stanford University.
-%It has been implemented on nearly every general purpose computer and
-%produces exactly the same copy on all machines.
-% 
-%\section{What is it; why is it spelled that way; 
-%and what do
-%really long section titles look like in the text and in the
-%Table of Contents?}
-% 
-%\TeX\ is a formatter.  A document's format is controlled
-%by commands embedded in the text.  
-%\LaTeX\ is a special version of \TeX---preloaded
-%with a voluminous set of macros that simplify most
-%formatting tasks.
-% 
-%\TeX\ uses {\it control sequences} to control
-%the formatting of a document.  These control sequences are usually
-%words or groups of letters prefaced with the backslash character
-%({\tt\char'134}).
-%For example,
-%Figure \ref{start-2} shows the text that printed the beginning
-%of this chapter.  Note the control sequence \verb"\chapter" that
-%instructed \TeX\ to start a new chapter, print the title, and
-%make an entry in the table of contents.  It is an example
-%of a macro defined by the \LaTeX\ macro package.
-%The control sequence \verb"\TeX", which prints the word \TeX,
-%is a standard macro from the {\it\TeX book}.
-%The short control sequence \verb"\\" in the title instructed \TeX\ to
-%break the title line at that point.
-%This capability is an example of an extension to \LaTeX\
-%provided by the uwthesis document class.
-% 
-%\begin{figure}
-%\begin{demo}
-%\uwsinglespace
-%\\chapter\{A Brief\\\\Description of \\TeX\}
-%
-%The \\TeX\\ formatting program is the creation of
-%Donald Knuth of Stanford University.
-%\end{demo}
-%\label{start-2}
-%\caption{The beginning of the Chapter II text}
-%\end{figure}
-% 
-%Most of the time \TeX\ is simply building paragraphs from
-%text in your source files.  No control sequences are involved.
-%New paragraphs are indicated by a blank line in the
-%input file.
-%Hyphenation is performed automatically.
-% 
-%\section{\TeX books}
-% 
-%The primary reference for \LaTeX\ is Lamport's second edition
-%of the \textit{\LaTeX\ User's Guide}\cite{Lbook}.
-%It is easily read and should be sufficient for thesis formatting.
-%See also the \textsl{\LaTeX\ Companion}\cite{companion} for descriptions
-%of many add-on macro packages.
-%
-%Although unnecessary for thesis writers, the \textsl{\TeX book}
-%is the primary reference for \TeX sperts worldwide.
-% 
-%\section{Mathematics}
-% 
-%The thesis class does not expand on \TeX's
-%or \LaTeX's
-%comprehensive treatment of mathematical equation printing.%
-%\label{c2note}\footnote{%
-%% a long footnote indeed.
-% Although many \TeX-formatted documents contain no
-% mathematics except the page numbers, it seems appropriate
-% that this paper, which is in some sense about \TeX,
-% ought to demonstrate an equation or two.  Here then, is a statement 
-% of the {\it Nonsense Theorem}.
-% 
-% \smallskip
-% \def\RR{{\cal R\kern-.15em R}}
-% {\narrower\hangindent\parindent Assume a universe $E$ and a symmetric function
-%  $\$$ defined on $E$, such that for each $\$^{yy}$ there exists a
-%  $\$^{\overline{yy}}$, where $\$^{yy} = \$^{\overline{yy}}$.
-%  For each element $i$ of $E$ define
-%  ${\cal S}(i)=\sum_i \$^{yy}+\$^{\overline{yy}}+0$.
-%  Then if $\RR$ is that subset of $E$ where $1+1=3$,
-%  for each $i$
-%  $$\lim_{\$\to\infty}\int {\cal S}di =
-%      \cases{0,&if $i\not\in\RR$;\cr
-%             \infty,&if $i\in\RR$.\cr}$$
-%  \par}} % end of the footnote
-%%
-%The {\it\TeX book}\cite{book}, {\it \LaTeX\ User's Guide}\cite{Lbook},
-%and {\it The \LaTeX\ Companion}\cite{companion}
-%thoroughly cover this topic.
-% 
-% 
-%\section{Languages other than English}
-% 
-%Most \LaTeX\ implementations at the University are tailored
-%for the English language.  However, \LaTeX\ will format many
-%other languages.  Unfortunately, this author has never been successful in 
-%learning more than a smattering of anything other than English.
-%Consult your department or the Tex Users Group.
-%\smallskip
-%\begin{center}
-%{\tt http://tug.org/},
-%\end{center}
-%\smallskip
-%for assistance with non-English formatting.
-%
-%Unusual characters can be defined via the
-%font maker \hbox{\mffont METAFONT} (documented by Knuth\cite{Metafont}).
-%The definitions are not trivial.
-%Students who attempt to print a thesis with
-%custom fonts may soon proclaim,
-% 
-%% Note.  This is not the ideal way to print Greek
-%\medskip
-%\begin{center}
-%``$\mathaccent"7027\alpha\pi o\kern1pt\theta\alpha\nu\epsilon\hat\iota\nu$
-%\ $\theta\acute\epsilon\lambda\omega$.''
-% 
-%\end{center}
-% 
-%% ========== Chapter 3
-% 
-%\chapter{The Thesis Unformatted}
-% 
-%This chapter describes the uwthesis class (\texttt{uwthesis.cls},
-%version dated 2014/11/13)
-%in detail 
-%and shows how it was used to format the thesis.
-%A working knowledge of Lamport's \LaTeX\ manual\cite{Lbook} is assumed.
-% 
-%\section{The Control File}
-% 
-%The source to this sample thesis is a single file
-%only because ease of distribution was a concern.
-%You should not do this.  Your task will be much easier if you
-%break your thesis into several files:  a file for the preliminary pages,
-%a file for each chapter,  one for the glossary, and one for each
-%appendix.  Then use a control file to tie them all together.
-%This way you can edit and format parts of your thesis much more
-%efficiently.
-% 
-%Figure~\ref{control-file} shows a control file that
-%might have produced this thesis.
-%It sets the document style, with options and parameters,
-%and formats the various parts of the thesis---%
-%but contains no text of its own.
-% 
-% 
-%%  control file caption and figure
-%%
-%%
-%\begin{figure}[p]
-% \begin{fullpage}
-%  \uwsinglespace
-%  \begin{verbatim}
-%    % LaTeX thesis control file
-% 
-%    \documentclass [11pt, proquest]{uwthesis}[2014/11/13]
-% 
-%    \begin{document}
-% 
-%    % preliminary pages
-%    %
-%    \prelimpages
-%    \include{prelim}
-% 
-%    % text pages
-%    %
-%    \textpages
-%    \include{chap1}
-%    \include{chap2}
-%    \include{chap3}
-%    \include{chap4}
-% 
-%    % bibliography
-%    %
-%    \bibliographystyle{plain}
-%    \bibliography{thesis}
-% 
-%    % appendices
-%    %
-%    \appendix
-%    \include{appxa}
-%    \include{appxb}
-% 
-%    \include{vita} 
-%    \end{document}
-%  \end{verbatim}
-%  \caption[A thesis control file]%
-%   {\narrower A thesis control file ({\tt thesis.tex}).
-%   This file is the input to \LaTeX\ that will produce a
-%   thesis.  It contains no text, only commands which
-%   direct the formatting of the thesis.
-%   }
-%  \label{control-file}
-% \end{fullpage}
-%\end{figure}
-% 
-%The first section, from the \verb"\documentclass" to
-%the \verb"\begin{document}", defines the document class and options.
-%This sample thesis specifies the \texttt{proquest} style, which is now
-%required by the Graduate School and is the default.  
-%Two other, now dated, other styles are available:  \verb"twoside", which is similar but 
-%produces a wider binding margin and is more suitable for paper printing; and
-%\verb"oneside", which is really old fashoned.
-%This sample also specified a font size
-%of 11 points. 
-%Possible font size options are: \verb"10pt", \verb"11pt", and \verb"12pt".
-%Default is 12 points, which is the preference
-%of the Graduate School. If you choose a smaller size be sure to
-%check with the Graduate School for acceptability.  The smaller fonts
-%can produce very small sub and superscripts.
-%
-%Include most additional formatting packages with \verb"\usepackage",
-%as describe by Lamport\cite{Lbook}.  The one exception to this
-%rule is the \verb"natbib" package.  Include it with the \verb"natbib"
-%document option.
-% 
-%Use the \verb"\includeonly" command to format only a part of your
-%thesis.  See Lamport\cite[sec. 4.4]{Lbook} for usage and limitations.
-%
-% 
-%\section{The Text Pages}
-% 
-%A chapter is a major division of the thesis.  Each chapter begins
-%on a new page and has a Table of Contents entry.
-% 
-%\subsection{Chapters, Sections, Subsections, and Appendices}
-% 
-% 
-%Within the chapter title use a \verb"\\" control sequence to separate lines
-%in the printed title (recall Figure \ref{start-2}.).
-%The \verb"\\" does not affect the Table of Contents entry.
-% 
-%Format appendices just like chapters.
-%The control sequence \verb"\appendix" instructs \LaTeX\ to
-%begin using the term `Appendix' rather than `Chapter'.
-% 
-% 
-%Specify sections and subsections of a chapter 
-%with  \verb"\section" and \verb"\subsection", respectively.
-%In this thesis chapter and section
-%titles are written to the table of contents.
-%Consult Lamport\cite[pg. 176]{Lbook} to see which
-%subdivisions of the thesis can be written to the table of contents.
-%The \verb"\\" control sequence is not permitted in section and
-%subsection titles.
-% 
-% 
-%\subsection{Footnotes}
-% 
-%\label{footnotes}
-% Footnotes format as described in the \LaTeX\ book.  You can also
-% ask for end-of-chapter or end-of-thesis notes.
-% The thesis class will automatically set these up if
-% you ask for the document class option \texttt{chapternotes}
-% or \texttt{endnotes}.  
-% 
-%If selected, chapternotes will print automatically.  If you choose
-%endnotes however you must explicitly indicate when to print the notes 
-%with the command \verb"\printendnotes".  See the style guide for
-%suitable endnote placement.  
-%
-%\subsection{Figures and Tables}
-%Standard \LaTeX\ figures and tables, see Lamport\cite[sec.~C.9]{Lbook},
-%normally provide the most convenient means to position the figure.
-%Full page floats and facing captions are exceptions to this rule.
-%
-%If you want a figure or table to occupy a full page enclose the
-%contents in a \texttt{fullpage} environment.  
-%See figure~\ref{facing-caption}.
-%
-%\subsubsection{Facing pages}
-%Facing page captions are an artifact of traditional, dead-tree printing,
-%where a left-side (even) page faces a right-side (odd) page.
-%
-%In the \texttt{twoside} style, a facing caption
-%is full page caption for a full page figure or table
-%and should face the illustration to which it refers.
-%You must explicitly format both pages. 
-%The caption part appears on an even page
-%(left side) and the figure or table
-%comes on the following odd page (right side).
-%Enclose the float contents for the caption 
-%in a \texttt{leftfullpage} environment,
-%and enclose the float contents for the figure or table 
-%in a \texttt{fullpage} environment.
-%The first page (left side) contains the caption. The second page
-%(right side) could be left blank.  A picture or graph might be pasted onto
-%this space. See figure~\ref{facing-caption}.
-%
-%
-%\begin{figure}[t]
-%\uwsinglespace
-%\begin{verbatim}
-%     \begin{figure}[p]% the left side caption
-%       \begin{leftfullpage}
-%         \caption{ . . . }
-%       \end{leftfullpage}
-%     \end{figure}
-%     \begin{figure}[p]% the right side space
-%       \begin{fullpage}
-%          . . .
-%          ( note.. no caption here )
-%       \end{fullpage}
-%     \end{figure}
-%\end{verbatim}
-%\caption[Generating a facing caption page]{This text would create a
-%  double page figure in the two-side styles. }
-%\label{facing-caption}
-%\end{figure}
-% 
-%You can use these commands with the \texttt{proquest} style, but they have little
-%effect on online viewing.
-% 
-% 
-%\subsection{Horizontal Figures and Tables}
-%Figures and tables may be formatted horizontally
-%(a.k.a.\ landscape) as long as their captions appear
-%horizontal also.  \LaTeX\ will format landscape material for you.
-%
-%Include the \texttt{rotating} package 
-%\begin{demo}
-%\\usepackage[figuresright]\{rotating\}
-%\end{demo}
-%and read the documentation that comes with the package. 
-%
-%Figure~\ref{sideways} is an example of how a landscape
-%table might be formatted. 
-%
-%\begin{figure}[t]
-%\uwsinglespace
-%\begin{verbatim}
-%     \begin{sidewaystable}
-%         ...
-%         \caption{ . . . }
-%     \end{sidewaystable}
-%\end{verbatim}
-%\caption[Generating a landscape table]{This text would create a
-%  landscape table with caption.}
-%\label{sideways}
-%\end{figure}
-% 
-%
-%
-%\subsection{Figure and Table Captions}
-%Most captions are formatted with the \verb"\caption" macro as described 
-%by Lamport\cite[sec. C.9]{Lbook}. 
-%The uwthesis class extends this macro to allow
-%continued figures and tables, and to provide multiple figures and
-%tables with the same number, e.g., 3.1a, 3.1b, etc.
-% 
-%To format the caption for the first part of
-%a figure or table that cannot fit
-%onto a single page use the standard form:
-%\begin{demo}
-%\\caption[\textit{toc}]\{\textit{text}\}
-%\end{demo}
-%To format the caption for the subsequent parts of 
-%the figure or table 
-%use this caption:
-%\begin{demo}
-%\\caption(-)\{(continued)\}
-%\end{demo}
-%It will keep the same number and the text of the caption will be 
-%{\em(continued)}.
-%
-%To format the caption for the first part of
-%a multi-part figure or table
-%use the format:
-%\begin{demo}
-%\\caption(a)[\textit{toc}]\{\textit{text}\}
-%\end{demo}
-%The figure or table will be lettered (with `a') as well as numbered.
-%To format the caption for the subsequent parts of 
-%the multi-part figure or table
-%use the format:
-%\begin{demo}
-%\\caption(\textit{x})\{\textit{text}\}
-%\end{demo}
-%where {\em x} is {\tt b}, {\tt c}, \ldots.
-%The parts will be lettered (with `b', `c', \ldots).
-%
-%\subsection{Line spacing}
-%
-%Normally line spacing will come out like it should. However, the 
-%ProQuest style allows single spacing in certain situations:
-%figure content, some lists, and etc.
-%Use \verb"\uwsinglespace" to switch to single spacing within
-%a \verb"\begin{}" and \verb"\end{}" block.
-%The code examples in this document does this. 
-%
-%\section{The Preliminary Pages}
-% 
-%These are easy to format only because they are relatively invariant
-%among theses.  Therefore the difficulties have already been encountered
-%and overcome by \LaTeX\ and the thesis document classes.
-%
-%Start with the definitions that describe your thesis.
-%This sample thesis was printed with the parameters:
-%
-%\begin{demo}
-%\\Title\{The Suitability of the \\LaTeX\\ Text Formatter\\\\
-%   for Thesis Preparation by Technical and\\\\
-%   Non-technical Degree Candidates\}
-%\\Author\{Jim Fox\}
-%\\Program\{IT Infrastructure\}
-%\\Year\{2012\}
-%
-%\\Chair\{Name of Chairperson\}\{title\}\{Chair's department\}
-%\\Signature\{First committee member\}
-%\\Signature\{Next committee member\}
-%\\Signature\{etc\}
-%
-%\end{demo}
-% 
-%Use two or more \verb"\Chair" lines if you have co-chairs.
-% 
-%\subsection{Copyright page}
-%Print the copyright page with \verb"\copyrightpage".
-%
-%\subsection{Title page}
-%Print the title page with \verb"\titlepage".
-%The title page of this thesis was printed with%
-% 
-%\begin{demo}
-%\\titlepage
-%\end{demo}
-% 
-%You may change default text on the title page with these
-%macros.  You will have to redefine \verb"\Degreetext", for instance,
-%if you're writing a Master's thesis instead of a dissertation.\footnote{If you use these they can
-%be included with the other information before \\copyrightpage".}
-%
-%\begin{list}{}{\itemindent\parindent\itemsep0pt
-%   \def\makelabel#1{\texttt{\char`\\#1}\hfill}\uwsinglespace}
-%\item[Degree\char`\{{\it degree name}\char`\}]
-%   defaults to ``Doctor of Philosophy''
-%\item[School\char`\{{\it school name}\char`\}] defaults to
-%``University of Washington''
-%\item[Degreetext\char`\{{\it degree text}\char`\}] defaults to
-%``A dissertation submitted \ldots''
-%\item[textofCommittee\char`\{{\it committee label}\char`\}] defaults to
-%``Reading Committee:''
-%\item[textofChair\char`\{{\it chair label}\char`\}] defaults to
-%``Chair of the Supervisory Committee:''
-%\end{list}
-%
-%These definitions must appear \underline{before} the \verb"\titlepage" command.
-%
-% 
-%\subsection{Abstract}
-%Print the
-%abstract with \verb"\abstract".
-%It has one argument, which is the text of the abstract.
-%All the names have already been defined.
-%The abstract of this thesis was printed with
-% 
-%\begin{demo}
-%\\abstract\{This sample . . . `real' dissertation.\}
-%\end{demo}
-% 
-% 
-%\subsection{Tables of contents}
-%Use the standard \LaTeX\ commands to format these items.
-% 
-% 
-%\subsection{Acknowledgments}
-%Use the \verb"\acknowledgments" macro to format the acknowledgments page.
-%It has one argument, which is the text of the acknowledgment.
-%The acknowledgments of this thesis was printed with
-% 
-%\begin{demo}
-%\\acknowledgments\{The author wishes . . . \{\\it il miglior fabbro\}.\\par\}\}
-%\end{demo}
-% 
-% 
-%\subsection{Dedication}
-%Use the \verb"\dedication" macro to format the dedication page.
-%It has one argument, which is the text of the dedication.
-% 
-%\subsection{Vita}
-%Use the \verb"\vita" macro to format the curriculum vitae.
-%It has one argument, which chronicles your life's accomplishments.
-%
-%Note that the Vita is not really a preliminary page.
-%It appears at the end of your thesis, just after the appendices.
-% 
-% 
-%%%  
-%%% \section{Customization of the Macros}
-%%%  
-%%% Simple customization, including 
-%%% alteration of default parameters,  changes to dimensions,
-%%% paragraph indentation, and margins, are not too difficult.
-%%% You have the choice of modifying the class file ({\tt uwthesis.cls})
-%%% or loading
-%%% one or more personal style files to customize your thesis.
-%%% The latter is usually most convenient, since you do not need
-%%% to edit the large and complicated class file.
-%%% 
-% 
-%
-%
-%% ========== Chapter 4
-% 
-%\chapter{Running \LaTeX\\
-%  ({\it and printing if you must})}
-% 
-% 
-%From a given source \TeX\ will produce exactly the same document
-%on all computers and, if needed, on all printers.  {\it Exactly the same}
-%means that the various spacings, line and page breaks, and
-%even hyphenations will occur at the same places.
-%
-%How you edit your text files and run \LaTeX\ varies
-%from system to system and depends on your personal preference.
-%
-%\section{Running}
-%
-%The author is woefully out of his depth where 
-%\TeX\ on Windows is concerned.  Google would be his resource.
-%On a linux system he types
-%
-%\begin{demo}
-%\$\ pdflatex uwthesis
-%\end{demo}
-%
-%and it generally works.
-%
-% 
-%\section{Printing}
-% 
-%All implementations of \TeX\ provide the option of {\bf pdf} output,
-%which is all the Graduate School requires.  Even if you intend to
-%print a copy of your thesis create a 
-%{\tt pdf}.  It will print most anywhere.
-%
-%\printendnotes
-%
-%%
-%% ==========   Bibliography
-%%
-%\nocite{*}   % include everything in the uwthesis.bib file
-%\bibliographystyle{plain}
-%\bibliography{uwthesis}
-%%
-%% ==========   Appendices
-%%
-%\appendix
-%\raggedbottom\sloppy
-% 
-%% ========== Appendix A
-% 
-%\chapter{Where to find the files}
-% 
-%The uwthesis class file, {\tt uwthesis.cls}, contains the parameter settings,
-%macro definitions, and other \TeX nical commands which
-%allow \LaTeX\ to format a thesis.  
-%The source to
-%the document you are reading, {\tt uwthesis.tex},
-%contains many formatting examples
-%which you may find useful.
-%The bibliography database, {\tt uwthesis.bib}, contains instructions
-%to BibTeX to create and format the bibliography.
-%You can find the latest of these files on:
-%
-%\begin{itemize}
-%\item My page.
-%\begin{description}
-%\item[] \verb%http://staff.washington.edu/fox/tex/uwthesis.html%
-%\end{description}
-%
-%\item CTAN
-%\begin{description}
-%\item[]  \verb%http://tug.ctan.org/tex-archive/macros/latex/contrib/uwthesis/%
-%\item[]  (not always as up-to-date as my site)
-%\end{description}
-%
-%\end{itemize}
-%
-%\vita{Jim Fox is a Software Engineer with IT Infrastructure Division at the University of Washington.
-%His duties do not include maintaining this package.  That is rather
-%an avocation which he enjoys as time and circumstance allow.
-%
-%He welcomes your comments to {\tt fox@uw.edu}.
-%}
+Note to readers of thesis draft: The above two sections belong to a manuscript currently in preparation, and will be added later, reorganized into a separate chapter.
+
+\chapter{Finite-T Charge Transfer in MgO Under Extreme X-ray Heating: A Crystal of Hollow Atoms}
+Note to readers of thesis draft: This chapter belong to a manuscript currently in preparation, and will be added later. 
+
+\chapter{A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and
+Single-Board Computers}
+\input{../pandoc/cmos1.tex}
+
+\input{cmos2.tex}
+
+\input{lcls_tools.tex}
 
 
 \end{document}

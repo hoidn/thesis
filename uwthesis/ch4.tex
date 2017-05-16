@@ -1,0 +1,99 @@
+\section{X-ray Free Electron Lasers}
+XFELs produce radiation of unprecedented brilliance (10 orders of magnitude higher than undulator radiation from third-generation synchrotron sources), full transverse coherence, pulse durations as short as 10 fs. This combination of capability far exceeds that possible with third-generation light sources and opens new frontiers in imaging and the interrogation of ultrafast processes in materials science and biology (cites). In this section we summarize how this technology works and give an overview of its range of applications in the study of HED states of matter.
+
+\subsection{Physics of XFELs}
+To describe the FEL interaction, we first consider the generic case of radiation emission from undulators, the type of insertion device used in both XFELs and the highest-brilliance beamlines at third-generation synchrotron light sources.
+
+A simple time-of-flight argument may be used to obtain an intuitve understanding of radiation by a single electron in an undulator. A radiation wavefront co-propagating with an electron undergoing forced transverse undultion with a (longitudinal) period $\lambda_u$ will move ahead of the electron. Constructive interference of the radiation field produced by successive undulationso of the electron will occurr at discrete values of the electromagnetic wavelength, $\lambda_n$, satisfying $\lambda_n = \lambda_1 / n$, where $\lambda_1$ is defined as the fundamental resonant wavelength. The time $t$ taken for an electron to propagate one undulator period $\lambda_u$ at speed $v_z$ ($t = \lambda_u/v_z$) is equal to that needed for a resonant wavefront travel the distance $\lambda_u + n \lambda_n$. Equating the propagation times for the wavefront and electron yields the relation (cite McNeil et al.)
+
+\begin{equation}
+\lambda_n = \frac{\lambda_u}{n}(\frac{1 - v_z/c}{v_z/c}).
+\end{equation}
+
+More detailed treatment shows that, in the case of a helical undulator, only the fundamental mode has strong on-axis emission. (cites)
+
+This describes the narrow spectral width of undulator radiation and the coherent addition of radiated wave amplitudes by a single electron over the length of an undulator. This constructive intereference accounts for the much higher brilliance of radiation produced by an undulator, compared to a wiggler or bending magnet. 
+
+At a synchrotron light source electrons in a bunch have uncorrelated positions, and the undulator spectrum is therefore a simple incoherent sum of the emission of all individual electrons passing through it. An XFEL improves on this by creating a positional ordering electrons into `micro-bunches' separated from one another by the radiation field wavelength. The coherent emission from multiple micro-bunches with $N_b$ electrons each would be equivalent, in an idealized case where the micro-bunch dimension were much smaller than the x-ray wavelength, to that from point-like charges of magnitude $e N_b$, with a resulting factor of $N_b^2$ enhancement in brilliance relative to that from an unordered electron bunch. (cite)
+
+Electrons in an undulator experience a longitudinal force from the radiation field that is modulated by its period. The consequent bunching of electrons with a period equal to the X-ray wavelength is a self-reinforcing process referred to as self amplified stimulated emission (SASE) (cites). Crucially, the occurrence of SASE requires a sufficiently strong initial radiation field, which third-generation sychrotron storage rings--having 100 ps-duration electron bunches--are not capable of producing. The key feature of an XFEL is its use of a linear accellerator to to produce very compact electron bunches with sufficient electron density to bootstrap SASE.
+
+% TODO: anything else to say?
+
+
+\subsection{XFELs and WDM generation}
+ (cites, reference a figure comparing different technolgies). Maximum single-shot flux densities exceed $10^4~J/cm^2$, sufficient to produce HED states with per atom energy deposition over 100 eV with uniform, volumetric heating. (TODO: what flux densities are possible with more tightly-focusing optics?). Because XFEL radiation is monochromatic it can be used as a probe for nearly all X-ray diagnostics useful for determination of the state variables of WDM, with the notable exception of XAS.  Taken together, these characterstics make XFELs ideal for both producing and probing short-timescale dynamics of HED matter. (cites)
+
+One of the most significant recent advances in XFEL technology is the generation of two-color pairs of hard X-ray pulses. This is done by production of time-delayed twin electron bunches (achieved either by illuminating the source cathode with a train of two laser pulses, or using an emmitance spoiler) (cite Marinelli et al., Lutman et al.) and the addition of magnetic chicanes that introduce a time-energy correlation in the electron beam before the bunches' entry into the undulator. At the LCLS, two color X-ray pulse energies up to the mJ level--approaching the values of single-pulse SASE--have been demonstrated. X-ray arrival time delays are variable between 30 and 125 fs, and maximum color separations of up to 1.9 \% of the photon energy have been demonstrated (cite Lutman).
+
+Operating an XFEL in two-color mode opens up significant possibilities for truly time-resolved probes of WDM. In single-pulse operation the time evolution of an XFEL-heated target can, to some extent, be studied by variation of pulse duration. However, such a study yields a signal that, for each XFEL configuration, is a convolution over all states the target transitioned as it heated throughout each pulse's duration. In contrast, two-color operation offers two advantages:
+
+\begin{itemize}
+\item{Temporal resolution: by choosing pulse energies that straddle an absorption edge of a chemical filter (in the case of an XRD probe), or of the target itself (in the case of an XES probe), signal from the pump pulse can be rejected. Varying pump-probe delay thus allows measuring the sample's temporal response to the pump.}
+\item{Uniformity of probed state: By additionally reducing the intensity of the probe relative to the pump, one can ensure that the probe is only a weak perturbation to the heated state generated by the pump.}
+\end{itemize}
+% TODO refereence the schematic (from general slides) of a two-color experiment with CF and all
+
+The possibility of clean time-resolved studies of XFEL-generated WDM is quite attractive, given that the electronic relaxation cascade in a heated solid consists of several partially-overlapping stages of uncertain durations: i.e. collisional ionization by hot electrons; stimulation of long-wavelength collective excitations; damping of large-q excitations though production of electron-hole pairs. Lack of prior information in the physics under scrutiny requires the highest-information diagnostics possible.
+
+\section{HED physics at XFEL facilities}
+\subsection{Early experiments}
+Initial efforts at FLASH and LCLS, the first free electron lasers operating at short wavelengths, have been focused on the creation of exotic states and the exploration of interactions of high-intensity hard X rays with matter. Thomas et al. and others have studied the Coulomb explosion of noble gas clusters, including the dynamics of nanoplasma formation (cite Thomas et al.). Using intense XFEL radiation Young et al. demonstrated the production of fully-stripped Ne atoms as well as induced X-ray transparency in `hollow' atoms, a manifestation of `beating' the Auger clock though ionization rates faster than the recombination times of core electrons. Their modeling of X-ray/atom interactions using a rate-equation based approach yielded predictions of atomic populations consistent with electron spectroscopy, providing an early validation of the applicaton of population kinetics codes such as SCFLY to the simulation of XFEL-matter interactions. (cite Young, maybe cite SCFLY paper and check that it wasn't originally written with XFEL simulation in mind).
+
+
+Nagler et al. have similarly demonstrated saturable absorption of an L-shell transition in Al, where the long lifetime of 2p vacancies allowed complete depopulation within a single XFEL pulse at incident intensities on the order of $10^{16}$ W/cm$^2$ and 92 eV photon energy. (cite Nagler). This experiment was the first demonstration of a bulk, crystalline material in a high-energy density (and highly non-thermal) electronic configuration. (check that this is true). 
+
+% new section?
+\section{Scientific Directions}
+\subsection{Time dynamics of WDM states}
+The ability ability of XFELs to create transient solid-density HED states invites basic questions about the creation of these states and their temporal evolution. Population kinetics codes such as SCFLY are a well-established tool to simulate the electronic evolution of an XFEL-heated material, but such codes are based on atomic physics treatments and are not all-encompassing, as they omit sold-state electronic structure as well as the interaction of electrons with the lattice of a solid-density system.  Hau Riege et al. have examined electron-ion dynamics during heating by a single XFEL pulse, using comparison of Bragg diffraction from heated graphite with molecular dynamics simulation to quantify perturbation of the atomic lattice. They have identified melting of the graphite lattice within 40 fs pulses--far shorter in duration than the ps-timescale of electron-phonon coupling indicating an ultrafast phase transition. We revisit Hau-Riege's conclusions in a different light in section (which section?), but their work pertinently demonstates that the characterization of even coarse-grained quantities such as lattice thermalization timescales gives insight into the new physical regimes that XFELs are capable of producing and probing. 
+
+Similar observations apply to electron-electron thermalization in a solid, where damped collective excitations (ie. plasmons) may play a significant role as a bottleneck stage between absorption of XFEL photons and eventual thermalization of atomic electrons (cite Egerton, Sorini, maybe dig up cites from HEF paper). 
+
+As alluded to above, two-color XFEL operation is a promising potential means of addressing these questions. 
+
+\subsection{Tests of Finite-T electronic structure}
+The output quantity of a density functional theory (DFT) simulation is real-space charge density. At the same time, the real-space charge distribution of a crystalline XFEL target material can be interrogated via X-ray diffraction, which samples the unit cell structure factor at momentum transfers corresponding to vectors of the reciprocal lattice. Because a material's lattice typically does not have sufficient time to respond to the changing electronic configuration over the duration of an XFEL pulse, XRD from WDM states produced by an XFEL can be directly compared to predictions of frozen-lattice finite-temperature DFT calculations.
+
+This observation has led Valenza et al. to generate predictions of the consequences of XFEL heating on the intensities of Bragg peaks in several materials using DFT calculations in VASP (cite Valenza et al.). They have shown that the information in the XRD signal is sufficient for discrimination between competing theoretical predictions, provided the XRD measurement is performed over a sufficiently wide range of momentum transfers. Valenza et al. demonstrate stong testable signatures of condensed-phase effects in each of LiF, graphite, diamond, and Be as a result of heating to temperatures on the order of 10 eV. A summary of their results is reproduced in Fig. (reference figure).
+
+The capability to test predictions of finite-temperature electronic structure models is a unique feature of XFEL-based experiments. We will explore the topic in some more detail in section (reference section), where we have the opportunity to apply it to experimental data. 
+
+\section{Design of an XFEL heating experiment}
+One can identify several experimental desirata shared by the majority of XFEL-based studies of WDM wherein the primary probe is X-ray diffraction:
+
+% TODO: might need some kind of an introduciton here to explain why I'm suddenly focusing on XRD
+\begin{itemize}
+\item{Maximization of information in the XRD signal}
+\item{Effective target heating so as to maximimize the accessible range of energy densities}
+\item{Time resolution}
+\end{itemize}
+
+Each of these can be achieved in one or more ways. Respectively:
+
+\begin{itemize}
+\item{As alluded to in section (reference section), better-constrained estimates of real space charge density can be obtained by sampling a larger number of Bragg reflections. This requires probing a large momentum transfer range, made possible by using a high incident photon energy.}
+\item{In bulk samples, a high density of deposited energy requires matching the incident photon energy to a value at which the photoelectric absorption cross section is large. In section (reference section) we will introduce an alternate approach based on the design of structured targets that relaxes this constraint on incident photon energy.}
+\item{Wherever a single XFEL pulse is used to both heat and probe a sample, a limited degree of sensitivity to the time-evolution of transient states can be had by varying time duration. Two-color XFEL operation, however, is much more attractive. However, it suffers from tradeoffs: most notably experimental complexity and reduced signal, due to the need for attenuation of the probe pulse relative to the pump. }
+\end{itemize}
+
+These goals, and the tradeoffs that accompany them, are important context for both the experimental work described in the next section and the modeling-based exploration of experimental technique discussed in section (reference section).
+
+\section{Experimental Work}
+In the following I describe several experimental results arising from two beam runs at the Matter of Extreme Conditions (MEC) endstation at the Linac Coherent Light Source (LCLS) in June of 2014 and January of 2016. The studies conducted addressed questions about the relative magnitudes, and time scales, of lattice and electronic heating in various solids, mainly metal oxides. The primary diagnostic was XRD, with which we measured changes in electronic charge distribution as a function of incident flux, with the eventual goal of comparison to finite-T condensed matter electronic structure theory, as described in (reference section). The secondary diagnostic--used in a subset of the studies--was a von Hamos X-ray emission spectrometer with a highly annealed pyrolitic graphite (HAPG) analyzer crystal and 9 eV energy resolution, with which heating-induced line shifts and changes in valence-level emission were measured. 
+
+Throughout these measurements the XFEL beam was brought to a focus at the sample location using a stack of Be lenses. Flux incident on-sample was altered through a combination of beam attennuation and variation of the focal spot diameter between minimum and maximum values of 2 and 58 microns. XRD data was collected on a quad CSPAD solid state detector downstream from the sample (cite CSPAD paper).
+
+In samples wherein the signal was weak compared to time variations in the area detector pedestal values, additional processing was performed in order to reconstruct signal incident on the detector. Because Bragg peak intensities are the values of interest in interpretation of the XRD data, peak- and background fitting was performed on the powder  the figure of interest in our XRD analyses is the Br
+% TODO figure out how mucn detail on the XRD processing flow is needed here
+
+This is described in more detail in section (reference section), which details analysis and modeling of electronic heating based on an XRD dataset of XFEL-heated MgO.
+ 
+\subsection{Testing Lattice Thermalization in XFEL-heated Solid State Systems}
+Fig. (reference figure) (a, b) displays the progression of Bragg peak intensities as a function of incident flux for two different $\mathrm{Fe}_3\mathrm{O}_4$ targets heated by 45 fs XFEL pulses. It demonstrates monotonic declines in the intensities of all Bragg peaks as a function of flux density, with the exception of the 222 peak, which rises to a maximum at the second-lowest flux density point before declining.
+
+It is straightforward to evaluate the relative contributions of thermalization of electronic and lattice degrees of freedom to the XRD signal's evolution os a function of heating. The main distinguishing feature between these two components is that the latter causes Debye-Waller quenching of Bragg peak intensities that is approximately proportional to $e^{-q^2\langle u^2 \rangle}$, where $q$ is momentum transfer and $u$ is atomic displacement. Fig. (reference figure) compares the experimental data to this Debye-Waller progression for several different values of RMS atomic displacement. The experimental data shows a complete lack of Debye-Waller-like $q$-dependence in Bragg peak intensities at high levels of heating, signifying that the XRD response is strongly dominated by reorganization of electronic charge density within a unit cell. 
+
+The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be further interpreted through comparison of the data to a simple atomic form factor-based model of ionization (the model is described more specifically in section (reference section)). We find that the model reproduces the anomalous rise in intensity of the 222 reflection (reference figure) via a loss of destructive interference between the valence wavefunctions of O and Fe as both are simulataneously ionized. (cite paper in preparation).
+
+

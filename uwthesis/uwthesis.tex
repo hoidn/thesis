@@ -709,7 +709,7 @@ f_n(q) = \frac{E_n}{R} \frac{\mid \epsilon_n(q)\mid ^2}{(q a_0)^2},
 
 where $R = (m_0 e^4 / 2)(4 \pi \epsilon_0 \hbar)^{-2}$, the Rydberg energy, and $E_n$ is the energy change of the transition. 
 
-The GOS is in general continuous and therefore better expressed as a density with dimensions 1/energy, i.e. $df(q, E)/dE$. This allows us to re-express the double-differential cross section of inelastic scattering as follows:
+The GOS is in general continuous and therefore better expressed as a density with dimensions 1/energy, i.e. $df(q, E)/dE$, where $E$ is energy loss. This allows us to re-express the double-differential cross section of inelastic scattering as follows:
 
 \begin{equation} \label{inelastic_DDCS}
 \frac{d^2\sigma}{d\Omega dE} = {4 R}{Eq^2} \frac{k_1}{k_0} \frac{df}{dE}(q, E).
@@ -724,11 +724,11 @@ Ritchie (cite Ritche 1957) showed, using Poisson's equation and Fourier transfor
 
 
 \begin{equation} \label{stp}
-\frac{dE}{dz} = \frac{2\hbar^2}{\pi a_0 m_0 v^2} \int \int \frac{q_y \omega Im[-1/\epsilon(q, \omega)]}{q_y^2 + (\omega/v)^2},
+\frac{dE}{dz} = \frac{2\hbar}{\pi a_0 m_0 v^2} \int \int \frac{q_y E Im[-1/\epsilon(q, E)]}{q_y^2 + (E/\hbar v)^2},
 \end{equation}
 
 % TODO: vectors?
-where $q_y$ is the component of the momentum transfer vector perpendicular to $v$ and $\omega = E/\hbar$ is an angular frequency. This quantity is referred to as the stopping power. It can be expressed in terms of the previously-defined DDCS:
+where $q_y$ is the component of the momentum transfer vector perpendicular to $v$ and $\omega = E/\hbar$. This quantity is referred to as the stopping power. It can be expressed in terms of the previously-defined DDCS:
 
 \begin{equation} \label{stp2}
 \frac{dE}{dz} = \int \int n E \frac{d^2\sigma}{d\Omega dE} d\Omega dE,

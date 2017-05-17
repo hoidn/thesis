@@ -16,17 +16,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}X-Ray Free Electron Lasers}{9}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}X-ray diagnostics of WDM}{10}{section.1.3}
+\contentsline {section}{\numberline {1.3}X-ray diagnostics of WDM}{9}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Scattering}{10}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.2}Coherent Scattering}{13}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}X-ray absorption}{14}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}X-ray absorption}{15}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}X-ray Emission and X-ray Fluorescence}{17}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}X-ray Emission and X-ray Fluorescence}{16}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Dissertation Outline}{19}{section.1.4}
+\contentsline {section}{\numberline {1.4}Dissertation Outline}{18}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 2:}Physics of PENELOPE}{20}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -36,9 +36,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Assumptions}{22}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{22}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{23}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Inelastic scattering}{26}{section.2.2}
+\contentsline {section}{\numberline {2.2}Inelastic scattering}{25}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Dielectric function}{27}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
@@ -46,184 +46,240 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Accuracy and useful regimes}{30}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Low-energy loss DCS}{31}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Nanophase dielectric functions}{30}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Energy cutoffs}{31}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Numerical bound on low-energy loss DCS uncertainties}{31}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Elastic scattering}{32}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Energy cutoffs}{32}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Elastic scattering}{32}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Inelastic scattering}{33}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Dosimetry}{34}{section.2.5}
+\contentsline {section}{\numberline {2.5}Dosimetry}{35}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}A Photometric Study of Energy-Dispersive X-ray Diffraction at a Laser Plasma Facility}{36}{chapter.3}
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Nonlocal Heat Transport and Improved Target Design for X-ray Heating Studies at X-ray Free Electron Lasers}{36}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}I Introduction}{37}{section.3.1}
+\contentsline {section}{\numberline {3.1}I. Introduction}{37}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}II Methods}{41}{section.3.2}
+\contentsline {section}{\numberline {3.2}II. Methods}{40}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}II.A. Source and target}{41}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}III. Results and discussion}{42}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}II.B. Photon-electron interactions and numerical modeling }{42}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.4}IV. Conclusion}{45}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}II.C. Spectrometers for detection of ED-XRD}{46}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.4.1}Acknowledgements}{45}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}III Results and discussion}{49}{section.3.3}
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}A Photometric Study of Energy-Dispersive X-ray Diffraction at a Laser Plasma Facility}{53}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}IV. Conclusions}{59}{section.3.4}
+\contentsline {section}{\numberline {4.1}I Introduction}{54}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Acknowledgements}{59}{section.3.5}
+\contentsline {section}{\numberline {4.2}II Methods}{58}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}References}{61}{section.3.6}
+\contentsline {subsection}{\numberline {4.2.1}II.A. Source and target}{58}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}\textsuperscript {1} J. D. Lindl, P. Amendt, R. L. Berger, S. G. Glendinning, S. H. Glenzer, S. W. Haan, R. L. Kauffman, O. L. Landen, and L. J. Suter, Physics of Plasmas 11, 339 (2004).}{61}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {4.2.2}II.B. Photon-electron interactions and numerical modeling }{59}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}\textsuperscript {2} E. I. Moses, Nuclear Fusion 49, 104022 (2009).}{61}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {4.2.3}II.C. Spectrometers for detection of ED-XRD}{62}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}\textsuperscript {3} F. Langenhorst, M. Boustie, A. Migault, and J. P. Romain, Earth and Planetary Science Letters 173, 333 (1999).}{61}{subsection.3.6.3}
+\contentsline {section}{\numberline {4.3}III Results and discussion}{64}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.4}\textsuperscript {4} J. Gattacceca, M. Boustie, E. Lima, B. P. Weiss, T. de Resseguier, and J. P. Cuq-Lelandais, Physics of the Earth and Planetary Interiors 182, 42 (2010).}{61}{subsection.3.6.4}
+\contentsline {section}{\numberline {4.4}IV. Conclusions}{78}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.5}\textsuperscript {5} H. Takabe, et al., Plasma Physics and Controlled Fusion 50, 124057 (2008).}{61}{subsection.3.6.5}
+\contentsline {section}{\numberline {4.5}Acknowledgements}{78}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.6}\textsuperscript {6} L. O. Silva, M. Marti, J. R. Davies, R. A. Fonseca, C. Ren, F. S. Tsung, and W. B. Mori, Physical Review Letters 92, 015002 (2004).}{61}{subsection.3.6.6}
+\contentsline {section}{\numberline {4.6}References}{80}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.7}\textsuperscript {7} B. A. Remington, R. P. Drake, H. Takabe, and D. Arnett, Physics of Plasmas 7, 1641 (2000).}{61}{subsection.3.6.7}
+\contentsline {subsection}{\numberline {4.6.1}\textsuperscript {1} J. D. Lindl, P. Amendt, R. L. Berger, S. G. Glendinning, S. H. Glenzer, S. W. Haan, R. L. Kauffman, O. L. Landen, and L. J. Suter, Physics of Plasmas 11, 339 (2004).}{80}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.8}\textsuperscript {8} H.-S. Park, et al., High Energy Density Physics 8, 38 (2012).}{61}{subsection.3.6.8}
+\contentsline {subsection}{\numberline {4.6.2}\textsuperscript {2} E. I. Moses, Nuclear Fusion 49, 104022 (2009).}{80}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.9}\textsuperscript {9} M. Koenig, et al., Physics of Plasmas 13, 056504 (2006).}{61}{subsection.3.6.9}
+\contentsline {subsection}{\numberline {4.6.3}\textsuperscript {3} F. Langenhorst, M. Boustie, A. Migault, and J. P. Romain, Earth and Planetary Science Letters 173, 333 (1999).}{80}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.10}\textsuperscript {10} A. Macchi, M. Borghesi, and M. Passoni, Reviews of Modern Physics 85, 751 (2013).}{61}{subsection.3.6.10}
+\contentsline {subsection}{\numberline {4.6.4}\textsuperscript {4} J. Gattacceca, M. Boustie, E. Lima, B. P. Weiss, T. de Resseguier, and J. P. Cuq-Lelandais, Physics of the Earth and Planetary Interiors 182, 42 (2010).}{80}{subsection.4.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.11}\textsuperscript {11} G. Gregori, et al., Nature 481, 480 (2012).}{61}{subsection.3.6.11}
+\contentsline {subsection}{\numberline {4.6.5}\textsuperscript {5} H. Takabe, et al., Plasma Physics and Controlled Fusion 50, 124057 (2008).}{80}{subsection.4.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.12}\textsuperscript {12} F. Fiuza, R. A. Fonseca, J. Tonge, W. B. Mori, and L. O. Silva, Physical Review Letters 108, 235004 (2012).}{61}{subsection.3.6.12}
+\contentsline {subsection}{\numberline {4.6.6}\textsuperscript {6} L. O. Silva, M. Marti, J. R. Davies, R. A. Fonseca, C. Ren, F. S. Tsung, and W. B. Mori, Physical Review Letters 92, 015002 (2004).}{80}{subsection.4.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.13}\textsuperscript {13} F. Dollar, et al., Physical Review Letters 110, 175002 (2013).}{61}{subsection.3.6.13}
+\contentsline {subsection}{\numberline {4.6.7}\textsuperscript {7} B. A. Remington, R. P. Drake, H. Takabe, and D. Arnett, Physics of Plasmas 7, 1641 (2000).}{80}{subsection.4.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.14}\textsuperscript {14} K. U. Akli, et al., Physical Review Letters 100, 165002 (2008).}{61}{subsection.3.6.14}
+\contentsline {subsection}{\numberline {4.6.8}\textsuperscript {8} H.-S. Park, et al., High Energy Density Physics 8, 38 (2012).}{80}{subsection.4.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.15}\textsuperscript {15} B. K. F. Young, et al., Review of Scientific Instruments 69, 4049 (1998).}{61}{subsection.3.6.15}
+\contentsline {subsection}{\numberline {4.6.9}\textsuperscript {9} M. Koenig, et al., Physics of Plasmas 13, 056504 (2006).}{80}{subsection.4.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.16}\textsuperscript {16} K. Oades, A. Evans, G. Slark, J. Foster, R. Eagleton, and E. Clark, Review of Scientific Instruments 75, 4222 (2004).}{61}{subsection.3.6.16}
+\contentsline {subsection}{\numberline {4.6.10}\textsuperscript {10} A. Macchi, M. Borghesi, and M. Passoni, Reviews of Modern Physics 85, 751 (2013).}{80}{subsection.4.6.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.17}\textsuperscript {17} J. Workman and G. A. Kyrala, Review of Scientific Instruments 72, 678 (2001).}{61}{subsection.3.6.17}
+\contentsline {subsection}{\numberline {4.6.11}\textsuperscript {11} G. Gregori, et al., Nature 481, 480 (2012).}{80}{subsection.4.6.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.18}\textsuperscript {18} C. Stoeckl, V. Y. Glebov, D. D. Meyerhofer, W. Seka, B. Yaakobi, R. P. J. Town, and J. D. Zuegel, Review of Scientific Instruments 72, 1197 (2001).}{61}{subsection.3.6.18}
+\contentsline {subsection}{\numberline {4.6.12}\textsuperscript {12} F. Fiuza, R. A. Fonseca, J. Tonge, W. B. Mori, and L. O. Silva, Physical Review Letters 108, 235004 (2012).}{80}{subsection.4.6.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.19}\textsuperscript {19} C. Sorce, et al., Review of Scientific Instruments 77, 10E518 (2006).}{61}{subsection.3.6.19}
+\contentsline {subsection}{\numberline {4.6.13}\textsuperscript {13} F. Dollar, et al., Physical Review Letters 110, 175002 (2013).}{80}{subsection.4.6.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.20}\textsuperscript {20} J. A. Oertel, et al., Review of Scientific Instruments 77, 10E308 (2006).}{61}{subsection.3.6.20}
+\contentsline {subsection}{\numberline {4.6.14}\textsuperscript {14} K. U. Akli, et al., Physical Review Letters 100, 165002 (2008).}{80}{subsection.4.6.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.21}\textsuperscript {21} O. L. Landen, et al., Review of Scientific Instruments 72, 627 (2001).}{61}{subsection.3.6.21}
+\contentsline {subsection}{\numberline {4.6.15}\textsuperscript {15} B. K. F. Young, et al., Review of Scientific Instruments 69, 4049 (1998).}{80}{subsection.4.6.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.22}\textsuperscript {22} L. T. Hudson, A. Henins, R. D. Deslattes, J. F. Seely, G. E. Holland, R. Atkin, L. Marlin, D. D. Meyerhofer, and C. Stoeckl, Review of Scientific Instruments 73, 2270 (2002).}{61}{subsection.3.6.22}
+\contentsline {subsection}{\numberline {4.6.16}\textsuperscript {16} K. Oades, A. Evans, G. Slark, J. Foster, R. Eagleton, and E. Clark, Review of Scientific Instruments 75, 4222 (2004).}{80}{subsection.4.6.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.23}\textsuperscript {23} E. L. Dewald, et al., Review of Scientific Instruments 75, 3759 (2004).}{61}{subsection.3.6.23}
+\contentsline {subsection}{\numberline {4.6.17}\textsuperscript {17} J. Workman and G. A. Kyrala, Review of Scientific Instruments 72, 678 (2001).}{80}{subsection.4.6.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.24}\textsuperscript {24} T. Doeppner, P. Neumayer, F. Girard, N. L. Kugland, O. L. Landen, C. Niemann, and S. H. Glenzer, Review of Scientific Instruments 79, 10E311 (2008).}{61}{subsection.3.6.24}
+\contentsline {subsection}{\numberline {4.6.18}\textsuperscript {18} C. Stoeckl, V. Y. Glebov, D. D. Meyerhofer, W. Seka, B. Yaakobi, R. P. J. Town, and J. D. Zuegel, Review of Scientific Instruments 72, 1197 (2001).}{80}{subsection.4.6.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.25}\textsuperscript {25} S. H. Glenzer and R. Redmer, Reviews of Modern Physics 81, 1625 (2009).}{61}{subsection.3.6.25}
+\contentsline {subsection}{\numberline {4.6.19}\textsuperscript {19} C. Sorce, et al., Review of Scientific Instruments 77, 10E518 (2006).}{80}{subsection.4.6.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.26}\textsuperscript {26} G. Gregori, et al., Physics of Plasmas 11, 2754 (2004).}{61}{subsection.3.6.26}
+\contentsline {subsection}{\numberline {4.6.20}\textsuperscript {20} J. A. Oertel, et al., Review of Scientific Instruments 77, 10E308 (2006).}{80}{subsection.4.6.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.27}\textsuperscript {27} H. J. Lee, et al., Physical Review Letters 102, 115001 (2009).}{61}{subsection.3.6.27}
+\contentsline {subsection}{\numberline {4.6.21}\textsuperscript {21} O. L. Landen, et al., Review of Scientific Instruments 72, 627 (2001).}{80}{subsection.4.6.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.28}\textsuperscript {28} C. Fortmann, H. J. Lee, T. Doeppner, R. W. Falcone, A. L. Kritcher, O. L. Landen, and S. H. Glenzer, Physical Review Letters 108, 175006 (2012).}{61}{subsection.3.6.28}
+\contentsline {subsection}{\numberline {4.6.22}\textsuperscript {22} L. T. Hudson, A. Henins, R. D. Deslattes, J. F. Seely, G. E. Holland, R. Atkin, L. Marlin, D. D. Meyerhofer, and C. Stoeckl, Review of Scientific Instruments 73, 2270 (2002).}{80}{subsection.4.6.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.29}\textsuperscript {29} B. A. Mattern, G. T. Seidler, and J. J. Kas, arXiv:1308.2990 (2013).}{61}{subsection.3.6.29}
+\contentsline {subsection}{\numberline {4.6.23}\textsuperscript {23} E. L. Dewald, et al., Review of Scientific Instruments 75, 3759 (2004).}{80}{subsection.4.6.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.30}\textsuperscript {30} V. Lider, Crystallography Reports 56, 169 (2011).}{61}{subsection.3.6.30}
+\contentsline {subsection}{\numberline {4.6.24}\textsuperscript {24} T. Doeppner, P. Neumayer, F. Girard, N. L. Kugland, O. L. Landen, C. Niemann, and S. H. Glenzer, Review of Scientific Instruments 79, 10E311 (2008).}{80}{subsection.4.6.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.31}\textsuperscript {31} M. Suggit, G. Kimminau, J. Hawreliak, B. Remington, N. Park, and J. Wark, Review of Scientific Instruments 81, 083902 (2010).}{61}{subsection.3.6.31}
+\contentsline {subsection}{\numberline {4.6.25}\textsuperscript {25} S. H. Glenzer and R. Redmer, Reviews of Modern Physics 81, 1625 (2009).}{80}{subsection.4.6.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.32}\textsuperscript {32} M. J. Suggit, et al., Nature Communications 3, 1224 (2012).}{61}{subsection.3.6.32}
+\contentsline {subsection}{\numberline {4.6.26}\textsuperscript {26} G. Gregori, et al., Physics of Plasmas 11, 2754 (2004).}{80}{subsection.4.6.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.33}\textsuperscript {33} B. Yaakobi, T. R. Boehly, D. D. Meyerhofer, T. J. B. Collins, B. A. Remington, P. G. Allen, S. M. Pollaine, H. E. Lorenzana, and J. H. Eggert, Physical Review Letters 95, 075501 (2005).}{61}{subsection.3.6.33}
+\contentsline {subsection}{\numberline {4.6.27}\textsuperscript {27} H. J. Lee, et al., Physical Review Letters 102, 115001 (2009).}{80}{subsection.4.6.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.34}\textsuperscript {34} J. L. Bourgade, et al., Review of Scientific Instruments 75, 4204 (2004).}{61}{subsection.3.6.34}
+\contentsline {subsection}{\numberline {4.6.28}\textsuperscript {28} C. Fortmann, H. J. Lee, T. Doeppner, R. W. Falcone, A. L. Kritcher, O. L. Landen, and S. H. Glenzer, Physical Review Letters 108, 175006 (2012).}{80}{subsection.4.6.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.35}\textsuperscript {35} T. Ma, et al., Physical Review Letters 110, 065001 (2013).}{61}{subsection.3.6.35}
+\contentsline {subsection}{\numberline {4.6.29}\textsuperscript {29} B. A. Mattern, G. T. Seidler, and J. J. Kas, arXiv:1308.2990 (2013).}{80}{subsection.4.6.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.36}\textsuperscript {36} Y. Feng, M. Somayazulu, R. Jaramillo, T. Rosenbaum, E. Isaacs, J. Hu, and H.-k. Mao, Review of Scientific Instruments 76, 063913 (2005).}{61}{subsection.3.6.36}
+\contentsline {subsection}{\numberline {4.6.30}\textsuperscript {30} V. Lider, Crystallography Reports 56, 169 (2011).}{80}{subsection.4.6.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.37}\textsuperscript {37} E. J. Mittemeijer and U. Welzel, \emph {Modern Diffraction Methods} (Wiley-VCH, 2012).}{61}{subsection.3.6.37}
+\contentsline {subsection}{\numberline {4.6.31}\textsuperscript {31} M. Suggit, G. Kimminau, J. Hawreliak, B. Remington, N. Park, and J. Wark, Review of Scientific Instruments 81, 083902 (2010).}{80}{subsection.4.6.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.38}\textsuperscript {38} Y. Feng, et al., Physical Review Letters 99, 137201 (2007).}{61}{subsection.3.6.38}
+\contentsline {subsection}{\numberline {4.6.32}\textsuperscript {32} M. J. Suggit, et al., Nature Communications 3, 1224 (2012).}{80}{subsection.4.6.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.39}\textsuperscript {39} S. Desgreniers, Y. K. Vohra, and A. L. Ruoff, Physical Review B 39, 10359 (1989).}{61}{subsection.3.6.39}
+\contentsline {subsection}{\numberline {4.6.33}\textsuperscript {33} B. Yaakobi, T. R. Boehly, D. D. Meyerhofer, T. J. B. Collins, B. A. Remington, P. G. Allen, S. M. Pollaine, H. E. Lorenzana, and J. H. Eggert, Physical Review Letters 95, 075501 (2005).}{80}{subsection.4.6.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.40}\textsuperscript {40} M. A. Baublitz, V. Arnold, and A. L. Ruoff, Review of Scientific Instruments 52, 1616 (1981).}{61}{subsection.3.6.40}
+\contentsline {subsection}{\numberline {4.6.34}\textsuperscript {34} J. L. Bourgade, et al., Review of Scientific Instruments 75, 4204 (2004).}{80}{subsection.4.6.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.41}\textsuperscript {41} B. R. Maddox, et al., Physics of Plasmas 18, 056709 (2011).}{61}{subsection.3.6.41}
+\contentsline {subsection}{\numberline {4.6.35}\textsuperscript {35} T. Ma, et al., Physical Review Letters 110, 065001 (2013).}{80}{subsection.4.6.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.42}\textsuperscript {42} B. Yaakobi, F. J. Marshall, T. R. Boehly, R. P. J. Town, and D. D. Meyerhofer, Journal of the Optical Society of America B-Optical Physics 20, 238 (2003).}{61}{subsection.3.6.42}
+\contentsline {subsection}{\numberline {4.6.36}\textsuperscript {36} Y. Feng, M. Somayazulu, R. Jaramillo, T. Rosenbaum, E. Isaacs, J. Hu, and H.-k. Mao, Review of Scientific Instruments 76, 063913 (2005).}{80}{subsection.4.6.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.43}\textsuperscript {43} B. Yaakobi, 2012 (private communication).}{61}{subsection.3.6.43}
+\contentsline {subsection}{\numberline {4.6.37}\textsuperscript {37} E. J. Mittemeijer and U. Welzel, \emph {Modern Diffraction Methods} (Wiley-VCH, 2012).}{80}{subsection.4.6.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.44}\textsuperscript {44} P. M. Nilson, 2012 (private communication).}{61}{subsection.3.6.44}
+\contentsline {subsection}{\numberline {4.6.38}\textsuperscript {38} Y. Feng, et al., Physical Review Letters 99, 137201 (2007).}{80}{subsection.4.6.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.45}\textsuperscript {45} K. U. Akli, et al., Physics of Plasmas 14, 023102 (2007).}{61}{subsection.3.6.45}
+\contentsline {subsection}{\numberline {4.6.39}\textsuperscript {39} S. Desgreniers, Y. K. Vohra, and A. L. Ruoff, Physical Review B 39, 10359 (1989).}{80}{subsection.4.6.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.46}\textsuperscript {46} S. Krishnan, S. Ansell, J. J. Felten, K. J. Volin, and D. L. Price, Physical Review Letters 81, 586 (1998).}{61}{subsection.3.6.46}
+\contentsline {subsection}{\numberline {4.6.40}\textsuperscript {40} M. A. Baublitz, V. Arnold, and A. L. Ruoff, Review of Scientific Instruments 52, 1616 (1981).}{80}{subsection.4.6.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.47}\textsuperscript {47} S. Krishnan and D. L. Price, Journal of Physics-Condensed Matter 12, R145 (2000).}{61}{subsection.3.6.47}
+\contentsline {subsection}{\numberline {4.6.41}\textsuperscript {41} B. R. Maddox, et al., Physics of Plasmas 18, 056709 (2011).}{80}{subsection.4.6.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.48}\textsuperscript {48} G. Gregori and D. O. Gericke, Physics of Plasmas 16, 056306 (2009).}{61}{subsection.3.6.48}
+\contentsline {subsection}{\numberline {4.6.42}\textsuperscript {42} B. Yaakobi, F. J. Marshall, T. R. Boehly, R. P. J. Town, and D. D. Meyerhofer, Journal of the Optical Society of America B-Optical Physics 20, 238 (2003).}{80}{subsection.4.6.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.49}\textsuperscript {49} J. Chihara, Journal of Physics-Condensed Matter 12, 231 (2000).}{61}{subsection.3.6.49}
+\contentsline {subsection}{\numberline {4.6.43}\textsuperscript {43} B. Yaakobi, 2012 (private communication).}{80}{subsection.4.6.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.50}\textsuperscript {50} W. Schuelke, \emph {Electron Dynamics by Inelastic X-Ray Scattering} (Oxford University Press, New York, 2007).}{61}{subsection.3.6.50}
+\contentsline {subsection}{\numberline {4.6.44}\textsuperscript {44} P. M. Nilson, 2012 (private communication).}{80}{subsection.4.6.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.51}\textsuperscript {51} P. Eisenberger and P. M. Platzman, Physical Review A 2, 415 (1970).}{61}{subsection.3.6.51}
+\contentsline {subsection}{\numberline {4.6.45}\textsuperscript {45} K. U. Akli, et al., Physics of Plasmas 14, 023102 (2007).}{80}{subsection.4.6.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.52}\textsuperscript {52} B. A. Mattern, G. T. Seidler, J. J. Kas, J. I. Pacold, and J. J. Rehr, Physical Review B 85, 115135 (2012).}{61}{subsection.3.6.52}
+\contentsline {subsection}{\numberline {4.6.46}\textsuperscript {46} S. Krishnan, S. Ansell, J. J. Felten, K. J. Volin, and D. L. Price, Physical Review Letters 81, 586 (1998).}{80}{subsection.4.6.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.53}\textsuperscript {53} Y. Jae-Hyuck, I. Jung Bin, P. Jong Bok, J. Hojeong, and P. G. Costas, Applied Physics Letters 100, 233124 (2012).}{61}{subsection.3.6.53}
+\contentsline {subsection}{\numberline {4.6.47}\textsuperscript {47} S. Krishnan and D. L. Price, Journal of Physics-Condensed Matter 12, R145 (2000).}{80}{subsection.4.6.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.54}\textsuperscript {54} A. J. Visco, R. P. Drake, S. H. Glenzer, T. Doppner, G. Gregori, D. H. Froula, and M. J. Grosskopf, Physical Review Letters 108, 145001 (2012).}{61}{subsection.3.6.54}
+\contentsline {subsection}{\numberline {4.6.48}\textsuperscript {48} G. Gregori and D. O. Gericke, Physics of Plasmas 16, 056306 (2009).}{80}{subsection.4.6.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.55}\textsuperscript {55} E. J. Gamboa, C. M. Huntington, M. R. Trantham, P. A. Keiter, R. P. Drake, D. S. Montgomery, J. F. Benage, and S. A. Letzring, Review of Scientific Instruments 83, 10E108 (2012).}{61}{subsection.3.6.55}
+\contentsline {subsection}{\numberline {4.6.49}\textsuperscript {49} J. Chihara, Journal of Physics-Condensed Matter 12, 231 (2000).}{80}{subsection.4.6.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.56}\textsuperscript {56} A. K. Freund, A. Munkholm, and S. Brennan, Optics for High-Brightness Synchrotron Radiation Beamlines Ii 2856, 68 (1996).}{61}{subsection.3.6.56}
+\contentsline {subsection}{\numberline {4.6.50}\textsuperscript {50} W. Schuelke, \emph {Electron Dynamics by Inelastic X-Ray Scattering} (Oxford University Press, New York, 2007).}{80}{subsection.4.6.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.57}\textsuperscript {57} R. Tommasini, et al., Review of Scientific Instruments 79, 10E901 (2008).}{61}{subsection.3.6.57}
+\contentsline {subsection}{\numberline {4.6.51}\textsuperscript {51} P. Eisenberger and P. M. Platzman, Physical Review A 2, 415 (1970).}{80}{subsection.4.6.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.58}\textsuperscript {58} A. L. Kritcher, et al., Science 322, 69 (2008).}{61}{subsection.3.6.58}
+\contentsline {subsection}{\numberline {4.6.52}\textsuperscript {52} B. A. Mattern, G. T. Seidler, J. J. Kas, J. I. Pacold, and J. J. Rehr, Physical Review B 85, 115135 (2012).}{80}{subsection.4.6.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.59}\textsuperscript {59} S. H. Glenzer, G. Gregori, R. W. Lee, F. J. Rogers, S. W. Pollaine, and O. L. Landen, Physical Review Letters 90, 175002 (2003).}{61}{subsection.3.6.59}
+\contentsline {subsection}{\numberline {4.6.53}\textsuperscript {53} Y. Jae-Hyuck, I. Jung Bin, P. Jong Bok, J. Hojeong, and P. G. Costas, Applied Physics Letters 100, 233124 (2012).}{80}{subsection.4.6.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.60}\textsuperscript {60} G. Gregori, et al., Journal of Quantitative Spectroscopy \& Radiative Transfer 99, 225 (2006).}{61}{subsection.3.6.60}
+\contentsline {subsection}{\numberline {4.6.54}\textsuperscript {54} A. J. Visco, R. P. Drake, S. H. Glenzer, T. Doppner, G. Gregori, D. H. Froula, and M. J. Grosskopf, Physical Review Letters 108, 145001 (2012).}{80}{subsection.4.6.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.61}\textsuperscript {61} A. Pak, G. Gregori, J. Knight, K. Campbell, D. Price, B. Hammel, O. L. Landen, and S. H. Glenzer, Review of Scientific Instruments 75, 3747 (2004).}{61}{subsection.3.6.61}
+\contentsline {subsection}{\numberline {4.6.55}\textsuperscript {55} E. J. Gamboa, C. M. Huntington, M. R. Trantham, P. A. Keiter, R. P. Drake, D. S. Montgomery, J. F. Benage, and S. A. Letzring, Review of Scientific Instruments 83, 10E108 (2012).}{80}{subsection.4.6.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.62}}{61}{subsection.3.6.62}
+\contentsline {subsection}{\numberline {4.6.56}\textsuperscript {56} A. K. Freund, A. Munkholm, and S. Brennan, Optics for High-Brightness Synchrotron Radiation Beamlines Ii 2856, 68 (1996).}{80}{subsection.4.6.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}X-ray Free Electron Laser-Based Studies of WDM}{62}{chapter.4}
+\contentsline {subsection}{\numberline {4.6.57}\textsuperscript {57} R. Tommasini, et al., Review of Scientific Instruments 79, 10E901 (2008).}{80}{subsection.4.6.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}X-ray Free Electron Lasers}{62}{section.4.1}
+\contentsline {subsection}{\numberline {4.6.58}\textsuperscript {58} A. L. Kritcher, et al., Science 322, 69 (2008).}{80}{subsection.4.6.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Physics of XFELs}{62}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.6.59}\textsuperscript {59} S. H. Glenzer, G. Gregori, R. W. Lee, F. J. Rogers, S. W. Pollaine, and O. L. Landen, Physical Review Letters 90, 175002 (2003).}{80}{subsection.4.6.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}XFELs and WDM generation}{64}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.6.60}\textsuperscript {60} G. Gregori, et al., Journal of Quantitative Spectroscopy \& Radiative Transfer 99, 225 (2006).}{80}{subsection.4.6.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}HED physics at XFEL facilities}{65}{section.4.2}
+\contentsline {subsection}{\numberline {4.6.61}\textsuperscript {61} A. Pak, G. Gregori, J. Knight, K. Campbell, D. Price, B. Hammel, O. L. Landen, and S. H. Glenzer, Review of Scientific Instruments 75, 3747 (2004).}{80}{subsection.4.6.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Early experiments}{65}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.6.62}}{80}{subsection.4.6.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Scientific Directions}{66}{section.4.3}
+\contentsline {chapter}{\numberline {\@textofChapter \ 5:}X-ray Free Electron Laser-Based Studies of WDM}{81}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Time dynamics of WDM states}{66}{subsection.4.3.1}
+\contentsline {section}{\numberline {5.1}X-ray Free Electron Lasers}{81}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Tests of Finite-T electronic structure}{67}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {5.1.1}Physics of XFELs}{81}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Design of an XFEL heating experiment}{67}{section.4.4}
+\contentsline {subsection}{\numberline {5.1.2}XFELs and WDM generation}{83}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Experimental Work}{68}{section.4.5}
+\contentsline {section}{\numberline {5.2}HED physics at XFEL facilities}{84}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Testing Lattice Thermalization in XFEL-heated Solid State Systems}{69}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {5.2.1}Early experiments}{84}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Observation of Nonlocal Heat Transport in Nanophase $\mathrm {Fe}_3\mathrm {O}_4$}{70}{subsection.4.5.2}
+\contentsline {section}{\numberline {5.3}Scientific Directions}{85}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}XES Signatures of Valence Electron Delocalization in XFEL-heated $\mathrm {Fe}_3\mathrm {O}_4$}{70}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Time dynamics of WDM states}{85}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Tests of Finite-T electronic structure}{86}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Design of an XFEL heating experiment}{86}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Experimental Work}{87}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.1}Testing Lattice Thermalization in XFEL-heated Solid State Systems}{88}{subsection.5.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.2}Observation of Nonlocal Heat Transport in Nanophase $\mathrm {Fe}_3\mathrm {O}_4$}{89}{subsection.5.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.3}XES Signatures of Valence Electron Delocalization in XFEL-heated $\mathrm {Fe}_3\mathrm {O}_4$}{89}{subsection.5.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Finite-T Charge Transfer in MgO Under Extreme X-ray Heating: A Crystal of Hollow Atoms}{95}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{96}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Abstract}{96}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Introduction}{96}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Methods, Results, and Discussion}{97}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Conclusions}{104}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Acknowledgments}{104}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}References}{104}{section.7.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofChapter \ 8:}A Color X-ray Camera for 2 -- 6 keV Using a Mass-Produced CMOS Sensor}{107}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Abstract}{107}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Introduction}{107}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}II. Experimental }{109}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}II.A. Hardware}{109}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.2}II.B. Software}{110}{subsection.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}III. Results and Discussion}{111}{section.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}IV. Conclusions and Future Directions}{117}{section.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.6}References}{117}{section.8.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{118}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{119}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{121}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}API features}{122}{section.9.3}

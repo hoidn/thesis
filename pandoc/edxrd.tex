@@ -139,16 +139,16 @@ experimentally-selectable parameters,
 \(k = \operatorname{(2E/c)sin}{2\theta}\). In practice, however, XRD is
 measured in only two modes: angle-resolved XRD (henceforth `AR-XRD') and
 energy-dispersive XRD (henceforth `ED-XRD'). Their distinction is best
-introduced kinematically. As illustrated in Fig. \ref{ed1}, any measurement of
+introduced kinematically. As illustrated in Fig. \ref{fig:ed1}, any measurement of
 \(S(k)\) must follow a curve in \(E\)-\(2\theta\) space which crosses
 many of the shown contours of constant \emph{k.} The parameter space
-probed by a typical AR-XRD experiment using \textasciitilde{}8 keV
+probed by a typical AR-XRD experiment using $\sim 8$ keV
 monochromatic incident photons is represented by the vertical curve in
 the figure. Experimentally, the necessary apparatus will include a
 monochromatic source and either an angle-scanning detector or a position
 sensitive detector (PSD), which we show schematically in Fig. \ref{edimage2} (a) and
 (b). On the other hand, a typical ED-XRD experiment instead resides on
-the horizontal curve in Fig. \ref{ed1}, \emph{i.e.}, at a fixed scattering angle
+the horizontal curve in Fig. \ref{fig:ed1}, \emph{i.e.}, at a fixed scattering angle
 of 135 degrees but requiring both a broad incident source spectrum and
 an energy-resolving detector. An experimental schematic for ED-XRD is
 presented in Fig. \ref{edimage2}(c). We note that ED-XRD has a long history in
@@ -226,7 +226,7 @@ In Fig. \ref{edimage3} we show a typical spectrum collected at OMEGA
 Because of the spectrum's supra-exponential decay, an ED-XRD experiment
 with this source is preferentially conducted at low energy, between 2
 and 6 keV, as shown in the ED-XRD curve at a scattering angle of 135
-degrees in Fig. \ref{ed1}. Also shown in Fig. \ref{edimage3} is the spectrum for a typical
+degrees in Fig. \ref{fig:ed1}. Also shown in Fig. \ref{edimage3} is the spectrum for a typical
 narrow band backlighter source at OMEGA, where these sources have seen
 extensive use in x-ray scattering studies, both elastic (XRD)
 \hyperref[t.-ma-et-al.-physical-review-letters-110-065001-2013.]{\textsuperscript{35}}
@@ -240,13 +240,16 @@ typical \emph{K\textsubscript{α}} photon yield of 4 ×
 \hyperref[p.-m.-nilson-2012-private-communication.]{\textsuperscript{44}}\textsuperscript{,}
 \hyperref[k.-u.-akli-et-al.-physics-of-plasmas-14-023102-2007.]{\textsuperscript{45}}.
 
-\begin{figure}[h] \label{ed1}
-\caption{ Contours of equal momentum transfer \(k\) (labeled in units of
+\begin{figure}[h]
+\caption{
+Contours of equal momentum transfer \(k\) (labeled in units of
 Å\textsuperscript{-1}) in energy and scattering angle. Angle-dispersive
 x-ray diffraction (AD-XRD) and energy-dispersive x-ray diffraction
 (ED-XRD) take vertical and horizontal cuts, respectively, to achieve
 broad coverage in \(k\) and thus obtain information about the radial
-distribution function.}
+distribution function.
+}
+\label{fig:ed1}
 \centering
 \includegraphics{media/image1.png}
 \end{figure}
@@ -298,7 +301,7 @@ and temperature \(T_{e}\) = 10 eV based on Ma \emph{et al.}
 The curve is based on an approximate treatment of this system's atomic
 form factor (see the text for details).}
 \centering
-\includegraphics[scale=0.9]{media/image4.png}
+\includegraphics[scale=1.0]{media/image4.png}
 \end{figure}
 
 \subsection{II.B. Photon-electron interactions and numerical modeling }
@@ -446,12 +449,13 @@ paper the following experimental parameters are used:
 0.25 mm × 0.25 mm × 0.1 mm; scattering angle \(2\theta\) = 135 degrees.
 These choices will be motivated below.
 
-\begin{figure}[h] \label{edimage2}
+\begin{figure}[h] 
 \caption{ Schematic representations of (a) and (b) angle-dispersive
 x-ray diffraction, compared to (c) energy-dispersive x-ray diffraction
 (ED-XRD).}
+\label{edimage2}
 \centering
-\includegraphics[scale=0.9]{media/image2.png}
+\includegraphics[scale=1.0]{media/image2.png}
 \end{figure}
 
 The modeled CCD has a 2-dimensional square grid of 2200 x 2200 pixels,
@@ -486,13 +490,14 @@ parameters. Using the labeling of Fig. \ref{edimage6} and, as an example, the
 spectrometer geometry described by Fig. \ref{edimage7} (a), the differential in \(k\)
 for scattering from the target is
 
-\begin{figure}[h] \label{edimage6}
+\begin{figure}[h] 
 \caption{ Experimental configuration
 for ED-XRD at a laser shock facility. A long pulse-driven CH capsule
 emits a broad thermal spectrum. Scattering from the target is observed
 using an HOPG spectrometer or a CCD in the single-photon hit regime.}
+\label{edimage6}
 \centering
-\includegraphics[scale=0.9]{media/image6.png}
+\includegraphics[scale=1.0]{media/image6.png}
 \end{figure}
 
 \(dk = \ \frac{\text{δk}}{\text{δE}}\ dE + \ \frac{\text{δk}}{\delta(2\theta)}\ d(2\theta) = \ \frac{E}{\text{ℏc}}\left( \sin{(\theta)\ \cot{\theta_{B}\  - \ \cos{(\theta)}}}\  \right)\text{dθ}_{B}\).
@@ -507,7 +512,7 @@ choice of HOPG reflection. Fig. \ref{edimage7} illustrates this. Salient feature
 and depends weakly on \(2\theta\ \)everywhere except at low
 \(k\)\emph{.}
 
-\begin{figure}[h] \label{edimage7}
+\begin{figure}[h] 
 \caption{ Range Δ\emph{k} in momentum transfer of scattering off the
 target probed by a small HOPG crystal per degree of its maximum
 subtended angle, \(\theta_{\max}\), for three spectrometer geometries
@@ -522,9 +527,10 @@ maximum possible subtended angle of the HOPG crystal given a fixed
 spectrometer working distance \(F\); \emph{i.e.}, for a crystal of
 length \(l\), the maximum subtended angle is
 \(\theta_{\max} = \ l/F\)\emph{.}}
+\label{edimage7}
 %\hyperdef{}{ux5fRef350527476}{}{}
 \centering
-\includegraphics[scale=0.9]{media/image7.png}
+\includegraphics[scale=1.0]{media/image7.png}
 \end{figure}
 
 That said, we can choose a typical configuration for an HOPG
@@ -592,7 +598,7 @@ cross section, as discussed in section II and shown in Fig. \ref{edimage5} (a) a
 (quasi-monochromatic) x-ray Thomson scattering using a metal-foil
 backlighter, and therefore better statistics.
 
-\begin{figure}[!ht] \label{edimage5}
+\begin{figure}[!ht] 
 \caption{ Elastic and inelastic contributions to the differential cross
 section of (a) boron and (b) aluminum. The elastic cross sections are
 based on tabulated values of \(f(k)\). The inelastic differential cross
@@ -601,13 +607,14 @@ sections, defined by
 are based on \(S\left( k,\ \omega^{'} \right)\) generated from
 \emph{f}-summed, truncated Compton profiles in the impulse
 approximation. See the text for further details.}
+\label{edimage5}
 \centering
-\includegraphics[scale=0.9]{media/image5.png}
+\includegraphics[scale=1.0]{media/image5.png}
 \end{figure}
 
 \FloatBarrier
 
-\begin{figure}[h] \label{edimage3}
+\begin{figure}[h] 
 \caption{ Red: experimental thermal
 backlighter spectrum from OMEGA
 \hyperref[b.-yaakobi-2012-private-communication.]{\textsuperscript{43}}\emph{.}
@@ -616,8 +623,9 @@ based on scaling of results from a lower energy laser system to a 2.5
 kJ, 10 ps laser shot at OMEGA
 \hyperref[p.-m.-nilson-2012-private-communication.]{\textsuperscript{44}}\textsuperscript{,}
 \hyperref[k.-u.-akli-et-al.-physics-of-plasmas-14-023102-2007.]{\textsuperscript{45}}\hyperref[b.-a.-mattern-g.-t.-seidler-j.-j.-kas-j.-i.-pacold-and-j.-j.-rehr-physical-review-b-85-115135-2012.]{}.}
+\label{edimage3}
 \centering
-\includegraphics[scale=0.9]{media/image3.png}
+\includegraphics[scale=1.0]{media/image3.png}
 \end{figure}
 
 In Fig. \ref{edimage8} we present \(I_{d}\left( E \right)\) defined in section II,
@@ -647,7 +655,7 @@ HOPG source spectrum exhibits excellent statistics (error bars
 energy range. While deteriorating at high energy, the CCD spectrum also
 has good statistics (error bars \textless{} 5 percent) below 4.5 keV.
 
-\begin{figure}[h] \label{edimage9}
+\begin{figure}[h] 
 \caption{ Photon-energy histograms on
 CCD and HOPG spectrometers for shock-compressed Al at electron density
 \(n_{e}\) = 5.4 × 10\textsuperscript{23} cm\textsuperscript{-3} and
@@ -664,11 +672,12 @@ and the length of the crystal in the non-energy dispersive orientation
 is 12 cm; both spectrometers are positioned at \(2\theta = 135\) deg. A
 20-µm thick Be foil is used to reject low-energy photons. Error bars in
 the HOPG histogram are smaller than 1\% (not shown).}
+\label{edimage9}
 \centering
-\includegraphics[scale=0.9]{media/image9.png}
+\includegraphics[scale=1.0]{media/image9.png}
 \end{figure}
 
-\begin{figure}[h] \label{edimage8}
+\begin{figure}[h] 
 \caption{ Photon-energy histograms for energy-dispersive diffraction
 spectra of liquid boron on CCD and HOPG spectrometers. The expectation
 value of photon counts/pixel on the CCD is \(p\) \emph{=} 0.1. The
@@ -680,8 +689,9 @@ dispersive orientation is 12 cm; both spectrometers are positioned at
 \(2\theta = 135\) deg. A 20-µm thick Be foil is used to reject
 low-energy photons. Error bars in the HOPG histogram are smaller than
 the size of the symbols.}
+\label{edimage8}
 \centering
-\includegraphics[scale=0.9]{media/image8.png}
+\includegraphics[scale=1.0]{media/image8.png}
 \end{figure}
 
 The relative merits of the two detectors are dictated by particular
@@ -730,7 +740,7 @@ reduced range of \(\theta_{B}\) from 21 to 49 degrees, for which a
 modest number of analyzer crystals would be required.
 
 
-\begin{figure} \label{edimage10}
+\begin{figure} 
 \caption{ \(S(k)\) for liquid boron
 reconstructed from simulated energy-dispersive spectra of Fig. 8 for (a)
 an HOPG spectrometer and (b) a CCD, with and without subtraction of
@@ -738,11 +748,12 @@ Compton background and photon double-counts. Data bin size is 100 eV.
 The shaded \(k\)-range in the HOPG spectrum corresponds to the
 spectrometer configuration described in the text, and is centered about
 the main correlation peak in \(S(k)\).}
+\label{edimage10}
 \centering
-\includegraphics[scale=0.9]{media/image10.png}
+\includegraphics[scale=1.0]{media/image10.png}
 \end{figure}
 
-\begin{figure}[h] \label{edimage11}
+\begin{figure}[h] 
 \hyperdef{}{ux5fRef350528323}{}{}
 \caption{ In blue: X-ray structure factor \(S(k)\) for shock-compressed
 Al computed from Ma, \emph{et al.}
@@ -752,8 +763,9 @@ an HOPG spectrometer and (b) a CCD. The data bin size is 100 eV. The
 shaded \(k\)-range in the HOPG spectrum corresponds to the spectrometer
 configuration described in the text and is centered about the main
 correlation peak in \(S(k)\).}
+\label{edimage11}
 \centering
-\includegraphics[scale=0.9]{media/image11.png}
+\includegraphics[scale=1.0]{media/image11.png}
 \end{figure}
 
 

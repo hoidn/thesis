@@ -283,3 +283,5 @@
 \contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{121}{section.9.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.3}API features}{122}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{124}{chapter*.3}

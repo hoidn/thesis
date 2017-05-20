@@ -41,33 +41,34 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>uwthesis.bcf</file>
+      <file>uwthesis.aux</file>
+      <file>uwthesis-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>uwthesis.bbl</file>
     </requires>
     <requires type="static">
-      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>authoryear.bbx</file>
+      <file>numeric.bbx</file>
       <file>standard.bbx</file>
-      <file>authoryear.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>uwthesis</infile>
     </cmdline>
     <input>
-      <file>uwthesis.bcf</file>
+      <file>uwthesis.aux</file>
     </input>
     <output>
       <file>uwthesis.bbl</file>
@@ -76,7 +77,14 @@
       <file>uwthesis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>uwthesis.bcf</file>
+      <file>uwthesis.aux</file>
+      <file>uwthesis-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>uwthesis.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

@@ -45,9 +45,11 @@
 %
 % The following line would print the thesis in a postscript font 
 
-% \usepackage{natbib}
-% \def\bibpreamble{\protect\addcontentsline{toc}{chapter}{Bibliography}}
+\usepackage[style=authoryear,backend=bibtex,style=numeric]{biblatex}
+\def\bibpreamble{\protect\addcontentsline{toc}{chapter}{Bibliography}}
+\addbibresource{uwthesis.bib}
 %
+
 
 \setcounter{tocdepth}{1}  % Print the chapter and sections to the toc
  
@@ -62,7 +64,6 @@
 \usepackage{fixltx2e}
 \usepackage{hyperref}
 \usepackage[pdftex]{graphicx}     
-\usepackage[style=authoryear]{biblatex}
 \usepackage{alltt}  % 
 %\usepackage{hyperref}  % 
 \newenvironment{demo}
@@ -79,6 +80,7 @@
 	linkcolor=black,
 	urlcolor=black
 }
+
 % metafont font.  If logo not available, use the second form
 %
 % \font\mffont=logosl10 scaled\magstep1
@@ -413,7 +415,7 @@ We finally turn our attention to the last term of \ref{sofq}, $S_{bf}$, whose co
 
 % TODO: examples of fruitful outcomes of WDM XRTS
 % TODO: (do predicitons of XRTS heavily depend on the choice of model, or is it just that uncertainties are high, regardless of the choice?) check brian's work
-In current practice, measurement of the  bound-free component of XRTS from WDM is performed in the large-$q$ regime, where the Compton feature is broad and can be measured using high-efficiency (but low-resolution) HOPG-based spectrometers (need cites for this). As such, single-particle bound-free scattering is more readily measured than collective excitation features. Since an early demonstration of the technique by Glenzer et al. (cite Glenzer 2003) it has been frequently implemented at both laser plasma and XFEL facilities (cite figures showing how these experiments are set up). Despite some fruitful outcomes, the large statistical uncertainties in XRTS spectra--particularly at laser plasma facilities, where single-shot measurements are photon-starved--make the inference of state variables difficult, and dependent on one's choice of electronic structure model. Mattern et al. have demonstrated this concretely by comparing theoretical fits to XRTS data of shock-compressed Be, and argue that the lack of rigorous validation of electronic structure models for WDM models strongly undermines their validity for first-principles measurement of state variables. 
+In current practice, measurement of the  bound-free component of XRTS from WDM is performed in the large-$q$ regime, where the Compton feature is broad and can be measured using high-efficiency (but low-resolution) HOPG-based spectrometers (need cites for this). As such, single-particle bound-free scattering is more readily measured than collective excitation features. Since an early demonstration of the technique by Glenzer et al. (cite Glenzer 2003) it has been frequently implemented at both laser plasma and XFEL facilities (cite figures showing how these experiments are set up). Despite some fruitful outcomes, the large statistical uncertainties in XRTS spectra--particularly at laser plasma facilities, where single-shot measurements are photon-starved--make the inference of state variables difficult, and dependent on one's choice of electronic structure model. \cite{mattern2013condensed} Mattern et al. have demonstrated this concretely by comparing theoretical fits to XRTS data of shock-compressed Be, and argue that the lack of rigorous validation of electronic structure models for WDM models strongly undermines their validity for first-principles measurement of state variables. 
 %With this context as motivation, we revisit the topic of WDM thermometry in chapter (reference chapter).
 % S. H. Glenzer, G. Gregori, F. J. Rogers, D. H. Froula, S. W. Pollaine, R. S. Wallace, and O. L. Landen. X-ray scattering from solid density plasmas. Physics of Plasmas, 10(6):2433–2441, 2003.
 % TODO fix the terminology here. Does XRTS refer to just bound-free contribution (don't think so)
@@ -656,7 +658,7 @@ We thus see that the angular deflections of elastic scattering decrease with inc
 Despite its simplicity, the Lenz model gives total cross sections to within 10 \% for light elements (cite Geiger 1964). For heavier species it underestimates the small-angle differential cross section (Fig. \ref{fig:e3.3}) but correctly reproduces the large-angle DCS.
 
 \begin{figure}[h] 
-	\caption{Angular dependence of elastic DCS of 30 keV electrons from a Hg atom under the Lenz model using the Wentzel potential (solid), and based on Hartree-Fock (dotted), Hartree-Slater (dot-dashed) and Dirac-Slater (dashed) wavefunctions.  \parencite{Reference1} }
+	\caption{Angular dependence of elastic DCS of 30 keV electrons from a Hg atom under the Lenz model using the Wentzel potential (solid), and based on Hartree-Fock (dotted), Hartree-Slater (dot-dashed) and Dirac-Slater (dashed) wavefunctions.  (cite Egerton) }
 	\label{fig:e3.3}
 \centering
 \includegraphics[scale=0.5]{../Figures/egerton_3_3.png}
@@ -1017,6 +1019,10 @@ Single-Board Computers}
 \input{cmos2.tex}
 
 \input{lcls_tools.tex}
+
+
+\cleardoublepage
+\printbibliography[heading=bibintoc, title={References}]
 
 
 \end{document}

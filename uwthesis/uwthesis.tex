@@ -508,7 +508,10 @@ X-ray emission spectroscopy (XES), the finer-grained cousin of XRF, provides mor
 
 \section{Dissertation Outline}
 % TODO sort out the name of UW Xap
-The overarching theme in this thesis is the relationship, and frequent feedback, between scientific discovery and the development of new experimental techinique. To begin, in chapter 2 I introduce a scheme for single-shot measurement of the static structure factors of disordered dense plasmas produced at large-scale laser facilities such as Omega and NIF. In Chapter 3 I present an experimental observation of nonlocal heat transport by keV-scale electrons in a nanophase material and consider the question of how this effect can be used to improve WDM experiments conducted at XFELs via optimized nanostructured target design. In chapter 4 I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapter 5 I describe an instrument-development effort toward a disposable CMOS-based X-ray camera for use in experimental environments hostile to electronics, particularly laser plasma facilities. Finally, in chapter 6 I introduce UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
+The overarching theme in this thesis is the relationship, and frequent feedback, between scientific discovery and the development of new experimental techinique. To begin, in Chapter \ref{hef} I introduce a scheme for single-shot measurement of the static structure factors of disordered dense plasmas produced at large-scale laser facilities such as Omega and NIF. 
+In chapters \ref{Penelope} and \ref{hef} I introduce the application of the electron transport Monte Carlo code PENELOPE to modeling nonlocal transport of energy in x ray-illuminated nanostructured targets. This modeling validates a concept for nanostructured XFEL target design that I discuss in chapter \ref{hef}.
+%In Chapter 3 I present an experimental observation of nonlocal heat transport by keV-scale electrons in a nanophase material and consider the question of how this effect can be used to improve WDM experiments conducted at XFELs via optimized nanostructured target design. 
+In chapters \ref{xfel_experiment} and \ref{mgo} I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapters \ref{cmos_ch} and \ref{cmos_ch2} I describe an instrument-development effort toward an inexpensive, but uniquely capable, CMOS-based X-ray camera for use in laboratory, synchrotron, and XFEL-based radiography and spectroscopy. Finally, in Chapter \ref{xap} I introduce UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
  
 \chapter{Physics of PENELOPE} % Main chapter title
 This chapter serves as background material for Chapter 3 \ref{chap:hef_chapter}, in which we present the use of the Monte Carlo Code PENELOPE for the simulation of electron transport in nanostructured XFEL targets.
@@ -857,6 +860,7 @@ These spatial dose distributions are the output data of interest in the simulati
 \input{../pandoc/edxrd.tex}
 
 \chapter{X-ray Free Electron Laser-Based Studies of WDM}
+\label{xfel_experiment}
 \section{X-ray Free Electron Lasers}
 XFELs produce radiation of unprecedented brilliance (10 orders of magnitude higher than undulator radiation from third-generation synchrotron sources), full transverse coherence, pulse durations as short as 10 fs. This combination of capability far exceeds that possible with third-generation light sources and opens new frontiers in imaging and the interrogation of ultrafast processes in materials science and biology (cites). In this section we give an overview of the technology and its range of applications in the study of HED states of matter.
 
@@ -1006,6 +1010,7 @@ Note to readers of thesis draft: This chapter belong to a manuscript currently i
 
 \chapter{A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and
 Single-Board Computers}
+\label{cmos_ch}
 \input{../pandoc/cmos1.tex}
 
 \input{cmos2.tex}

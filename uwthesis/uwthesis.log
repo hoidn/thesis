@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.10.9)  20 MAY 2017 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.10.9)  23 MAY 2017 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,18 +583,18 @@ l.261
 
 LaTeX Warning: Command \r invalid in math mode on input line 269.
 
-[3] [4] <../Figures/wilson_solubility.png, id=293, 340.27126pt x 291.33844pt>
+[3] [4] <../Figures/wilson_solubility.png, id=315, 340.27126pt x 291.33844pt>
 File: ../Figures/wilson_solubility.png Graphic file (type png)
 
 <use ../Figures/wilson_solubility.png>
 Package pdftex.def Info: ../Figures/wilson_solubility.png used on input line 29
-7.
+8.
 (pdftex.def)             Requested size: 221.17369pt x 189.36774pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] <../Figures/indirect-drive.jpg, id=300, 702.625pt x 171.64125pt>
+[5] <../Figures/indirect-drive.jpg, id=331, 702.625pt x 171.64125pt>
 File: ../Figures/indirect-drive.jpg Graphic file (type jpg)
 
 <use ../Figures/indirect-drive.jpg>
@@ -606,72 +606,84 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <../Figures/wilson_solubility.png>] [7 <../Figures/indirect-drive.jpg>]
 [8] [9] [10] [11] [12] [13]
-<../Figures/ma_Al.png, id=361, 501.875pt x 421.575pt>
+<../Figures/ma_Al.png, id=437, 501.875pt x 421.575pt>
 File: ../Figures/ma_Al.png Graphic file (type png)
 
 <use ../Figures/ma_Al.png>
-Package pdftex.def Info: ../Figures/ma_Al.png used on input line 450.
+Package pdftex.def Info: ../Figures/ma_Al.png used on input line 442.
 (pdftex.def)             Requested size: 250.93687pt x 210.78697pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 461.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 453.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 461.
- [14 <../Figures/ma_Al.png>] <../Figures/yaakobi_shock_xafs.png, id=369, 334.24
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 453.
+ [14 <../Figures/ma_Al.png>] <../Figures/yaakobi_shock_xafs.png, id=447, 334.24
 875pt x 544.28343pt>
 File: ../Figures/yaakobi_shock_xafs.png Graphic file (type png)
 
 <use ../Figures/yaakobi_shock_xafs.png>
 Package pdftex.def Info: ../Figures/yaakobi_shock_xafs.png used on input line 4
-68.
+60.
 (pdftex.def)             Requested size: 200.55078pt x 326.57257pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Figures/albert_sources.png, id=370, 530.73282pt x 478.03593pt>
+<../Figures/albert_sources.png, id=452, 530.73282pt x 478.03593pt>
 File: ../Figures/albert_sources.png Graphic file (type png)
 
 <use ../Figures/albert_sources.png>
-Package pdftex.def Info: ../Figures/albert_sources.png used on input line 483.
+Package pdftex.def Info: ../Figures/albert_sources.png used on input line 475.
 (pdftex.def)             Requested size: 265.36575pt x 239.01738pt.
- [15]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <../Figures/yaakobi_shock_xafs.png>]
-<../Figures/nilson_branching.png, id=382, 722.7pt x 585.68813pt>
+
+LaTeX Warning: Citation 'myatt2007high' on page 15 undefined on input line 480.
+
+
+[15] [16 <../Figures/yaakobi_shock_xafs.png>]
+<../Figures/nilson_branching.png, id=470, 722.7pt x 585.68813pt>
 File: ../Figures/nilson_branching.png Graphic file (type png)
 
 <use ../Figures/nilson_branching.png>
-Package pdftex.def Info: ../Figures/nilson_branching.png used on input line 495
+Package pdftex.def Info: ../Figures/nilson_branching.png used on input line 487
 .
 (pdftex.def)             Requested size: 361.3491pt x 292.84334pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Citation 'zastrau2008bremsstrahlung' on page 17 undefined on inp
+ut line 490.
+
+
+LaTeX Warning: Citation 'kupitz2014serial' on page 17 undefined on input line 4
+90.
+
 [17 <../Figures/albert_sources.png>] [18 <../Figures/nilson_branching.png>]
 [19]
 <<2>>
-<../Figures/collisional_sp.png, id=401, 853.1875pt x 511.9125pt>
+<../Figures/collisional_sp.png, id=492, 853.1875pt x 511.9125pt>
 File: ../Figures/collisional_sp.png Graphic file (type png)
 
 <use ../Figures/collisional_sp.png>
-Package pdftex.def Info: ../Figures/collisional_sp.png used on input line 557.
+Package pdftex.def Info: ../Figures/collisional_sp.png used on input line 549.
 (pdftex.def)             Requested size: 341.26895pt x 204.76137pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Figures/photon_sigma.png, id=402, 255.20343pt x 248.42813pt>
+<../Figures/photon_sigma.png, id=493, 255.20343pt x 248.42813pt>
 File: ../Figures/photon_sigma.png Graphic file (type png)
 
 <use ../Figures/photon_sigma.png>
-Package pdftex.def Info: ../Figures/photon_sigma.png used on input line 564.
+Package pdftex.def Info: ../Figures/photon_sigma.png used on input line 556.
 (pdftex.def)             Requested size: 255.2028pt x 248.42752pt.
 
 
@@ -679,11 +691,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20
 
-] <../Figures/penelope_2_2.png, id=410, 810.77907pt x 537.50812pt>
+] <../Figures/penelope_2_2.png, id=501, 810.77907pt x 537.50812pt>
 File: ../Figures/penelope_2_2.png Graphic file (type png)
 
 <use ../Figures/penelope_2_2.png>
-Package pdftex.def Info: ../Figures/penelope_2_2.png used on input line 578.
+Package pdftex.def Info: ../Figures/penelope_2_2.png used on input line 570.
 (pdftex.def)             Requested size: 324.30588pt x 214.99944pt.
  [21 <../Figures/collisional_sp.png>]
 
@@ -691,42 +703,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22 <../Figures/photon_sigma.png>] [23 <../Figures/penelope_2_2.png>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 655.
+LaTeX Warning: Command \r invalid in math mode on input line 647.
 
-<../Figures/egerton_3_3.png, id=435, 641.39626pt x 574.39594pt>
+<../Figures/egerton_3_3.png, id=526, 641.39626pt x 574.39594pt>
 File: ../Figures/egerton_3_3.png Graphic file (type png)
 
 <use ../Figures/egerton_3_3.png>
-Package pdftex.def Info: ../Figures/egerton_3_3.png used on input line 664.
+Package pdftex.def Info: ../Figures/egerton_3_3.png used on input line 656.
 (pdftex.def)             Requested size: 320.69734pt x 287.19725pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24] [25 <../Figures/egerton_3_3.png>] [26] [27]
-<../Figures/bethe.png, id=474, 673.01437pt x 681.29532pt>
+<../Figures/bethe.png, id=564, 673.01437pt x 681.29532pt>
 File: ../Figures/bethe.png Graphic file (type png)
 
 <use ../Figures/bethe.png>
-Package pdftex.def Info: ../Figures/bethe.png used on input line 767.
+Package pdftex.def Info: ../Figures/bethe.png used on input line 759.
 (pdftex.def)             Requested size: 336.50636pt x 340.64682pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28] [29 <../Figures/bethe.png>] [30]
-<../Figures/csda.png, id=492, 231.86626pt x 223.58531pt>
+<../Figures/csda.png, id=582, 231.86626pt x 223.58531pt>
 File: ../Figures/csda.png Graphic file (type png)
 
 <use ../Figures/csda.png>
-Package pdftex.def Info: ../Figures/csda.png used on input line 804.
+Package pdftex.def Info: ../Figures/csda.png used on input line 796.
 (pdftex.def)             Requested size: 162.30525pt x 156.50864pt.
  [31 <../Figures/csda.png>] [32] [33]
-<../Figures/penelope_3_11.png, id=515, 357.58594pt x 429.10312pt>
+<../Figures/penelope_3_11.png, id=605, 357.58594pt x 429.10312pt>
 File: ../Figures/penelope_3_11.png Graphic file (type png)
 
 <use ../Figures/penelope_3_11.png>
-Package pdftex.def Info: ../Figures/penelope_3_11.png used on input line 851.
+Package pdftex.def Info: ../Figures/penelope_3_11.png used on input line 843.
 (pdftex.def)             Requested size: 250.30844pt x 300.37013pt.
  [34 <../Figures/penelope_3_11.png>]
 (../pandoc/hef.tex [35]
@@ -761,13 +773,13 @@ Missing character: There is no ¡ in font cmr12!
  [47]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- <hef/image1.png, id=595, 1578.698pt x 740.366pt>
+ <hef/image1.png, id=685, 1578.698pt x 740.366pt>
 File: hef/image1.png Graphic file (type png)
 
 <use hef/image1.png>
 Package pdftex.def Info: hef/image1.png used on input line 537.
 (pdftex.def)             Requested size: 315.73401pt x 148.07057pt.
- <hef/image2.jpeg, id=596, 246.7035pt x 143.5545pt>
+ <hef/image2.jpeg, id=686, 246.7035pt x 143.5545pt>
 File: hef/image2.jpeg Graphic file (type jpg)
 
 <use hef/image2.jpeg>
@@ -777,7 +789,7 @@ Package pdftex.def Info: hef/image2.jpeg used on input line 552.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<hef/image3.png, id=597, 810.1467pt x 1098.2631pt>
+<hef/image3.png, id=687, 810.1467pt x 1098.2631pt>
 File: hef/image3.png Graphic file (type png)
  <use hef/image3.png>
 Package pdftex.def Info: hef/image3.png used on input line 569.
@@ -786,7 +798,7 @@ Package pdftex.def Info: hef/image3.png used on input line 569.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<hef/image4.png, id=598, 240.9pt x 164.0529pt>
+<hef/image4.png, id=688, 240.9pt x 164.0529pt>
 File: hef/image4.png Graphic file (type png)
  <use hef/image4.png>
 Package pdftex.def Info: hef/image4.png used on input line 582.
@@ -795,7 +807,7 @@ Package pdftex.def Info: hef/image4.png used on input line 582.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<hef/image5.png, id=599, 243.0681pt x 164.0529pt>
+<hef/image5.png, id=689, 243.0681pt x 164.0529pt>
 File: hef/image5.png Graphic file (type png)
  <use hef/image5.png>
 Package pdftex.def Info: hef/image5.png used on input line 601.
@@ -804,7 +816,7 @@ Package pdftex.def Info: hef/image5.png used on input line 601.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<hef/image6.jpeg, id=600, 242.433pt x 177.7185pt>
+<hef/image6.jpeg, id=690, 242.433pt x 177.7185pt>
 File: hef/image6.jpeg Graphic file (type jpg)
  <use hef/image6.jpeg>
 Package pdftex.def Info: hef/image6.jpeg used on input line 614.
@@ -843,7 +855,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no … in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no … in font cmr12!
- <media/image1.png, id=693, 244.0755pt x 282.51pt>
+ <media/image1.png, id=784, 244.0755pt x 282.51pt>
 File: media/image1.png Graphic file (type png)
 
 <use media/image1.png>
@@ -860,7 +872,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no — in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no — in font cmr12!
- <media/image4.png, id=716, 244.0755pt x 289.4085pt>
+ <media/image4.png, id=807, 244.0755pt x 289.4085pt>
 File: media/image4.png Graphic file (type png)
 
 <use media/image4.png>
@@ -915,7 +927,7 @@ Missing character: There is no — in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no — in font cmr12!
 
-<media/image2.png, id=748, 244.0755pt x 241.776pt>
+<media/image2.png, id=838, 244.0755pt x 241.776pt>
 File: media/image2.png Graphic file (type png)
  <use media/image2.png>
 Package pdftex.def Info: media/image2.png used on input line 458.
@@ -948,7 +960,7 @@ Missing character: There is no Î in font cmr6!
 Missing character: There is no ¸ in font cmr6!
 Missing character: There is no Î in font cmr6!
 Missing character: There is no ” in font cmr6!
-[62] <media/image6.png, id=758, 244.0755pt x 230.607pt>
+[62] <media/image6.png, id=848, 244.0755pt x 230.607pt>
 File: media/image6.png Graphic file (type png)
  <use media/image6.png>
 Package pdftex.def Info: media/image6.png used on input line 500.
@@ -1017,7 +1029,7 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ” in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¸ in font cmr12!
-<media/image7.png, id=760, 244.0755pt x 365.949pt>
+<media/image7.png, id=850, 244.0755pt x 365.949pt>
 File: media/image7.png Graphic file (type png)
  <use media/image7.png>
 Package pdftex.def Info: media/image7.png used on input line 533.
@@ -1037,7 +1049,7 @@ Missing character: There is no Ï in font cmr6!
 Missing character: There is no ‰ in font cmr6!
 Missing character: There is no Î in font cmti8!
 Missing character: There is no ± in font cmti8!
- [64] <media/image5.png, id=781, 244.0755pt x 270.684pt>
+ [64] <media/image5.png, id=871, 244.0755pt x 270.684pt>
 File: media/image5.png Graphic file (type png)
 
 <use media/image5.png>
@@ -1056,7 +1068,7 @@ Missing character: There is no ± in font cmti8!
 
 Package hyperref Warning: Suppressing empty link on input line 625.
 
-<media/image3.png, id=814, 244.0755pt x 152.424pt>
+<media/image3.png, id=905, 244.0755pt x 152.424pt>
 File: media/image3.png Graphic file (type png)
  <use media/image3.png>
 Package pdftex.def Info: media/image3.png used on input line 628.
@@ -1075,7 +1087,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no — in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
- <media/image9.png, id=832, 244.0755pt x 291.708pt>
+ <media/image9.png, id=923, 244.0755pt x 291.708pt>
 File: media/image9.png Graphic file (type png)
 
 <use media/image9.png>
@@ -1089,7 +1101,7 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
-<media/image8.png, id=833, 244.0755pt x 291.708pt>
+<media/image8.png, id=924, 244.0755pt x 291.708pt>
 File: media/image8.png Graphic file (type png)
  <use media/image8.png>
 Package pdftex.def Info: media/image8.png used on input line 694.
@@ -1098,13 +1110,13 @@ Package pdftex.def Info: media/image8.png used on input line 694.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] <media/image10.png, id=841, 244.0755pt x 286.7805pt>
+[72] <media/image10.png, id=932, 244.0755pt x 286.7805pt>
 File: media/image10.png Graphic file (type png)
 
 <use media/image10.png>
 Package pdftex.def Info: media/image10.png used on input line 753.
 (pdftex.def)             Requested size: 244.07489pt x 286.77979pt.
- <media/image11.png, id=844, 244.0755pt x 286.7805pt>
+ <media/image11.png, id=935, 244.0755pt x 286.7805pt>
 File: media/image11.png Graphic file (type png)
 
 <use media/image11.png>
@@ -1125,54 +1137,54 @@ Overfull \vbox (1991.74667pt too high) has occurred while \output is active []
 <<5>>
 [81
 
-] <../Figures/XFEL.png, id=950, 698.61pt x 679.53876pt>
+] <../Figures/XFEL.png, id=1040, 698.61pt x 679.53876pt>
 File: ../Figures/XFEL.png Graphic file (type png)
 
 <use ../Figures/XFEL.png>
-Package pdftex.def Info: ../Figures/XFEL.png used on input line 891.
+Package pdftex.def Info: ../Figures/XFEL.png used on input line 883.
 (pdftex.def)             Requested size: 349.30414pt x 339.76855pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82] [83] <../Figures/2cxrd.png, id=962, 656.6934pt x 321.3606pt>
+[82] [83] <../Figures/2cxrd.png, id=1052, 656.6934pt x 321.3606pt>
 File: ../Figures/2cxrd.png Graphic file (type png)
 
 <use ../Figures/2cxrd.png>
-Package pdftex.def Info: ../Figures/2cxrd.png used on input line 917.
+Package pdftex.def Info: ../Figures/2cxrd.png used on input line 909.
 (pdftex.def)             Requested size: 459.68225pt x 224.95087pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[84] [85] <../Figures/wdc.png, id=975, 399.1275pt x 505.89pt>
+[84] [85] <../Figures/wdc.png, id=1065, 399.1275pt x 505.89pt>
 File: ../Figures/wdc.png Graphic file (type png)
 
 <use ../Figures/wdc.png>
-Package pdftex.def Info: ../Figures/wdc.png used on input line 950.
+Package pdftex.def Info: ../Figures/wdc.png used on input line 942.
 (pdftex.def)             Requested size: 279.38733pt x 354.12057pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[86] [87] <../Figures/fe3o4_xrd.png, id=992, 263.1285pt x 518.373pt>
+[86] [87] <../Figures/fe3o4_xrd.png, id=1082, 263.1285pt x 518.373pt>
 File: ../Figures/fe3o4_xrd.png Graphic file (type png)
 
 <use ../Figures/fe3o4_xrd.png>
-Package pdftex.def Info: ../Figures/fe3o4_xrd.png used on input line 990.
+Package pdftex.def Info: ../Figures/fe3o4_xrd.png used on input line 982.
 (pdftex.def)             Requested size: 263.12784pt x 518.37173pt.
 
 
-LaTeX Warning: Float too large for page by 56.48506pt on input line 991.
+LaTeX Warning: Float too large for page by 56.48506pt on input line 983.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[88] <../Figures/fe3o4_debye.png, id=1004, 246.7035pt x 338.6835pt>
+[88] <../Figures/fe3o4_debye.png, id=1094, 246.7035pt x 338.6835pt>
 File: ../Figures/fe3o4_debye.png Graphic file (type png)
 
 <use ../Figures/fe3o4_debye.png>
-Package pdftex.def Info: ../Figures/fe3o4_debye.png used on input line 1001.
+Package pdftex.def Info: ../Figures/fe3o4_debye.png used on input line 993.
 (pdftex.def)             Requested size: 246.7029pt x 338.68266pt.
 
 
@@ -1227,7 +1239,7 @@ line 79.
 [97]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
- <cmos1/image1.png, id=1064, 243.7908pt x 213.1965pt>
+ <cmos1/image1.png, id=1155, 243.7908pt x 213.1965pt>
 File: cmos1/image1.png Graphic file (type png)
 
 <use cmos1/image1.png>
@@ -1237,7 +1249,7 @@ Package pdftex.def Info: cmos1/image1.png used on input line 118.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cmos1/image2.png, id=1065, 243.7908pt x 369.5406pt>
+<cmos1/image2.png, id=1156, 243.7908pt x 369.5406pt>
 File: cmos1/image2.png Graphic file (type png)
  <use cmos1/image2.png>
 Package pdftex.def Info: cmos1/image2.png used on input line 128.
@@ -1282,7 +1294,7 @@ LaTeX Warning: Hyper reference `ux5fENREFux5f14' on page 102 undefined on input
 LaTeX Warning: Hyper reference `ux5fENREFux5f14' on page 102 undefined on input
  line 217.
 
-<cmos1/image3.png, id=1112, 243.7908pt x 390.4989pt>
+<cmos1/image3.png, id=1202, 243.7908pt x 390.4989pt>
 File: cmos1/image3.png Graphic file (type png)
  <use cmos1/image3.png>
 Package pdftex.def Info: cmos1/image3.png used on input line 219.
@@ -1325,14 +1337,14 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no µ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no — in font cmr12!
- [109] <cmos2/image1.jpeg, id=1177, 314.3745pt x 175.419pt>
+ [109] <cmos2/image1.jpeg, id=1268, 314.3745pt x 175.419pt>
 File: cmos2/image1.jpeg Graphic file (type jpg)
 
 <use cmos2/image1.jpeg>
 Package pdftex.def Info: cmos2/image1.jpeg used on input line 120.
 (pdftex.def)             Requested size: 314.37372pt x 175.41856pt.
  [110 <./cmos2/image1.jpeg>]
-<cmos2/image2.png, id=1186, 431.36156pt x 427.5975pt>
+<cmos2/image2.png, id=1276, 431.36156pt x 427.5975pt>
 File: cmos2/image2.png Graphic file (type png)
  <use cmos2/image2.png>
 Package pdftex.def Info: cmos2/image2.png used on input line 168.
@@ -1341,7 +1353,7 @@ Package pdftex.def Info: cmos2/image2.png used on input line 168.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cmos2/image4.png, id=1188, 225.9642pt x 168.3891pt>
+<cmos2/image4.png, id=1278, 225.9642pt x 168.3891pt>
 File: cmos2/image4.png Graphic file (type png)
  <use cmos2/image4.png>
 Package pdftex.def Info: cmos2/image4.png used on input line 190.
@@ -1356,7 +1368,7 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ± in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ± in font cmr12!
-[111] <cmos2/image6.png, id=1195, 242.1045pt x 177.7185pt>
+[111] <cmos2/image6.png, id=1285, 242.1045pt x 177.7185pt>
 File: cmos2/image6.png Graphic file (type png)
 
 <use cmos2/image6.png>
@@ -1372,7 +1384,7 @@ Missing character: There is no Î in font cmr12!
 Missing character: There is no ² in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ± in font cmr12!
-[112 <./cmos2/image2.png>] <cmos2/image9.png, id=1210, 235.206pt x 147.4965pt>
+[112 <./cmos2/image2.png>] <cmos2/image9.png, id=1300, 235.206pt x 147.4965pt>
 File: cmos2/image9.png Graphic file (type png)
 
 <use cmos2/image9.png>
@@ -1382,7 +1394,7 @@ Package pdftex.def Info: cmos2/image9.png used on input line 249.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cmos2/image7.png, id=1211, 232.2495pt x 182.9745pt>
+<cmos2/image7.png, id=1301, 232.2495pt x 182.9745pt>
 File: cmos2/image7.png Graphic file (type png)
  <use cmos2/image7.png>
 Package pdftex.def Info: cmos2/image7.png used on input line 259.
@@ -1392,7 +1404,7 @@ Package pdftex.def Info: cmos2/image7.png used on input line 259.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [113 <./cmos2/image4.png>]
-<cmos2/image11.png, id=1220, 242.1045pt x 480.5955pt>
+<cmos2/image11.png, id=1310, 242.1045pt x 480.5955pt>
 File: cmos2/image11.png Graphic file (type png)
  <use cmos2/image11.png>
 Package pdftex.def Info: cmos2/image11.png used on input line 291.
@@ -1413,7 +1425,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--312
 <<9>>
 [118
 
-] <../Figures/UWXAP_block_diagram.png, id=1246, 322.95656pt x 431.36156pt>
+] <../Figures/UWXAP_block_diagram.png, id=1336, 322.95656pt x 431.36156pt>
 File: ../Figures/UWXAP_block_diagram.png Graphic file (type png)
 
 <use ../Figures/UWXAP_block_diagram.png>
@@ -1425,7 +1437,7 @@ Package pdftex.def Info: ../Figures/UWXAP_block_diagram.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [119] [120 <../Figures/UWXAP_block_diagram.png>]
-<../Figures/UWXAP_si_screenshot.png, id=1258, 534.49687pt x 509.65407pt>
+<../Figures/UWXAP_si_screenshot.png, id=1349, 534.49687pt x 509.65407pt>
 File: ../Figures/UWXAP_si_screenshot.png Graphic file (type png)
 
 <use ../Figures/UWXAP_si_screenshot.png>
@@ -1437,15 +1449,27 @@ Package pdftex.def Info: ../Figures/UWXAP_si_screenshot.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [121]) [122] [123 <../Figures/UWXAP_si_screenshot.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1045.
- [124
+Overfull \hbox (2.14957pt too wide) in paragraph at lines 1017--1017
+[]\OT1/cmr/m/n/12 Junzo Chi-hara. ``In-ter-ac-tion of pho-tons with plas-mas an
+d liq-uid metals-photoabsorption
+ []
+
+[124
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1045.
+Overfull \hbox (11.80084pt too wide) in paragraph at lines 1017--1017
+\OT1/cmr/m/n/12 in-er-tial con-fine-ment fu-sion hohlraums''. In: \OT1/cmr/m/it
+/12 Phys-i-cal re-view let-ters \OT1/cmr/m/n/12 106.8 (2011), p. 085004. 
+ []
+
+[125] [126]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1020.
+ [127]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1020.
  (./uwthesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1045.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1045.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1020.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1020.
 
 Package rerunfilecheck Info: File `uwthesis.out' has not changed.
 (rerunfilecheck)             Checksum: 22489D2A136DA13060F60B6E535FE7F7;3511.
@@ -1453,38 +1477,45 @@ Package rerunfilecheck Info: File `uwthesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                uwthesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'uwthesis.run.xml'.
 \openout1 = `uwthesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11672 strings out of 493339
- 188574 string characters out of 6141382
- 405287 words of memory out of 5000000
- 14529 multiletter control sequences out of 15000+600000
- 9993 words of font info for 35 fonts, out of 8000000 for 9000
+ 11762 strings out of 493339
+ 190673 string characters out of 6141382
+ 423834 words of memory out of 5000000
+ 14577 multiletter control sequences out of 15000+600000
+ 10463 words of font info for 37 fonts, out of 8000000 for 9000
  953 hyphenation exceptions out of 8191
- 37i,16n,49p,1618b,855s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,16n,49p,1655b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on uwthesis.pdf (126 pages, 10034869 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on uwthesis.pdf (129 pages, 10062283 bytes).
 PDF statistics:
- 1427 PDF objects out of 1440 (max. 8388607)
- 1190 compressed objects within 12 object streams
- 429 named destinations out of 1000 (max. 500000)
+ 1555 PDF objects out of 1728 (max. 8388607)
+ 1306 compressed objects within 14 object streams
+ 469 named destinations out of 1000 (max. 500000)
  633 words of extra memory for PDF output out of 10000 (max. 10000000)
 

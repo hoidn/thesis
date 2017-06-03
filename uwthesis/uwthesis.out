@@ -27,23 +27,27 @@
 \BOOKMARK [1][-]{section.5.3}{Scientific Directions}{chapter.5}% 27
 \BOOKMARK [1][-]{section.5.4}{Design of an XFEL heating experiment}{chapter.5}% 28
 \BOOKMARK [1][-]{section.5.5}{Experimental Work}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Finite-T Charge Transfer in MgO Under Extreme X-ray Heating: A Crystal of Hollow Atoms}{}% 30
-\BOOKMARK [0][-]{chapter.7}{A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{}% 31
-\BOOKMARK [1][-]{section.7.1}{Abstract}{chapter.7}% 32
-\BOOKMARK [1][-]{section.7.2}{Introduction}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.3}{Methods, Results, and Discussion}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.4}{Conclusions}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.5}{Acknowledgments}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.6}{References}{chapter.7}% 37
-\BOOKMARK [0][-]{chapter.8}{A Color X-ray Camera for 2 \205 6 keV Using a Mass-Produced CMOS Sensor}{}% 38
-\BOOKMARK [1][-]{section.8.1}{Abstract}{chapter.8}% 39
-\BOOKMARK [1][-]{section.8.2}{Introduction}{chapter.8}% 40
-\BOOKMARK [1][-]{section.8.3}{II. Experimental }{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.4}{III. Results and Discussion}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.5}{IV. Conclusions and Future Directions}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.6}{References}{chapter.8}% 44
-\BOOKMARK [0][-]{chapter.9}{Real-time analysis tools for the LCLS}{}% 45
-\BOOKMARK [1][-]{section.9.1}{Integration of Logging and Analysis}{chapter.9}% 46
-\BOOKMARK [1][-]{section.9.2}{Interactive Distributed Computing}{chapter.9}% 47
-\BOOKMARK [1][-]{section.9.3}{API features}{chapter.9}% 48
-\BOOKMARK [0][-]{chapter*.3}{References}{}% 49
+\BOOKMARK [0][-]{chapter.6}{Mapping Species-Specific Ionization in Warm Dense Crystalline MgO Under Extreme X-ray Heating }{}% 30
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.2}{II. Methods}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.3}{III. Results and Discussion}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 34
+\BOOKMARK [0][-]{chapter.7}{A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{}% 35
+\BOOKMARK [1][-]{section.7.1}{Abstract}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.2}{Introduction}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.3}{Methods, Results, and Discussion}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.4}{Conclusions}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.5}{Acknowledgments}{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.6}{References}{chapter.7}% 41
+\BOOKMARK [0][-]{chapter.8}{A Color X-ray Camera for 2 \205 6 keV Using a Mass-Produced CMOS Sensor}{}% 42
+\BOOKMARK [1][-]{section.8.1}{Abstract}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.2}{Introduction}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.3}{II. Experimental }{chapter.8}% 45
+\BOOKMARK [1][-]{section.8.4}{III. Results and Discussion}{chapter.8}% 46
+\BOOKMARK [1][-]{section.8.5}{IV. Conclusions and Future Directions}{chapter.8}% 47
+\BOOKMARK [1][-]{section.8.6}{References}{chapter.8}% 48
+\BOOKMARK [0][-]{chapter.9}{Real-time analysis tools for the LCLS}{}% 49
+\BOOKMARK [1][-]{section.9.1}{Integration of Logging and Analysis}{chapter.9}% 50
+\BOOKMARK [1][-]{section.9.2}{Interactive Distributed Computing}{chapter.9}% 51
+\BOOKMARK [1][-]{section.9.3}{API features}{chapter.9}% 52
+\BOOKMARK [0][-]{chapter*.3}{References}{}% 53

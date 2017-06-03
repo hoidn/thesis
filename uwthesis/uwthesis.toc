@@ -238,50 +238,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.1}Testing Lattice Thermalization in XFEL-heated Solid State Systems}{88}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Observation of Nonlocal Heat Transport in Nanophase $\mathrm {Fe}_3\mathrm {O}_4$}{89}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Mapping Species-Specific Ionization in Warm Dense Crystalline MgO Under Extreme X-ray Heating }{95}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}XES Signatures of Valence Electron Delocalization in XFEL-heated $\mathrm {Fe}_3\mathrm {O}_4$}{89}{subsection.5.5.3}
+\contentsline {section}{\numberline {6.1}Introduction}{96}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Finite-T Charge Transfer in MgO Under Extreme X-ray Heating: A Crystal of Hollow Atoms}{95}{chapter.6}
+\contentsline {section}{\numberline {6.2}II. Methods}{99}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 7:}A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{96}{chapter.7}
+\contentsline {subsection}{\numberline {6.2.1}II. A. Experimental Details}{99}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Abstract}{96}{section.7.1}
+\contentsline {subsection}{\numberline {6.2.2}II.B. Data Reduction and Analysis}{100}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Introduction}{96}{section.7.2}
+\contentsline {subsection}{\numberline {6.2.3}II.C. Modeling}{101}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Methods, Results, and Discussion}{97}{section.7.3}
+\contentsline {section}{\numberline {6.3}III. Results and Discussion}{104}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Conclusions}{104}{section.7.4}
+\contentsline {section}{\numberline {6.4}Conclusion}{107}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Acknowledgments}{104}{section.7.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{111}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}References}{104}{section.7.6}
+\contentsline {section}{\numberline {7.1}Abstract}{111}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 8:}A Color X-ray Camera for 2 -- 6 keV Using a Mass-Produced CMOS Sensor}{107}{chapter.8}
+\contentsline {section}{\numberline {7.2}Introduction}{111}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Abstract}{107}{section.8.1}
+\contentsline {section}{\numberline {7.3}Methods, Results, and Discussion}{112}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Introduction}{107}{section.8.2}
+\contentsline {section}{\numberline {7.4}Conclusions}{119}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}II. Experimental }{109}{section.8.3}
+\contentsline {section}{\numberline {7.5}Acknowledgments}{119}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}II.A. Hardware}{109}{subsection.8.3.1}
+\contentsline {section}{\numberline {7.6}References}{119}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}II.B. Software}{110}{subsection.8.3.2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 8:}A Color X-ray Camera for 2 -- 6 keV Using a Mass-Produced CMOS Sensor}{122}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}III. Results and Discussion}{111}{section.8.4}
+\contentsline {section}{\numberline {8.1}Abstract}{122}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}IV. Conclusions and Future Directions}{117}{section.8.5}
+\contentsline {section}{\numberline {8.2}Introduction}{122}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}References}{117}{section.8.6}
+\contentsline {section}{\numberline {8.3}II. Experimental }{124}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{118}{chapter.9}
+\contentsline {subsection}{\numberline {8.3.1}II.A. Hardware}{124}{subsection.8.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{119}{section.9.1}
+\contentsline {subsection}{\numberline {8.3.2}II.B. Software}{125}{subsection.8.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{121}{section.9.2}
+\contentsline {section}{\numberline {8.4}III. Results and Discussion}{126}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}API features}{122}{section.9.3}
+\contentsline {section}{\numberline {8.5}IV. Conclusions and Future Directions}{132}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{124}{chapter*.3}
+\contentsline {section}{\numberline {8.6}References}{132}{section.8.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{133}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{134}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{136}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}API features}{137}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{139}{chapter*.3}

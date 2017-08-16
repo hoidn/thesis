@@ -16,11 +16,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 16954 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
-Repeated entry---line 825 of file uwthesis.bib
+Repeated entry---line 824 of file uwthesis.bib
  : @article{chihara2000interaction
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 836 of file uwthesis.bib
+Repeated entry---line 835 of file uwthesis.bib
  : @article{mattern2012real
  :                         ,
 I'm skipping whatever remains of this entry

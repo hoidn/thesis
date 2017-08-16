@@ -270,12 +270,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.6}References}{126}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 8:}Real-time analysis tools for the LCLS}{140}{chapter.8}
+\contentsline {chapter}{\numberline {\@textofChapter \ 8:}A Color X-ray Camera for 2-6 keV Using a Mass-Produced CMOS Sensor}{129}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Integration of Logging and Analysis}{141}{section.8.1}
+\contentsline {section}{\numberline {8.1}I. Introduction}{129}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Interactive Distributed Computing}{143}{section.8.2}
+\contentsline {section}{\numberline {8.2}II. Experimental }{131}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}API features}{144}{section.8.3}
+\contentsline {subsection}{\numberline {8.2.1}II.A. Hardware}{131}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{146}{chapter*.2}
+\contentsline {subsection}{\numberline {8.2.2}II.B. Software}{132}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}II.C. X-ray Measurements}{134}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}III. Results and Discussion}{134}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}IV. Conclusions and Future Directions}{139}{section.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}References}{140}{section.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{141}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{142}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{144}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}API features}{145}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{147}{chapter*.2}

@@ -354,7 +354,7 @@ Due to the smaller total energies of short-pulse lasers and the relatively slow 
 \subsection{X-Ray Free Electron Lasers}
 The advent of X-ray free electron lasers (XFELs) is a major advance in capability for WDM research. Existing incarnations of these sources, notably the Linac Coherent Light Source (LCLS), provide $10^{14}$ photons in tunable monochromatic pulses with durations of 10 fs or greater. While the energies per pulse are smaller than those attainable with a short-pulse laser, they are largely sufficient to produce HED states with temperatures in excess of 100 eV. \cite{vinko2012creation} Because XFELs can heat volumetrically, they are free of the primary deficiency of lasers with respect to the task of generating dense plasmas: namely, the latter can only heat bulk materials indirectly and over durations of 1 ps or longer, which exceeds the timescale for changes in WDM, preventing the study of short-lived transient states.
 
-The ability to generate (and probe) WDM on truly inertial timescales, wherein atomic nuclei are effectively frozen, has been duly exploited in early pioneering studies at the LCLS. It forms the basis, for example, for a new thread of materials science research on nonthermal lattice and spin dynamics. \cite{lee2012non, lee2003finite}  Likely even more significantly, it is the enabling feature for macromolecular crystallography under the `diffract before destroy' paradigm. The possibilities surrounding rapid generation of WDM is a topic to which I return in chapters \ref{chap:hef_chapter} and \ref{mgo}. \cite{vinko2012creation}
+The ability to generate (and probe) WDM on truly inertial timescales, wherein atomic nuclei are effectively frozen, has been duly exploited in early pioneering studies at the LCLS. It forms the basis, for example, for a new thread of materials science research on nonthermal lattice and spin dynamics. \cite{lee2012non, lee2003finite}  Likely even more significantly, it is the enabling feature for macromolecular crystallography under the `diffract before destroy' paradigm. The possibilities surrounding rapid generation of WDM is a topic to which I return in chapters \ref{chap:hef_chapter} and \ref{chap:mgo}. \cite{vinko2012creation}
 % TODO: insert figure Brightness_overview.jpg and cite doi:10.1038/nphoton.2007.76
 
 \section{X-ray diagnostics of WDM}
@@ -520,7 +520,7 @@ The overarching theme in this thesis is the relationship, and frequent feedback,
 To begin, in chapters \ref{Penelope} and \ref{chap:hef_chapter} I introduce the application of the electron transport Monte Carlo code PENELOPE to modeling nonlocal transport of energy in x ray-illuminated nanostructured targets. This modeling validates a concept for nanostructured XFEL target design that I discuss in chapter \ref{chap:hef_chapter}.
 In Chapter \ref{edxrd} I introduce a scheme for single-shot measurement of the static structure factors of disordered dense plasmas produced at large-scale laser facilities such as Omega and NIF.
 %In Chapter 3 I present an experimental observation of nonlocal heat transport by keV-scale electrons in a nanophase material and consider the question of how this effect can be used to improve WDM experiments conducted at XFELs via optimized nanostructured target design. 
-In chapters \ref{xfel_experiment} and \ref{mgo} I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapters \ref{cmos_ch} and \ref{cmos_ch2} I describe an instrument-development effort toward an inexpensive, but uniquely capable, CMOS-based X-ray camera for use in laboratory, synchrotron, and XFEL-based radiography and spectroscopy. Finally, in Chapter \ref{xap} I document UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
+In chapters \ref{xfel_experiment} and \ref{chap:mgo} I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapters \ref{cmos_ch} and \ref{chap:cmos_ch2} I describe an instrument-development effort toward an inexpensive, but uniquely capable, CMOS-based X-ray camera for use in laboratory, synchrotron, and XFEL-based radiography and spectroscopy. Finally, in Chapter \ref{xap} I document UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
  
 \chapter{Physics of PENELOPE} % Main chapter title
 This chapter serves as background material for Chapter \ref{chap:hef_chapter}, in which we present the use of the Monte Carlo Code PENELOPE for the simulation of electron transport in nanostructured XFEL targets. \cite{salvat2008penelope}
@@ -914,7 +914,7 @@ Finally, a significant subset of XFEL-based studies of WDM rely on optical or in
 % new section?
 \section{Scientific Directions}
 \subsection{Time dynamics of WDM states}
-The ability ability of XFELs to produce such transient HED states invites basic questions about the creation of these states and their temporal evolution. Population kinetics codes such as SCFLY are a well-established tool to simulate the electronic evolution of an XFEL-heated material, but such codes are based on atomic physics treatments and cannot be all-encompassing, as they omit sold-state electronic structure as well as the interaction of electrons with the lattice of a solid-density system.  Hau Riege et al. have examined electron-ion dynamics during heating by a single XFEL pulse, using comparison of Bragg diffraction from heated graphite with molecular dynamics simulation to quantify perturbation of the atomic lattice. They have identified melting of the graphite lattice within 40 fs pulses--far shorter in duration than the ps-timescale of electron-phonon coupling indicating an ultrafast phase transition. We revisit Hau-Riege's conclusions in a different light in Chapter \ref{mgo}, but their work pertinently demonstates that the characterization of even coarse-grained quantities such as lattice thermalization timescales gives insight into the new physical regimes that XFELs are capable of producing and probing. 
+The ability ability of XFELs to produce such transient HED states invites basic questions about the creation of these states and their temporal evolution. Population kinetics codes such as SCFLY are a well-established tool to simulate the electronic evolution of an XFEL-heated material, but such codes are based on atomic physics treatments and cannot be all-encompassing, as they omit sold-state electronic structure as well as the interaction of electrons with the lattice of a solid-density system.  Hau Riege et al. have examined electron-ion dynamics during heating by a single XFEL pulse, using comparison of Bragg diffraction from heated graphite with molecular dynamics simulation to quantify perturbation of the atomic lattice. They have identified melting of the graphite lattice within 40 fs pulses--far shorter in duration than the ps-timescale of electron-phonon coupling indicating an ultrafast phase transition. We revisit Hau-Riege's conclusions in a different light in Chapter \ref{chap:mgo}, but their work pertinently demonstates that the characterization of even coarse-grained quantities such as lattice thermalization timescales gives insight into the new physical regimes that XFELs are capable of producing and probing. 
 
 Similar observations apply to electron-electron thermalization in a solid, where damped collective excitations (ie. plasmons) may play a significant role as a bottleneck stage between absorption of XFEL photons and eventual thermalization of atomic electrons.\cite{egerton1979k, sorini2006ab}%TODO (maybe dig up cites from HEF paper). 
 
@@ -936,7 +936,7 @@ The output quantity of a density functional theory (DFT) simulation is real-spac
 This observation has led Valenza et al. to generate predictions of the consequences of XFEL heating on the intensities of Bragg peaks in several materials using DFT calculations in VASP.\cite{valenza2016warm} They have shown that the information in the XRD signal is sufficient for discrimination between competing theoretical predictions, provided the XRD measurement is performed over a sufficiently wide range of momentum transfers. Valenza et al. demonstrate strong testable signatures of condensed-phase effects in each of LiF, graphite, diamond, and Be as a result of heating to temperatures on the order of 10 eV. A summary of their results is reproduced in Fig. \ref{fig:wdc}.
 
 
-The capability to test predictions of finite-temperature electronic structure models is a unique feature of XFEL-based experiments. We will explore the topic in some more detail in chapter \ref{mgo}, where we have the opportunity to apply it to experimental data. 
+The capability to test predictions of finite-temperature electronic structure models is a unique feature of XFEL-based experiments. We will explore the topic in some more detail in chapter \ref{chap:mgo}, where we have the opportunity to apply it to experimental data. 
 
 \section{Design of an XFEL heating experiment}
 One can identify several experimental desiderata shared by the majority of XFEL-based studies of WDM wherein the primary probe is X-ray diffraction:
@@ -958,14 +958,14 @@ Each of these can be achieved in one or more ways. Respectively:
 These goals, and the tradeoffs that accompany them, are important context for both the experimental work described in the next section and the modeling-based exploration of the experimental technique discussed in section \ref{chap:hef_chapter}.
 
 \section{Experimental Work}
-In the following I describe several experimental results arising from two beam runs at the Matter of Extreme Conditions (MEC) endstation at the Linac Coherent Light Source (LCLS) in June of 2014 and January of 2016. The studies conducted addressed questions about the relative magnitudes, and time scales, of lattice and electronic heating in various solids, mainly metal oxides. The primary diagnostic was XRD, with which we measured changes in electronic charge distribution as a function of incident flux, with the eventual goal of comparison to finite-T condensed matter electronic structure theory, as described in \ref{mgo}. The secondary diagnostic--used in a subset of the studies--was a von Hamos X-ray emission spectrometer with a highly annealed pyrolytic graphite (HAPG) analyzer crystal and 9 eV energy resolution, with which heating-induced line shifts and changes in valence-level emission were measured. 
+In the following I describe several experimental results arising from two beam runs at the Matter of Extreme Conditions (MEC) endstation at the Linac Coherent Light Source (LCLS) in June of 2014 and January of 2016. The studies conducted addressed questions about the relative magnitudes, and time scales, of lattice and electronic heating in various solids, mainly metal oxides. The primary diagnostic was XRD, with which we measured changes in electronic charge distribution as a function of incident flux, with the eventual goal of comparison to finite-T condensed matter electronic structure theory, as described in \ref{chap:mgo}. The secondary diagnostic--used in a subset of the studies--was a von Hamos X-ray emission spectrometer with a highly annealed pyrolytic graphite (HAPG) analyzer crystal and 9 eV energy resolution, with which heating-induced line shifts and changes in valence-level emission were measured. 
 
 Throughout these measurements the XFEL beam was brought to a focus at the sample location using a stack of Be lenses. Flux incident on-sample was altered through a combination of beam attenuation and variation of the focal spot diameter between minimum and maximum values of 2 and 58 microns. XRD data was collected on a quad CSPAD solid state detector downstream from the sample.\cite{herrmann2013cspad}
 
 In samples wherein the signal was weak compared to time variations in the area detector pedestal values, additional processing was performed in order to reconstruct signal incident on the detector. 
 %Because Bragg peak intensities are the values of interest in interpretation of the XRD data, peak- and background fitting was performed on the powder  the figure of interest in our XRD analyses is the Br
 % TODO figure out how mucn detail on the XRD processing flow is needed here
-This is described in more detail in section \ref{mgo}, which details analysis and modeling of electronic heating based on an XRD dataset of XFEL-heated MgO.
+This is described in more detail in Chapeter \ref{chap:mgo}, which details analysis and modeling of electronic heating based on an XRD dataset of XFEL-heated MgO.
  
 \subsection{Testing Lattice Thermalization in XFEL-heated Solid State Systems}
 
@@ -989,7 +989,7 @@ It is straightforward to evaluate the relative contributions of thermalization o
 \includegraphics[scale=1.0]{../Figures/fe3o4_debye.png}
 \end{figure}
 
-The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be further interpreted through comparison of the data to a simple atomic form factor-based model of ionization (the model is described more specifically in section \ref{mgo}. We find that the model reproduces the anomalous rise in intensity of the 222 reflection (Fig. \ref{fexrd}) via a loss of destructive interference between the valence wavefunctions of O and Fe as both are simultaneously ionized. \cite{mortfe3o4}
+The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be further interpreted through comparison of the data to a simple atomic form factor-based model of ionization (the model is described more specifically in Chapter \ref{chap:mgo}. We find that the model reproduces the anomalous rise in intensity of the 222 reflection (Fig. \ref{fexrd}) via a loss of destructive interference between the valence wavefunctions of O and Fe as both are simultaneously ionized. \cite{mortfe3o4}
 
 %\subsection{Observation of Nonlocal Heat Transport in Nanophase $\mathrm{Fe}_3\mathrm{O}_4$}
 %\subsection{XES Signatures of Valence Electron Delocalization in XFEL-heated $\mathrm{Fe}_3\mathrm{O}_4$}
@@ -997,6 +997,9 @@ The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be fu
 %Note to readers of thesis draft: The above two sections belong to a manuscript currently in preparation, and will be added later, reorganized into a separate chapter.
 % TODO: decide what to do with these sections.
 
+\chapter{ Mapping Species-Specific Ionization in Warm Dense Crystalline MgO Under
+Extreme X-ray Heating }
+\label{chap:mgo}
 \input{../pandoc/MgO.tex}
 
 \chapter{A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and
@@ -1004,6 +1007,8 @@ Single-Board Computers}
 \label{cmos_ch}
 \input{../pandoc/cmos1.tex}
 
+\chapter{A Color X-ray Camera for 2-6 keV Using a Mass-Produced CMOS Sensor}
+\label{chap:cmos_ch2}
 \input{cmos2.tex}
 
 \input{lcls_tools.tex}

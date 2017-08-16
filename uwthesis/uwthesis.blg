@@ -16,11 +16,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 16954 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
-Repeated entry---line 824 of file uwthesis.bib
+Repeated entry---line 825 of file uwthesis.bib
  : @article{chihara2000interaction
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 835 of file uwthesis.bib
+Repeated entry---line 836 of file uwthesis.bib
  : @article{mattern2012real
  :                         ,
 I'm skipping whatever remains of this entry
@@ -34,42 +34,42 @@ while executing---line 2659 of file biblatex.bst
 You've used 86 entries,
             6047 wiz_defined-function locations,
             1630 strings with 25080 characters,
-and the built_in function-call counts, 318701 in all, are:
-= -- 12750
-> -- 10702
-< -- 2904
-+ -- 3988
-- -- 4432
-* -- 27649
-:= -- 19091
+and the built_in function-call counts, 303242 in all, are:
+= -- 12499
+> -- 10031
+< -- 2359
++ -- 3875
+- -- 4100
+* -- 25122
+:= -- 18255
 add.period$ -- 0
 call.type$ -- 86
-change.case$ -- 1784
+change.case$ -- 1541
 chr.to.int$ -- 35
 cite$ -- 170
-duplicate$ -- 37068
-empty$ -- 32366
-format.name$ -- 8032
-if$ -- 70472
+duplicate$ -- 35515
+empty$ -- 31263
+format.name$ -- 7753
+if$ -- 66724
 int.to.chr$ -- 0
 int.to.str$ -- 248
 missing$ -- 0
-newline$ -- 3364
-num.names$ -- 4527
-pop$ -- 27986
+newline$ -- 3279
+num.names$ -- 4278
+pop$ -- 27916
 preamble$ -- 1
-purify$ -- 2202
+purify$ -- 2044
 quote$ -- 0
-skip$ -- 17659
+skip$ -- 16725
 stack$ -- 0
-substring$ -- 7548
-swap$ -- 12869
-text.length$ -- 2460
-text.prefix$ -- 206
+substring$ -- 7388
+swap$ -- 12065
+text.length$ -- 2000
+text.prefix$ -- 121
 top$ -- 1
 type$ -- 3255
 warning$ -- 0
-while$ -- 1569
+while$ -- 1401
 width$ -- 0
-write$ -- 3277
+write$ -- 3192
 (There were 4 error messages)

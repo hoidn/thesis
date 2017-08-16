@@ -2,17 +2,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivations for study of WDM}{4}{section.1.1}
+\contentsline {section}{\numberline {1.1}Motivations for study of WDM}{5}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.1}Astrophysical modeling}{5}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Inertial Confinement Fusion}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Inertial Confinement Fusion}{7}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Experimental Generation of WDM}{7}{section.1.2}
+\contentsline {section}{\numberline {1.2}Experimental Generation of WDM}{8}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.1}Long-pulse lasers}{8}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Short-pulse lasers}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Short-pulse lasers}{9}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}X-Ray Free Electron Lasers}{9}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
@@ -24,9 +24,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.3}X-ray absorption}{15}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}X-ray Emission and X-ray Fluorescence}{16}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}X-ray Emission and X-ray Fluorescence}{17}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Dissertation Outline}{18}{section.1.4}
+\contentsline {section}{\numberline {1.4}Dissertation Outline}{19}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 2:}Physics of PENELOPE}{20}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -34,17 +34,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Fluorescence}{21}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Assumptions}{22}{section*.2}
+\contentsline {subsection}{\numberline {2.1.2}Assumptions}{22}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{22}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Elastic scattering}{22}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Inelastic scattering}{25}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Dielectric function}{27}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Dielectric function}{26}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Modeling the generalized oscillator strength}{28}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Modeling the generalized oscillator strength}{27}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Accuracy and useful regimes}{30}{section.2.3}
+\contentsline {section}{\numberline {2.3}Accuracy and useful regimes}{29}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Nanophase dielectric functions}{30}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
@@ -224,74 +224,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}HED physics at XFEL facilities}{84}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Early experiments}{84}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Prior work}{84}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Scientific Directions}{85}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.1}Time dynamics of WDM states}{85}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Tests of Finite-T electronic structure}{85}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Tests of Finite-T electronic structure}{86}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Design of an XFEL heating experiment}{86}{section.5.4}
+\contentsline {section}{\numberline {5.4}Design of an XFEL heating experiment}{90}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Experimental Work}{87}{section.5.5}
+\contentsline {section}{\numberline {5.5}Experimental Work}{91}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Testing Lattice Thermalization in XFEL-heated Solid State Systems}{88}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.1}Testing Lattice Thermalization in XFEL-heated Solid State Systems}{92}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Mapping Species-Specific Ionization in Warm Dense Crystalline MgO Under Extreme X-ray Heating }{95}{chapter.6}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:} Mapping Species-Specific Ionization in Warm Dense Crystalline MgO Under Extreme X-ray Heating }{96}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{96}{section.6.1}
+\contentsline {section}{\numberline {6.1}I. Introduction}{97}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}II. Methods}{99}{section.6.2}
+\contentsline {section}{\numberline {6.2}II. Experimental Methods}{101}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}II. A. Experimental Details}{99}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}II. A. Experimental Details}{101}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}II.B. Data Reduction and Analysis}{100}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}II.B. Data Reduction and Analysis}{101}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}II.C. Modeling}{101}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}III. Modeling Methods}{103}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}III. Results and Discussion}{104}{section.6.3}
+\contentsline {section}{\numberline {6.3}III. Results and Discussion}{106}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Conclusion}{107}{section.6.4}
+\contentsline {section}{\numberline {6.4}IV. Conclusion and Future Directions}{114}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 7:}A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{111}{chapter.7}
+\contentsline {section}{\numberline {6.5}References}{115}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Abstract}{111}{section.7.1}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{118}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Introduction}{111}{section.7.2}
+\contentsline {section}{\numberline {7.1}Abstract}{118}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Methods, Results, and Discussion}{112}{section.7.3}
+\contentsline {section}{\numberline {7.2}Introduction}{118}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Conclusions}{119}{section.7.4}
+\contentsline {section}{\numberline {7.3}Methods, Results, and Discussion}{119}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Acknowledgments}{119}{section.7.5}
+\contentsline {section}{\numberline {7.4}Conclusions}{126}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}References}{119}{section.7.6}
+\contentsline {section}{\numberline {7.5}Acknowledgments}{126}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 8:}A Color X-ray Camera for 2 -- 6 keV Using a Mass-Produced CMOS Sensor}{122}{chapter.8}
+\contentsline {section}{\numberline {7.6}References}{126}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Abstract}{122}{section.8.1}
+\contentsline {chapter}{\numberline {\@textofChapter \ 8:}Real-time analysis tools for the LCLS}{140}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Introduction}{122}{section.8.2}
+\contentsline {section}{\numberline {8.1}Integration of Logging and Analysis}{141}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}II. Experimental }{124}{section.8.3}
+\contentsline {section}{\numberline {8.2}Interactive Distributed Computing}{143}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}II.A. Hardware}{124}{subsection.8.3.1}
+\contentsline {section}{\numberline {8.3}API features}{144}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}II.B. Software}{125}{subsection.8.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}III. Results and Discussion}{126}{section.8.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}IV. Conclusions and Future Directions}{132}{section.8.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}References}{132}{section.8.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{133}{chapter.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{134}{section.9.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{136}{section.9.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}API features}{137}{section.9.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{139}{chapter*.3}
+\contentsline {chapter}{References}{146}{chapter*.2}

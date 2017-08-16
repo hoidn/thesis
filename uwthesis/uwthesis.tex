@@ -46,6 +46,15 @@
 % The following line would print the thesis in a postscript font 
 
 \usepackage[style=authoryear,backend=bibtex,style=numeric]{biblatex}
+\usepackage{authblk}
+\usepackage{notoccite}
+\usepackage{scrextend}
+
+
+%\newenvironment{poliabstract}[1]
+%   {\renewcommand{\abstractname}{#1}\begin{abstract}}
+%   {\end{abstract}}
+
 \def\bibpreamble{\protect\addcontentsline{toc}{chapter}{Bibliography}}
 \addbibresource{uwthesis.bib}
 %
@@ -244,18 +253,19 @@
  
 \chapter {Introduction}
  
-In this thesis I introduce the development of new techniques for the production of materials in the warm dense matter (WDM) regime, and for interrogation of the structure and thermodynamic state of such systems using x-ray diffraction and (to a lesser extent) spectroscopy. The main results include a scheme for single-shot determination of the static structure factors of WDM systems generated at laser plasma facilities; a technique for enhancing the density of deposited energy in WDM generated at fourth-generation X-ray sources such as the Linac Coherent Light Source (LCLS); and interpretation of experimental data that puts new constraints on the thermalization (both electronic and lattice) of a solid state material upon fs-scale XFEL heating. In addition to this thread of research I discuss some secondary work on the development of software and electronics for energy- and position-sensitive pixel detectors including current applications in the context of soft x-ray laboratory and possible future ones in XFEL, synchrotron, and laser plasma facility-based experiments.
+In this thesis I introduce the development of new techniques for the production of materials in the warm dense matter (WDM) regime, and for interrogation of the structure and thermodynamic state of such systems using x-ray diffraction and (to a lesser extent) spectroscopy. The main results include: a scheme for single-shot determination of the static structure factors of WDM systems generated at laser plasma facilities; a technique for enhancing the density of deposited energy in WDM generated at fourth-generation X-ray sources such as the Linac Coherent Light Source (LCLS); and interpretation of experimental data that puts new constraints on the thermalization (both electronic and lattice) of a solid state material upon fs-scale XFEL heating. In addition to this thread of research I discuss some secondary work on the development of software and electronics for energy- and position-sensitive pixel detectors including current applications in the context of soft x-ray laboratory and possible future ones in XFEL, synchrotron, and laser plasma facility-based experiments.
 
 \begin{figure}[h] 
-\caption{The atlas of high-energy density physics}% TODO: (cite)}
+\caption{The atlas of high-energy density physics\cite{plasma2003frontiers}}
 \label{fig:atlas}
 \centering
 \includegraphics[scale=0.25]{../Figures/atlas.png}
 \end{figure}
 
-Before proceeding it is useful to define WDM in terms of the microphysical context it occupies. Fig. \ref{fig:atlas} presents a map of thermodynamic parameter space, with the logarithm of density and temperature on the horizontal and vertical axes, respectively. A few bounding curves can be identified. First, ionization occurs at temperatures exceeding approximately 1 eV; this is denoted by curve (a), which forms a boundary between the plasma and condensed matter regimes. Second, curve (b) indicates the boundary at which the Fermi energy is approximately equal to the average thermal energy $k_BT$; i.e. where the electron degeneracy parameter, $E_f/k_B T$ is of order unity. Third, curve (c) corresponds to a value of 1 for the ratio of the Coulomb energy to the thermal to the thermal one, also called the plasma coupling parameter  $\Gamma$. 
+Before proceeding it is useful to define WDM in terms of the microphysical context it occupies. Fig. \ref{fig:atlas} presents a map of thermodynamic parameter space, with the logarithm of density and temperature on the horizontal and vertical axes, respectively. A few bounding curves can be identified. First, ionization occurs at temperatures exceeding approximately 1 eV; this is denoted by curve (a), which forms a boundary between the plasma and condensed matter regimes. Second, curve (b) indicates the boundary at which the Fermi energy is approximately equal to the average thermal energy $k_BT$; i.e. where the electron degeneracy parameter, $E_f/k_B T$ is of order unity. Third, curve (c) corresponds to a value of 1 for the ratio of the Coulomb energy to the thermal one, also called the plasma coupling parameter  $\Gamma = E_c/kT$, where $E_c$ is the Coulomb energy, $k$ is Boltzmann's constant, and $T$ is the electron temperature. 
 
-Above curves (a), (b) and (c) is the regime of classical plasma physics where, as a result of the weak interaction between neighboring ions ($\Gamma << 1$), collective interactions predominate over binary collisions and quantum statistics can be neglected ($\Lambda << 1$) except for the purpose of calculating blackbody spectra. In this regime continuous, classical modeling treatments are widely-used and fully validated \cite{krall1973principles}. Below curves (a), (b), and (c) is the low-temperature, intermediate-density realm of condensed matter physics, where the established theoretical framework is that of many-body quantum mechanics, wherein the potential landscape is built on the interaction between electrons and ion cores. In this framework finite-temperature effects are incorporated perturbatively. WDM occupies the transitional regime above curve (a) and near the intersection of curves (b) and (c), characterized by partial degeneracy and strong ion-ion coupling ($\Gamma$ and $\Lambda$ of order unity). As a result, treatments of plasma physics originating in the classical regime are not applicable to WDM. Solid state physics models similarly fail in the WDM regime due to large, non-perturbative effects of finite temperature on the structure and thermodynamics of WDM \cite{mattern2013condensed}.  
+A second dimensionless parameter according to which plasmas are commonly characterized is the plasma coupling parameter, given by $\Lambda = 4 \pi n \lambda_D$, where $n$ is electron density and $\lambda_D$ is the Debye length (a characteristic screening length that we will introduce shortly). $\Lambda >> 1$ corresponds to the case of an ideal plasma, where a large number of electrons is included within one screening length and interactions can therefore be described collectively. Correspondingly, above curves (a), (b) and (c) of Fig. \ref{fig:atlas} is the regime of ideal plasma physics where, as a result of the weak interaction between neighboring ions ($\Gamma << 1$), collective interactions predominate over binary collisions ($\Lambda << 1$) and quantum statistics can be neglected  except for the purpose of calculating blackbody spectra. In this regime continuous, classical modeling treatments are widely-used and fully validated \cite{krall1973principles}. Below curves (a), (b), and (c) is the low-temperature, intermediate-density realm of condensed matter physics, where the established theoretical framework is that of many-body quantum mechanics, wherein the potential landscape is built on the interaction between electrons and ion cores. In this framework finite-temperature effects are incorporated perturbatively. WDM occupies the transitional regime above curve (a) and near the intersection of curves (b) and (c), characterized by partial degeneracy and strong ion-ion coupling. As a result, treatments of plasma physics originating in the classical regime are not applicable to WDM. Solid state physics models similarly fail in the WDM regime due to large, non-perturbative effects of finite temperature on the structure and thermodynamics of WDM \cite{mattern2013condensed}.  
+%TODO citation numbering
 
 Modeling of the ionization potential depression (IPD) in a plasma is a case in point of the difficulties that manifest themselves with theoretical treatments of WDM. Adequate descriptions of IPD are given the Debye-Hueckel approximation and ion sphere model, which cover opposite regimes of high temperature and low density, and low density and high temperature, respectively. We here briefly introduce both models, with focus on the assumptions and approximations that they adopt.
 
@@ -273,7 +283,7 @@ In the opposite limit, the ion-sphere model describes IPD in a high-density mate
 % TODO: need stuff here on the validity of the ion sphere model
 % Cite Zimmerman and More 1979
 
-Leaving aside, momentarily, the ion sphere model's limitations, we might contemplate constructing a model of ionization potential depression that reduces to the ion sphere and Debye-Hueckel models in their respective limits. Doing so is challenging because it allows none of the simplifying approximations invoked by the two limiting cases. One manifestation of the lack of consensus concerning the correct approach is the existence of two mutually-contradictory models for IPD in WDM, those of Stewart and Pyatt \cite{stewart1966lowering} and Ecker and Kroll. \cite{ecker1963lowering} Though the Stewart-Pyatt model is more widely used and has the virtue of reproducing the ion-sphere and Debye-Hueckel behaviors, its validity has been called into question by recent direct XFEL-measurements of IPD in Al heated to 180 eV (cite Ciricosta paper). \cite{ciricosta2012direct, crowley2014continuum} Such conflicts exemplify the persistent difficulty of constructing models with validity across different sub-regimes of WDM.
+Leaving aside, momentarily, the ion sphere model's limitations, we might contemplate constructing a model of ionization potential depression that reduces to the ion sphere and Debye-Hueckel models in their respective limits. Doing so is challenging because it allows none of the simplifying approximations invoked by the two limiting cases. One manifestation of the lack of consensus concerning the correct approach is the existence of two mutually-contradictory models for IPD in WDM, those of Stewart and Pyatt \cite{stewart1966lowering} and Ecker and Kroll. \cite{ecker1963lowering} Though the Stewart-Pyatt model is more widely used and has the virtue of reproducing the ion-sphere and Debye-Hueckel behaviors, its validity has been called into question by recent direct XFEL-measurements of IPD in Al heated to 180 eV. \cite{ciricosta2012direct, crowley2014continuum} Such conflicts exemplify the persistent difficulty of constructing models with validity across different sub-regimes of WDM.
 % TODO: insert Fig. 2 from Ciricosta paper. talk about ciricosta et al.'s alternate ipd modeling approaches.
 % TODO: talk about XRTS data interpretation issues
 
@@ -286,7 +296,7 @@ In addition to the basic physics questions intrinsic to the WDM regime, there ar
 \subsection{Astrophysical modeling}
 A large contribution to this growth in interest is the relevance of WDM theory as a microphysical basis on for models of various systems in planetary and stellar astrophysics. Here we introduce two examples in which this relationship is salient.
 
-The interiors of both rocky and gas giant planets contain dense, and in some cases Fermi-degenerate, plasmas at 1 eV-scale temperatures. Examples include the iron under conditions of the earth's core (pressure = 3 Mbar; T = 6000 K), whose viscosity and equation of state (EOS) has consequences on convective heat transfer and the formation of earth's magnetic field. \cite{kuang1997earth} Similarly, modeling of the evolution and structure of gas giant planets depends on the EOS of H under the regime of gas giant interiors. The existence of metallic H caused by pressure ionization at Mbar-scale pressures has been experimentally demonstrated, but its onset is poorly understood at the level of theoretical models for the EOS: although a first-order dielectric-to-metal phase transition has been postulated, current approaches do not attempt to model pressure ionization, instead limiting themselves to interpolation between the better-understood atomic and fully ionized limits. \cite{EBELING198580} % TODO need to cite some more modern literature as well
+The interiors of both rocky and gas giant planets contain dense, and in some cases Fermi-degenerate, plasmas at 1 eV-scale temperatures. Examples include the iron under conditions of the earth's core (pressure = 3 Mbar; T = 6000 K), whose viscosity and equation of state (EOS) has consequences on convective heat transfer and the formation of earth's magnetic field. \cite{kuang1997earth} Similarly, modeling of the evolution and structure of gas giant planets depends on the EOS of H under the regime of gas giant interiors. The existence of metallic H caused by pressure ionization at Mbar-scale pressures has been predicted \cite{bonev2004quantum}, but the mechanism for its onset is poorly understood at the level of theoretical models for the EOS: although a first-order dielectric-to-metal phase transition has been postulated, current approaches do not attempt to model pressure ionization, instead limiting themselves to interpolation between the better-understood atomic and fully ionized limits. \cite{EBELING198580} % TODO need to cite some more modern literature as well
 % for example http://onlinelibrary.wiley.com.offcampus.lib.washington.edu/doi/10.1002/ctpp.200710049/epdf
 
 % TODO Probably need more of a transition here, talk about the consequences of uncertainty in the behavior
@@ -335,22 +345,20 @@ The ns duration of long-pulse lasers matches the timescale on which mechanical a
 % TODO: pull stuff on tie-in with ICF from Brian's thesis
 
 \subsection{Short-pulse lasers}
-Short pulse lasers are a second class of systems used to generate HED conditions. They are typically defined by pulse durations on the order of a picosecond or less, down to as little as $\sim$1 fs. 
-
+Short pulse lasers are a second class of systems used to generate HED conditions. They are typically defined by pulse durations on the order of a picosecond or less, down to as little as $\sim$1 fs. Short-pulse laser systems arose after the development of chirped pulse amplification in the 1980s and have proliferated ever since, especially with the recent advent of compact (university laboratory-scale) versions with tens of Joules of pulse energy, sufficient to generate scientifically interesting HED conditions. \cite{maine1988generation, boehly1997initial} The largest-scale short pulse lasers have pulse powers up to 100 TW, with durations on the order of 10 to 100 fs.
 % TODO: what applications do short pulse lasers excel at?
-Short-pulse laser systems arose after the development of chirped pulse amplification in the 1980s and have proliferated ever since, especially with the recent advent of compact (university laboratory-scale) versions with tens of Joules of pulse energy, sufficient to generate scientifically interesting HED conditions. \cite{maine1988generation, boehly1997initial} The largest-scale short pulse lasers have pulse powers up to 100 TW, with durations on the order of 10 to 100 fs.
 
 Due to the smaller total energies of short-pulse lasers and the relatively slow cooling timescale of materials heated above ambient conditions \textit{regardless} of the pump duration, short-pulse lasers are used to generate HED conditions under direct-drive configurations alone. Energy is coupled into a target indirectly (as is the case with long-pulse systems) via `hot' MeV-scale electrons generated in the laser's interaction with plasma at the target surface. In the (typical) case where bulk heating is required, the target thickness is small compared to the hot electrons' stopping range, causing them to reflux through the target once it acquires net positive charge. This process lasts on the order of one ps and thus sets the time resolution of experiments in which the short-pulse laser is used to both heat and probe the target. \cite{nilson2010scaling}
 
 \label{foobar}
 \subsection{X-Ray Free Electron Lasers}
-The advent of X-Ray Free Electron lasers is a major advance in capability for WDM research. Existing incarnations of these sources, notably the Linac Coherent Light Source (LCLS), provide $10^{14}$ photons in a $\geq 10$ fs-duration monochromatic pulses with tunable energy. While the energies per pulse are smaller than those attainable with a short-pulse laser, they are largely sufficient to produce HED states with temperatures in excess of 100 eV. \cite{vinko2012creation} Because XFELs can heat volumetrically, they are free of the primary deficiency of lasers with respect to the task of generating dense plasmas: namely, the latter can only heat bulk materials indirectly and over durations of 1 ps or longer, which exceeds the timescale for changes in WDM, preventing the study of short-lived transient states.
+The advent of X-ray free electron lasers (XFELs) is a major advance in capability for WDM research. Existing incarnations of these sources, notably the Linac Coherent Light Source (LCLS), provide $10^{14}$ photons in tunable monochromatic pulses with durations of 10 fs or greater. While the energies per pulse are smaller than those attainable with a short-pulse laser, they are largely sufficient to produce HED states with temperatures in excess of 100 eV. \cite{vinko2012creation} Because XFELs can heat volumetrically, they are free of the primary deficiency of lasers with respect to the task of generating dense plasmas: namely, the latter can only heat bulk materials indirectly and over durations of 1 ps or longer, which exceeds the timescale for changes in WDM, preventing the study of short-lived transient states.
 
-The ability to generate (and probe) WDM on truly inertial timescales, wherein atomic nuclei are effectively frozen, has been duly exploited in early pioneering studies at the LCLS. It forms the basis, for example, for a new thread of materials science research on nonthermal lattice and spin dynamics. \cite{lee2012non, lee2003finite}  Likely even more significantly, it is the enabling feature for macromolecular crystallography under the `diffract before destroy' paradigm. The possibilities surrounding rapid generation of WDM is a topic to which I return in chapters \ref{hef} and \ref{mgo}. \cite{vinko2012creation}
+The ability to generate (and probe) WDM on truly inertial timescales, wherein atomic nuclei are effectively frozen, has been duly exploited in early pioneering studies at the LCLS. It forms the basis, for example, for a new thread of materials science research on nonthermal lattice and spin dynamics. \cite{lee2012non, lee2003finite}  Likely even more significantly, it is the enabling feature for macromolecular crystallography under the `diffract before destroy' paradigm. The possibilities surrounding rapid generation of WDM is a topic to which I return in chapters \ref{chap:hef_chapter} and \ref{mgo}. \cite{vinko2012creation}
 % TODO: insert figure Brightness_overview.jpg and cite doi:10.1038/nphoton.2007.76
 
 \section{X-ray diagnostics of WDM}
-Experimental studies of WDM suffer from a substantial complication: the opacity of WDM to photons is large at energies up to the soft X ray regime. As mentioned in section \ref{foobar}, in the context of laser heating this is merely a frustration; for the purposes of measuring the conditions of a bulk WDM system, however, the need for direct detection of radiation originating from the target's interior makes optical probes wholly ineffective. Determination of the structure and thermodynamic state variables of a dense plasma therefore requires sufficiently penetrating radiation; for this reason, the large majority of WDM diagnostics are X ray photon-in photon-out measurements. 
+Experimental studies of WDM suffer from a substantial complication: the opacity of WDM to photons is large at energies up to the soft x ray regime. As mentioned in section \ref{foobar}, in the context of laser heating this is merely a frustration; for the purposes of measuring the conditions of a bulk WDM system, however, the need for direct detection of radiation originating from the target's interior makes optical probes wholly ineffective. Determination of the structure and thermodynamic state variables of a dense plasma therefore requires sufficiently penetrating radiation; for this reason, the large majority of WDM diagnostics are x ray photon-in photon-out measurements. \cite{glenzer2009x}
 
 In the remainder of this section I provide an overview of the various available techniques.
 % TODo: more text...
@@ -362,7 +370,7 @@ Elastic scattering and nonresonant inelastic X-ray scattering (NIXS) are among t
 For a given sample, the sum of scattering interactions is characterized by the double-differential scattering cross section (DDCS) $d^2\sigma/d\Omega d\omega$, which describes the probability of a photon to scatter into a solid angle increment $d\Omega$ within an energy loss interval $d\omega$. Within the independent-electron and first Born approximations the DDCS is given by
 
 \begin{equation} \label{ddcs}
-\frac{d^2\sigma}{d\Omega d\omega} = r_0^2 (\frac{\omega_2}{\omega_1}) |\epsilon_1 \times \epsilon_2^*|^2 S(\vec{q}, \omega),
+\frac{d^2\sigma}{d\Omega d\omega} = r_0^2 (\frac{\omega_2}{\omega_1}) |\vec{\epsilon_1} \cdot \vec{\epsilon_2^*}|^2 S(\vec{q}, \omega),
 \end{equation}
 
 where 
@@ -374,12 +382,11 @@ S(\vec{q}, \omega) \equiv \sum_F  \sum_j\langle F|  exp(i \vec{q} \cdot \vec{r}_
 
 The first term in equation \ref{ddcs} is the Thomson cross section, which describes the interaction between a probe photon and a single electron; $S(\vec{q}, \omega)$ is referred to as the dynamic structure factor, and encapsulates all system-specific properties. $I$ and $F$ are initial and final states of the sample with energies $E_I$ and $E_F$, respectively, and the second summation in \ref{sofq} is over electrons in the scatterer.
 
-Following Chihara, the typical treatment of a dense plasma separates the dynamic structure factor into several components:
+Following Chihara \cite{chihara2000interaction}, the typical treatment of a dense plasma separates the dynamic structure factor into several components:
 
 \begin{equation}
 S(\vec{q}, \omega) = |f_I(q) + f_e(q)|^2 S_{ii}(q, \omega) + S_{ff}(q, \omega) + S_{bf}(q, \omega),
 \end{equation}
-
 $S_{ii}$ is the atomic/ionic structure factor, $f_I$ and $f_e$ are the form factors for the ion and a surrounding cloud of screening charge. \cite{chihara2000interaction} $S_{ff}$ contains scattering from free, delocalized electrons, and $S_{bf}$ represents Raman-type bound-free transitions resulting from scattering from tightly-bound core level electrons. Note that spherical symmetry has been assumed: all terms of the structure factor depend only on the magnitude of $\vec{q}$.
 
 The first term corresponds to elastic ($\omega = 0$) scattering, and is connected to the dense plasma's pair distribution function by a Fourier transform. Though not a component of the NIXS signal, it must often be considered in simulations and analyses of NIXS data, wherein the Bethe sum rule and other conserved quantities consist of integrals over the entire energy-loss domain of the dynamic structure factor. \cite{mattern2013theoretical} Elastic scattering is a highly-useful probe of structure; we consider it separately in section \ref{coh}. 
@@ -387,7 +394,7 @@ The first term corresponds to elastic ($\omega = 0$) scattering, and is connecte
 The free-free contribution to $S(q, \omega)$ can be expressed in terms of the free-electron dielectric function $\epsilon(q, \omega)$  via the fluctuation-dissipation theorem.\cite{kubo1966fluctuation}
 
 \begin{equation}
-S(q, \omega) = \frac{\epsilon_0 \hbar q^2}{\pi e^2 n_e} \frac{1}{1 - e^{\hbar \omega/k_B T_e}} \Im\frac{1}{\epsilon(q, \omega)},
+S(q, \omega) = \frac{\epsilon_0 \hbar q^2}{\pi e^2 n_e} \frac{1}{1 - e^{\hbar \omega/k_B T_e}} \operatorname{Im}(\frac{1}{\epsilon(q, \omega)}),
 \end{equation}
 
 The random phase approximation (RPA) is typically used as an approximation for $\epsilon(q, \omega)$, but more recent treatments incorporate a perturbative treatment of electron-ion interactions using the Born-Mermin Approximation. \cite{bohm1953collective, mermin1970lindhard} 
@@ -415,7 +422,7 @@ We finally turn our attention to the last term of \ref{sofq}, $S_{bf}$, whose co
 % TODO: (do predicitons of XRTS heavily depend on the choice of model, or is it just that uncertainties are high, regardless of the choice?) check brian's work
 In current practice, measurement of the  bound-free component of XRTS from WDM is performed in the large-$q$ regime, where the Compton feature is broad and can be measured using high-efficiency (but low-resolution) HOPG-based spectrometers. \cite{lee2009x} As such, single-particle bound-free scattering is more readily measured than collective excitation features. Since an early demonstration of the technique by Glenzer et al. it has been frequently implemented at both laser plasma and XFEL facilities.\cite{glenzer2003demonstration}
 %TODO (cite figures showing how these experiments are set up).
-   Despite some fruitful outcomes, the large statistical uncertainties in XRTS spectra--particularly at laser plasma facilities, where single-shot measurements are photon-starved--make the inference of state variables difficult, and dependent on one's choice of electronic structure model. \cite{mattern2013condensed} Mattern et al. have demonstrated this concretely by comparing theoretical fits to XRTS data of shock-compressed Be, and argue that the lack of rigorous validation of electronic structure models for WDM models strongly undermines their validity for first-principles measurement of state variables. 
+   Despite some fruitful outcomes, the large statistical uncertainties in XRTS spectra--particularly at laser plasma facilities, where single-shot measurements are photon-starved--make the inference of state variables difficult, and dependent on one's choice of electronic structure model. \cite{mattern2013condensed} Mattern et al. have demonstrated this concretely by comparing theoretical fits to XRTS data of shock-compressed Be, and argue that the lack of rigorous validation of electronic structure models for WDM models strongly undermines their validity for first-principles measurement of state variables. \cite{mattern2012real}
 %With this context as motivation, we revisit the topic of WDM thermometry in chapter (reference chapter).
 % S. H. Glenzer, G. Gregori, F. J. Rogers, D. H. Froula, S. W. Pollaine, R. S. Wallace, and O. L. Landen. X-ray scattering from solid density plasmas. Physics of Plasmas, 10(6):2433–2441, 2003.
 % TODO fix the terminology here. Does XRTS refer to just bound-free contribution (don't think so)
@@ -426,14 +433,13 @@ Coherent scattering is the zero-energy loss component of the double differential
 
 
 
-First, for amorphous materials, such as hot dense plasmas generated by ramp- or shock-compression and lacking long-range order, the scattering amplitude is isotropic and is characterized by the one-dimensional static structure factor, which is connected by a Fourier transform to the material's pair correlation function. Inference of the full pair correlation function is in practice frustrated by the difficulty of inverting a limited momentum transfer range-sampling of the structure factor, but even in the most information-limited scenarios a density can nevertheless be recovered from the structure factor's first correlation peak. Although coherent scattering measurements from dense plasmas have been demonstrated in the context of long-pulse laser compression experiments, implementation difficulties unique to that environment prevent its adoption as a routine technique. We address these difficulties, and proposed solutions, in chapter \ref{hef}. \cite{ma2013x}
+First, for amorphous materials, such as hot dense plasmas generated by ramp- or shock-compression and lacking long-range order, the scattering amplitude is isotropic and is characterized by the one-dimensional static structure factor, which is connected by a Fourier transform to the material's pair correlation function. Inference of the full pair correlation function is in practice frustrated by the difficulty of inverting a limited momentum transfer range-sampling of the structure factor, but even in the most information-limited scenarios a density can nevertheless be recovered from the structure factor's first correlation peak. Although coherent scattering measurements from dense plasmas have been demonstrated in the context of long-pulse laser compression experiments, implementation difficulties unique to that environment prevent its adoption as a routine technique. We address these difficulties, and proposed solutions, in chapter \ref{chap:hef_chapter}. \cite{ma2013x}
 
 Second, in materials with long-range crystalline order, as typically found in XFEL-based experiments (whose timescales are shorter than the thermalization rate of electronic and ionic degrees of freedom), the coherent scattering amplitude is given by
 
 \begin{equation}
 F(\vec{q}) = \sum e^{i \vec{q} \cdot \vec{R_n}} \sum f_j(\vec{q}) e^{i \vec{q} \cdot \vec{r_j}},
 \end{equation}
-
 where the first summation is over all lattice vectors $\vec{R_n}$ and the second, referred to as the \emph{unit cell structure factor}, is over positions $\vec{r_j}$ of atoms within the unit cell. By the convolution theorem, the crystal's scattering amplitude in reciprocal space is equal to the product of the lattice and unit cell structure factor. The coherent scattering signal is therefore a discrete sampling of the unit cell structure factor at individual Bragg peaks with momentum transfers corresponding to vectors of the reciprocal lattice.
 
 \begin{figure}[h] 
@@ -452,10 +458,10 @@ In the context of XRD from a material undergoing thermalization under fs XFEL he
 
 
 \subsection{X-ray absorption}
-X-ray absorption spectroscopy (XAS) may be used to measure the structure and unoccupied electronic density of states of WDM systems. The information available by X-ray absorption near-edge spectroscopy (XANES) and X-ray absorption fine structure (XAFS) is the same as in other scientific contexts, but the experimental implementation differs in a few respects. In all instances, the short duration of WDM states requires instantaneous collection of absorption spectra using a source with broad-band spectrum. At laser plasma facilities this is arranged using a spherical capsule of CH polymer imploded using a long-pulse laser that emits a thermal spectrum with a \textbackslash 1 MeV temperature (check this).\cite{yaakobi2003extended} This so-called broadband backlighter has been used to collect XAFS for the study of compression-induced phase transitions, such as that from bcc to hcp Fe driven by ns shock-compression.\cite{yaakobi2005exafs}
+X-ray absorption spectroscopy (XAS) may be used to measure the structure and unoccupied electronic density of states of WDM systems. The information available by X-ray absorption near-edge spectroscopy (XANES) and X-ray absorption fine structure (XAFS) is the same as in other scientific contexts, but the experimental implementation differs in a few respects. In all instances, the short duration of WDM states requires instantaneous collection of absorption spectra using a source with broad-band spectrum. At laser plasma facilities this is arranged using a spherical capsule of CH polymer imploded using a long-pulse laser that emits a thermal spectrum with a $\sim 1$ MeV temperature (check this).\cite{yaakobi2003extended} This so-called broadband backlighter has been used to collect XAFS for the study of compression-induced phase transitions, such as that from bcc to hcp Fe driven by ns shock-compression.\cite{yaakobi2005exafs}
 
 \begin{figure}[h] 
-\caption{FEFF calculation of XAFS for hcp and bcc phases of Fe (a), compared to experimental data taken on ambient and shock-compressed Fe at the OMEGA laser (b). \cite{yaakobi2005exafs}}
+\caption{(a) FEFF calculation of XAFS for hcp and bcc phases of Fe, compared to (b) experimental data taken on ambient and shock-compressed Fe at the OMEGA laser. \cite{yaakobi2005exafs}}
 \label{fig:xafs}
 %(cite https://lasers.llnl.gov/science/icf/how-icf-works)}
 \centering
@@ -510,13 +516,14 @@ X-ray emission spectroscopy (XES), the finer-grained cousin of XRF, provides mor
 
 \section{Dissertation Outline}
 % TODO sort out the name of UW Xap
-The overarching theme in this thesis is the relationship, and frequent feedback, between scientific discovery and the development of new experimental techinique. To begin, in Chapter \ref{hef} I introduce a scheme for single-shot measurement of the static structure factors of disordered dense plasmas produced at large-scale laser facilities such as Omega and NIF. 
-In chapters \ref{Penelope} and \ref{hef} I introduce the application of the electron transport Monte Carlo code PENELOPE to modeling nonlocal transport of energy in x ray-illuminated nanostructured targets. This modeling validates a concept for nanostructured XFEL target design that I discuss in chapter \ref{hef}.
+The overarching theme in this thesis is the relationship, and frequent feedback, between scientific discovery and the development of new experimental techinique.  
+To begin, in chapters \ref{Penelope} and \ref{chap:hef_chapter} I introduce the application of the electron transport Monte Carlo code PENELOPE to modeling nonlocal transport of energy in x ray-illuminated nanostructured targets. This modeling validates a concept for nanostructured XFEL target design that I discuss in chapter \ref{chap:hef_chapter}.
+In Chapter \ref{edxrd} I introduce a scheme for single-shot measurement of the static structure factors of disordered dense plasmas produced at large-scale laser facilities such as Omega and NIF.
 %In Chapter 3 I present an experimental observation of nonlocal heat transport by keV-scale electrons in a nanophase material and consider the question of how this effect can be used to improve WDM experiments conducted at XFELs via optimized nanostructured target design. 
-In chapters \ref{xfel_experiment} and \ref{mgo} I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapters \ref{cmos_ch} and \ref{cmos_ch2} I describe an instrument-development effort toward an inexpensive, but uniquely capable, CMOS-based X-ray camera for use in laboratory, synchrotron, and XFEL-based radiography and spectroscopy. Finally, in Chapter \ref{xap} I introduce UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
+In chapters \ref{xfel_experiment} and \ref{mgo} I discuss experimental results of a recent experiment at the LCLS in which we established bounds on the timescales for thermalization of the lattice in XFEL-heated metal oxides and measured the consequences of XFEL heating on electronic charge density, with subsequent comparisons to different model predictions.  In chapters \ref{cmos_ch} and \ref{cmos_ch2} I describe an instrument-development effort toward an inexpensive, but uniquely capable, CMOS-based X-ray camera for use in laboratory, synchrotron, and XFEL-based radiography and spectroscopy. Finally, in Chapter \ref{xap} I document UW-XAP, a software tool for streamlined realtime data collection and analysis at the LCLS. 
  
 \chapter{Physics of PENELOPE} % Main chapter title
-This chapter serves as background material for Chapter \ref{chap:hef_chapter}, in which we present the use of the Monte Carlo Code PENELOPE for the simulation of electron transport in nanostructured XFEL targets.
+This chapter serves as background material for Chapter \ref{chap:hef_chapter}, in which we present the use of the Monte Carlo Code PENELOPE for the simulation of electron transport in nanostructured XFEL targets. \cite{salvat2008penelope}
 
 \label{Penelope} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
@@ -539,7 +546,7 @@ This chapter serves as background material for Chapter \ref{chap:hef_chapter}, i
 %Discuss the program MATERIAL and justify penelope's use of Bragg's rule.
 %May need to discuss the estar database?
 % TODO: compare to the version of Dec 30 2016 (some changes were lost).
-PENELOPE performs Monte Carlo simulations of coupled electron-photon transport in arbitrary materials in the energy range of 100 eV to 1 GeV. It uses a mixed simulation method that treats soft interactions (that is, those involving small angular deflections) with a multiple-scattering approach while individually simulating hard interactions. It is paired with a geometry-definition program, PENGEOM, that allows defining samples with volumes of different material composition separated by arbitrary quartic surfaces.
+PENELOPE performs Monte Carlo simulations of coupled electron-photon transport in arbitrary materials in the energy range of 100 eV to 1 GeV. It uses a mixed simulation method that treats soft interactions (that is, those involving small angular deflections) with a multiple-scattering approach while individually simulating hard interactions. It is paired with a geometry-definition program, PENGEOM, that allows defining samples with volumes of different material composition separated by arbitrary quartic surfaces. \cite{almansa2016pengeom}
 
 \section{Types of interactions}
 In this section we consider the interactions that must be simulated to accurately model the spatial distribution of energy in a nanostructured target material heated by x-ray photons with energy on the order of 10 keV.
@@ -548,14 +555,14 @@ Figs. \ref{fig:sp} and \ref{fig:photon_sigma} show the energy dependence of the 
 Several of the processes have negligible or nonexistent roles on the $<$ 10 keV energy scale considered in the current work, allowing us to limit our scope to the electron scattering and photoabsorption (with consequent fluorescence and Auger emission).
 
 \begin{figure}[h] 
-\caption{Collisional and radiative electron stopping powers as a function of energy (cite)}
+\caption{Collisional and radiative electron stopping powers as a function of energy \cite{volpe2013collisional}}
 \label{fig:sp}
 \centering
 \includegraphics[scale=0.4]{../Figures/collisional_sp.png}
 \end{figure}
 
 \begin{figure}[h] 
-\caption{Photon cross section components in C as a function of energy (cite Hubbell 1980)}
+\caption{Photon cross section components in C as a function of energy \cite{hubbell1980pair}}
 \label{fig:photon_sigma}
 \centering
 \includegraphics[scale=1]{../Figures/photon_sigma.png}
@@ -570,7 +577,7 @@ Both the photoelectric effect and secondary (Auger) emission resulting from high
 %TODO find (cite Carlson et al.)
 
 \begin{figure}[h] 
-\caption{Atomic energy levels of the first three principal quantum numbers (left) and corresponding allowed radiative transitions (right).}
+\caption{Atomic energy levels of the first three principal quantum numbers (left) and corresponding allowed radiative transitions (right). \cite{salvat2008penelope}}
 \label{fig:photoionization}
 \centering
 \includegraphics[scale=0.4]{../Figures/penelope_2_2.png}
@@ -578,7 +585,7 @@ Both the photoelectric effect and secondary (Auger) emission resulting from high
 
 
 
-\subsubsection{Assumptions}
+\subsection{Assumptions}
 The above data sources are known to be accurate to the $1\%$ level above $1$ keV, under the condition (assumed by PENELOPE) of low incident photon densities, such that only single-electron transitions occur.\cite{salvat2008penelope}
 
 % TODO: cite on the polarization dependence thing?
@@ -589,33 +596,6 @@ We note that it does incorporate the angular distribution from Sauter's treatmen
 
 \subsection{Elastic scattering}
 Elastic scattering of electrons refers to interactions that do not alter target atoms' states. 
-% TODO: consider moving some of the below text to the end of this section
-%PENELOPE uses the static field approximation, which is accurate above energies of a few hundred eV but introduces a considerable error to the elastic DCS at and below 1 keV.\cite{mott1965theory, salvat2008penelope} 
-%An atom's electrostatic potential is expressed in terms of the nuclear and electronic charge densities, $\rho _n (r)$ and $\rho _e (r)$ respectively: 
-%
-%% TODO: nuclear charge should be a point
-%\begin{multline}
-%\phi (r) = e~4~\pi [\frac{1}{r}\int_0^{r}\rho(r')r'^{2} + \int_r^{\infty}\rho_n(r')r'dr'] -\\ e~4~\pi \frac{1}{r} \int_0^r\rho_e(r')r'^2 dr' + \int_r^\infty \rho_e(r') r' dr'].
-%\end{multline}
-%We note that, although PENELOPE accounts for the effect of the finite nuclear size on the elastic DCS, we simply treat the nucleus as a point source as this is sufficient for electrons with energy below 1 MeV.\cite{salvat2008penelope} 
-
-%Fermi distribution:
-%
-%\begin{equation}
-%\rho_n(r) = \frac{\rho_0}{exp[(r - R_n)(4ln3/t)] + 1},
-%\end{equation},
-
-%(cite Hahn et al. 1956 and understand the orgin of this expression)  $R_n$ is the mean radius and $t$ is the 'skin` thickness of $\rho_n$ defined in Hahn et al. 1956. 
-
-%The total interaction energy for electrons is
-%
-%\begin{equation}
-%V(r) = -e\phi(r) + V_{ex}(r),
-%\end{equation}
-%
-%where $V_{ex}(r)$ is a local approximation of the exchange interaction between the incident electron and atomic electrons. The angular distribution of elastic scattering off this central field is axially symmetric, and the DCS $d\sigma_{el}/d\Omega$ may therefore be expanded into a sum of Legendre polynomials. [Citing Salvat 2005 or Walker, describe how the phase shifts are obtained from the Dirac radial wave functions. What's the role of the exchange term in all this?]
-
-%\section{First view: Yukawa potential}
 The simplest widely-used model for elastic scattering of electrons in a solid is the semi-classical approach of Wentzel and Lenz, known as the Lenz model, which uses the Yukawa potential for the interaction between a fast electron and a target atom:
 
 \begin{equation}\label{eq:yukawa} 
@@ -637,20 +617,16 @@ Substituting (\ref{eq:yukawa}) into (\ref{born}) yields
 \begin{equation}
 	f(\theta) \simeq -2 \frac{m \alpha^2}{\hbar^2 q} \int_0^\infty e^{-r/r_0} \sin (qr)\, dr = -\frac{2m\alpha^2}{\hbar^2 (r_0^{-2} + q^2)},
 \end{equation}
-
 therefore giving the following differential scattering cross section:
 $$
 \frac{d\sigma}{d\Omega} = |f(\theta)| = \frac{4 Z^2}{a_0^2 k_0^4} \frac{1}{(\theta^2 + \theta_0^2)^2},
 $$
 where $k_0 = m_0 v$ is the momentum of the incident electron, $\theta_0 = (k_0 r_0)^{-1}$ is the characteristic angle for elastic scattering and $a_0 = 4 \pi \epsilon_0 \hbar^2/m_0 e^2$ is the Bohr radius.
 
-Using the Thomas-Fermi model, Wentzel and Lenz obtain $r_0 = a_0 Z^{-1/3}$ . Doing this substitution and integrating over scattering angles gives
+Using the Thomas-Fermi model, Wentzel and Lenz obtain $r_0 = a_0 Z^{-1/3}$. \cite{wentzel1926theorie, lenz1954streuung} Doing this substitution and integrating over scattering angles gives
 \begin{equation}
 \sigma_e = \int_0^\pi \frac{d\sigma}{d\Omega} 2 \pi \sin \theta d \theta = \frac{4 \pi}{k_0^2} Z^{4/3}
 \end{equation}
-% TODO check if egerton has cites for wentzel and lenz
-
-% TODO: copper->iron
 We thus see that the angular deflections of elastic scattering decrease with increasing energy. For 10 keV electrons, $\theta_0 \simeq 0.1$ rad and $\sigma_e = 4.2 \times 10^{-20}~\mathrm{m}^2$. The elastic mean free path, an alternate measure of the collision frequency, is equal to $\lambda_e = 1/(\sigma_e n)$, where $n$ is atomic number density. As an example, inserting $\sigma_e = 39~\mathrm{\AA}^2$ and $n = 8.5\times 10^{25}/m^3$ for Fe yields $\lambda_e = 300$ \AA. The product of expected numbers of elastic collisions on typical transport length scales (whose values exceed 10 nm) and the characteristic scattering angle are therefore at least of order unity (in radians), demonstrating that elastic scattering has a substantial influence on the propagation of below--10 keV electrons.
 
 
@@ -664,7 +640,7 @@ Despite its simplicity, the Lenz model gives total cross sections to within 10 \
 \end{figure}
 
 % reference title: applicability of the born approximation to collisions between electrons and excited atoms
-More accurate approaches use iterative (e.g. Hartree-Fock) solutions to the Schroedinger or Dirac equations to solve for the atomic potential.\cite{rez1984elastic} Additionally, partial wave approaches can be used to avoid the Born approximation in regimes in which it fails (low electron energy and high-Z species). PENELOPE combines the above approaches: it solves the partial-wave expanded Dirac equation with a potential based on the Dirac-Fock electron density of Desclaux (1975, see citation on pg 102 of penelope manual) and exchange interaction of Furness and McCarthy (1973). We will elaborate on PENELOPE's modeling of elastic scattering only within the narrow concern of assessing its accuracy within the physical regimes that we have interest in simulating; for more detail the reader may refer to Chapter 3 of the PENELOPE manual. 
+More accurate approaches use iterative (e.g. Hartree-Fock) solutions to the Schroedinger or Dirac equations to solve for the atomic potential.\cite{rez1984elastic} Additionally, partial wave approaches can be used to avoid the Born approximation in regimes in which it fails (low electron energy and high-Z species). PENELOPE combines the above approaches: it solves the partial-wave expanded Dirac equation with a potential based on the Dirac-Fock electron density of Desclaux and exchange interaction of Furness and McCarthy. \cite{desclaux1975multiconfiguration, furness1973semiphenomenological} We will elaborate on PENELOPE's modeling of elastic scattering only within the narrow concern of assessing its accuracy within the physical regimes that we have interest in simulating; for more detail the reader may refer to Chapter 3 of the PENELOPE manual. 
 
 
 % Fig. (fig reference) shows the angular dependence of scattering for Fe. 
@@ -673,11 +649,12 @@ More accurate approaches use iterative (e.g. Hartree-Fock) solutions to the Schr
 We now discuss the treatment of inelastic collisions, which are the dominant mechanism for energy loss of electrons up to above 10 keV (Fig. \ref{fig:photon_sigma}).  In an atomic system, the differential cross section for a transition from initial state wavefunction $\psi_0$ to final state wavefunction $\psi_n$ is
 %The double differential cross section for collisions with momentum transfer $q$ and energy loss $\omega$ is given by Fano (cite Fano 1963, see page 114 of PENELOPE manual) as
 
+% TODO: check formatting, and the equation itself
 \begin{equation} \label{bornDCS}
-\frac{d\sigma_n}{d\Omega} = \frac{m_0}{2\pi \hbar^2}^2 \frac{k_1}{k_0} \mid \int V(r) \psi_0 \psi_n exp(i q r) d\tau \mid ^2
+\frac{d\sigma_n}{d\Omega} = \frac{m_0}{2\pi \hbar^2}^2 \frac{k_1}{k_0} \mid \int V(r) \psi_0 \psi_n^* exp(i q r) d^3\vec{r} \mid ^2
 \end{equation}
 %TODO: fix the notation here. How does one do bolded text? dot products?
-where $\textbf{k}_0$ and $\textbf{k}_1$ are the wave vectors of the incident electron before and after scattering and $q = \hbar (\textbf{k}_1 - \textbf{k}_1)$ is the corresponding momentum transfer.\cite{fano1963penetration} 
+where $\textbf{k}_0$ and $\textbf{k}_1$ are the wave vectors of the incident electron before and after scattering and $\vec{q} = \hbar (\textbf{k}_1 - \textbf{k}_0)$ is the corresponding momentum transfer.\cite{fano1963penetration} 
 
 At nonrelativistic velocities the potential between electron and atom may be expressed as the following sum of Coulomb potentials of the nucleus and atomic electrons:
 
@@ -689,25 +666,23 @@ V(r) = \frac{Ze^2}{4\pi \epsilon_0 r} - \frac{1}{4 \pi \epsilon_0} \sum_{j = 1}^
 Substituting the second term of equation \ref{cpotential} into \ref{bornDCS}, we note that the nuclear potential is independent of the coordinates of the atomic electrons and can therefore be removed from the integral. The orthogonality of the wave functions $\psi_n$ implies that the nuclear potential does not contribute to inelastic scattering; the expression for the differential cross section of inelastic scattering is therefore:
 
 \begin{equation} \label{inelasticDCS}
-\frac{d\sigma_n}{d\Omega} = (\frac{4}{a_0^2 q^4}) \frac{k1}{k0} \mid \epsilon(q)\mid^2,
+\frac{d\sigma_n}{d\Omega} = (\frac{4}{a_0^2 q^4}) \frac{k_1}{k_0} \mid \epsilon_n(q)\mid^2,
 \end{equation}
 
 where
 
+% TODO is d^3\vec{r} right?
 \begin{equation}
-	\epsilon_n = \int \psi_n \sum_j e^{i q r_j} \psi_0 d\tau.
+	\epsilon_n = \int \psi_n \sum_j e^{i q r_j} \psi_0 d^3\vec{r}.
 \end{equation}
 
 
-The generalized oscillator strength is an important related quantity:
+The generalized oscillator strength (GOS) is an important related quantity:
 
 \begin{equation}
 f_n(q) = \frac{E_n}{R} \frac{\mid \epsilon_n(q)\mid ^2}{(q a_0)^2},
 \end{equation}
-
-
 where $R = (m_0 e^4 / 2)(4 \pi \epsilon_0 \hbar)^{-2}$, the Rydberg energy, and $E_n$ is the energy change of the transition. 
-
 The GOS is in general continuous and therefore better expressed as a density with dimensions 1/energy, i.e. $df(q, E)/dE$, where $E$ is energy loss. This allows us to re-express the double-differential cross section of inelastic scattering as follows:
 
 \begin{equation} \label{inelastic_DDCS}
@@ -723,7 +698,7 @@ Ritchie showed, using Poisson's equation and Fourier transforms, that an electro
 
 
 \begin{equation} \label{stp}
-\frac{dE}{dz} = \frac{2\hbar}{\pi a_0 m_0 v^2} \int \int \frac{q_y E \Im[-1/\epsilon(q, E)]}{q_y^2 + (E/\hbar v)^2},
+\frac{dE}{dz} = \frac{2\hbar}{\pi a_0 m_0 v^2} \int \int \frac{q_y E \operatorname{Im}[-1/\epsilon(q, E)]}{q_y^2 + (E/\hbar v)^2},
 \end{equation}
 % TODO: vectors?
 where $q_y$ is the component of the momentum transfer vector perpendicular to $v$ and $\omega = E/\hbar$.\cite{ritchie1957plasma} This quantity is referred to as the stopping power. It can be expressed in terms of the previously-defined DDCS:
@@ -731,15 +706,12 @@ where $q_y$ is the component of the momentum transfer vector perpendicular to $v
 \begin{equation} \label{stp2}
 \frac{dE}{dz} = \int \int n E \frac{d^2\sigma}{d\Omega dE} d\Omega dE,
 \end{equation}
-
-%\frac{d^2\sigma}{d\Omega dE} = 
 where $E$ is energy loss and $\Omega$ is solid angle. By equating equations \ref{stp} and \ref{stp2} in the small-angle limit it can be shown, by comparison with the atomic treatment, that 
 %TODO dig up cite
 
 $$
-\frac{df}{dE}(q, E) = \frac{2E}{\pi E_a^2} \Im[\frac{-1}{\epsilon(q, E)}],
+\frac{df}{dE}(q, E) = \frac{2E}{\pi E_a^2} \operatorname{Im}[\frac{-1}{\epsilon(q, E)}],
 $$
-
 thus demonstrating the equivalence of the atomic and dielectric approaches.
 
 Note, finally, that the GOS fully determines the value of equation \ref{inelastic_DDCS} within the first Born approximation. As such, given the potential of equation \ref{bornDCS} all modeling of the inelastic scattering of electrons at intermediate energies (1 keV -- 300 keV) reduces to construction of a GOS model. 
@@ -757,7 +729,8 @@ Analytical expressions for the GOS are known for only the two simple cases of th
 % TODO: fix the E/omega inconsistency
 % TODO: read Salvat and Varea, 1992
 The GOS is conventionally represented as a two-dimensional surface plot called the Bethe surface (Fig. \ref{fig:bethe}). 
-We identify two constraints on the behavior of the Bethe surface which any GOS model must reproduce. First, in the limit $Q\rightarrow 0$, the GOS of the dielectric formulation becomes proportional to  the optical oscillator strength $\Im[-1/\epsilon(0, E)]$, which is experimentally constrained by x-ray emission measurements. Second, in the limit of large momentum transfer the most probable energy loss is equal to the kinematically-determined value for collision between two free electrons, $E = q^2/2$.\cite{sorini2006ab} The corresponding trace in energy and momentum is a feature of the Bethe surface known as the Bethe ridge.
+We identify two constraints on the behavior of the Bethe surface which any GOS model must reproduce. First, in the limit $Q\rightarrow 0$, the GOS of the dielectric formulation becomes proportional to  the optical oscillator strength $\operatorname{Im}[-1/\epsilon(0, E)]$, which is experimentally constrained. Second, in the limit of large momentum transfer the most probable energy loss is equal to the kinematically-determined value for collision between two free electrons, $E = \hbar^2q^2/2 m_e$, where $m_e$ is the electron mass.\cite{sorini2006ab} The corresponding trace in energy and momentum is a feature of the Bethe surface known as the Bethe ridge.
+% TODO how is the oos measured experimentally?
 
 % From 3.36 in Egerton book
 \begin{figure}[h] 
@@ -772,7 +745,7 @@ As in Compton scattering, the shape of cuts through the Bethe surface (i.e. spec
 $$
 \frac{df(q, E)}{dE} = \sum f_k [\delta(E - E_k) \Theta (q_k - q) + \delta(E-q) \Theta(q - q_k)],
 $$
-where for the \emph{k}th shell $f_k$ is the shell's number of electrons, $q_k$ is the cutoff recoil energy, and $E_k$ is the shell's resonance energy. $Q_k$ is equal to the shell's binding energy $U_k$ (excluding the conduction band, for which it is set to 0), and $E_k$ is computed from from $U_k$ and the material's mean electron density, following Sternheimer.\cite{sternheimer1953energy} Within this model the GOS is fully determined by the shells' occupations and cutoff (binding) energies $U_k$, which PENELOPE obtains from Carlson (cite Carlson 1975). It is possible, optionally, to direct PENELOPE to fit its GOS model to experimental stopping power data provided in material input files. It performs this fit through reweighting of the GOS model's oscillators .
+where for the \emph{k}th shell $f_k$ is the shell's number of electrons, $q_k$ is the cutoff recoil energy, and $E_k$ is the shell's resonance energy. $q_k$ is equal to the shell's binding energy $U_k$ (excluding the conduction band, for which it is set to 0), and $E_k$ is computed from from $U_k$ and the material's mean electron density, following Sternheimer.\cite{sternheimer1953energy} Within this model the GOS is fully determined by the shells' occupations and cutoff (binding) energies $U_k$, which PENELOPE obtains from Carlson (cite Carlson 1975). It is possible, optionally, to direct PENELOPE to fit its GOS model to experimental stopping power data provided in material input files. It performs this fit through reweighting of the GOS model's oscillators .
 % TODO (\emph{this is actually a guess, as the PENELOPE manual is totally opaque about how the GOS/DDCS is fit to stopping power input data. Better understanding would require me to revisit PENELOPE's code or contact the authors})
 
 Substantial additional detail on the construction and interpretation of PENELOPE's GOS model can be found in its manual.
@@ -798,7 +771,7 @@ $$
 where $E_{final}$, the final energy of the electron, is usually taken to be 10 eV. For elements heavier than boron, $l_{CSDA} < 10$ nm for $E = 100$ eV. We therefore conclude that inaccuracy in treatments of collective excitations affect the spatial distribution of energy deposited by electrons only at a length scale below 10 nm (Fig. \ref{fig:csda})% (\hyperref[cite]{http://xdb.lbl.gov/Section3/Sec\_3-2.html}) 
 
 \begin{figure}[h] 
-\caption{CSDA range as a function of energy for several materials, based on computed low-energy stopping powers. }
+\caption{CSDA range as a function of energy for several materials, based on computed low-energy stopping powers. \cite{csdarange}}
 %TODO (cite LBL X ray data booklet and associated papers)
 \label{fig:csda}
 \centering
@@ -811,7 +784,7 @@ PENELOPE stops simulation of an electron's motion once its energy drops below a 
 % TODO: see berger and seltzer 1982 calculation of mean excitation energies
 \subsection{Elastic scattering}
 % TODO also need to talk about the absorption correction / dual channel thing
-PENELOPE's use of the static field approximation in its elastic scattering model introduces a low-energy error in the DCS due to the effect of the polarizability of atomic charge.\cite{salvat2003optical} The size of this error is 20\% at 1 keV and 50\% at 100 eV (PENELOPE manual, pg. 102). The CSDA range at 1 keV, where uncertainty at the level of the DCS is considerable, ranges from 10 nm for high-Z elements to over 100 nm for low-Z ones. Because the results of the PENELOPE simulations discussed in Chapter \ref{hef}  are sensitive to errors on the 10 nm - 100 nm length scale, the CSDA does not usefully constrain the elastic DCS model's contribution to uncertainty in the spatial distribution of deposited energy. 
+PENELOPE's use of the static field approximation in its elastic scattering model introduces a low-energy error in the DCS due to the effect of the polarizability of atomic charge.\cite{salvat2003optical} The size of this error is 20\% at 1 keV and 50\% at 100 eV. \cite{salvat2008penelope} The CSDA range at 1 keV, where uncertainty at the level of the DCS is considerable, ranges from 10 nm for high-Z elements to over 100 nm for low-Z ones. Because the results of the PENELOPE simulations discussed in Chapter \ref{chap:hef_chapter}  are sensitive to errors on the 10 nm - 100 nm length scale, the CSDA does not usefully constrain the elastic DCS model's contribution to uncertainty in the spatial distribution of deposited energy. 
 
 The magnitude of uncertainty in the elastic DCS may be calculated by modeling elastic scattering of an electron as a correlated random walk defined by an elastic collision mean free path $\lambda_e$ and energy-dependent distribution of scattering angles. Cursory consideration suggests that closed form solutions for transport distances are available only under restrictive assumptions; implementing this calculation as a Monte Carlo simulation appears straightforward, but we have not done so. It is worthwhile pursuing in the future, since until then one cannot fully quantify total uncertainties in PENELOPE's energy transport predictions. 
 
@@ -824,9 +797,9 @@ The magnitude of uncertainty in the elastic DCS may be calculated by modeling el
 % TODO In the prior discussion of scattering models I need to add the equation for the inelastic/elastic scattering ratio and also compare characteristic scattering angles.
 Inelastic scattering has much smaller characteristic angles than elastic scattering scattering but comparable total cross sections. As a result the influence of angular deflections by inelastic scattering on the propagation of electrons is relatively small. The effect of uncertainties in the inelastic scattering DDCS can thus be neglected, and we confine our attention to uncertainty at the level of the stopping power, a more coarse-grained quantity.
 
-Fig \ref{fig:stp_accuracy} compares PENELOPE's computed stopping powers and inelastic mean free paths for Al to several experimental datasets. The level of disagreement between different datasets is of the order 2 in the 1 keV - 10 keV energy loss range; the discrepancy between PENELOPE's modeled stopping power and the experimental datasets is also of this order. Because all transport lengths are proportional to stopping power we must thus contend with a factor of 2 uncertainty in the length scale of computed spatial distributions--far larger than any of the other uncertainties we have considered until now. 
+Fig \ref{fig:stp_accuracy} compares PENELOPE's computed stopping powers and inelastic mean free paths for Al to several experimental datasets. \cite{salvat2008penelope} The level of disagreement between different datasets is of the order 2 in the 1 keV - 10 keV energy loss range; the discrepancy between PENELOPE's modeled stopping power and the experimental datasets is also of this order. Because all transport lengths are proportional to stopping power we must thus contend with a factor of 2 uncertainty in the length scale of computed spatial distributions--far larger than any of the other uncertainties we have considered until now. 
 
-The conclusions of Chapter \ref{hef} can nevertheless be conserved, with one modification, if we consider PENELOPE's error in modeling the 1 - 10 keV stopping power as an unknown constant-factor scaling in stopping power. Such an uncertainty corresponds to an unknown scaling of both (1) the length scale of spatial distributions of deposited energy and (2) the flux magnitude of nonlocally-transported energy crossing a given material interface. To give a simple illustration, consider a one-dimensional configuration consisting of an infinite extent of source material from $x = -\infty$ to $x = \infty$. When the sample receives x ray illumination of magnitude unity at position $x0$ the density distribution $\rho(x)$ of deposited energy is given by a response function $f(x)$ (fully determined by the sample material's stopping power and incident x-ray spectrum): $ \rho(x) = f(x - x0) $. If the material is uniformly illuminated by x rays in the region spanning $x = 0$ to $x = \infty$ then (in arbitrary units):
+The conclusions of Chapter \ref{chap:hef_chapter} can nevertheless be conserved, with one modification, if we consider PENELOPE's error in modeling the 1 - 10 keV stopping power as an unknown constant-factor scaling in stopping power. Such an uncertainty corresponds to an unknown scaling of both (1) the length scale of spatial distributions of deposited energy and (2) the flux magnitude of nonlocally-transported energy crossing a given material interface. To give a simple illustration, consider a one-dimensional configuration consisting of an infinite extent of source material from $x = -\infty$ to $x = \infty$. When the sample receives x ray illumination of magnitude unity at position $0$ the density distribution $\rho(x)$ of deposited energy is given by a response function $f(x)$ (fully determined by the sample material's stopping power and incident x-ray spectrum): $ \rho(x) = f(x - x0) $. If the material is uniformly illuminated by x rays in the region spanning $x = 0$ to $x = \infty$ then (in arbitrary units):
 
 $$
 \rho(x) = \int_0^{\infty} f(x - x') dx'.
@@ -857,12 +830,12 @@ PENELOPE's dosimetry includes both linear energy transfer from radiation to matt
 
 Coarse-graining of the dose distribution is done by dividing the simulation volume into a three-dimensional grid of cells, in each of which PENELOPE calculates the total dose of deposited energy. This grid is defined by the parameters GRIDX, GRIDY, GRIZ and GRIDBN in PENELOPE's input.
 
-These spatial dose distributions are the output data of interest in the simulations of Chapter \ref{hef}.
+These spatial dose distributions are the output data of interest in the simulations of Chapter \ref{chap:hef_chapter}.
 
 \input{../pandoc/hef.tex}
 
 \chapter{A Photometric Study of Energy-Dispersive X-ray Diffraction at a Laser Plasma Facility}
-\label{hef}
+\label{edxrd}
 \input{../pandoc/edxrd.tex}
 
 \chapter{X-ray Free Electron Laser-Based Studies of WDM}
@@ -875,13 +848,12 @@ In this section we give an overview of the technology and its range of applicati
 \subsection{Physics of XFELs}
 To describe the FEL interaction, we first consider the generic case of radiation emission from undulators, the type of insertion device used in both XFELs and the highest-brilliance beamlines at third-generation synchrotron light sources.
 
-A simple time-of-flight argument may be used to obtain an intuitive understanding of radiation by a single electron in an undulator. A radiation wavefront co-propagating with an electron undergoing forced transverse undulation with a (longitudinal) period $\lambda_u$ will move ahead of the electron. Constructive interference of the radiation field produced by successive undulations of the electron will occur at discrete values of the electromagnetic wavelength, $\lambda_n$, satisfying $\lambda_n = \lambda_1 / n$, where $\lambda_1$ is defined as the fundamental resonant wavelength. The time $t$ taken for an electron to propagate one undulator period $\lambda_u$ at speed $v_z$ ($t = \lambda_u/v_z$) is equal to that needed for a resonant wavefront travel the distance $\lambda_u + n \lambda_n$. Equating the propagation times for the wavefront and electron yields the relation.\cite{mcneil2010x} 
+A simple time-of-flight argument may be used to obtain an intuitive understanding of radiation by a single electron in an undulator. A radiation wavefront co-propagating with an electron undergoing forced transverse undulation with a (longitudinal) period $\lambda_u$ will move ahead of the electron. Constructive interference of the radiation field produced by successive undulations of the electron will occur at discrete values of the electromagnetic wavelength, $\lambda_n$, satisfying $\lambda_n = \lambda_1 / n$, where $\lambda_1$ is defined as the fundamental resonant wavelength. The time $t$ taken for an electron to propagate one undulator period $\lambda_u$ at speed $v_z$ ($t = \lambda_u/v_z$) is equal to that needed for a resonant wavefront travel the distance $\lambda_u + n \lambda_n$. Equating the propagation times for the wavefront and electron yields the relation \cite{mcneil2010x} 
 
 \begin{equation}
 \lambda_n = \frac{\lambda_u}{n}(\frac{1 - v_z/c}{v_z/c}).
 \end{equation}
-
-More detailed treatment shows that, in the case of a helical undulator, only the fundamental mode has strong on-axis emission.% TODO  (cites)
+More detailed treatment shows that, in the case of a helical undulator, only the fundamental mode has strong on-axis emission. \cite{PhysRevLett.100.174801}
 
 This describes the narrow spectral width of undulator radiation and the coherent addition of radiated wave amplitudes by a single electron over the length of an undulator. This constructive interference accounts for the much higher brilliance of radiation produced by an undulator, compared to a wiggler or bending magnet. 
 
@@ -898,7 +870,7 @@ At a synchrotron light source electrons in a bunch have uncorrelated positions, 
 Electrons in an undulator experience a longitudinal force from the radiation field that is modulated by its period. 
 %TODO transition
 The consequent bunching of electrons with a period equal to the X-ray wavelength is a self-reinforcing process referred to as self amplified stimulated emission (SASE)%TODO (cites).
-Crucially, the occurrence of SASE requires a sufficiently strong initial radiation field, which third-generation synchrotron storage rings--having 100 ps-duration electron bunches--are not capable of producing. The key feature of an XFEL is its use of a linear accelerator to to produce very compact electron bunches with sufficient electron density to bootstrap SASE.
+Crucially, the occurrence of SASE requires a sufficiently strong initial radiation field, \cite{milton2001exponential} which third-generation synchrotron storage rings--having 100 ps-duration electron bunches--are not capable of producing. The key feature of an XFEL is its use of a linear accelerator to to produce very compact electron bunches with sufficient electron density to bootstrap SASE.
 
 % TODO: anything else to say?
 
@@ -906,9 +878,9 @@ Crucially, the occurrence of SASE requires a sufficiently strong initial radiati
 \subsection{XFELs and WDM generation}
 % (cites, reference a figure comparing different technolgies). i
 % TODO: (TODO: how about better-focusing XFEL optics?).
-Maximum single-shot flux densities available at XFELs exceed $10^4~J/cm^2$, sufficient to produce HED states with per atom energy deposition over 100 eV with uniform, volumetric heating.  Because XFEL radiation is monochromatic it can be used as a probe for nearly all X-ray diagnostics useful for determination of the state variables of WDM, with the notable exception of XAS.  Taken together, these characteristics make XFELs ideal for both producing and probing short-timescale dynamics of HED matter.%TODO (cites)
+Single-shot flux densities available from focused XFEL beams exceed $10^4~J/cm^2$, sufficient to produce HED states with per atom energy deposition over 100 eV with uniform, volumetric heating.  Because XFEL radiation is monochromatic it can be used as a probe for nearly all X-ray diagnostics useful for determination of the state variables of WDM, with the notable exception of XAS.  Taken together, these characteristics make XFELs ideal for both producing and probing short-timescale dynamics of HED matter.%TODO (cites)
 
-One of the most significant recent advances in XFEL technology is the generation of two-color pairs of hard X-ray pulses. This is done by production of time-delayed twin electron bunches (achieved either by illuminating the source cathode with a train of two laser pulses, or using an emittance spoiler) and the addition of magnetic chicanes that introduce a time-energy correlation in the electron beam before the bunches' entry into the undulator.\cite{marinelli2013multicolor} At the LCLS, two color X-ray pulse energies up to the mJ level--approaching the values of single-pulse SASE--have been demonstrated. X-ray arrival time delays are variable between 30 and 125 fs, and maximum color separations of up to 1.9 \% of the photon energy have been demonstrated.\cite{lutman2014demonstration}
+One of the most significant recent advances in XFEL technology is the generation of two-color pairs of hard X-ray pulses. This is done by production of time-delayed twin electron bunches (achieved either by illuminating the source cathode with a train of two laser pulses, or using an emittance spoiler) and the addition of magnetic chicanes that introduce a time-energy correlation in the electron beam before the bunches' entry into the undulator.\cite{marinelli2013multicolor} At the LCLS, two color X-ray pulse energies up to the mJ level--approaching the values of single-pulse SASE--have been demonstrated. \cite{marinelli2015high} X-ray arrival time delays are variable between 30 and 125 fs, and maximum color separations of up to 1.9 \% of the photon energy have been demonstrated.\cite{lutman2014demonstration}
 
 Operating an XFEL in two-color mode opens up significant possibilities for truly time-resolved probes of WDM. In single-pulse operation the time evolution of an XFEL-heated target can, to some extent, be studied by variation of pulse duration. However, such a study yields a signal that, for each XFEL configuration, is a convolution over all states the target transitioned as it heated throughout each pulse's duration. In contrast, two-color operation offers two advantages:
 
@@ -926,14 +898,18 @@ Operating an XFEL in two-color mode opens up significant possibilities for truly
 
 % TODO refereence the schematic (from general slides) of a two-color experiment with CF and all
 
-The possibility of clean time-resolved studies of XFEL-generated WDM is quite attractive, given that the electronic relaxation cascade in a heated solid consists of several partially-overlapping stages of uncertain durations: i.e. collisional ionization by hot electrons; stimulation of long-wavelength collective excitations; and damping of large-q excitations though production of electron-hole pairs. Lack of prior information in the physics under scrutiny emphasizes the need for the highest-information diagnostics available.
+The possibility of clean time-resolved studies of XFEL-generated WDM is quite attractive, given that the electronic relaxation cascade in a heated solid consists of several partially-overlapping stages of uncertain durations: i.e. collisional ionization by hot electrons; stimulation of long-wavelength collective excitations; and damping of large-$q$ excitations though production of electron-hole pairs. Lack of prior information in the physics under scrutiny emphasizes the need for the highest-information diagnostics available.
 
 \section{HED physics at XFEL facilities}
-\subsection{Early experiments}
-Initial efforts at FLASH and LCLS, the first free electron lasers operating at short wavelengths, have been focused on the creation of exotic states and the exploration of interactions of high-intensity hard X rays with matter. Thomas et al. and others have studied the Coulomb explosion of noble gas clusters, including the dynamics of nanoplasma formation.\cite{thomas2009shell} Using intense XFEL radiation Young et al. demonstrated the production of fully-stripped Ne atoms as well as induced X-ray transparency in `hollow' atoms, a manifestation of `beating' the Auger clock though ionization rates faster than the recombination times of core electrons. Their modeling of X-ray/atom interactions using a rate-equation based approach yielded predictions of atomic populations consistent with electron spectroscopy, providing an early validation of the application of population kinetics codes such as SCFLY to the simulation of XFEL-matter interactions.%TODO (cite Young, maybe cite SCFLY paper and check that it wasn't originally written with XFEL simulation in mind).
+\subsection{Prior work}
+Initial efforts at FLASH and LCLS, the first free electron lasers operating at short wavelengths, have been focused on the creation of exotic states and the exploration of interactions of high-intensity hard X rays with matter. Thomas et al. and others have studied the Coulomb explosion of noble gas clusters, including the dynamics of nanoplasma formation.\cite{thomas2009shell} Using intense XFEL radiation Young et al. demonstrated the production of fully-stripped Ne atoms as well as induced X-ray transparency in `hollow' atoms, a manifestation of `beating' the Auger clock though ionization rates faster than the recombination times of core electrons. \cite{keski1974total, young2010femtosecond} Their modeling of x-ray/atom interactions using a rate-equation based approach yielded predictions of atomic populations consistent with electron spectroscopy, providing an early validation of the application of population kinetics codes such as SCFLY to the simulation of XFEL-matter interactions. \cite{chung2017atomic}
 
 
-Nagler et al. have similarly demonstrated saturable absorption of an L-shell transition in Al, where the long lifetime of 2p vacancies allowed complete depopulation within a single XFEL pulse at incident intensities on the order of $10^{16}$ W/cm$^2$ and 92 eV photon energy.\cite{nagler2009turning} This experiment was the first demonstration of a bulk, crystalline material in a high-energy density (and highly non-thermal) electronic configuration. (check that this is true). 
+Nagler et al. have similarly demonstrated saturable absorption of an L-shell transition in Al, where the long lifetime of 2p vacancies allowed complete depopulation within a single XFEL pulse at incident intensities on the order of $10^{16}$ W/cm$^2$ and 92 eV photon energy.\cite{nagler2009turning} This experiment was one of the first demonstrations of a bulk, crystalline material in a high-energy density (and highly non-thermal) electronic configuration. 
+% TODO: Nagler figure?
+
+Finally, a significant subset of XFEL-based studies of WDM rely on optical or infrared pump to produce HED conditions. The Matter in Extreme conditions (MEC) endstation at the LCLS is largely dedicated to this type of experiment. Its combination of short- (40 fs pulse duration) and long- (2 to 200 fs pulse duration) laser systems (each with per-pulse energies exceeding 1 J) renders accessible a significant range of laser-generated HED systems. Highlights of early experiments in this regime include diffraction and phase contrast imaging of shocked materials--studies that require x-ray probe sources with one or more of the  high flux, brilliance, and coherence of an XFEL.  
+
 
 % new section?
 \section{Scientific Directions}
@@ -948,14 +924,17 @@ As alluded to above, two-color XFEL operation is a promising potential means of 
 \label{finite_t_theory}
 The output quantity of a density functional theory (DFT) simulation is real-space charge density. At the same time, the real-space charge distribution of a crystalline XFEL target material can be interrogated via X-ray diffraction, which samples the unit cell structure factor at momentum transfers corresponding to vectors of the reciprocal lattice. Because a material's lattice typically does not have sufficient time to respond to the changing electronic configuration over the duration of an XFEL pulse, XRD from WDM states produced by an XFEL can be directly compared to predictions of frozen-lattice finite-temperature DFT calculations.
 
-This observation has led Valenza et al. to generate predictions of the consequences of XFEL heating on the intensities of Bragg peaks in several materials using DFT calculations in VASP.\cite{valenza2016warm} They have shown that the information in the XRD signal is sufficient for discrimination between competing theoretical predictions, provided the XRD measurement is performed over a sufficiently wide range of momentum transfers. Valenza et al. demonstrate strong testable signatures of condensed-phase effects in each of LiF, graphite, diamond, and Be as a result of heating to temperatures on the order of 10 eV. A summary of their results is reproduced in Fig. \ref{fig:wdc}.
-
 \begin{figure}[h] 
 \caption{Left: intensity of diffraction peaks as a function of temperature, using finite-temperature DFT calculations in VASP; right: intensity of diffraction peaks as a function of ionization, using an atomic form factor-based model of ionization. The four simulated compounds are (from top to bottom) LiF, diamond, graphite, and Be. Taken from Valenza et al.\cite{valenza2016warm}}
 \label{fig:wdc}
 \centering
 \includegraphics[scale=0.7]{../Figures/wdc.png}
 \end{figure}
+
+\FloatBarrier
+
+This observation has led Valenza et al. to generate predictions of the consequences of XFEL heating on the intensities of Bragg peaks in several materials using DFT calculations in VASP.\cite{valenza2016warm} They have shown that the information in the XRD signal is sufficient for discrimination between competing theoretical predictions, provided the XRD measurement is performed over a sufficiently wide range of momentum transfers. Valenza et al. demonstrate strong testable signatures of condensed-phase effects in each of LiF, graphite, diamond, and Be as a result of heating to temperatures on the order of 10 eV. A summary of their results is reproduced in Fig. \ref{fig:wdc}.
+
 
 The capability to test predictions of finite-temperature electronic structure models is a unique feature of XFEL-based experiments. We will explore the topic in some more detail in chapter \ref{mgo}, where we have the opportunity to apply it to experimental data. 
 
@@ -973,10 +952,10 @@ Each of these can be achieved in one or more ways. Respectively:
 
 \begin{itemize}
 \item{As alluded to in section \ref{finite_t_theory}, better-constrained estimates of real space charge density can be obtained by sampling a larger number of Bragg reflections. This requires probing a large momentum transfer range, made possible by using a high incident photon energy.}
-\item{In bulk samples, a high density of deposited energy requires matching the incident photon energy to a value at which the photoelectric absorption cross section is large. In section \ref{hef} we will introduce an alternate approach based on the design of structured targets that relaxes this constraint on incident photon energy.}
+\item{In bulk samples, a high density of deposited energy requires matching the incident photon energy to a value at which the photoelectric absorption cross section is large. In Chapter \ref{chap:hef_chapter} we will introduce an alternate approach based on the design of structured targets that relaxes this constraint on incident photon energy.}
 \item{Wherever a single XFEL pulse is used to both heat and probe a sample, a limited degree of sensitivity to the time-evolution of transient states can be had by varying time duration. Two-color XFEL operation, however, is much more attractive. However, it suffers from tradeoffs: most notably experimental complexity and reduced signal, due to the need for attenuation of the probe pulse relative to the pump. }
 \end{itemize}
-These goals, and the tradeoffs that accompany them, are important context for both the experimental work described in the next section and the modeling-based exploration of experimental technique discussed in section \ref{hef}.
+These goals, and the tradeoffs that accompany them, are important context for both the experimental work described in the next section and the modeling-based exploration of the experimental technique discussed in section \ref{chap:hef_chapter}.
 
 \section{Experimental Work}
 In the following I describe several experimental results arising from two beam runs at the Matter of Extreme Conditions (MEC) endstation at the Linac Coherent Light Source (LCLS) in June of 2014 and January of 2016. The studies conducted addressed questions about the relative magnitudes, and time scales, of lattice and electronic heating in various solids, mainly metal oxides. The primary diagnostic was XRD, with which we measured changes in electronic charge distribution as a function of incident flux, with the eventual goal of comparison to finite-T condensed matter electronic structure theory, as described in \ref{mgo}. The secondary diagnostic--used in a subset of the studies--was a von Hamos X-ray emission spectrometer with a highly annealed pyrolytic graphite (HAPG) analyzer crystal and 9 eV energy resolution, with which heating-induced line shifts and changes in valence-level emission were measured. 
@@ -991,24 +970,26 @@ This is described in more detail in section \ref{mgo}, which details analysis an
 \subsection{Testing Lattice Thermalization in XFEL-heated Solid State Systems}
 
 \begin{figure}[h] 
-	\caption{Progression of Bragg peak intensities as a function of incident x-ray flux density for (a) microphase and (b) nanophase $\mathrm{Fe}_3\mathrm{O}_4$, normalized to the intensity of the lowest-flux density point. (c) displays the progression of Bragg peak intensities as a function of electron ionization in an atomic form-factor based model wherein the Fe 3d and O 2p electrons are first ionized, followed by the more tightly-bound Fe 4s and 3p, and O 2s electrons. (cite Fe3O4 paper in preparation)}
+\caption{Progression of Bragg peak intensities as a function of incident x-ray flux density for (a) microphase and (b) nanophase $\mathrm{Fe}_3\mathrm{O}_4$, normalized to the intensity of the lowest-flux density point. (c) displays the progression of Bragg peak intensities as a function of electron ionization in an atomic form-factor based model wherein the Fe 3d and O 2p electrons are first ionized, followed by the more tightly-bound Fe 4s and 3p, and O 2s electrons. \cite{mortfe3o4}}
 \label{fexrd}
 \centering
 \includegraphics[scale=1.0]{../Figures/fe3o4_xrd.png}
 \end{figure}
 
-Fig. \ref{fexrd} (a, b) displays the progression of Bragg peak intensities as a function of incident flux for two different $\mathrm{Fe}_3\mathrm{O}_4$ targets heated by 45 fs XFEL pulses. It demonstrates monotonic declines in the intensities of all Bragg peaks as a function of flux density, with the exception of the 222 peak, which rises to a maximum at the second-lowest flux density point before declining.
+Fig. \ref{fexrd} (a, b) displays the progression of Bragg peak intensities as a function of incident flux for two different $\mathrm{Fe}_3\mathrm{O}_4$ targets heated by 45 fs XFEL pulses. It demonstrates monotonic declines in the intensities of all Bragg peaks as a function of flux density, with the exception of the (222) peak, which rises to a maximum at the second-lowest flux density point before declining.
+
+\FloatBarrier
 
 It is straightforward to evaluate the relative contributions of thermalization of electronic and lattice degrees of freedom to the XRD signal's evolution as a function of heating. The main distinguishing feature between these two components is that the latter causes Debye-Waller quenching of Bragg peak intensities that is approximately proportional to $e^{-q^2\langle u^2 \rangle}$, where $q$ is momentum transfer and $u$ is atomic displacement. Fig. \ref{debye} compares the experimental data to this Debye-Waller progression for several different values of RMS atomic displacement. The experimental data shows a complete lack of Debye-Waller-like $q$-dependence in Bragg peak intensities at high levels of heating, signifying that the XRD response is strongly dominated by reorganization of electronic charge density within a unit cell. 
 
 \begin{figure}[h] 
-\caption{Same data as Fig. \ref{fexrd} plotted against Bragg angle and compared with the Debye-Waller factor for several values of RMS atomic displacement. (cite fe3o4 paper in preparation)}
+\caption{Same data as Fig. \ref{fexrd} plotted against Bragg angle and compared with the Debye-Waller factor for several values of RMS atomic displacement. \cite{mortfe3o4}}
 \label{debye}
 \centering
 \includegraphics[scale=1.0]{../Figures/fe3o4_debye.png}
 \end{figure}
 
-The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be further interpreted through comparison of the data to a simple atomic form factor-based model of ionization (the model is described more specifically in section \ref{mgo}. We find that the model reproduces the anomalous rise in intensity of the 222 reflection (Fig. \ref{fexrd}) via a loss of destructive interference between the valence wavefunctions of O and Fe as both are simultaneously ionized. (cite paper in preparation).
+The electronic response of $\mathrm{Fe}_3\mathrm{O}_4$ to XFEL heating can be further interpreted through comparison of the data to a simple atomic form factor-based model of ionization (the model is described more specifically in section \ref{mgo}. We find that the model reproduces the anomalous rise in intensity of the 222 reflection (Fig. \ref{fexrd}) via a loss of destructive interference between the valence wavefunctions of O and Fe as both are simultaneously ionized. \cite{mortfe3o4}
 
 %\subsection{Observation of Nonlocal Heat Transport in Nanophase $\mathrm{Fe}_3\mathrm{O}_4$}
 %\subsection{XES Signatures of Valence Electron Delocalization in XFEL-heated $\mathrm{Fe}_3\mathrm{O}_4$}

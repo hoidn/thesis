@@ -1,29 +1,34 @@
-\chapter{A Color X-ray Camera for 2 -- 6 keV Using a Mass-Produced CMOS Sensor}
-\label{cmos_ch2}
+{\centering
 Oliver R. Hoidn\textsuperscript{1}, William M.
 Holden\textsuperscript{1}, and Gerald T. Seidler\textsuperscript{1,*}
+
+\bigbreak
 
 \textsuperscript{1}Physics Department, University of Washington, Seattle
 WA 98195-1560
 
+}
+
 (*) \href{mailto:Seidler@uw.edu}{seidler@uw.edu}
 
-\section{Abstract}
-We report here the development of an x-ray camera for 2 -- 6 keV photons
-using mass-produced sensors and commercial control electronics. This
-instrument has several favorable characteristics for advanced x-ray
-spectroscopy studies in the laboratory, at synchrotron light sources, at
-x-ray free electron lasers, or using pulsed x-ray sources such as for
-laser plasma physics research. These characteristics include fine
-position and energy resolution for individual photon events; high
-saturation rates; easy user maintenance for damaged sensors; and
-software for real-time processing. We present results that evaluate this
-camera for use a as an alternative to traditional energy-dispersive
+\begin{addmargin}[4em]{1em}
+We report here the development of a spectroscopic x-ray camera for 2 --
+6 keV photons using mass-produced sensors and commercial control
+electronics. This instrument has several favorable characteristics for
+advanced x-ray spectroscopy studies in the laboratory, at synchrotron
+light sources, at x-ray free electron lasers, or using pulsed x-ray
+sources such as for laser plasma physics research. These characteristics
+include fine position and energy resolution for individual photon
+events; high saturation rates; easy user maintenance for damaged
+sensors; and software for real-time processing. We present results that
+evaluate this camera as an alternative to traditional energy-dispersive
 solid-state detectors, such as silicon drift detectors, and also
 illustrate its use in a dispersive x-ray emission spectrometer that has
-recently been reported elsewhere (Holden, et al., 2017).
+recently been reported elsewhere {[}Holden, et al., Rev. Sci. Instrum.
+2017{]}.
+\end{addmargin}
 
-\section{Introduction}
+\section{I. Introduction}
 The capabilities of a variety of x-ray techniques at the synchrotron,
 x-ray free electron laser (XFEL) and university-scale laboratory are
 heavily dependent on the characteristics of the x-ray detectors with
@@ -60,7 +65,7 @@ integration of all sensor functions), high framerates, and improved
 radiation hardness relative to comparable charge coupled devices (CCDs).
 \textsuperscript{1-4}. By `spectroscopic', we mean that the camera
 output contains sufficient information for determination of both the
-energy and position of a photoabsorbed x-ray-- such devices are often
+energy and position of a photoabsorbed x-ray. Such devices are often
 referred to as `color x-ray cameras'.
 
 In a prior publication we presented an x-ray camera platform for the 2-6
@@ -68,33 +73,35 @@ keV photon energy range based on a legacy CMOS image sensor, the Aptina
 MT9M001. Here, we introduce a new camera that incorporates a modern
 back-illuminated CMOS sensor with significantly improved readout rates
 and finer spectral and positional resolution compared to the previous
-model. We find an energy resolution of \textasciitilde{}150 eV at 2 keV
-with saturation rates above 10\textsuperscript{6}/s at
-\textasciitilde{}80 Hz frame rate. These spectroscopic benefits are
-complemented by a spatial resolution of 2.9 µm and real-time processing
-of all results, but are constrained by a \textasciitilde{}65\% quantum
-efficiency at 2 keV that decreases to below 20\% at 5 keV.
+model. Specifically, we find an energy resolution of
+\textasciitilde{}150 eV at 2 keV with saturation rates above
+10\textsuperscript{6}/s at \textasciitilde{}80 Hz frame rate. These
+spectroscopic benefits are complemented by a spatial resolution of 2.9
+µm and real-time processing of all results, but are constrained by a
+\textasciitilde{}50\% quantum efficiency at 2 keV that decreases to
+below 20\% at 5 keV.
 
 This manuscript continues as follows. First, in section II, we describe
-the commercial hardware, and its modification used in the present
-instruments, and also the new software package that has been developed
-to support real-time spectral analysis or real-time energy-windowed
-imaging. A key point here is that it is not only the sensor, but also
-the entire camera read-out system that is commercially available because
-of the high demand for extreme low-light sensitivity for, e.g., amateur
-astronomy. Next, in section III, we present results and discussion,
-demonstrating the cluster-binning methods and also both
-energy-dispersive and photon-counting modes for the camera. This
-includes representative data from a wavelength-dispersive spectrometer
-whose design has recently been described elsewhere. \textsuperscript{5}
-Finally, in section IV we conclude and provide future directions.
+experimental details including the commercial hardware, and its
+modification used in the present instruments, and also the new software
+package that has been developed to support real-time spectral analysis
+or real-time energy-windowed imaging. A key point here is that it is not
+only the sensor, but also the entire camera read-out system that is
+commercially available because of the high demand for extreme low-light
+sensitivity imaging for, e.g., amateur astronomy. Next, in section III,
+we present results and discussion, demonstrating the cluster-binning
+methods and also both energy-dispersive and photon-counting modes for
+the camera. This includes representative data from a
+wavelength-dispersive spectrometer whose design has recently been
+described elsewhere.\textsuperscript{5} Finally, in section IV we
+conclude and provide future directions.
 
 \section{II. Experimental }
 
 \subsection{II.A. Hardware}
 
 The hardware consists of a commercial amateur astronomy camera (ZWO
-Company) based on the Sony IMX290, a back-illuminated CMOS image sensor
+Company) based on the Sony IMX291, a back-illuminated CMOS image sensor
 with a rolling shutter, pixel pitch of 2.9-µm, pixel grid of 1936×1096,
 and maximum framerate of 170 fps. The sensor features high sensitivity
 and dynamic range, with a 12-bit A/D converter and readout noise of 1e-
@@ -104,22 +111,25 @@ configuration and access to the sensor's uncompressed video stream;
 notably, however, other manufacturers offer products with similar
 feature sets.
 
+\begin{center}
+\includegraphics{NewCameraPaper_1.10.docx1502867018/media/image1.jpeg}
+\end{center}
+
+\textbf{Figure 1}: Photograph of the modified camera. The original
+commercial product has been reworked to install an IC socket for the
+sensor and to remove the glass cover of the sensor.
+\bigbreak
+
 We have modified the camera in two ways. First, the main camera board
-has been reworked by removing the IMX290 sensor and replacing it with a
+has been reworked by removing the IMX291 sensor and replacing it with a
 custom IC socket (Andon Electronics). This was done to more easily allow
 sensor replacement if radiation damage occurred. Second, the sensor
 itself has been modified by removal of the glass cover (Pacific X-Ray).
-A photo of the resulting camera is shown in Fig. \ref{cmos2_image1}. The yellow plastic
+A photo of the resulting camera is shown in Fig. 1. The yellow plastic
 part holding down the sensor is a simple clamp used to press the sensor
 against the socket contact pads.
 
-\begin{figure}[h] \label{cmos2_image1}
-\caption{ Photograph of the modified camera. The original commercial
-product has been reworked to install an IC socket for the sensor and to
-remove the glass cover of the sensor.}
-\centering
-\includegraphics{cmos2/image1.jpeg}
-\end{figure}
+\FloatBarrier
 
 \subsection{II.B. Software}
 
@@ -141,33 +151,51 @@ signal is summed over all member pixels and the event's position is
 inferred from the cluster's center of mass. This technique is similar to
 event-reconstruction algorithms used for the same purpose in prior
 literature, with the difference that we place no constraint on the size
-and shape of signal clusters \textsuperscript{3}\emph{.} The sensor's
-low noise floor (under 1 e- per pixel) (\emph{cite datasheet. Can't find
-anything about the citation format for datasheets under the AIP style
-guide)} allows the use of an aggressively low threshold level, resulting
-in a high level of signal.
+and shape of signal clusters.\textsuperscript{3} The sensor's low noise
+floor (under 1 e- per pixel) allows the use of an aggressively low
+threshold level, resulting in a high level of signal.\textsuperscript{7}
+
+\begin{center}
+\includegraphics[scale=0.5]{NewCameraPaper_1.10.docx1502867018/media/image2.png}
+\end{center}
+
+\textbf{Figure 2}: Diagram of camera data processing pipeline.
+\bigbreak
+
 
 To implement the above analysis while avoiding the prohibitively large
 quantity of disk storage that offline processing demands, we developed a
 real-time data processing pipeline; the general framework for this
-pipeline is shown in Fig. \ref{cmos2_image2}. It consists of a collection of several
+pipeline is shown in Fig. 2. It consists of a collection of several
 software components communicating with one another over ZeroMQ sockets.
 First, a customized version of the open source image capture program
-oaCapture controls the camera's readout, allowing the user to configure
-the camera's gain and per-frame exposure time. Event reconstruction,
-which requires the computational throughput of multiple CPU cores, is
-done by a pool of worker processes collecting frames from the capture
-application in round-robin fashion. The resulting filtered frames from
-this parallel pipeline are aggregated on a sink node that communicates
-with an API component that, in turn, provides users with high-level
-functions for acquiring and visualizing pre-processed camera data.
+oaCapture controls the camera's readout,\textsuperscript{8} allowing the
+user to configure the camera's gain and per-frame exposure time. Event
+reconstruction, which requires the computational throughput of multiple
+CPU cores, is done by a pool of worker processes collecting frames from
+the capture application in round-robin fashion. The resulting filtered
+frames from this parallel pipeline are aggregated on a sink node that
+communicates with an API component that, in turn, provides users with
+high-level functions for acquiring and visualizing pre-processed camera
+data.
 
-\begin{figure}[h] \label{cmos2_image2}
-\caption{ Diagram of camera data processing pipeline.
-}
-\centering
-\includegraphics[scale=0.40]{cmos2/image2.png}
-\end{figure}
+\FloatBarrier
+
+\subsection{II.C. X-ray Measurements}
+
+X-ray measurements for direct characterization of the camera performance
+used a low-powered Rh-anode x-ray tube (Moxtek). For quantum efficiency
+(QE) determination at different energies, the x-ray tube illuminated
+appropriate reference targets that generated elemental fluorescence at
+desired energies. The camera and a commercial SDD (Amptek XR-100SDD)
+were alternated behind a pinhole that ensured equal illumination on each
+sensor. The ratio of detection rates, corrected for the SDD's QE, then
+allows determination of the camera QE. Saturation rate measurements
+involved direct illumination of the camera by the full broadband output
+of the x-ray tube, displaced several tens of cm away from the sensor to
+allow for a useful tube-current range before saturation. Results from
+the miniature wavelength-dispersive spectrometer follow from methods
+described in Holden, et al.\textsuperscript{5}
 
 \section{III. Results and Discussion}
 
@@ -175,25 +203,44 @@ In this section we address four aspects of the camera operation and
 performance: the cluster algorithm, energy dispersive operation, quantum
 efficiency, and finally single-photon counting mode for
 spectroscopically-constrained imaging. First, a magnified view of a
-small region of a captured image is presented in Fig. \ref{cmos2_image4}, where
+small region of a captured image is presented in Fig. 3, where
 single-photon signal clusters are readily identifiable. The distribution
 of cluster sizes is strongly skewed; the largest clusters contain more
 than 10 pixels, while the mean number is 2.1.
 
-\begin{figure}[h] \label{cmos2_image4}
-\caption{
- Representative cropped region of a camera frame during direct
-illumination by a Rh anode x-ray tube source operating at 6 kV bias
-voltage, with the camera detecting 2 $\times$ 10\textsuperscript{6} photons/s
-at an 80 Hz frame rate.
-}
-\centering
-\includegraphics{cmos2/image4.png}
-\end{figure}
+\begin{center}
+\includegraphics{NewCameraPaper_1.10.docx1502867018/media/image3.png}
+\end{center}
+
+\textbf{Figure 3}: Representative cropped region of a camera frame
+during direct illumination by a Rh anode x-ray tube source operating at
+6 kV bias voltage. The total illumination results in detection of 2 ×
+10\textsuperscript{6} photons/s using an 80 Hz frame rate.
+\bigbreak
+
+\begin{center}
+\includegraphics{NewCameraPaper_1.10.docx1502867018/media/image4.png}
+\end{center}
+
+\textbf{Figure 4}: Energy dispersive spectrum from direct illumination
+of the camera by a Rh anode x-ray tube source operating at 6 kV bias
+voltage. The ADC channel at the peak of the Rh L emission contains
+\(3.2\  \times 10^{4}\) counts. See the text for discussion.
+\bigbreak
+
+\begin{center}
+\includegraphics{NewCameraPaper_1.10.docx1502867018/media/image5.png}
+\end{center}
+
+\textbf{Figure 5}: The camera's quantum efficiency as a function of
+x-ray photon energy, as established by comparison with a commercial Si
+drift detector.
+\bigbreak
+
 
 Second, when operated as a spectroscopic sensor, the camera's
 user-visible output is a histogram, summed over all frames, of number of
-events binned by per-event signal. This is demonstrated in Fig. \ref{cmos2_image6} (top
+events binned by per-event signal. This is demonstrated in Fig. 4 (top
 panel), which shows the direct-illumination spectrum of a laboratory
 x-ray tube source. The dominant components of the signal are the tube's
 continuous bremsstrahlung spectrum and Rh L-shell emission from the
@@ -204,61 +251,56 @@ sites to be registered as separate events. Second, the escape of Si
 fluorescence from the absorption sites of Rh L photons creates echos of
 the Rh L peaks (termed escape peaks) that are downshifted by 1.74 keV,
 the energy of Si Kα. We find that the camera's energy resolution at the
-energy of P Kα is 150 eV (Fig. \ref{cmos2_image6} bottom panel), somewhat inferior to
+energy of P Kα is 150 eV (Fig. 4 bottom panel), somewhat inferior to
 SDD's at this energy but still sufficient for many applications.
 
-\begin{figure}[h] \label{cmos2_image6}
-\caption{
- Energy dispersive spectrum from direct illumination of the
-camera by a Rh anode x-ray tube source operating at 6 keV bias voltage.
-The ADC channel at the peak of the Rh L emission contains \(^{}\)
-counts. See the text for discussion.
-}
-\centering
-\includegraphics{cmos2/image6.png}
-\end{figure}
+\FloatBarrier
 
-Third, the quantum efficiency (QE) of the detector was characterized by
-measurement of the K-shell fluorescence spectra of several elements,
-using a low-power laboratory x-ray tube source to excite 1s core holes
-in each measured sample. The intensity of resulting Kα and Kβ emission
-registered by the detector was referenced to that recorded at the same
-position by a commercial Si drift detector (Amptek XR-100SDD) having
-known QE. Results are presented in Fig. \ref{cmos2_image7}; we note a maximum QE of 60\%
-at the energy of P Kα, a more than two-fold improvement over our
-previous camera.\textsuperscript{4} Under uniform illumination from Rh
-x-ray tube at 6 kV accelerating potential, the observed count rates
-have only minimal deviations from linearity at count rates up to 2 x
-10\textsuperscript{6} photons per second 80 Hz frame rate (see Fig. \ref{cmos2_image9})
+
+\begin{center}
+\includegraphics{NewCameraPaper_1.10.docx1502867018/media/image6.png}
+\end{center}
+
+\textbf{Figure 6}: Camera count rate as a function of incident photon
+intensity, controlled via current provided to an x-ray tube source
+directly illuminating the camera with a broadband spectrum (see Fig. 4).
+We compare to the same curves for a commercial SDD with pulse shaping
+times optimized for count rate (short shaping time) or for energy
+resolution (long shaping time). The low efficiency of the camera is due
+to the large flux at higher photon energies where its QE is poor, see
+Figures 4 and 5. Illumination at lower photon energies will retain the
+high saturation rates but give the improved QE of Fig. 5.
+\bigbreak
+
+Third, the quantum efficiency (QE) of the detector is presented in Fig.
+5. We note a maximum QE of 50\% at the energy of P Kα, a more than
+two-fold improvement over our previous camera.\textsuperscript{4} Under
+uniform illumination at 6 kV accelerating potential, the observed count
+rates have only minimal deviations from linearity at count rates up to 2
+x 10\textsuperscript{6} photons per second 80 Hz frame rate (see Fig. 6)
 -- an impressive performance that is higher than the typical saturation
-rate of commercial silicon drift detectors. The lower count rates for
-the CMOS camera compared to the SDD are a consequence of the camera's
-lower quantum efficiency at higher photon energies.
+rate of commercial silicon drift detectors. The exposure sub-region
+shown in Fig. 3 comes from this exposure rate. Note that the photon
+clusters are still largely disconnected, so that pile-up is infrequent.
+The lower count rates for the CMOS camera compared to the SDD are a
+consequence of the camera's lower quantum efficiency at higher photon
+energies. The camera should retain the observed high saturation rate
+performance when illuminated with more monochromatic, lower-energy
+sources where its QE is higher.
 
-\begin{figure}[h] 
-\caption{
- Camera count rate as a function of incident photon intensity,
-controlled via current provided to an x ray tube source directly
-illuminating the camera (blue). We compare to the same curves for a
-commercial SDD with pulse shaping times optimized for count rate
-(orange) and energy resolution (green). The camera's saturation count
-rate is a factor of approximately 10 higher than the SDD's. The low
-efficiency of the camera is due to the high flux at higher photon
-energies, see Figures \ref{cmos2_image7} and \ref{cmos2_image9}.
-}\label{cmos2_image9}
-\centering
-\includegraphics{cmos2/image9.png}
-\end{figure}
+\begin{center}
+\includegraphics{NewCameraPaper_1.10.docx1502867018/media/image7.png}
+\end{center}
 
-\begin{figure}[h] \label{cmos2_image7}
-\caption{
- The camera's quantum efficiency as a function of x-ray photon
-energy, as established by comparison with a commercial Si drift
-detector.
-}
-\centering
-\includegraphics{cmos2/image7.png}
-\end{figure}
+\textbf{Figure 7}: Image of the sensor's output when serving as the
+position-sensitive area detector in miniature wavelength-dispersive
+spectrometer (Holden, et al., 2017).\textsuperscript{5} The signal shown
+is a S Kα spectrum. In order to reduce the background level, the camera
+was configured to reject all events with photon energies outside of a
+spectral region of interest centered at S Kα. \textsuperscript{5}
+\bigbreak
+
+\FloatBarrier
 
 Finally, the camera's combination of high saturation count rates and
 small pixel dimension makes it a strong fit as a position-sensitive
@@ -267,55 +309,58 @@ such an application the camera's spectroscopic sensitivity may be
 employed for background rejection (i.e., for rejection of photons with
 energies outside a pre-specified range), thus minimizing the need for
 shielding from stray scatter. Holden et al. have demonstrated this
-advantage in a novel compact dispersive refocusing Rowland (DRR)
-spectrometer design with a 10 cm-Rowland circle that incorporates the
-camera as its position-sensitive detector (Fig. \ref{cmos2_image11}). The spectrometer's
-small dimensions, which are enabled in part by the camera's fine spatial
-resolution, give it a large collection efficiency which results in count
-rates in laboratory studies (using low-power x-ray tube sources)
-comparable to those at a third-generation synchrotron insertion device.
-The instrument has thus far been demonstrated in the university-scale
-laboratory and at the synchrotron; its potential use at the Linac
-Coherent Light Source (LCLS) is currently being investigated, especially
-as the sensor frame rate can likely be matched to the 120 Hz repetition
-rate of that XFEL.
-
-\begin{figure}[h] \label{cmos2_image11}
-\caption{
- Image of the sensor's output when serving as the
-position-sensitive area detector in a DRR spectrometer.
-\textsuperscript{5} The signal shown is a S k alpha spectrum. In order
-to reduce the background level, the camera was configured to reject all
-events with photon energies outside of the spectrometer's bandwidth
-}
-\centering
-\includegraphics{cmos2/image11.png}
-\end{figure}
-
-\FloatBarrier
+advantage in a novel compact wavelength-dispersive spectrometer design
+with a 10-cm Rowland circle that incorporates the camera as its
+position-sensitive detector.\textsuperscript{5} In Figure 7, we show a
+representative camera exposure and the resulting processed spectrum. An
+energy region-of-interest has been set around the nominal S Kα photon
+energy so as to strongly reject stray scatter in the spectrometer. This
+simplified spectrometer design by greatly reducing the need for internal
+shielding. The spectrometer's small dimensions, which are enabled in
+part by the camera's fine spatial resolution, give it a large collection
+efficiency which results in count rates in laboratory studies (using
+low-power x-ray tube sources) comparable to those at a third-generation
+synchrotron insertion device. The instrument has thus far been
+demonstrated in the university-scale laboratory and at the synchrotron.
+Its potential use at the Linac Coherent Light Source (LCLS) is currently
+being investigated, especially as the sensor frame rate can likely be
+matched to the 120 Hz repetition rate of that XFEL.
 
 \section{IV. Conclusions and Future Directions}
 
-In conclusion, we have reported the development of a quite capable x-ray
+In conclusion, we have reported the development of a spectroscopic x-ray
 camera based on a mass-produced consumer product. The observed
 performance suggests a range of potential applications as a high-speed
 spectroscopic detector with fine spatial resolution and adequate quantum
 efficiency in the 2 - 6 keV photon energy range. Among these
-applications, we have demonstrated effective use of the camera as a
-position-sensitive detector in a novel high-performance compact
-dispersive spectrometer.
-
+applications, we have demonstrated effective use of the camera as an
+energy-selective position-sensitive detector in a high-performance
+compact dispersive spectrometer.
 
 \section{References}
-% TODO: citations
 
-\emph{\\}
+\textsuperscript{1}D. W. Lane Nuclear Instruments and Methods in Physics
+Research Section B: Beam Interactions with Materials and Atoms
+\textbf{284,} (2012).
 
+\textsuperscript{2}F. Nachtrab, et al., \emph{Proceedings of Nuclear
+Science Symposium Conference Record (NSS/MIC), 2009 IEEE,} (IEEE).
 
+\textsuperscript{3}L. Servoli, et al. Journal of Instrumentation
+\textbf{5,} (2010).
 
+\textsuperscript{4}O. R. Hoidn and G. T. Seidler Review of Scientific
+Instruments \textbf{86,} (2015).
 
+\textsuperscript{5}W. M. Holden, et al. arXiv preprint
+arXiv:1704.07496\textbf{,} (2017).
 
+\textsuperscript{6}C. Y. Lee IRE Transactions on Electronic Computers
+\textbf{EC-10,} (1961).
 
+\textsuperscript{7}IMX290LLR-C datasheet, Sony
+
+\textsuperscript{8}\emph{oaCapture, 2016}
 
 
 

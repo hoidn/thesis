@@ -1,0 +1,3 @@
+[submodule "uwthesis/scholar.py"]
+	path = uwthesis/scholar.py
+	url = https://github.com/ckreibich/scholar.py.git

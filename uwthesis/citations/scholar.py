@@ -1,1 +1,1 @@
-../../../scholar.py/scholar.py
+../scholar.py/scholar.py

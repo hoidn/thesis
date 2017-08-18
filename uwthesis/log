@@ -1,0 +1,181 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+The top-level auxiliary file: uwthesis.aux
+The style file: biblatex.bst
+Case mismatch error between cite keys GLENZER2009X and glenzer2009x
+---line 208 of file uwthesis.aux
+ : \citation{GLENZER2009X
+ :                       }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys LILJEQUIST1983SIMPLE and liljequist1983simple
+---line 238 of file uwthesis.aux
+ : \citation{LILJEQUIST1983SIMPLE
+ :                               }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys krishnan1998structure and KRISHNAN1998STRUCTURE
+---line 310 of file uwthesis.aux
+ : \citation{krishnan1998structure
+ :                                }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys krishnan1998structure and KRISHNAN1998STRUCTURE
+---line 316 of file uwthesis.aux
+ : \citation{krishnan1998structure
+ :                                }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys krishnan1998structure and KRISHNAN1998STRUCTURE
+---line 318 of file uwthesis.aux
+ : \citation{krishnan1998structure
+ :                                }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 394 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 395 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 404 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 430 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys karasiev2012comparison and KARASIEV2012COMPARISON
+---line 432 of file uwthesis.aux
+ : \citation{karasiev2012comparison
+ :                                 }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 435 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys hoidn2017nonlocal and HOIDN2017NONLOCAL
+---line 439 of file uwthesis.aux
+ : \citation{hoidn2017nonlocal
+ :                            }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys hoidn2017nonlocal and HOIDN2017NONLOCAL
+---line 440 of file uwthesis.aux
+ : \citation{hoidn2017nonlocal
+ :                            }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys hoidn2017nonlocal and HOIDN2017NONLOCAL
+---line 441 of file uwthesis.aux
+ : \citation{hoidn2017nonlocal
+ :                            }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys caleman2015ultrafast and CALEMAN2015ULTRAFAST
+---line 447 of file uwthesis.aux
+ : \citation{caleman2015ultrafast
+ :                               }
+I'm skipping whatever remains of this command
+Database file #1: uwthesis-blx.bib
+Database file #2: uwthesis.bib
+Repeated entry---line 824 of file uwthesis.bib
+ : @article{chihara2000interaction
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 835 of file uwthesis.bib
+ : @article{mattern2012real
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1040 of file uwthesis.bib
+ : @article{Glenzer2009x
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1290 of file uwthesis.bib
+ : @article{Liljequist1983simple
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1493 of file uwthesis.bib
+ : @article{mcneil2010x
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1503 of file uwthesis.bib
+ : @article{chapman2011femtosecond
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1513 of file uwthesis.bib
+ : @article{ma2013x
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1523 of file uwthesis.bib
+ : @article{karasiev2012comparison
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1573 of file uwthesis.bib
+ : @article{hoidn2017nonlocal
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1585 of file uwthesis.bib
+ : @inproceedings{chung2017atomic
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1625 of file uwthesis.bib
+ : @article{caleman2015ultrafast
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1652 of file uwthesis.bib
+ : @article{vinko2014density
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1681 of file uwthesis.bib
+ : @article{keski1974total
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "lindl2004physics"
+Warning--I didn't find a database entry for "moses2009ignition"
+Warning--I didn't find a database entry for "langenhorst1999laser"
+Warning--I didn't find a database entry for "gattacceca2010unraveling"
+Warning--I didn't find a database entry for "takabe2008high"
+Warning--I didn't find a database entry for "silva2004proton"
+Warning--I didn't find a database entry for "remington2000review"
+Warning--I didn't find a database entry for "park2012studying"
+Warning--I didn't find a database entry for "koenig2006radiative"
+Warning--I didn't find a database entry for "macchi2013ion"
+Warning--I didn't find a database entry for "gregori2012generation"
+Warning--I didn't find a database entry for "fiuza2012weibel"
+Warning--I didn't find a database entry for "dollar2013scaling"
+Warning--I didn't find a database entry for "akli2008laser"
+Warning--I didn't find a database entry for "young1998high"
+Warning--I didn't find a database entry for "oades2004target"
+Warning--I didn't find a database entry for "workman2001x"
+Warning--I didn't find a database entry for "stoeckl2001hard"
+Warning--I didn't find a database entry for "landen2001x"
+Warning--I didn't find a database entry for "hudson2002high"
+Warning--I didn't find a database entry for "dewald2004dante"
+Warning--I didn't find a database entry for "gregori2004electronic"
+Warning--I didn't find a database entry for "fortmann2012measurement"
+Warning--I didn't find a database entry for "lider2011x"
+Warning--I didn't find a database entry for "suggit2010nanosecond"
+Warning--I didn't find a database entry for "bourgade2004new"
+Warning--I didn't find a database entry for "feng2005energy"
+Warning--I didn't find a database entry for "hoidn2014photometric"
+Warning--I didn't find a database entry for "feng2007pressure"
+Warning--I didn't find a database entry for "desgreniers1989tin"
+Warning--I didn't find a database entry for "baublitz1981energy"
+Warning--I didn't find a database entry for "maddox2011absolute"
+Warning--I didn't find a database entry for "akli2007temperature"
+Warning--I didn't find a database entry for "krishnan2000x"
+Warning--I didn't find a database entry for "gregori2009low"
+Warning--I didn't find a database entry for "schulke2007electron"
+Warning--I didn't find a database entry for "yoo2012graphene"
+Warning--I didn't find a database entry for "visco2012measurement"
+Warning--I didn't find a database entry for "freund1996x"
+Warning--I didn't find a database entry for "tommasini2010development"
+Warning--I didn't find a database entry for "kritcher2008ultrafast"
+Warning--I didn't find a database entry for "gregori2006measurement"
+Warning--I didn't find a database entry for "pak2004x"
+Biblatex version: 2.8
+Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry fano1963penetration
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry fano1963penetration
+while executing---line 2659 of file biblatex.bst
+(There were 30 error messages)

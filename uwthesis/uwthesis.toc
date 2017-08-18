@@ -114,22 +114,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 6:} Mapping Species-Specific Ionization in Warm Dense Crystalline MgO Under Extreme X-ray Heating }{93}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}I. Introduction}{94}{section.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}II. Experimental Methods}{98}{section.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}II. A. Experimental Details}{98}{subsection.6.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}II.B. Data Reduction and Analysis}{98}{subsection.6.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}III. Modeling Methods}{100}{subsection.6.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}III. Results and Discussion}{103}{section.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}IV. Conclusion and Future Directions}{111}{section.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}References}{112}{section.6.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\@textofChapter \ 7:}A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and Single-Board Computers}{115}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Introduction}{115}{section.7.1}

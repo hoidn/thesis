@@ -2,41 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: uwthesis.aux
 The style file: biblatex.bst
-Case mismatch error between cite keys GLENZER2009X and glenzer2009x
----line 208 of file uwthesis.aux
- : \citation{GLENZER2009X
- :                       }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys LILJEQUIST1983SIMPLE and liljequist1983simple
----line 238 of file uwthesis.aux
- : \citation{LILJEQUIST1983SIMPLE
- :                               }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Krishnan1998structure and KRISHNAN1998STRUCTURE
----line 318 of file uwthesis.aux
- : \citation{Krishnan1998structure
- :                                }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Krishnan1998structure and KRISHNAN1998STRUCTURE
----line 320 of file uwthesis.aux
- : \citation{Krishnan1998structure
- :                                }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
----line 394 of file uwthesis.aux
- : \citation{valenza2016warm
- :                          }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
----line 395 of file uwthesis.aux
- : \citation{valenza2016warm
- :                          }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
----line 404 of file uwthesis.aux
- : \citation{valenza2016warm
- :                          }
-I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -48,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 28074 items from 5000.
+Reallocated field_info (elt_size=4) to 30854 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
 Repeated entry---line 824 of file uwthesis.bib
@@ -63,33 +28,89 @@ Repeated entry---line 1040 of file uwthesis.bib
  : @article{Glenzer2009x
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1112 of file uwthesis.bib
- : @article{Valenza2016warm
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1234 of file uwthesis.bib
- : @article{Hoidn2017nonlocal
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1305 of file uwthesis.bib
+Repeated entry---line 1290 of file uwthesis.bib
  : @article{Liljequist1983simple
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1664 of file uwthesis.bib
- : @article{GLENZER2009X
+Repeated entry---line 1493 of file uwthesis.bib
+ : @article{mcneil2010x
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1503 of file uwthesis.bib
+ : @article{chapman2011femtosecond
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1513 of file uwthesis.bib
+ : @article{ma2013x
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1523 of file uwthesis.bib
+ : @article{karasiev2012comparison
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1573 of file uwthesis.bib
+ : @article{hoidn2017nonlocal
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1585 of file uwthesis.bib
+ : @inproceedings{chung2017atomic
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1625 of file uwthesis.bib
+ : @article{caleman2015ultrafast
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1652 of file uwthesis.bib
+ : @article{vinko2014density
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1681 of file uwthesis.bib
+ : @article{keski1974total
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1912 of file uwthesis.bib
+ : @article{glenzer2009x
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1684 of file uwthesis.bib
- : @article{LEE2009X
+Repeated entry---line 1932 of file uwthesis.bib
+ : @article{lee2009x
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1704 of file uwthesis.bib
- : %@article{MATTERN2013CONDENSED
+Repeated entry---line 1952 of file uwthesis.bib
+ : @article{mattern2013condensed
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1987 of file uwthesis.bib
+ : @article{yaakobi2005exafs
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2007 of file uwthesis.bib
+ : @article{ma2013x
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2077 of file uwthesis.bib
+ : @article{yaakobi2003extended
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2099 of file uwthesis.bib
+ : @article{krishnan1998structure
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1821 of file uwthesis.bib
- : @article{KRISHNAN1998STRUCTURE
- :                               ,
+Repeated entry---line 2129 of file uwthesis.bib
+ : @article{chihara2000interaction
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2146 of file uwthesis.bib
+ : @article{eisenberger1970compton
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2156 of file uwthesis.bib
+ : @article{mattern2012real
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2214 of file uwthesis.bib
+ : @article{glenzer2003demonstration
+ :                                  ,
 I'm skipping whatever remains of this entry
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -98,45 +119,45 @@ Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, P
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry fano1963penetration
 while executing---line 2659 of file biblatex.bst
-You've used 166 entries,
+You've used 186 entries,
             6047 wiz_defined-function locations,
-            2094 strings with 45123 characters,
-and the built_in function-call counts, 623685 in all, are:
-= -- 25630
-> -- 20917
-< -- 4577
-+ -- 8415
-- -- 8526
-* -- 54574
-:= -- 37836
+            2114 strings with 47989 characters,
+and the built_in function-call counts, 700448 in all, are:
+= -- 28972
+> -- 23528
+< -- 5205
++ -- 9492
+- -- 9523
+* -- 60896
+:= -- 42361
 add.period$ -- 0
-call.type$ -- 166
-change.case$ -- 3094
+call.type$ -- 186
+change.case$ -- 3545
 chr.to.int$ -- 35
-cite$ -- 330
-duplicate$ -- 73509
-empty$ -- 63249
-format.name$ -- 17181
-if$ -- 135700
+cite$ -- 370
+duplicate$ -- 82464
+empty$ -- 70920
+format.name$ -- 19210
+if$ -- 152637
 int.to.chr$ -- 0
-int.to.str$ -- 498
+int.to.str$ -- 559
 missing$ -- 0
-newline$ -- 7228
-num.names$ -- 8504
-pop$ -- 54942
+newline$ -- 8059
+num.names$ -- 9619
+pop$ -- 61584
 preamble$ -- 1
-purify$ -- 4240
+purify$ -- 4826
 quote$ -- 0
-skip$ -- 34022
+skip$ -- 38437
 stack$ -- 0
-substring$ -- 15143
-swap$ -- 25008
-text.length$ -- 4003
-text.prefix$ -- 281
+substring$ -- 17264
+swap$ -- 27990
+text.length$ -- 4481
+text.prefix$ -- 317
 top$ -- 1
-type$ -- 6294
+type$ -- 7053
 warning$ -- 0
-while$ -- 2720
+while$ -- 3041
 width$ -- 0
-write$ -- 7061
-(There were 19 error messages)
+write$ -- 7872
+(There were 26 error messages)

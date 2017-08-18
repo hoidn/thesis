@@ -45,11 +45,12 @@
 %
 % The following line would print the thesis in a postscript font 
 
-\usepackage[style=authoryear,backend=bibtex,style=numeric, sorting=none]{biblatex}
+\usepackage[style=authoryear,backend=bibtex,style=numeric-comp, sorting=none]{biblatex}
 \usepackage{authblk}
 \usepackage{notoccite}
 \usepackage{scrextend}
-
+\usepackage{bibentry}
+%\usepackage{cite}
 
 %\newenvironment{poliabstract}[1]
 %   {\renewcommand{\abstractname}{#1}\begin{abstract}}
@@ -819,7 +820,7 @@ These spatial dose distributions are the output data of interest in the simulati
 
 \chapter{A Photometric Study of Energy-Dispersive X-ray Diffraction at a Laser Plasma Facility}
 \label{edxrd}
-\input{../pandoc/edxrd.tex}
+\input{../pandoc/edxrdnew.tex_bibtex.tex}
 
 \chapter{X-ray Free Electron Laser-Based Studies of WDM}
 \label{xfel_experiment}
@@ -988,7 +989,7 @@ Extreme X-ray Heating }
 \chapter{A Disposable X-ray Camera Based on Mass Produced CMOS Sensors and
 Single-Board Computers}
 \label{cmos_ch}
-\input{../pandoc/cmos1.tex}
+\input{../pandoc/cmos1.tex_bibtex.tex}
 
 \chapter{A Color X-ray Camera for 2-6 keV Using a Mass-Produced CMOS Sensor}
 \label{chap:cmos_ch2}

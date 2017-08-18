@@ -150,14 +150,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}IV. Conclusions and Future Directions}{132}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}References}{133}{section.8.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{133}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\@textofChapter \ 9:}Real-time analysis tools for the LCLS}{134}{chapter.9}
+\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{134}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Integration of Logging and Analysis}{135}{section.9.1}
+\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{136}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Interactive Distributed Computing}{137}{section.9.2}
+\contentsline {section}{\numberline {9.3}API features}{136}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}API features}{137}{section.9.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{140}{chapter*.6}
+\contentsline {chapter}{References}{139}{chapter*.6}

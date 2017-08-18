@@ -1,8 +1,15 @@
 import re
 from collections import namedtuple
 import pdb
+import scholar
 
 bib_pattern = r'\{\[\}(\d+)\{\]\}'
+ldelimiter = r'\{\[\}'
+rdelimiter = r'\{\]\}'
+
+#ldelimiter = r'\{\\textsuperscript\{'
+#rdelimiter = r'\}'
+
 Reference = namedtuple("Reference", ["number", "text"])
 
 def memoize(f):
@@ -15,14 +22,17 @@ def memoize(f):
 
 @memoize
 def getbib(text):
-    import subprocess
-    proc = subprocess.Popen(["python", "scholar.py", "-c", "1", "--phrase", text, "--citation", "bt"], stdout=subprocess.PIPE)
-    out = proc.communicate()[0]
-    return out.upper().strip('\n')
+    import sys
+    sys.argv = ["python", "scholar.py", "-c", "1", "--phrase", text, "--citation", "bt"]
+    try:
+        out = scholar.main()
+        return out.upper().strip('\n')
+    except (UnicodeDecodeError, AttributeError) as e:
+        return ''
 
 class Reference:
     def __init__(self, txt):
-        m = re.match(r'\{\[\}(\d+)\{\]\}(.*)', txt)
+        m = re.match(ldelimiter + r'(\d+)' + rdelimiter + r'(.*)', txt)
         self.num = int(m.groups()[0])
         self.text = m.groups()[1]
 
@@ -55,14 +65,14 @@ def get_references(fname, strip = True):
         else:
             new = l.replace('\n', ' ')
             newlines[-1] += new
-    isref = lambda l: re.match(r'\{\[\}\d+\{\]\}', l)
+    isref = lambda l: re.match(ldelimiter + r'\d+' + rdelimiter, l)
     references = list(map(lambda l: Reference(strip_latex_commands(l)),
         filter(isref, newlines)))
     rest = list(filter(lambda l: not isref(l), lines))
     return references, ' '.join(rest)
 
 def parse_citation(citation):
-    pat_body = r'\{\[\}(.+)\{\]\}'
+    pat_body = ldelimiter + r'(.+)' + rdelimiter
     body = re.match(pat_body, citation).groups()[0]
 
     pat_range = r'((\d+)\-?(\d+)?)\,?(.*)?'
@@ -85,7 +95,7 @@ def segment_citations(fname):
     # TODO we've assumed no more than one citation instance per line.
     with open(fname, 'r') as f:
         lines = f.readlines()
-    pat_citation = r'(.+)(\{\[\}(?:.+)?\{\]\})(.*)'
+    pat_citation = r'(.+)(' + ldelimiter + r'(?:.+)?' + rdelimiter + ')(.*)'
     pairs = [] 
     suffix = ''
     for l in lines:
@@ -108,8 +118,12 @@ def update_citations(fname):
         refnums = parse_citation(cite)
         refnames = filter(lambda name: name, [reflookup[num] for num in sorted(refnums)])
         print(refnames)
-        print(reflookup)
         if any(refnames):
             output += (r'\cite{%s}' % ', '.join(refnames))
     output += rest
-    return output
+    bib = '\n'.join(ref.getbib() for ref in references)
+    with open(fname + '_bibtex.tex', 'w') as f:
+        f.write(output)
+    with open(fname + '.bib', 'w') as f:
+        f.write(bib)
+    return bib, output

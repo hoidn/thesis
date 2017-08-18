@@ -2482,6 +2482,28 @@
   \field{year}{1953}
 \endentry
 
+\entry{carlson1975photoelectron}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carlson}{C.}%
+     {Thomas~A}{T.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139,
+  USA}%
+  }
+  \strng{namehash}{CTA1}
+  \strng{fullhash}{CTA1}
+  \field{number}{1}
+  \field{pages}{211\bibrangedash 234}
+  \field{title}{Photoelectron spectroscopy}
+  \field{volume}{26}
+  \field{journaltitle}{Annual Review of Physical Chemistry}
+  \field{year}{1975}
+\endentry
+
 \entry{jain2007review}{article}{}
   \name{author}{4}{}{%
     {{}%

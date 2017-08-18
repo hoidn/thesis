@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 31827 items from 5000.
+Reallocated field_info (elt_size=4) to 31966 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
 Repeated entry---line 824 of file uwthesis.bib
@@ -119,45 +119,49 @@ Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, P
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry fano1963penetration
 while executing---line 2659 of file biblatex.bst
-You've used 193 entries,
+Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry carlson1975photoelectron
+while executing---line 2659 of file biblatex.bst
+Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry carlson1975photoelectron
+while executing---line 2659 of file biblatex.bst
+You've used 194 entries,
             6047 wiz_defined-function locations,
-            2138 strings with 49166 characters,
-and the built_in function-call counts, 722742 in all, are:
-= -- 29901
-> -- 24219
-< -- 5370
-+ -- 9753
-- -- 9783
-* -- 62573
-:= -- 43632
+            2144 strings with 49278 characters,
+and the built_in function-call counts, 727776 in all, are:
+= -- 30288
+> -- 24365
+< -- 5459
++ -- 9841
+- -- 9804
+* -- 62738
+:= -- 43849
 add.period$ -- 0
-call.type$ -- 193
-change.case$ -- 3659
+call.type$ -- 194
+change.case$ -- 3741
 chr.to.int$ -- 35
-cite$ -- 384
-duplicate$ -- 85110
-empty$ -- 73324
-format.name$ -- 19741
-if$ -- 157616
+cite$ -- 386
+duplicate$ -- 85632
+empty$ -- 73776
+format.name$ -- 19787
+if$ -- 158855
 int.to.chr$ -- 0
-int.to.str$ -- 579
+int.to.str$ -- 582
 missing$ -- 0
-newline$ -- 8280
-num.names$ -- 9932
-pop$ -- 63875
+newline$ -- 8301
+num.names$ -- 10047
+pop$ -- 64185
 preamble$ -- 1
-purify$ -- 4973
+purify$ -- 5057
 quote$ -- 0
-skip$ -- 39699
+skip$ -- 40070
 stack$ -- 0
-substring$ -- 17797
-swap$ -- 28832
-text.length$ -- 4613
+substring$ -- 18205
+swap$ -- 29006
+text.length$ -- 4629
 text.prefix$ -- 322
 top$ -- 1
-type$ -- 7319
+type$ -- 7357
 warning$ -- 0
-while$ -- 3140
+while$ -- 3157
 width$ -- 0
-write$ -- 8086
-(There were 26 error messages)
+write$ -- 8106
+(There were 28 error messages)

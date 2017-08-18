@@ -2,12 +2,12 @@
 \chapter{Nonlocal Heat Transport and Improved Target Design for X-ray Heating Studies at X-ray Free Electron Lasers}
 \label{chap:hef_chapter}
 
-Oliver Hoidn and Gerald T. Seidler\textsuperscript{(*)}
+\emph{(This is a reproduction of a manuscript in review: }
+Oliver Hoidn and Gerald Seidler, 
+Physical Review B, submitted April 2017
+)
 
-Physics Department, University of Washington, Seattle WA
-
-(*) seidler@uw.edu
-
+\begin{addmargin}[2.5em]{2.5em}
 The extremely high power densities and short durations of single pulses
 of x-ray free electron lasers (XFELs) have opened new opportunities in
 atomic physics, where complex excitation-relaxation chains allow for
@@ -33,8 +33,8 @@ step toward optimization of x-ray heating target design, the
 demonstration of the importance of nonlocal heat transport establishes
 important common ground between XFEL-based x-ray heating studies and
 more traditional laser plasma methods.
+\end{addmargin}
 
-Submitted April 2017 Physical Review B
 
 \section{I. Introduction}
 
@@ -72,7 +72,7 @@ the real-space charge density at elevated electronic temperatures in a
 cool lattice gives a direct path to evaluating different DFT
 implementations. This is particularly significant as regards the
 temperature-dependent exchange functional, which is essential to
-predictions of bulk thermodynamic and elastic properties \cite{karasiev2012generalized, karasiev2012comparison, bredow2000effect}.
+predictions of bulk thermodynamic and elastic properties. \cite{karasiev2012generalized, karasiev2012comparison, bredow2000effect}
 
 However, in such a research program there is a confounding detail. The
 most effective heating by x-rays will occur with lower-energy photons
@@ -99,7 +99,7 @@ on the time scale of tens of femtoseconds. Subsequent electron-electron
 thermalization occurs on the scale of 100 fs -- 1 ps for ambient matter
 {[}14-17{]}, but in general has a strong eV-scale temperature
 dependence, thus requiring a self-consistent treatment at high incident
-flux levels.\cite{faure2013direct}
+flux levels. \cite{faure2013direct}
 
 Here, we take a simpler approach with the goal of identifying and
 illustrating the most important contributors to x-ray heating and how
@@ -131,6 +131,19 @@ submicron incident x-ray beams so that a large fraction of high-energy
 electrons escape the beam spot before slowing down, thus reducing
 radiation damage in the probed sample volume. \cite{stern2009reducing, finfrock2013mitigation, finfrock2010spatial, nave2005towards, sanishvili2011radiation}
 
+\begin{figure}[h]
+\caption{
+Representations of three types of multicomponent
+targets composed of sample material (green) and heater cladding
+(yellow). (a): A porous subtrate filled with sample material; (b): a
+mixture of cladding and sample nanoparticles embedded in a solid matrix;
+(c): a multilayer film.
+}
+\label{fig:hef_image1}
+\centering
+\includegraphics[scale=0.2]{hef/image1.png}
+\end{figure}
+
 With the above context established, we consider here a nanostructured
 target design that enhances energy deposition in a sample material using
 nonlocal heat transport from a more strongly x-ray absorbing material in
@@ -161,7 +174,7 @@ XRD), with significant utility for studying the time dynamics of the
 energy relaxation cascade for both electronic and lattice/ion degrees of
 freedom in such materials. These observations are particularly relevant
 in the context of two-color x-ray pump x-ray probe experiments at
-XFELs\cite{hoidn2017nonlocal, inoue2016observation, ho2015resonance, allaria2013two}, but also serve more generally to establish the
+XFELs \cite{hoidn2017nonlocal, inoue2016observation, ho2015resonance, allaria2013two}, but also serve more generally to establish the
 importance of nanoscale nonlocal heat transport in high-intensity XFEL
 studies. Finally, in section IV we conclude.
 
@@ -194,10 +207,12 @@ electron stopping power \(\frac{\text{dE}}{\text{dz}}\), which in a
 classical treatment is related to a material's dielectric function
 \(\varepsilon(q,\ \ \omega)\) by
 
+{\centering
 \begin{quote}
 \(\frac{\text{dE}}{\text{dz}} = \ \frac{2^{2}}{\pi a_{0}m_{0}v^{2}}\ \iint_{}^{}\frac{q_{y}\omega\ Im\lbrack\frac{- 1}{\varepsilon(q,\ \ \omega)\rbrack}}{{q_{y}}^{2} + \left( \frac{\omega}{v} \right)^{2}}dq_{y}d\omega,\)
 (1)
 \end{quote}
+}
 
 where ω is angular frequency, \(q\) is momentum transfer (with \(q_{y}\)
 the magnitude of the component for momentum transfer perpendicular to
@@ -210,7 +225,7 @@ slower time evolution of the subsequent electronic and lattice dynamics
 may be neglected in the present context of simulating fsec-scale energy
 transport, the possibility of interrogating it by time-resolved XFEL
 pump-probe measurement is an interesting topic in its own
-right.\cite{hoidn2017nonlocal}
+right. \cite{hoidn2017nonlocal}
 
 To model the above physics we used the code PENELOPE, which implements
 particle-tracking Monte Carlo simulations of electron showers generated
@@ -234,6 +249,21 @@ this approximation to infer stopping powers of arbitrary compounds using
 data from the NIST ESTAR database. \cite{berger1995estar}
 
 \section{III. Results and discussion}
+
+\begin{figure}[h]
+\caption{
+Visualization of a 3-D Monte Carlo simulation of
+electron transport in an Au-Fe-Au target heated by 7 keV photons,
+incident normally from the top of the page. Electron tracks are
+projected onto the plane of the page; showers resulting from
+photoexcitation of Au and Fe atoms are red and blue, respectively. Note
+that most of the electron tracks in the Fe are due to absorption events
+in the Au.
+}
+\label{fig:hef_image2}
+\centering
+\includegraphics[scale=1.0]{hef/image2.jpeg}
+\end{figure}
 
 We now present results for several realizations of our nanostructured
 target design, all of which consist of thin films clad with Au on one or
@@ -269,6 +299,23 @@ energy density in a clad sample compared to a bare one is significantly
 larger for lower-Z materials, reaching a factor of 100 for an Au-C-Au
 target of the same geometry (Fig. \ref{fig:hef_image4}).
 
+\begin{figure}[h]
+\caption{
+(a) Linear energy deposition density generated by 7 keV
+photons incident on an Au-Fe\textsubscript{3}O\textsubscript{4}-Au
+target, displayed for several thicknesses of the central
+Fe\textsubscript{3}O\textsubscript{4} layer and a fixed Au cladding
+thickness of 50nm. (b) Histograms of energy deposition density in volume
+elements of the Fe\textsubscript{3}O\textsubscript{4} inclusions in
+Au-Fe\textsubscript{3}O\textsubscript{4}-Au targets, displayed for
+several thicknesses of the Au cladding and a fixed
+Fe\textsubscript{3}O\textsubscript{4} layer thickness of 50 nm.
+}
+\label{fig:hef_image3}
+\centering
+\includegraphics[scale=0.3]{hef/image3.png}
+\end{figure}
+
 These enhancements in energy deposition increase the accessible
 thermodynamic parameter space in all XFEL heating experiments, which is
 particularly significant for experimental diagnostics that require
@@ -290,6 +337,9 @@ from the sample, making the described reduction in background worthwhile
 only assuming sufficient separation between Bragg peaks of the sample
 and cladding.
 
+\FloatBarrier
+
+
 Low-Z sample materials provide a separate, independently interesting,
 case for the use of structured target design in XRD studies. In such
 materials, nonlocal heat transport is effective over a much wider range
@@ -304,12 +354,12 @@ correspondingly reduces available information on real-space charge
 density.
 
 This creates an experimental dilemma with scientific consequences. For
-example, Hau-Riege et al.\cite{hau2012ultrafast} showed evidence for ultrafast melting
+example, Hau-Riege et al. \cite{hau2012ultrafast} showed evidence for ultrafast melting
 of graphite during a 40 fs-long XFEL pulse but were limited, for the
 reason described above, to using 2 keV incident photons, yielding
 diffraction from only the 002 Bragg reflection of graphite. The authors
 interpreted quenching upon heating of the 002 peak as evidence of
-nonthermal lattice melting. However, Valenza \emph{et al.}\cite{valenza2016warm}
+nonthermal lattice melting. However, Valenza \emph{et al.} \cite{valenza2016warm}
 questioned this conclusion based on simulated diffraction using
 frozen-core finite-T DFT calculations, which predicted strong quenching
 of the graphite 002 reflection due to purely electronic reorganization
@@ -318,257 +368,6 @@ other low-Z systems, the only means of unambiguously separating lattice
 disorder from electronic heating in the XRD signal is to probe several
 Bragg peaks, including the lowest-order reflections and their harmonics.
 {[}12{]}
-
-It is therefore interesting to ask whether high energy-densities can be
-achieved in graphite when using photons suitable for wide-angle
-scattering. In Fig. \ref{fig:hef_image4} we show the deposited energy densities in Au-C-Au
-trilayers of several interior thicknesses, once again using 7 keV
-incident photons (sufficient to probe the 006 reflection of graphite).
-The deposited energy density in the interior layer is at least a factor
-of 100 greater compared to an unclad sample with the same incident
-photon energy, and a factor of two greater compared to an unclad sample
-stimulated with 2 keV photons. Indirect heating via high-Z cladding thus
-eliminates the constraint of selecting incident photon energies near a
-low-Z material's small core binding energies, making wide-angle XRD
-possible. In the context of carbon, the weakness of the XRD from C
-compared to Au can be uniquely compensated with a highly-oriented
-pyrolytic graphite (HOPG) sample, whose high-reflectivity 00\emph{l}
-peaks yield much higher signal to background ratios than the powder-like
-Bragg and thermal diffuse scattering of polycrystalline Au. Similar
-configurations exploiting mosaic or single-crystal samples may enhance
-wide-angle XRD on a variety of low-Z systems, offering a much-improved
-ability to experimentally test predictions of finite-T DFT-based
-modeling of electronic structure in low-Z condensed matter, where
-finite-T effects are easiest to identify because of the relatively large
-valence-electron contribution to the XRD signal.\cite{valenza2016warm}
-
-The simulations presented in this paper constitute a first demonstration
-of a particularly simple implementation of structured target design. One
-can imagine several improved designs that achieve the same level of
-nonlocal sample heating while averting some of the disadvantages of our
-multilayer approach. For example, a uniform mixture of small
-(\textless{} 50 nm diameter) sample and heater nanoparticles would show
-similar mean deposited energy densities to a multilayer target and can
-be prepared by, e.g., spin coating or drop-casting. Such targets would
-have more homogeneous heating and would additionally allow preparation
-of much thicker targets and give much higher scattered intensities. A
-similar result may be possible using electrochemical or vapor deposition
-to embed sample materials inside porous high-Z metal
-substrates.\cite{bak2014efficient, bagge2014quantitative} Two-color XFEL experiments may also lend
-themselves to lithographically patterned designs with concentric
-cylindrical volumes of (inner) sample and (outer) cladding materials,
-wherein the more tightly-focused probe pulse would be inscribed in a
-volume free of cladding material. Such a configuration would have the
-intention of reducing (cladding) background relative to signal, which
-would be particularly useful for weakly-diffracting low-Z samples.
-
-\section{IV. Conclusion}
-
-We model the spatial distribution of deposited energy in nanostructured
-targets for hard x-ray XFEL heating experiments using the Monte Carlo
-code PENELOPE. We find that two-component targets consisting of a sample
-material and high-Z cladding achieve substantial nonlocal heating of the
-sample via the relaxation cascade following transport of multi-keV Auger
-and photoelectrons. We argue that this target design approach will bring
-substantial benefits to XFEL heating experiments in the following ways:
-first, by enlarging their accessible thermodynamic parameter space and
-second, by improving the capability of x-ray diffraction diagnostics to
-characterize finite-temperature electronic structure and to distinguish
-between thermalization of the electronic and lattice degrees of freedom
-in crystalline warm dense matter systems.
-
-\subsection{Acknowledgements}
-
-We thank Joshua Kas for useful discussions. This work was supported by
-the United States Department of Energy, Basic Energy Sciences, under
-grant DE-SC00008580 and by the Joint Plasma Physics Program of the
-National Science Foundation and the Department of Energy under grant
-DE-SC0016251. \textbf{\\References}
-
-{[}1{]} R. P. Drake, \emph{High-Energy-Density Physics: Fundamentals,
-Inertial Fusion, and Experimental Astrophysics} (Springer, 2006), Shock
-Wave and High Pressure Phenomena.
-
-{[}2{]} S. Krishnan, S. Ansell, J. J. Felten, K. J. Volin, and D. L.
-Price, Physical Review Letters \textbf{81}, 586 (1998).
-
-{[}3{]} J. J. Fortney, S. H. Glenzer, M. Koenig, B. Militzer, D. Saumon,
-and D. Valencia, Physics of Plasmas \textbf{16}, 041003 (2009).
-
-{[}4{]} S. Glenzer and R. Redmer, Review of Modern Physics \textbf{81},
-1625 (2009).
-
-{[}5{]} R. C. Davidson, National Research Council of the National
-Academies\emph{,} \emph{Frontiers in High Energy Density Physics: The
-X-Games of Contemporary Science} 2003.
-
-{[}6{]} S. P. Hau-Riege, Physical Review E \textbf{87}, 4, 053102
-(2013).
-
-{[}7{]} S. Boutet \emph{et al.}, Science \textbf{337}, 362 (2012).
-
-{[}8{]} H. N. Chapman \emph{et al.}, Nature \textbf{470}, 73 (2011).
-
-{[}9{]} C. Caleman, N. Timneanu, A. V. Martin, H. O. Jonsson, A. Aquila,
-A. Barty, H. A. Scott, T. A. White, and H. N. Chapman, Optics Express
-\textbf{23}, 1213 (2015).
-
-{[}10{]} V. V. Karasiev, T. Sjostrom, and S. B. Trickey, Physical Review
-B \textbf{86}, 115101 (2012).
-
-{[}11{]} V. V. Karasiev, T. Sjostrom, and S. B. Trickey, Physical Review
-E \textbf{86}, 056704 (2012).
-
-{[}12{]} R. A. Valenza and G. T. Seidler, Physical Review B \textbf{93},
-115135 (2016).
-
-{[}13{]} T. Bredow and A. R. Gerson, Physical Review B \textbf{61}, 5194
-(2000).
-
-{[}14{]} W. S. Fann, R. Storz, H. W. K. Tom, and J. Bokor, Physical
-Review B \textbf{46}, 13592 (1992).
-
-{[}15{]} J. Faure \emph{et al.}, Physical Review B \textbf{88}, 075120
-(2013).
-
-{[}16{]} M. Lisowski, P. A. Loukakos, U. Bovensiepen, J. Stähler, C.
-Gahl, and M. Wolf, Applied Physics A \textbf{78}, 165 (2004).
-
-{[}17{]} I. Timrov, T. Kampfrath, J. Faure, N. Vast, C. R. Ast, C.
-Frischkorn, M. Wolf, P. Gava, and L. Perfetti, Physical Review B
-\textbf{85}, 155139 (2012).
-
-{[}18{]} C. Lee, N. N. Cheng, R. A. Davidson, and T. Guo, The Journal of
-Physical Chemistry C \textbf{116}, 11292 (2012).
-
-{[}19{]} M. K. K. Leung, J. C. L. Chow, B. D. Chithrani, M. J. G. Lee,
-B. Oms, and D. A. Jaffray, Medical Physics \textbf{38}, 624 (2011).
-
-{[}20{]} E. A. Stern, Y. Yacoby, G. T. Seidler, K. P. Nagle, M. P.
-Prange, A. P. Sorini, J. J. Rehr, and A. Joachimiak, Acta
-Crystallographica Section D-Biological Crystallography \textbf{65}, 366
-(2009).
-
-{[}21{]} Y. Z. Finfrock, E. A. Stern, R. W. Alkire, J. J. Kas, K.
-Evans-Lutterodt, A. Stein, N. Duke, K. Lazarski, and A. Joachimiak, Acta
-Crystallographica Section D-Biological Crystallography \textbf{69}, 1463
-(2013).
-
-{[}22{]} Y. Z. Finfrock, E. A. Stern, Y. Yacoby, R. W. Alkire, K.
-Evans-Lutterodt, A. Stein, A. F. Isakovic, J. J. Kas, and A. Joachimiak,
-Acta Crystallographica Section D-Biological Crystallography \textbf{66},
-1287 (2010).
-
-{[}23{]} C. Nave and M. A. Hill, Journal of Synchrotron Radiation
-\textbf{12}, 299 (2005).
-
-{[}24{]} R. Sanishvili \emph{et al.}, Proceedings of the National
-Academy of Sciences of the United States of America \textbf{108}, 6127
-(2011).
-
-{[}25{]} A. A. Lutman, R. Coffee, Y. Ding, Z. Huang, J. Krzywinski, T.
-Maxwell, M. Messerschmidt, and H. D. Nuhn, Physical Review Letters
-\textbf{110}, 134801, 134801 (2013).
-
-{[}26{]} A. Marinelli, A. A. Lutman, J. Wu, Y. Ding, J. Krzywinski, H.
-D. Nuhn, Y. Feng, R. N. Coffee, and C. Pellegrini, Physical Review
-Letters \textbf{111}, 134801, 134801 (2013).
-
-{[}27{]} I. Inoue \emph{et al.}, Proceedings of the National Academy of
-Sciences \textbf{113}, 1492 (2016).
-
-{[}28{]} P. J. Ho, E. Kanter, and L. Young, Physical Review A
-\textbf{92}, 063430 (2015).
-
-{[}29{]} E. Allaria \emph{et al.}, Nature Communications \textbf{4},
-2476 (2013).
-
-{[}30{]} S. Agostinelli \emph{et al.}, Nuclear Instruments and Methods
-in Physics Research Section A: Accelerators, Spectrometers, Detectors
-and Associated Equipment \textbf{506}, 250 (2003).
-
-{[}31{]} F. Salvat, J. M. Fernández-Varea, and J. Sempau,
-\emph{PENELOPE-2006: A code system for Monte Carlo simulation of
-electron and photon transport} (OECD Publishing, Paris, 2006).
-
-{[}32{]} F. Gao, Y. Xie, Z. G. Wang, S. Kerisit, D. X. Wu, L. W.
-Campbell, R. M. Van Ginhoven, and M. Prange, Journal of Applied Physics
-\textbf{114}, 173512 (2013).
-
-{[}33{]} M. Prange, D. Wu, Y. Xie, L. W. Campbell, F. Gao, and S.
-Kerisit, \emph{Radiation response of inorganic scintillators: insights
-from Monte Carlo simulations} (SPIE, 2014), 92130L.
-
-{[}34{]} R. F. Egerton, \emph{Electron energy-loss spectroscopy in the
-electron microscope} (Springer Science \& Business Media, 2011).
-
-{[}35{]} J. M. Fernández-Varea, R. Mayol, D. Liljequist, and F. Salvat,
-Journal of Physics: Condensed Matter \textbf{5}, 3593 (1993).
-
-{[}36{]} D. Liljequist, Journal of Physics D: Applied Physics
-\textbf{16}, 1567 (1983).
-
-{[}37{]} G. D. Zeiss, W. J. Meath, J. C. F. MacDonald, and D. J. Dawson,
-Radiation Research \textbf{70}, 284 (1977).
-
-{[}38{]} M. J. Berger, NIST\emph{,} \emph{ESTAR, PSTAR, and ASTAR:
-Computer programs for calculating stopping-power and range tables for
-electrons, protons, and helium ions}, 1992.
-
-{[}39{]} S. P. Hau-Riege \emph{et al.}, Physical Review Letters
-\textbf{108}, 217402 (2012).
-
-{[}40{]} C. H. Bak, K. Kim, K. Jung, J.-B. Kim, and J.-H. Jang, Journal
-of Materials Chemistry A \textbf{2}, 17249 (2014).
-
-{[}41{]} M. Bagge-Hansen \emph{et al.}, The Journal of Physical
-Chemistry C \textbf{118}, 4078 (2014).
-
-\begin{figure}[h]
-\caption{
-Representations of three types of multicomponent
-targets composed of sample material (green) and heater cladding
-(yellow). (a): A porous subtrate filled with sample material; (b): a
-mixture of cladding and sample nanoparticles embedded in a solid matrix;
-(c): a multilayer film.
-}
-\label{fig:hef_image1}
-\centering
-\includegraphics[scale=0.2]{hef/image1.png}
-\end{figure}
-
-\begin{figure}[h]
-\caption{
-Visualization of a 3-D Monte Carlo simulation of
-electron transport in an Au-Fe-Au target heated by 7 keV photons,
-incident normally from the top of the page. Electron tracks are
-projected onto the plane of the page; showers resulting from
-photoexcitation of Au and Fe atoms are red and blue, respectively. Note
-that most of the electron tracks in the Fe are due to absorption events
-in the Au.
-}
-\label{fig:hef_image2}
-\centering
-\includegraphics[scale=1.0]{hef/image2.jpeg}
-\end{figure}
-
-\begin{figure}[h]
-\caption{
-(a) Linear energy deposition density generated by 7 keV
-photons incident on an Au-Fe\textsubscript{3}O\textsubscript{4}-Au
-target, displayed for several thicknesses of the central
-Fe\textsubscript{3}O\textsubscript{4} layer and a fixed Au cladding
-thickness of 50nm. (b) Histograms of energy deposition density in volume
-elements of the Fe\textsubscript{3}O\textsubscript{4} inclusions in
-Au-Fe\textsubscript{3}O\textsubscript{4}-Au targets, displayed for
-several thicknesses of the Au cladding and a fixed
-Fe\textsubscript{3}O\textsubscript{4} layer thickness of 50 nm.
-}
-\label{fig:hef_image3}
-\centering
-\includegraphics[scale=0.3]{hef/image3.png}
-\end{figure}
-
 
 \begin{figure}[h]
 \caption{
@@ -613,6 +412,219 @@ including fluorescence background(green).
 \centering
 \includegraphics{hef/image6.jpeg}
 \end{figure}
+
+It is therefore interesting to ask whether high energy-densities can be
+achieved in graphite when using photons suitable for wide-angle
+scattering. In Fig. \ref{fig:hef_image4} we show the deposited energy densities in Au-C-Au
+trilayers of several interior thicknesses, once again using 7 keV
+incident photons (sufficient to probe the 006 reflection of graphite).
+The deposited energy density in the interior layer is at least a factor
+of 100 greater compared to an unclad sample with the same incident
+photon energy, and a factor of two greater compared to an unclad sample
+stimulated with 2 keV photons. Indirect heating via high-Z cladding thus
+eliminates the constraint of selecting incident photon energies near a
+low-Z material's small core binding energies, making wide-angle XRD
+possible. In the context of carbon, the weakness of the XRD from C
+compared to Au can be uniquely compensated with a highly-oriented
+pyrolytic graphite (HOPG) sample, whose high-reflectivity 00\emph{l}
+peaks yield much higher signal to background ratios than the powder-like
+Bragg and thermal diffuse scattering of polycrystalline Au. Similar
+configurations exploiting mosaic or single-crystal samples may enhance
+wide-angle XRD on a variety of low-Z systems, offering a much-improved
+ability to experimentally test predictions of finite-T DFT-based
+modeling of electronic structure in low-Z condensed matter, where
+finite-T effects are easiest to identify because of the relatively large
+valence-electron contribution to the XRD signal. \cite{valenza2016warm}
+
+The simulations presented in this paper constitute a first demonstration
+of a particularly simple implementation of structured target design. One
+can imagine several improved designs that achieve the same level of
+nonlocal sample heating while averting some of the disadvantages of our
+multilayer approach. For example, a uniform mixture of small
+(\textless{} 50 nm diameter) sample and heater nanoparticles would show
+similar mean deposited energy densities to a multilayer target and can
+be prepared by, e.g., spin coating or drop-casting. Such targets would
+have more homogeneous heating and would additionally allow preparation
+of much thicker targets and give much higher scattered intensities. A
+similar result may be possible using electrochemical or vapor deposition
+to embed sample materials inside porous high-Z metal
+substrates. \cite{bak2014efficient, bagge2014quantitative} Two-color XFEL experiments may also lend
+themselves to lithographically patterned designs with concentric
+cylindrical volumes of (inner) sample and (outer) cladding materials,
+wherein the more tightly-focused probe pulse would be inscribed in a
+volume free of cladding material. Such a configuration would have the
+intention of reducing (cladding) background relative to signal, which
+would be particularly useful for weakly-diffracting low-Z samples.
+
+\FloatBarrier
+
+\section{IV. Conclusion}
+
+We model the spatial distribution of deposited energy in nanostructured
+targets for hard x-ray XFEL heating experiments using the Monte Carlo
+code PENELOPE. We find that two-component targets consisting of a sample
+material and high-Z cladding achieve substantial nonlocal heating of the
+sample via the relaxation cascade following transport of multi-keV Auger
+and photoelectrons. We argue that this target design approach will bring
+substantial benefits to XFEL heating experiments in the following ways:
+first, by enlarging their accessible thermodynamic parameter space and
+second, by improving the capability of x-ray diffraction diagnostics to
+characterize finite-temperature electronic structure and to distinguish
+between thermalization of the electronic and lattice degrees of freedom
+in crystalline warm dense matter systems.
+
+\section*{Acknowledgements}
+
+We thank Joshua Kas for useful discussions. This work was supported by
+the United States Department of Energy, Basic Energy Sciences, under
+grant DE-SC00008580 and by the Joint Plasma Physics Program of the
+National Science Foundation and the Department of Energy under grant
+DE-SC0016251. 
+
+%\textbf{\\References}
+%
+%{[}1{]} R. P. Drake, \emph{High-Energy-Density Physics: Fundamentals,
+%Inertial Fusion, and Experimental Astrophysics} (Springer, 2006), Shock
+%Wave and High Pressure Phenomena.
+%
+%{[}2{]} S. Krishnan, S. Ansell, J. J. Felten, K. J. Volin, and D. L.
+%Price, Physical Review Letters \textbf{81}, 586 (1998).
+%
+%{[}3{]} J. J. Fortney, S. H. Glenzer, M. Koenig, B. Militzer, D. Saumon,
+%and D. Valencia, Physics of Plasmas \textbf{16}, 041003 (2009).
+%
+%{[}4{]} S. Glenzer and R. Redmer, Review of Modern Physics \textbf{81},
+%1625 (2009).
+%
+%{[}5{]} R. C. Davidson, National Research Council of the National
+%Academies\emph{,} \emph{Frontiers in High Energy Density Physics: The
+%X-Games of Contemporary Science} 2003.
+%
+%{[}6{]} S. P. Hau-Riege, Physical Review E \textbf{87}, 4, 053102
+%(2013).
+%
+%{[}7{]} S. Boutet \emph{et al.}, Science \textbf{337}, 362 (2012).
+%
+%{[}8{]} H. N. Chapman \emph{et al.}, Nature \textbf{470}, 73 (2011).
+%
+%{[}9{]} C. Caleman, N. Timneanu, A. V. Martin, H. O. Jonsson, A. Aquila,
+%A. Barty, H. A. Scott, T. A. White, and H. N. Chapman, Optics Express
+%\textbf{23}, 1213 (2015).
+%
+%{[}10{]} V. V. Karasiev, T. Sjostrom, and S. B. Trickey, Physical Review
+%B \textbf{86}, 115101 (2012).
+%
+%{[}11{]} V. V. Karasiev, T. Sjostrom, and S. B. Trickey, Physical Review
+%E \textbf{86}, 056704 (2012).
+%
+%{[}12{]} R. A. Valenza and G. T. Seidler, Physical Review B \textbf{93},
+%115135 (2016).
+%
+%{[}13{]} T. Bredow and A. R. Gerson, Physical Review B \textbf{61}, 5194
+%(2000).
+%
+%{[}14{]} W. S. Fann, R. Storz, H. W. K. Tom, and J. Bokor, Physical
+%Review B \textbf{46}, 13592 (1992).
+%
+%{[}15{]} J. Faure \emph{et al.}, Physical Review B \textbf{88}, 075120
+%(2013).
+%
+%{[}16{]} M. Lisowski, P. A. Loukakos, U. Bovensiepen, J. Stähler, C.
+%Gahl, and M. Wolf, Applied Physics A \textbf{78}, 165 (2004).
+%
+%{[}17{]} I. Timrov, T. Kampfrath, J. Faure, N. Vast, C. R. Ast, C.
+%Frischkorn, M. Wolf, P. Gava, and L. Perfetti, Physical Review B
+%\textbf{85}, 155139 (2012).
+%
+%{[}18{]} C. Lee, N. N. Cheng, R. A. Davidson, and T. Guo, The Journal of
+%Physical Chemistry C \textbf{116}, 11292 (2012).
+%
+%{[}19{]} M. K. K. Leung, J. C. L. Chow, B. D. Chithrani, M. J. G. Lee,
+%B. Oms, and D. A. Jaffray, Medical Physics \textbf{38}, 624 (2011).
+%
+%{[}20{]} E. A. Stern, Y. Yacoby, G. T. Seidler, K. P. Nagle, M. P.
+%Prange, A. P. Sorini, J. J. Rehr, and A. Joachimiak, Acta
+%Crystallographica Section D-Biological Crystallography \textbf{65}, 366
+%(2009).
+%
+%{[}21{]} Y. Z. Finfrock, E. A. Stern, R. W. Alkire, J. J. Kas, K.
+%Evans-Lutterodt, A. Stein, N. Duke, K. Lazarski, and A. Joachimiak, Acta
+%Crystallographica Section D-Biological Crystallography \textbf{69}, 1463
+%(2013).
+%
+%{[}22{]} Y. Z. Finfrock, E. A. Stern, Y. Yacoby, R. W. Alkire, K.
+%Evans-Lutterodt, A. Stein, A. F. Isakovic, J. J. Kas, and A. Joachimiak,
+%Acta Crystallographica Section D-Biological Crystallography \textbf{66},
+%1287 (2010).
+%
+%{[}23{]} C. Nave and M. A. Hill, Journal of Synchrotron Radiation
+%\textbf{12}, 299 (2005).
+%
+%{[}24{]} R. Sanishvili \emph{et al.}, Proceedings of the National
+%Academy of Sciences of the United States of America \textbf{108}, 6127
+%(2011).
+%
+%{[}25{]} A. A. Lutman, R. Coffee, Y. Ding, Z. Huang, J. Krzywinski, T.
+%Maxwell, M. Messerschmidt, and H. D. Nuhn, Physical Review Letters
+%\textbf{110}, 134801, 134801 (2013).
+%
+%{[}26{]} A. Marinelli, A. A. Lutman, J. Wu, Y. Ding, J. Krzywinski, H.
+%D. Nuhn, Y. Feng, R. N. Coffee, and C. Pellegrini, Physical Review
+%Letters \textbf{111}, 134801, 134801 (2013).
+%
+%{[}27{]} I. Inoue \emph{et al.}, Proceedings of the National Academy of
+%Sciences \textbf{113}, 1492 (2016).
+%
+%{[}28{]} P. J. Ho, E. Kanter, and L. Young, Physical Review A
+%\textbf{92}, 063430 (2015).
+%
+%{[}29{]} E. Allaria \emph{et al.}, Nature Communications \textbf{4},
+%2476 (2013).
+%
+%{[}30{]} S. Agostinelli \emph{et al.}, Nuclear Instruments and Methods
+%in Physics Research Section A: Accelerators, Spectrometers, Detectors
+%and Associated Equipment \textbf{506}, 250 (2003).
+%
+%{[}31{]} F. Salvat, J. M. Fernández-Varea, and J. Sempau,
+%\emph{PENELOPE-2006: A code system for Monte Carlo simulation of
+%electron and photon transport} (OECD Publishing, Paris, 2006).
+%
+%{[}32{]} F. Gao, Y. Xie, Z. G. Wang, S. Kerisit, D. X. Wu, L. W.
+%Campbell, R. M. Van Ginhoven, and M. Prange, Journal of Applied Physics
+%\textbf{114}, 173512 (2013).
+%
+%{[}33{]} M. Prange, D. Wu, Y. Xie, L. W. Campbell, F. Gao, and S.
+%Kerisit, \emph{Radiation response of inorganic scintillators: insights
+%from Monte Carlo simulations} (SPIE, 2014), 92130L.
+%
+%{[}34{]} R. F. Egerton, \emph{Electron energy-loss spectroscopy in the
+%electron microscope} (Springer Science \& Business Media, 2011).
+%
+%{[}35{]} J. M. Fernández-Varea, R. Mayol, D. Liljequist, and F. Salvat,
+%Journal of Physics: Condensed Matter \textbf{5}, 3593 (1993).
+%
+%{[}36{]} D. Liljequist, Journal of Physics D: Applied Physics
+%\textbf{16}, 1567 (1983).
+%
+%{[}37{]} G. D. Zeiss, W. J. Meath, J. C. F. MacDonald, and D. J. Dawson,
+%Radiation Research \textbf{70}, 284 (1977).
+%
+%{[}38{]} M. J. Berger, NIST\emph{,} \emph{ESTAR, PSTAR, and ASTAR:
+%Computer programs for calculating stopping-power and range tables for
+%electrons, protons, and helium ions}, 1992.
+%
+%{[}39{]} S. P. Hau-Riege \emph{et al.}, Physical Review Letters
+%\textbf{108}, 217402 (2012).
+%
+%{[}40{]} C. H. Bak, K. Kim, K. Jung, J.-B. Kim, and J.-H. Jang, Journal
+%of Materials Chemistry A \textbf{2}, 17249 (2014).
+%
+%{[}41{]} M. Bagge-Hansen \emph{et al.}, The Journal of Physical
+%Chemistry C \textbf{118}, 4078 (2014).
+
+
+
+
 
 
 

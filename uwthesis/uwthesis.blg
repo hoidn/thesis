@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 30854 items from 5000.
+Reallocated field_info (elt_size=4) to 30993 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
 Repeated entry---line 824 of file uwthesis.bib
@@ -119,45 +119,45 @@ Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, P
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry fano1963penetration
 while executing---line 2659 of file biblatex.bst
-You've used 186 entries,
+You've used 187 entries,
             6047 wiz_defined-function locations,
-            2114 strings with 47989 characters,
-and the built_in function-call counts, 700448 in all, are:
-= -- 28972
-> -- 23528
-< -- 5205
-+ -- 9492
-- -- 9523
-* -- 60896
-:= -- 42361
+            2119 strings with 48284 characters,
+and the built_in function-call counts, 705382 in all, are:
+= -- 29247
+> -- 23686
+< -- 5258
++ -- 9574
+- -- 9574
+* -- 61273
+:= -- 42634
 add.period$ -- 0
-call.type$ -- 186
-change.case$ -- 3545
+call.type$ -- 187
+change.case$ -- 3591
 chr.to.int$ -- 35
-cite$ -- 370
-duplicate$ -- 82464
-empty$ -- 70920
-format.name$ -- 19210
-if$ -- 152637
+cite$ -- 372
+duplicate$ -- 83022
+empty$ -- 71380
+format.name$ -- 19328
+if$ -- 153740
 int.to.chr$ -- 0
-int.to.str$ -- 559
+int.to.str$ -- 562
 missing$ -- 0
-newline$ -- 8059
-num.names$ -- 9619
-pop$ -- 61584
+newline$ -- 8110
+num.names$ -- 9698
+pop$ -- 61922
 preamble$ -- 1
-purify$ -- 4826
+purify$ -- 4880
 quote$ -- 0
-skip$ -- 38437
+skip$ -- 38730
 stack$ -- 0
-substring$ -- 17264
-swap$ -- 27990
-text.length$ -- 4481
+substring$ -- 17504
+swap$ -- 28182
+text.length$ -- 4503
 text.prefix$ -- 317
 top$ -- 1
-type$ -- 7053
+type$ -- 7091
 warning$ -- 0
-while$ -- 3041
+while$ -- 3058
 width$ -- 0
-write$ -- 7872
+write$ -- 7922
 (There were 26 error messages)

@@ -8195,6 +8195,58 @@
   \field{year}{2008}
 \endentry
 
+\entry{barty2014cheetah}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Barty}{B.}%
+     {Anton}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirian}{K.}%
+     {Richard~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maia}{M.}%
+     {Filipe~RNC}{F.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hantke}{H.}%
+     {Max}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoon}{Y.}%
+     {Chun~Hong}{C.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W.}%
+     {Thomas~A}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chapman}{C.}%
+     {Henry}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{BA+1}
+  \strng{fullhash}{BAKRAMFRHMYCHWTACH1}
+  \field{number}{3}
+  \field{pages}{1118\bibrangedash 1131}
+  \field{title}{Cheetah: software for high-throughput reduction and analysis of
+  serial femtosecond X-ray diffraction data}
+  \field{volume}{47}
+  \field{journaltitle}{Journal of applied crystallography}
+  \field{year}{2014}
+\endentry
+
 \lossort
 \endlossort
 

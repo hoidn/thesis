@@ -1,29 +1,15 @@
-Electronic Structure Effects in Crystalline Tepid Dense Matter
+\emph{(This is a reproduction of a manuscript in preparation: }
+Oliver Hoidn, Ryan Valenza, Gerald
+T. Seidler, Alexander Ditter, William Holden, Evan
+Jahrman, Samuel Vinko, Josh Kas, Fer Vila, Alison M.
+Saunders, Luis Avila, Galen
+O'Neil, Hae Ja Lee, and Bob Nagler,
+Physical Review B, 2017
+)
 
-Oliver Hoidn\textsuperscript{1}, Ryan Valenza\textsuperscript{1}, Gerald
-T. Seidler\textsuperscript{1,(*)}\textsubscript{,} Alexander
-Ditter\textsuperscript{1}, William Holden\textsuperscript{1}, Evan
-Jahrman\textsuperscript{1}, Samuel Vinko\textsuperscript{2}, Josh
-Kas\textsuperscript{1}, Fer Vila\textsuperscript{1}, Alison M.
-Saunders\textsuperscript{3}, Luis Avila\textsuperscript{4}, Galen
-O'Neil\textsuperscript{4}, Hae Ja Lee\textsuperscript{5}, Bob
-Nagler\textsuperscript{5},
 
-\textsuperscript{1}Department of Physics, University of Washington,
-Seattle WA 98122
 
-\textsuperscript{2} Department of Physics, Clarendon Laboratory,
-University of Oxford, Parks Road, Oxford OX1 3PU, UK
-
-\textsuperscript{3}Department of Physics, University of California,
-Berkeley CA 94720
-
-\textsuperscript{4}National Institute of Standards and Technology,
-Boulder CO 80305
-
-\textsuperscript{5}Stanford Linear Accelerator Center, Menlo Park CA
-94025
-
+\begin{addmargin}[4em]{1em}
 X-ray heating by x-ray free electron laser (XFEL) pulses is emerging as
 an important method to create matter under extreme conditions. Many
 prior reports of XFEL heating have focused on achieving extremely high
@@ -53,12 +39,11 @@ instead be a consequence of the destruction of long-range order of the
 electronic potentials due to site-disorder of the ionization, an effect
 that would be an extreme manifestation of the Lifshitz tail effect that
 is well-known in semiconductor physics.
+\end{addmargin}
 
-(*) seidler@uw.edu
 
-\textbf{\\}
 
-\textbf{I. Introduction}
+\section{I. Introduction}
 
 The `warm dense matter' (WDM) regime resides in an important and
 theoretically interesting middle-ground between the conditions typical
@@ -201,9 +186,9 @@ and providing a new route for effective enhancement of ionization
 effects that is specific to crystalline dense plasmas.. Finally, in
 section IV we conclude and discuss future directions.
 
-\textbf{II. Experimental Methods}
+\section{II. Experimental Methods}
 
-\textbf{II. A. Experimental Details}
+\subsection{II. A. Experimental Details}
 
 The experiment was performed at the matter of extreme conditions (MEC)
 endstation of the Linac Coherent Light Source (LCLS), where XFEL pulses
@@ -231,7 +216,7 @@ from 10 to 58 degrees, encompassing the (111), (200), and (220) Bragg
 reflections of MgO (located at 33.5, 38.8, and 55.9 degrees,
 respectively, for 9 keV incident photons).
 
-\textbf{II.B. Data Reduction and Analysis}
+\subsection{II.B. Data Reduction and Analysis}
 
 Several steps of processing and event selection were performed prior to
 generating powder diffraction patterns. For each event the quad CSPAD
@@ -277,7 +262,7 @@ intensity of its (200) peak in order to control for variations in sample
 thickness, or fluctuations in nanoparticle volume in the beam, such as
 from nonuniform aggregation..
 
-\textbf{III. Modeling Methods}
+\section{III. Modeling Methods}
 
 Finally, the relationship between the incident flux density and the
 resultant energy density in the MgO nanoparticles requires some care.
@@ -392,9 +377,27 @@ calculation. \cite{neese2006critical} This approximation yields an ionization po
 of 1.9 eV, from which the XRD response can be calculated in the same
 fashion as in the ground state model
 
-\textbf{III. Results and Discussion}
+\section{IV. Results and Discussion}
 
-To begin, in Fig. 1 (a), we show the experimentally measured intensity
+\begin{figure}[h] \label{cm2image1}
+\caption{
+(a): Experimental intensity of the (220) Bragg peak
+from a sample of MgO simultaneously heated and probed by 45-fs duration
+XFEL pulses, as a function of XFEL energy deposited per MgO unit cell,
+with no normalization across individual data points. (b): Equivalent
+data for the (200) peak. (c): Experimental intensities of the (111)
+peak, compared to several models. Each experimental data point is
+normalized by (1) its intensity at minimum flux density and (2) the
+(200) peak intensity. For each of the four displayed models, the shaded
+region corresponds to the locus of possible curves once the loss of
+in-sample energy deposition due to nonlocal heat transport by hot
+electrons is accounted for. See the text for discussion.
+}
+\centering
+\includegraphics{MgO_2.7.docx1503027860/media/image1.png}
+\end{figure}
+
+To begin, in Fig. \ref{cm2image1} (a), we show the experimentally measured intensity
 of the MgO (200) peak as a function of energy deposited per MgO unit
 cell. The \textasciitilde{}15\% scatter in the observed scattering
 intensity upon increasing excitation is explained as being due to
@@ -405,7 +408,8 @@ duration of the XFEL pulse. There is no evidence for `Bragg-gating' or
 other self-limiting diffraction signals that are known to be important
 in the context of macromolecular crystallography at XFELs. \cite{caleman2015ultrafast}
 
-In Fig. 1 (b) we plot the normalized experimental intensity of the (111)
+
+In Fig. \ref{cm2image1} (b) we plot the normalized experimental intensity of the (111)
 and (220) Bragg peaks of MgO as a function of incident flux density
 (together with curves for several models, which we discuss below).
 Specifically, for each Bragg peak, the entire curve is normalized to the
@@ -429,6 +433,8 @@ their lattice sites. The absence of any such signature further supports
 the crystallinity of the heated target and the isolation of the
 deposited energy in the electronic, rather than lattice, degrees of
 freedom.
+
+\FloatBarrier
 
 A first step toward understanding the increase in relative intensity of
 the (111) Bragg peak comes from consideration of the ground-state x-ray
@@ -454,12 +460,12 @@ of the weakly-bound O 2p orbitals are ionized at a higher rate than
 those of Mg semi-core 2p orbitals, increasing the dissimilarity of the
 form factors of the O and Mg ions.
 
-This relationship is illustrated by Fig. 2, which shows
+This relationship is illustrated by Fig. \ref{cm2image2}, which shows
 \(I_{111}/I_{200}\) as a function of O 2\emph{p} and Mg 2\emph{p}
 population under the AFF ionization model presented in section II. Three
 curves denoting different scenarios for the electronic configuration of
-Mg and O following x-ray heating are indicated in Fig. 2b, and the
-corresponding Bragg peak intensity progressions are plotted in Fig. 2b.
+Mg and O following x-ray heating are indicated in Fig. \ref{cm2image2}b, and the
+corresponding Bragg peak intensity progressions are plotted in Fig. \ref{cm2image2}b.
 First, trajectory (i) corresponds to progressive ionization of the O 2p
 electrons with a fixed (ground state) population of Mg 2\emph{p}
 electrons; it encompasses possible states of the x-ray excited system
@@ -475,7 +481,7 @@ ionizing the Mg 2p orbitals (starting from the ground state) reduces the
 magnitude of the total scattering amplitude until total destructive
 interference is reached before the scattering factors differ again as Mg
 2\emph{p} ionization continues. The resulting intensity progression for
-case (ii) in Fig. 2b therefore has a local minimum (located at an Mg
+case (ii) in Fig. \ref{cm2image2}b therefore has a local minimum (located at an Mg
 2\emph{p} population of approximately 3.5 electrons). Finally,
 trajectory (iii) represents an intermediate scenario wherein the levels
 of O and Mg 2\emph{p} ionization are (artificially) equal. Here, the
@@ -483,9 +489,22 @@ dominant effect is a slow decrease in intensity due to uniform reduction
 of the scattering amplitude contributions of all 2p electrons in the
 unit cell.
 
-Referring back to the results of Fig, 1c
-for\hyperdef{}{OLEux5fLINK1}{}{\hyperdef{}{OLEux5fLINK2}{}{\hyperdef{}{OLEux5fLINK5}{}{}}}
-\(I_{111}/I_{200}\), we see a more gradual enhancement than is the case
+\begin{figure}[h] \label{cm2image2}
+\caption{
+Dependence of
+\(I_{111}/I_{200}\)
+on population of the \emph{2p} orbitals of
+\(\text{Mg}^{2 +}\)
+and \(O^{2 -}\), according to an atomic form factor (AFF) based model of
+ionization. This ratio reaches a maximum factor of 13.8 times the
+unperturbed value at full ionization of the O 2p electrons.
+}
+\centering
+\includegraphics{MgO_2.7.docx1503027860/media/image2.png}
+\end{figure}
+
+Referring back to the results of Fig. \ref{cm2image1}c
+for \(I_{111}/I_{200}\), we see a more gradual enhancement than is the case
 for a thermalized system with only O 2\emph{p} ionization and there is
 no evidence of initial decreases for states dominated by Mg 2\emph{p}
 ionization. The resulting qualitative conclusion is then a trajectory
@@ -530,11 +549,11 @@ levels of ionization, i.e., where the energy needed to excite an O 2p
 electron is equal to the band gap of MgO, \(E_{g}\) = 7.8 eV no matter
 the level of O 2\emph{p} ionization. The results of this naïve ground
 state model are shown as a shaded region (orange) with label AFF 7.8 eV
-in Fig. 1. Under this condition, and defining \(\rho_{E}\) as the
+in Fig. \ref{cm2image1} Under this condition, and defining \(\rho_{E}\) as the
 density of deposited XFEL energy, it follows that \({\rho_{E}/E}_{g}\)
 is an upper bound on the concentration of O 2\emph{p} excitations (i.e.,
 corresponding to all XFEL energy coupled into O 2\emph{p} excitation).
-The yellow shaded region of Fig. 1 shows the ground state model's
+The yellow shaded region of Fig. \ref{cm2image1} shows the ground state model's
 predicted intensity progression of the (111) Bragg reflection as a
 consequence of a density of deposited energy equal to
 \({\rho_{E}/E}_{g}.\) The measured onset of the (111) peak intensity's
@@ -547,17 +566,18 @@ while periodicity of the ion-core locations is preserved. This
 inconsistency is corroborated by comparison of the experimental
 progression with a more advanced calculation of the same ilk, a
 finite-temperature DFT-based calculation, which also fails to reproduce
-the (111) peak's early rise (teal region in Fig. 1, labeled VASP).
+the (111) peak's early rise (teal region in Fig. \ref{cm2image1}, labeled VASP).
 
 Second, as an alternative bounding case, one may consider an isolated,
 atomic O\textsuperscript{2-} in an MgO-like dielectric background
 results in a much lower calculated ionization threshold of 1.9 eV. This
 limit would be representative of a complete breakdown of any band-like
 effects. The general, quadratic shape is still shown (color, label in
-Fig. 1), but this lowest possible ionization threshold results in an
 overestimate of the onset for O 2\emph{p} ionization. Hence, the
 dilute-plasma limit, modified only by ion-pairing for local neutrality,
 has omitted too much of the condensed phase physics.
+
+\FloatBarrier
 
 Given the above discussion, the question then arises as to possible
 explanations for the observed enhancement of O 2\emph{p} ionization at
@@ -589,7 +609,7 @@ further interrogated with, e.g., large-cluster quantum chemistry
 calculations or with other real-space DFT methods where site disorder of
 ionization state can be directly manipulated.
 
-We now turn our attention to high energy deposition densities in Fig. 1.
+We now turn our attention to high energy deposition densities in Fig. \ref{cm2image1}.
 In this regime, treatment of the interaction between atomic and free
 electrons, which gives rise to plasmas physics effects such as continuum
 lowering, becomes necessary. The above atomic and solid state treatments
@@ -597,8 +617,32 @@ become inappropriate---even for the purpose of establishing rough bounds
 on the concentration of excitations---and we instead turn to
 time-resolved collisional radiative simulation.
 
+\begin{figure}[h] \label{cm2image3}
+\caption{
+Electronic temperature evolution during an XFEL pulse
+simulated by the radiative collisional code SCFLY. The incident XFEL
+photon energy and flux density are 9 keV and 2 x 10\textsuperscript{4}
+J/cm\textsuperscript{2}, respectively. The dashed line represents the
+temporal profile of the incident XFEL pulse.
+}
+\centering
+\includegraphics{MgO_2.7.docx1503027860/media/image3.png}
+\end{figure}
+
+\begin{figure}[h] \label{cm2image4}
+\caption{
+Evolution of the mean charge states Mg and O of during
+an XFEL pulse simulated by the radiative collisional code SCFLY. The
+incident XFEL photon energy and flux density are 9 keV and 2 x
+10\textsuperscript{4} J/cm\textsuperscript{2}, respectively. The dashed
+line represents the temporal profile of the incident XFEL pulse.
+}
+\centering
+\includegraphics{MgO_2.7.docx1503027860/media/image4.png}
+\end{figure}
+
 The principal outputs of such a simulation are temporal evolutions in
-electron temperature and atomic species charge states. Figs. 3 and 4
+electron temperature and atomic species charge states. Figs. \ref{cm2image3} and \ref{cm2image4}
 display these data for simulated XFEL heating of an MgO target,with an
 incident XFEL intensity equal to the highest experimental value using
 the code SCFLY. Notably, the charge state distribution is strongly
@@ -612,6 +656,8 @@ binding energy. Consequently, the production of Mg 2p holes will be
 dominated by rates of 2p and 1s photoionization and electron impact
 ionization during the XFEL pulse.
 
+\FloatBarrier
+
 The low value of the free electronic temperature relative to the
 \emph{K} shell binding energies of O and Mg allows a simplification in
 application of the AFF ionization model to the output of SCFLY. Because
@@ -620,7 +666,7 @@ charge state of each species uniquely determines its electronic
 configuration under Eq. 1. Progressions of Mg and O charge states (or,
 equivalently, Mg and O 2\emph{p} populations) therefore contain
 sufficient information to compute Bragg peak intensities using the AFF
-model. Fig. 1c shows the output of the resulting SCFLY-based XRD
+model. Fig. \ref{cm2image1}c shows the output of the resulting SCFLY-based XRD
 calculation evaluated over the full range of flux densities simulated
 with SCFLY At high flux density agreement between the experimental Bragg
 peak intensity data and SCFLY-based model is poor but shares a
@@ -640,7 +686,7 @@ the rate of ionization may arise from an increase in the 2\emph{p}
 ionization potential as more electrons enter excited states (though this
 effect competes with IPD).
 
-\textbf{IV. Conclusion and Future Directions}
+\section{V. Conclusion and Future Directions}
 
 We have explored the use of single hard x-ray XFEL pulses to
 simultaneously create and probe crystalline WDM via wide-angle x-ray
@@ -695,158 +741,125 @@ constructive-interference diffraction peaks. One possibility is layered
 binary dielectrics, in which one would expect strong sensitivity to
 interplanar charge reorganization effects.
 
+
+%\section*{References}
+%
+%{[}1{]} M. Koenig \emph{et al.}, Plasma Physics and Controlled Fusion
+%\textbf{47}, B441 (2005).
+%
+%{[}2{]} S. Atzeni and J. Meyer-ter-Vehn, \emph{The Physics of Inertial
+%Fusion: BeamPlasma Interaction, Hydrodynamics, Hot Dense Matter} (Oxford
+%University Press on Demand, 2004), Vol. 125.
+%
+%{[}3{]} G. Faussurier, C. Blancard, P. Cossé, and P. Renaudin, Physics
+%of Plasmas \textbf{17}, 052707 (2010).
+%
+%{[}4{]} D. Rackstraw \emph{et al.}, Physical review letters
+%\textbf{114}, 015003 (2015).
+%
+%{[}5{]} O. Ciricosta \emph{et al.}, Nature Communications \textbf{7},
+%11713 (2016).
+%
+%{[}6{]} A. Höll \emph{et al.}, High Energy Density Physics \textbf{3},
+%120 (2007).
+%
+%{[}7{]} B. E. Warren, \emph{X-ray Diffraction} (Courier Corporation,
+%1969).
+%
+%{[}8{]} J. Yano and V. K. Yachandra, Photosynthesis Research
+%\textbf{102}, 241 (2009).
+%
+%{[}9{]} B. W. McNeil and N. R. Thompson, Nature photonics \textbf{4},
+%814 (2010).
+%
+%{[}10{]} H. N. Chapman \emph{et al.}, Nature \textbf{470}, 73 (2011).
+%
+%{[}11{]} R. A. Valenza and G. T. Seidler, Physical Review B \textbf{93},
+%115135 (2016).
+%
+%{[}12{]} T. Ma \emph{et al.}, Physical Review Letters \textbf{110},
+%065001 (2013).
+%
+%{[}13{]} V. V. Karasiev, T. Sjostrom, and S. Trickey, Physical Review E
+%\textbf{86}, 056704 (2012).
+%
+%{[}14{]} J. W. Dufty and S. Trickey, Physical Review B \textbf{84},
+%125118 (2011).
+%
+%{[}15{]} T. Sjostrom, F. E. Harris, and S. Trickey, Physical Review B
+%\textbf{85}, 045125 (2012).
+%
+%{[}16{]} J. Chalupsky \emph{et al.}, Nuclear Instruments and Methods in
+%Physics Research Section A: Accelerators, Spectrometers, Detectors and
+%Associated Equipment \textbf{631}, 130 (2011).
+%
+%{[}17{]} S. Herrmann \emph{et al.}, Nuclear Instruments and Methods in
+%Physics Research Section A: Accelerators, Spectrometers, Detectors and
+%Associated Equipment \textbf{718}, 550 (2013).
+%
+%{[}18{]} P. Hart \emph{et al.}, in \emph{Proc. SPIE} \textbf{8504},
+%\emph{The CSPAD megapixel x-ray camera at LCLS,} 2012, p. 85040C.
+%
+%{[}19{]} D. Damiani \emph{et al.}, Journal of Applied Crystallography
+%\textbf{49}, 672 (2016).
+%
+%{[}20{]} O. R. Hoidn and G. T. Seidler, arXiv preprint arXiv:1704.04348
+%(2017).
+%
+%{[}21{]} J. Abdallah Jr, R. E. Clark, and R. D. Cowan, Theoretical
+%atomic physics code development I: CATS: Cowan Atomic Structure Code,
+%1988.
+%
+%{[}22{]} H.-K. Chung, B. Cho, O. Ciricosta, S. Vinko, J. Wark, and R.
+%Lee, in \emph{AIP Conference Proceedings} \textbf{1811}, \emph{Atomic
+%processes modeling of X-ray free electron laser produced plasmas using
+%SCFLY code,} AIP Publishing, 2017, p. 020001.
+%
+%{[}23{]} J. Hafner, Journal of computational chemistry \textbf{29}, 2044
+%(2008).
+%
+%{[}24{]} A. L. Ankudinov, B. Ravel, J. J. Rehr, and S. D. Conradson,
+%Physical Review B \textbf{58}, 7565 (1998).
+%
+%{[}25{]} F. Neese, JBIC Journal of Biological Inorganic Chemistry
+%\textbf{11}, 702 (2006).
+%
+%{[}26{]} C. Caleman, N. Timneanu, A. V. Martin, H. O. Jonsson, A.
+%Aquila, A. Barty, H. A. Scott, T. A. White, and H. N. Chapman, Optics
+%Express \textbf{23}, 1213 (2015).
+%
+%{[}27{]} C. Kittel, \emph{Introduction to Solid State Physics} (Wiley,
+%2005).
+%
+%{[}28{]} F. Zamponi, P. Rothhardt, J. Stingl, M. Woerner, and T.
+%Elsaesser, Proceedings of the National Academy of Sciences \textbf{109},
+%5207 (2012).
+%
+%{[}29{]} S. Stankic, M. Müller, O. Diwald, M. Sterrer, E. Knözinger, and
+%J. Bernardi, Angewandte Chemie International Edition \textbf{44}, 4917
+%(2005).
+%
+%{[}30{]} S. Vinko, O. Ciricosta, and J. Wark, Nature communications
+%\textbf{5}, 3533 (2014).
+%
+%{[}31{]} T. M. Nieuwenhuizen, Physical Review Letters \textbf{62}, 357
+%(1989).
+%
+%{[}32{]} F. A. de Moura and M. L. Lyra, Physical Review Letters
+%\textbf{81}, 3735 (1998).
+%
+%{[}33{]} O. Keski-Rahkonen and M. O. Krause, Atomic Data and Nuclear
+%Data Tables \textbf{14}, 139 (1974).
+%
+%{[}34{]} J. C. Fuggle and J. E. Inglesfield, in \emph{Unoccupied
+%Electronic States} (Springer, 1992), pp. 1.
+%
 \textbf{\\}
 
-\textbf{References}
 
-{[}1{]} M. Koenig \emph{et al.}, Plasma Physics and Controlled Fusion
-\textbf{47}, B441 (2005).
 
-{[}2{]} S. Atzeni and J. Meyer-ter-Vehn, \emph{The Physics of Inertial
-Fusion: BeamPlasma Interaction, Hydrodynamics, Hot Dense Matter} (Oxford
-University Press on Demand, 2004), Vol. 125.
 
-{[}3{]} G. Faussurier, C. Blancard, P. Cossé, and P. Renaudin, Physics
-of Plasmas \textbf{17}, 052707 (2010).
 
-{[}4{]} D. Rackstraw \emph{et al.}, Physical review letters
-\textbf{114}, 015003 (2015).
 
-{[}5{]} O. Ciricosta \emph{et al.}, Nature Communications \textbf{7},
-11713 (2016).
 
-{[}6{]} A. Höll \emph{et al.}, High Energy Density Physics \textbf{3},
-120 (2007).
 
-{[}7{]} B. E. Warren, \emph{X-ray Diffraction} (Courier Corporation,
-1969).
-
-{[}8{]} J. Yano and V. K. Yachandra, Photosynthesis Research
-\textbf{102}, 241 (2009).
-
-{[}9{]} B. W. McNeil and N. R. Thompson, Nature photonics \textbf{4},
-814 (2010).
-
-{[}10{]} H. N. Chapman \emph{et al.}, Nature \textbf{470}, 73 (2011).
-
-{[}11{]} R. A. Valenza and G. T. Seidler, Physical Review B \textbf{93},
-115135 (2016).
-
-{[}12{]} T. Ma \emph{et al.}, Physical Review Letters \textbf{110},
-065001 (2013).
-
-{[}13{]} V. V. Karasiev, T. Sjostrom, and S. Trickey, Physical Review E
-\textbf{86}, 056704 (2012).
-
-{[}14{]} J. W. Dufty and S. Trickey, Physical Review B \textbf{84},
-125118 (2011).
-
-{[}15{]} T. Sjostrom, F. E. Harris, and S. Trickey, Physical Review B
-\textbf{85}, 045125 (2012).
-
-{[}16{]} J. Chalupsky \emph{et al.}, Nuclear Instruments and Methods in
-Physics Research Section A: Accelerators, Spectrometers, Detectors and
-Associated Equipment \textbf{631}, 130 (2011).
-
-{[}17{]} S. Herrmann \emph{et al.}, Nuclear Instruments and Methods in
-Physics Research Section A: Accelerators, Spectrometers, Detectors and
-Associated Equipment \textbf{718}, 550 (2013).
-
-{[}18{]} P. Hart \emph{et al.}, in \emph{Proc. SPIE} \textbf{8504},
-\emph{The CSPAD megapixel x-ray camera at LCLS,} 2012, p. 85040C.
-
-{[}19{]} D. Damiani \emph{et al.}, Journal of Applied Crystallography
-\textbf{49}, 672 (2016).
-
-{[}20{]} O. R. Hoidn and G. T. Seidler, arXiv preprint arXiv:1704.04348
-(2017).
-
-{[}21{]} J. Abdallah Jr, R. E. Clark, and R. D. Cowan, Theoretical
-atomic physics code development I: CATS: Cowan Atomic Structure Code,
-1988.
-
-{[}22{]} H.-K. Chung, B. Cho, O. Ciricosta, S. Vinko, J. Wark, and R.
-Lee, in \emph{AIP Conference Proceedings} \textbf{1811}, \emph{Atomic
-processes modeling of X-ray free electron laser produced plasmas using
-SCFLY code,} AIP Publishing, 2017, p. 020001.
-
-{[}23{]} J. Hafner, Journal of computational chemistry \textbf{29}, 2044
-(2008).
-
-{[}24{]} A. L. Ankudinov, B. Ravel, J. J. Rehr, and S. D. Conradson,
-Physical Review B \textbf{58}, 7565 (1998).
-
-{[}25{]} F. Neese, JBIC Journal of Biological Inorganic Chemistry
-\textbf{11}, 702 (2006).
-
-{[}26{]} C. Caleman, N. Timneanu, A. V. Martin, H. O. Jonsson, A.
-Aquila, A. Barty, H. A. Scott, T. A. White, and H. N. Chapman, Optics
-Express \textbf{23}, 1213 (2015).
-
-{[}27{]} C. Kittel, \emph{Introduction to Solid State Physics} (Wiley,
-2005).
-
-{[}28{]} F. Zamponi, P. Rothhardt, J. Stingl, M. Woerner, and T.
-Elsaesser, Proceedings of the National Academy of Sciences \textbf{109},
-5207 (2012).
-
-{[}29{]} S. Stankic, M. Müller, O. Diwald, M. Sterrer, E. Knözinger, and
-J. Bernardi, Angewandte Chemie International Edition \textbf{44}, 4917
-(2005).
-
-{[}30{]} S. Vinko, O. Ciricosta, and J. Wark, Nature communications
-\textbf{5}, 3533 (2014).
-
-{[}31{]} T. M. Nieuwenhuizen, Physical Review Letters \textbf{62}, 357
-(1989).
-
-{[}32{]} F. A. de Moura and M. L. Lyra, Physical Review Letters
-\textbf{81}, 3735 (1998).
-
-{[}33{]} O. Keski-Rahkonen and M. O. Krause, Atomic Data and Nuclear
-Data Tables \textbf{14}, 139 (1974).
-
-{[}34{]} J. C. Fuggle and J. E. Inglesfield, in \emph{Unoccupied
-Electronic States} (Springer, 1992), pp. 1.
-
-\textbf{\\}
-
-\includegraphics{media/image1.png}
-
-\textbf{Fig. 1}. (a): Experimental intensity of the (220) Bragg peak
-from a sample of MgO simultaneously heated and probed by 45-fs duration
-XFEL pulses, as a function of XFEL energy deposited per MgO unit cell,
-with no normalization across individual data points. (b): Equivalent
-data for the (200) peak. (c): Experimental intensities of the (111)
-peak, compared to several models. Each experimental data point is
-normalized by (1) its intensity at minimum flux density and (2) the
-(200) peak intensity. For each of the four displayed models, the shaded
-region corresponds to the locus of possible curves once the loss of
-in-sample energy deposition due to nonlocal heat transport by hot
-electrons is accounted for. See the text for discussion.
-
-\includegraphics{media/image2.png}
-
-\textbf{Fig. 2}. Dependence of
-\hyperdef{}{OLEux5fLINK16}{}{\hyperdef{}{OLEux5fLINK17}{}{\hyperdef{}{OLEux5fLINK18}{}{}}}\(I_{111}/I_{200}\)
-on population of the \emph{2p} orbitals of
-\hyperdef{}{OLEux5fLINK14}{}{\hyperdef{}{OLEux5fLINK15}{}{}}\(\text{Mg}^{2 +}\)
-and \(O^{2 -}\), according to an atomic form factor (AFF) based model of
-ionization. This ratio reaches a maximum factor of 13.8 times the
-unperturbed value at full ionization of the O 2p electrons.
-
-\includegraphics{media/image3.png}
-
-\textbf{Fig. 3}. Electronic temperature evolution during an XFEL pulse
-simulated by the radiative collisional code SCFLY. The incident XFEL
-photon energy and flux density are 9 keV and 2 x 10\textsuperscript{4}
-J/cm\textsuperscript{2}, respectively. The dashed line represents the
-temporal profile of the incident XFEL pulse.
-
-\includegraphics{media/image4.png}
-
-\textbf{Fig. 4}. Evolution of the mean charge states Mg and O of during
-an XFEL pulse simulated by the radiative collisional code SCFLY. The
-incident XFEL photon energy and flux density are 9 keV and 2 x
-10\textsuperscript{4} J/cm\textsuperscript{2}, respectively. The dashed
-line represents the temporal profile of the incident XFEL pulse.

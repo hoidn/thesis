@@ -1229,7 +1229,7 @@
      {}{}%
      {}{}}%
     {{}%
-     {D{\"o}ppner}{D.}%
+     {D\"oppner}{D.}%
      {T}{T}%
      {}{}%
      {}{}}%
@@ -2584,6 +2584,3627 @@
   \field{year}{1993}
 \endentry
 
+\entry{DRAKE2006HIGH}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Drake}{D.}%
+     {R~Paul}{R.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Science \& Business Media}%
+  }
+  \strng{namehash}{DRP1}
+  \strng{fullhash}{DRP1}
+  \field{title}{High-Energy-Density Physics: Fundamentals, Inertial Fusion, and
+  Experimental Astrophysics}
+  \field{year}{2006}
+\endentry
+
+\entry{KRISHNAN1998STRUCTURE}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Krishnan}{K.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ansell}{A.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Felten}{F.}%
+     {Jj}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Volin}{V.}%
+     {Kj}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Price}{P.}%
+     {Dl}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{KS+1}
+  \strng{fullhash}{KSASFJVKPD1}
+  \field{number}{3}
+  \field{pages}{586}
+  \field{title}{Structure of Liquid Boron}
+  \field{volume}{81}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{1998}
+\endentry
+
+\entry{FORTNEY2009FRONTIERS}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Fortney}{F.}%
+     {Jj}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koenig}{K.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Militzer}{M.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saumon}{S.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Valencia}{V.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{FJ+2}
+  \strng{fullhash}{FJGSKMMBSDVD1}
+  \field{number}{4}
+  \field{pages}{041003}
+  \field{title}{Frontiers of the Physics of Dense Plasmas and Planetary
+  Interiors: Experiments, theory, and Applications}
+  \field{volume}{16}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2009}
+\endentry
+
+\entry{NATIONAL2003HIGH}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Council}{C.}%
+     {National~Research}{N.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {National}%
+  }
+  \strng{namehash}{CNRO1}
+  \strng{fullhash}{CNRO1}
+  \field{title}{High Energy Density Physics: The X-Games of Contemporary
+  Science}
+  \field{year}{2003}
+\endentry
+
+\entry{CALEMAN2015ULTRAFAST}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Caleman}{C.}%
+     {Carl}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Timneanu}{T.}%
+     {Nicusor}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {andrew~V}{a.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {JNsson}{J.}%
+     {H~Olof}{H.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aquila}{A.}%
+     {andrew}{a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barty}{B.}%
+     {Anton}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scott}{S.}%
+     {Howard~A}{H.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W.}%
+     {Thomas~A}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chapman}{C.}%
+     {Henry~N}{H.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{CC+1}
+  \strng{fullhash}{CCTNMaVJHOAaBASHAWTACHN1}
+  \field{number}{2}
+  \field{pages}{1213\bibrangedash 1231}
+  \field{title}{Ultrafast Self-Gating Bragg Diffraction of Exploding
+  Nanocrystals In An X-Ray Laser}
+  \field{volume}{23}
+  \field{journaltitle}{Optics Express}
+  \field{year}{2015}
+\endentry
+
+\entry{KARASIEV2012GENERALIZED}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Karasiev}{K.}%
+     {Valentin~V}{V.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sjostrom}{S.}%
+     {Travis}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trickey}{T.}%
+     {Sb}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{KVVSTTS1}
+  \strng{fullhash}{KVVSTTS1}
+  \field{number}{11}
+  \field{pages}{115101}
+  \field{title}{Generalized-Gradient-Approximation Noninteracting Free-Energy
+  Functionals For Orbital-Free Density Functional Calculations}
+  \field{volume}{86}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{2012}
+\endentry
+
+\entry{KARASIEV2012COMPARISON}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Karasiev}{K.}%
+     {Valentin~V}{V.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sjostrom}{S.}%
+     {Travis}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trickey}{T.}%
+     {Sb}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{KVVSTTS1}
+  \strng{fullhash}{KVVSTTS1}
+  \field{number}{5}
+  \field{pages}{056704}
+  \field{title}{Comparison of Density Functional Approximations and the
+  Finite-Temperature Hartree-Fock Approximation In Warm Dense Lithium}
+  \field{volume}{86}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2012}
+\endentry
+
+\entry{VALENZA2016WARM}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Valenza}{V.}%
+     {Ryan~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gerald~T}{G.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{VRASGT1}
+  \strng{fullhash}{VRASGT1}
+  \field{number}{11}
+  \field{pages}{115135}
+  \field{title}{Warm dense crystallography}
+  \field{volume}{93}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{2016}
+\endentry
+
+\entry{BREDOW2000EFFECT}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bredow}{B.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gerson}{G.}%
+     {andrea~R}{a.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{BTGaR1}
+  \strng{fullhash}{BTGaR1}
+  \field{number}{8}
+  \field{pages}{5194}
+  \field{title}{Effect of Exchange and Correlation On Bulk Properties of Mgo,
+  Nio, and Coo}
+  \field{volume}{61}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{2000}
+\endentry
+
+\entry{FAURE2013DIRECT}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Faure}{F.}%
+     {J{\'E}R{\^O}Me}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mauchain}{M.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Papalazarou}{P.}%
+     {Evaggelos}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marsi}{M.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boschetto}{B.}%
+     {Davide}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Timrov}{T.}%
+     {Iurii}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vast}{V.}%
+     {Nathalie}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ohtsubo}{O.}%
+     {Yoshiyuki}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arnaud}{A.}%
+     {Brice}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Perfetti}{P.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{FJ+1}
+  \strng{fullhash}{FJMJPEMMBDTIVNOYABPL1}
+  \field{number}{7}
+  \field{pages}{075120}
+  \field{title}{Direct Observation of Electron thermalization and
+  Electron-Phonon Coupling In Photoexcited Bismuth}
+  \field{volume}{88}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{2013}
+\endentry
+
+\entry{LEE2012GEOMETRY}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lee}{L.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Nn}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Davidson}{D.}%
+     {Ra}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guo}{G.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Acs Publications}%
+  }
+  \strng{namehash}{LC+1}
+  \strng{fullhash}{LCCNDRGT1}
+  \field{number}{20}
+  \field{pages}{11292\bibrangedash 11297}
+  \field{title}{Geometry Enhancement of Nanoscale Energy Deposition By X-Rays}
+  \field{volume}{116}
+  \field{journaltitle}{The Journal of Physical Chemistry C}
+  \field{year}{2012}
+\endentry
+
+\entry{LEUNG2011IRRADIATION}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Leung}{L.}%
+     {Michael~Kk}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chow}{C.}%
+     {James~Cl}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chithrani}{C.}%
+     {B~Devika}{B.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Martin~Jg}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oms}{O.}%
+     {Barbara}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jaffray}{J.}%
+     {David~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{LMK+1}
+  \strng{fullhash}{LMKCJCCBDLMJOBJDA1}
+  \field{number}{2}
+  \field{pages}{624\bibrangedash 631}
+  \field{title}{Irradiation of Gold Nanoparticles By X-Rays: Monte Carlo
+  Simulation of Dose Enhancements and the Spatial Properties of the Secondary
+  Electrons Production}
+  \field{volume}{38}
+  \field{journaltitle}{Medical Physics}
+  \field{year}{2011}
+\endentry
+
+\entry{STERN2009REDUCING}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Stern}{S.}%
+     {Edward~A}{E.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yacoby}{Y.}%
+     {Yizhak}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gerald~T}{G.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nagle}{N.}%
+     {Kenneth~P}{K.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Prange}{P.}%
+     {Micah~P}{M.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sorini}{S.}%
+     {Adam~P}{A.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rehr}{R.}%
+     {John~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joachimiak}{J.}%
+     {andrzej}{a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{SEA+1}
+  \strng{fullhash}{SEAYYSGTNKPPMPSAPRJJJa1}
+  \field{number}{4}
+  \field{pages}{366\bibrangedash 374}
+  \field{title}{Reducing Radiation Damage In Macromolecular Crystals At
+  Synchrotron Sources}
+  \field{volume}{65}
+  \field{journaltitle}{Acta Crystallographica Section D: Biological
+  Crystallography}
+  \field{year}{2009}
+\endentry
+
+\entry{FINFROCK2013MITIGATION}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Finfrock}{F.}%
+     {Y~Zou}{Y.~Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stern}{S.}%
+     {Edward~A}{E.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alkire}{A.}%
+     {Rw}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kas}{K.}%
+     {Joshua~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans-Lutterodt}{E.-L.}%
+     {Kenneth}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stein}{S.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Duke}{D.}%
+     {Norma}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lazarski}{L.}%
+     {Krzysztof}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joachimiak}{J.}%
+     {andrzej}{a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{FYZ+1}
+  \strng{fullhash}{FYZSEAARKJJELKSADNLKJa1}
+  \field{number}{8}
+  \field{pages}{1463\bibrangedash 1469}
+  \field{title}{Mitigation of X-Ray Damage In Macromolecular Crystallography By
+  Submicrometre Line Focusing}
+  \field{volume}{69}
+  \field{journaltitle}{Acta Crystallographica Section D: Biological
+  Crystallography}
+  \field{year}{2013}
+\endentry
+
+\entry{FINFROCK2010SPATIAL}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Finfrock}{F.}%
+     {Y~Zou}{Y.~Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stern}{S.}%
+     {Edward~A}{E.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yacoby}{Y.}%
+     {Yizhak}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alkire}{A.}%
+     {Rw}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans-Lutterodt}{E.-L.}%
+     {Kenneth}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stein}{S.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isakovic}{I.}%
+     {Abdel~F}{A.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kas}{K.}%
+     {Joshua~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joachimiak}{J.}%
+     {andrzej}{a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{FYZ+1}
+  \strng{fullhash}{FYZSEAYYARELKSAIAFKJJJa1}
+  \field{number}{12}
+  \field{pages}{1287\bibrangedash 1294}
+  \field{title}{Spatial Dependence and Mitigation of Radiation Damage By A
+  Line-Focus Mini-Beam}
+  \field{volume}{66}
+  \field{journaltitle}{Acta Crystallographica Section D: Biological
+  Crystallography}
+  \field{year}{2010}
+\endentry
+
+\entry{NAVE2005TOWARDS}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Nave}{N.}%
+     {Colin}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Garman}{G.}%
+     {Elspeth~F}{E.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{NCGEF1}
+  \strng{fullhash}{NCGEF1}
+  \field{number}{3}
+  \field{pages}{257\bibrangedash 260}
+  \field{title}{Towards An Understanding of Radiation Damage In Cryocooled
+  Macromolecular Crystals}
+  \field{volume}{12}
+  \field{journaltitle}{Journal of Synchrotron Radiation}
+  \field{year}{2005}
+\endentry
+
+\entry{SANISHVILI2011RADIATION}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Sanishvili}{S.}%
+     {Ruslan}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoder}{Y.}%
+     {Derek~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pothineni}{P.}%
+     {Sudhir~Babu}{S.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenbaum}{R.}%
+     {Gerd}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xu}{X.}%
+     {Shenglan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogt}{V.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stepanov}{S.}%
+     {Sergey}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Makarov}{M.}%
+     {Oleg~A}{O.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Corcoran}{C.}%
+     {Stephen}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benn}{B.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{SR+1}
+  \strng{fullhash}{SRYDWPSBRGXSVSSSMOACSBRO1}
+  \field{number}{15}
+  \field{pages}{6127\bibrangedash 6132}
+  \field{title}{Radiation Damage In Protein Crystals Is Reduced With A
+  Micron-Sized X-Ray Beam}
+  \field{volume}{108}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2011}
+\endentry
+
+\entry{HOIDN2017NONLOCAL}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hoidn}{H.}%
+     {Oliver~R}{O.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gerald~T}{G.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HORSGT1}
+  \strng{fullhash}{HORSGT1}
+  \field{title}{Nonlocal Heat Transport and Improved Target Design For X-Ray
+  Heating Studies At X-Ray Free Electron Lasers}
+  \field{journaltitle}{Arxiv Preprint Arxiv:1704.04348}
+  \field{year}{2017}
+\endentry
+
+\entry{INOUE2016OBSERVATION}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Inoue}{I.}%
+     {Ichiro}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Inubushi}{I.}%
+     {Yuichi}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sato}{S.}%
+     {Takahiro}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tono}{T.}%
+     {Kensuke}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Katayama}{K.}%
+     {Tetsuo}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kameshima}{K.}%
+     {Takashi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ogawa}{O.}%
+     {Kanade}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Togashi}{T.}%
+     {Tadashi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Owada}{O.}%
+     {Shigeki}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amemiya}{A.}%
+     {Yoshiyuki}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{II+1}
+  \strng{fullhash}{IIIYSTTKKTKTOKTTOSAYO1}
+  \field{number}{6}
+  \field{pages}{1492\bibrangedash 1497}
+  \field{title}{Observation of Femtosecond X-Ray Interactions With Matter Using
+  An X-Ray--X-Ray Pump--Probe Scheme}
+  \field{volume}{113}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2016}
+\endentry
+
+\entry{HO2015RESONANCE}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Ho}{H.}%
+     {Phay~J}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kanter}{K.}%
+     {Ep}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{HPJKEYL1}
+  \strng{fullhash}{HPJKEYL1}
+  \field{number}{6}
+  \field{pages}{063430}
+  \field{title}{Resonance-Mediated Atomic Ionization Dynamics Induced By
+  Ultraintense X-Ray Pulses}
+  \field{volume}{92}
+  \field{journaltitle}{Physical Review A}
+  \field{year}{2015}
+\endentry
+
+\entry{ALLARIA2013TWO}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Allaria}{A.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bencivenga}{B.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borghes}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Capotondi}{C.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castronovo}{C.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Charalambous}{C.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cinquegrana}{C.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Danailov}{D.}%
+     {Mb}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Ninno}{D.~N.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Demidovich}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{AE+1}
+  \strng{fullhash}{AEBFBRCFCDCPCPDMDNGDAO1}
+  \field{title}{Two-Colour Pump--Probe Experiments With A Twin-Pulse-Seed
+  Extreme Ultraviolet Free-Electron Laser}
+  \field{volume}{4}
+  \field{journaltitle}{Nature Communications}
+  \field{year}{2013}
+\endentry
+
+\entry{AGOSTINELLI2003GEANT4}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Agostinelli}{A.}%
+     {Sea}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allison}{A.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amako}{A.}%
+     {K~Al}{K.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Apostolakis}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Araujo}{A.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arce}{A.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asai}{A.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Axen}{A.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Banerjee}{B.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrand}{B.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{AS+1}
+  \strng{fullhash}{ASAJAKAAJAHAPAMADBSBGO1}
+  \field{number}{3}
+  \field{pages}{250\bibrangedash 303}
+  \field{title}{Geant4—A Simulation Toolkit}
+  \field{volume}{506}
+  \field{journaltitle}{Nuclear Instruments and Methods In Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2003}
+\endentry
+
+\entry{GAO2013MONTE}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Gao}{G.}%
+     {Fei}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xie}{X.}%
+     {Yulong}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Zg}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kerisit}{K.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Dx}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {Luke~W}{L.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Van~Ginhoven}{V.~G.}%
+     {Renee~M}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Prange}{P.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{GF+1}
+  \strng{fullhash}{GFXYWZKSWDCLWVGRMPM1}
+  \field{number}{17}
+  \field{pages}{173512}
+  \field{title}{Monte Carlo Simulation of Gamma-Ray Response of Baf2 and Caf2}
+  \field{volume}{114}
+  \field{journaltitle}{Journal of Applied Physics}
+  \field{year}{2013}
+\endentry
+
+\entry{PRANGE2014RADIATION}{report}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Prange}{P.}%
+     {Micah~P}{M.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Dangxin}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xie}{X.}%
+     {Yulong}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {Luke~W}{L.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gao}{G.}%
+     {Fei}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kerisit}{K.}%
+     {Sebastien~N}{S.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PMP+1}
+  \strng{fullhash}{PMPWDXYCLWGFKSN1}
+  \field{title}{Radiation Response of Inorganic Scintillators: Insights From
+  Monte Carlo Simulations}
+  \list{institution}{1}{%
+    {Pacific Northwest National Laboratory (Pnnl), Richland, Wa (Us)}%
+  }
+  \field{type}{techreport}
+  \field{year}{2014}
+\endentry
+
+\entry{POLLOCK2017ACCURACY}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Pollock}{P.}%
+     {Ja}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weyland}{W.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taplin}{T.}%
+     {Dj}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allen}{A.}%
+     {Lj}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Findlay}{F.}%
+     {Sd}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{PJ+2}
+  \strng{fullhash}{PJWMTDALFS1}
+  \field{pages}{86\bibrangedash 96}
+  \field{title}{Accuracy and Precision of Thickness Determination From
+  Position-Averaged Convergent Beam Electron Diffraction Patterns Using A
+  Single-Parameter Metric}
+  \field{volume}{181}
+  \field{journaltitle}{Ultramicroscopy}
+  \field{year}{2017}
+\endentry
+
+\entry{ZEISS1977ACCURATE}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Zeiss}{Z.}%
+     {Gd}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meath}{M.}%
+     {William~J}{W.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Macdonald}{M.}%
+     {Jcf}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dawson}{D.}%
+     {Dj}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press, Inc.}%
+  }
+  \strng{namehash}{ZG+1}
+  \strng{fullhash}{ZGMWJMJDD1}
+  \field{number}{2}
+  \field{pages}{284\bibrangedash 303}
+  \field{title}{Accurate Evaluation of Stopping and Straggling Mean Excitation
+  Energies For N, O, H2, N2, O2, No, Nh3, H2 O, and N2 O Using Dipole
+  Oscillator Strength Distributions: A Test of the Validity of Bragg'S Rule}
+  \field{volume}{70}
+  \field{journaltitle}{Radiation Research}
+  \field{year}{1977}
+\endentry
+
+\entry{BERGER1995ESTAR}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Berger}{B.}%
+     {Martin~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMJ1}
+  \strng{fullhash}{BMJ1}
+  \field{title}{Estar, Pstar and Astar: Computer Programs For Calculating
+  Stopping Powers and Ranges For Electrons, Protons and Helium Ions}
+  \field{year}{1995}
+\endentry
+
+\entry{HAU2012ULTRAFAST}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Hau-Riege}{H.-R.}%
+     {Stefan~P}{S.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Graf}{G.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\"O}Ppner}{D.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {London}{L.}%
+     {Richard~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krzywinski}{K.}%
+     {Jacek}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortmann}{F.}%
+     {Carsten}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frank}{F.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sokolowski-Tinten}{S.-T.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Messerschmidt}{M.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{HRSP+1}
+  \strng{fullhash}{HRSPGADTLRAKJFCGSFMSTKMMO1}
+  \field{number}{21}
+  \field{pages}{217402}
+  \field{title}{Ultrafast Transitions From Solid To Liquid and Plasma States of
+  Graphite Induced By X-Ray Free-Electron Laser Pulses}
+  \field{volume}{108}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2012}
+\endentry
+
+\entry{BAK2014EFFICIENT}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Bak}{B.}%
+     {Chang~Hong}{C.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Kwanghyun}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jung}{J.}%
+     {Kyoungok}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Jin-Baek}{J.-B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jang}{J.}%
+     {Ji-Hyun}{J.-H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Royal Society of Chemistry}%
+  }
+  \strng{namehash}{BCH+1}
+  \strng{fullhash}{BCHKKJKKJBJJH1}
+  \field{number}{41}
+  \field{pages}{17249\bibrangedash 17252}
+  \field{title}{Efficient Photoelectrochemical Water Splitting of
+  Nanostructured Hematite On A Three-Dimensional Nanoporous Metal Electrode}
+  \field{volume}{2}
+  \field{journaltitle}{Journal of Materials Chemistry A}
+  \field{year}{2014}
+\endentry
+
+\entry{BAGGE2014QUANTITATIVE}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Bagge-Hansen}{B.-H.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wichmann}{W.}%
+     {andre}{a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wittstock}{W.}%
+     {Arne}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Jonathan~Ri}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ye}{Y.}%
+     {Jianchao}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Willey}{W.}%
+     {Trevor~M}{T.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kuntz}{K.}%
+     {Joshua~D}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Van~Buuren}{V.~B.}%
+     {Tony}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biener}{B.}%
+     {Juergen}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bäumer}{B.}%
+     {Marcus}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Acs Publications}%
+  }
+  \strng{namehash}{BHM+1}
+  \strng{fullhash}{BHMWaWALJRYJWTMKJDVBTBJBMO1}
+  \field{number}{8}
+  \field{pages}{4078\bibrangedash 4084}
+  \field{title}{Quantitative Phase Composition of Tio2-Coated Nanoporous Au
+  Monoliths By X-Ray Absorption Spectroscopy and Correlations To Catalytic
+  Behavior}
+  \field{volume}{118}
+  \field{journaltitle}{The Journal of Physical Chemistry C}
+  \field{year}{2014}
+\endentry
+
+\entry{LINDL2004PHYSICS}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Lindl}{L.}%
+     {John~D}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amendt}{A.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berger}{B.}%
+     {Richard~L}{R.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glendinning}{G.}%
+     {S~Gail}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Siegfried~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haan}{H.}%
+     {Steven~W}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kauffman}{K.}%
+     {Robert~L}{R.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Otto~L}{O.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suter}{S.}%
+     {Laurence~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{LJD+1}
+  \strng{fullhash}{LJDAPBRLGSGGSHHSWKRLLOLSLJ1}
+  \field{number}{2}
+  \field{pages}{339\bibrangedash 491}
+  \field{title}{The Physics Basis for Ignition Using Indirect-Drive Targets on
+  the National Ignition Facility}
+  \field{volume}{11}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2004}
+\endentry
+
+\entry{MOSES2009IGNITION}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Moses}{M.}%
+     {Edward~I}{E.~I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Iop Publishing}%
+  }
+  \strng{namehash}{MEI1}
+  \strng{fullhash}{MEI1}
+  \field{number}{10}
+  \field{pages}{104022}
+  \field{title}{Ignition on the National Ignition Facility: a Path Towards
+  Inertial Fusion Energy}
+  \field{volume}{49}
+  \field{journaltitle}{Nuclear Fusion}
+  \field{year}{2009}
+\endentry
+
+\entry{LANGENHORST1999LASER}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Langenhorst}{L.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boustie}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Migault}{M.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Romain}{R.}%
+     {Jp}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{LF+1}
+  \strng{fullhash}{LFBMMaRJ1}
+  \field{number}{3}
+  \field{pages}{333\bibrangedash 342}
+  \field{title}{Laser Shock Experiments with Nanoseconds Pulses: a New Tool for
+  the Reproduction of Shock Defects in Olivine}
+  \field{volume}{173}
+  \field{journaltitle}{Earth and Planetary Science Letters}
+  \field{year}{1999}
+\endentry
+
+\entry{GATTACCECA2010UNRAVELING}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Gattacceca}{G.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boustie}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lima}{L.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weiss}{W.}%
+     {Bp}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Resseguier}{D.~R.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cuq-Lelandais}{C.-L.}%
+     {Jp}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GJ+1}
+  \strng{fullhash}{GJBMLEWBDRTCLJ1}
+  \field{number}{1}
+  \field{pages}{42\bibrangedash 49}
+  \field{title}{Unraveling the Simultaneous Shock Magnetization and
+  Demagnetization of Rocks}
+  \field{volume}{182}
+  \field{journaltitle}{Physics of the Earth and Planetary Interiors}
+  \field{year}{2010}
+\endentry
+
+\entry{TAKABE2008HIGH}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Takabe}{T.}%
+     {Het~Al}{H.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kato}{K.}%
+     {Tn}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sakawa}{S.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kuramitsu}{K.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morita}{M.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kadono}{K.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shigemori}{S.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Otani}{O.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nagatomo}{N.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Norimatsu}{N.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Iop Publishing}%
+  }
+  \strng{namehash}{THA+1}
+  \strng{fullhash}{THAKTSYKYMTKTSKOKNHNTO1}
+  \field{number}{12}
+  \field{pages}{124057}
+  \field{title}{High-Mach Number Collisionless Shock and Photo-Ionized Non-Lte
+  Plasma for Laboratory Astrophysics with Intense Lasers}
+  \field{volume}{50}
+  \field{journaltitle}{Plasma Physics and Controlled Fusion}
+  \field{year}{2008}
+\endentry
+
+\entry{SILVA2004PROTON}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Silva}{S.}%
+     {Luis~O}{L.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marti}{M.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Davies}{D.}%
+     {Jonathan~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fonseca}{F.}%
+     {Ricardo~a}{R.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ren}{R.}%
+     {Chuang}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tsung}{T.}%
+     {Frank~S}{F.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mori}{M.}%
+     {Warren~B}{W.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{SLO+1}
+  \strng{fullhash}{SLOMMDJRFRaRCTFSMWB1}
+  \field{number}{1}
+  \field{pages}{015002}
+  \field{title}{Proton Shock Acceleration in Laser-Plasma Interactions}
+  \field{volume}{92}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2004}
+\endentry
+
+\entry{REMINGTON2000REVIEW}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Remington}{R.}%
+     {Bruce~a}{B.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drake}{D.}%
+     {R~Paul}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Takabe}{T.}%
+     {Hideaki}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arnett}{A.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{RBa+1}
+  \strng{fullhash}{RBaDRPTHAD1}
+  \field{number}{5}
+  \field{pages}{1641\bibrangedash 1652}
+  \field{title}{A Review of Astrophysics Experiments on Intense Lasers}
+  \field{volume}{7}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2000}
+\endentry
+
+\entry{PARK2012STUDYING}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Park}{P.}%
+     {Hye-Sook}{H.-S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ryutov}{R.}%
+     {Dd}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ross}{R.}%
+     {Js}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kugland}{K.}%
+     {Nl}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plechaty}{P.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pollaine}{P.}%
+     {Sm}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remington}{R.}%
+     {Ba}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spitkovsky}{S.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gargate}{G.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{PHS+1}
+  \strng{fullhash}{PHSRDRJKNGSPCPSRBSaGLO1}
+  \field{number}{1}
+  \field{pages}{38\bibrangedash 45}
+  \field{title}{Studying Astrophysical Collisionless Shocks with
+  Counterstreaming Plasmas From High Power Lasers}
+  \field{volume}{8}
+  \field{journaltitle}{High Energy Density Physics}
+  \field{year}{2012}
+\endentry
+
+\entry{KOENIG2006RADIATIVE}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Koenig}{K.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vinci}{V.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benuzzi-Mounaix}{B.-M.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ozaki}{O.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ravasio}{R.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rabec Le~Glohaec}{R.~L.~G.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boireau}{B.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Michaut}{M.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bouquet}{B.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Atzeni}{A.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{KM+1}
+  \strng{fullhash}{KMVTBMaONRaRLGMBLMCBSASO1}
+  \field{number}{5}
+  \field{pages}{056504}
+  \field{title}{Radiative Shocks: An Opportunity To Study Laboratory
+  Astrophysics A}
+  \field{volume}{13}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2006}
+\endentry
+
+\entry{MACCHI2013ION}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Macchi}{M.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borghesi}{B.}%
+     {Marco}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Passoni}{P.}%
+     {Matteo}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{MABMPM1}
+  \strng{fullhash}{MABMPM1}
+  \field{number}{2}
+  \field{pages}{751}
+  \field{title}{Ion Acceleration By Superintense Laser-Plasma Interaction}
+  \field{volume}{85}
+  \field{journaltitle}{Reviews of Modern Physics}
+  \field{year}{2013}
+\endentry
+
+\entry{GREGORI2012GENERATION}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Gregori}{G.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ravasio}{R.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murphy}{M.}%
+     {Cd}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schaar}{S.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baird}{B.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bell}{B.}%
+     {Ar}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benuzzi-Mounaix}{B.-M.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bingham}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Constantin}{C.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drake}{D.}%
+     {Rp}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{GG+1}
+  \strng{fullhash}{GGRaMCSKBaBABMaBRCCDRO1}
+  \field{number}{7382}
+  \field{pages}{480}
+  \field{title}{Generation of Scaled Protogalactic Seed Magnetic Fields in
+  Laser-Produced Shock Waves}
+  \field{volume}{481}
+  \field{journaltitle}{Nature}
+  \field{year}{2012}
+\endentry
+
+\entry{FIUZA2012WEIBEL}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Fiuza}{F.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fonseca}{F.}%
+     {Ra}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tonge}{T.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mori}{M.}%
+     {Wb}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Silva}{S.}%
+     {Lo}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{FF+1}
+  \strng{fullhash}{FFFRTJMWSL1}
+  \field{number}{23}
+  \field{pages}{235004}
+  \field{title}{Weibel-Instability-Mediated Collisionless Shocks in the
+  Laboratory with Ultraintense Lasers}
+  \field{volume}{108}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2012}
+\endentry
+
+\entry{DOLLAR2013SCALING}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Dollar}{D.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cummings}{C.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chvykov}{C.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Willingale}{W.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vargas}{V.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yanovsky}{Y.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zulick}{Z.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maksimchuk}{M.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thomas}{T.}%
+     {Agr}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krushelnick}{K.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{DF+1}
+  \strng{fullhash}{DFCPCVWLVMYVZCMaTAKK1}
+  \field{number}{17}
+  \field{pages}{175002}
+  \field{title}{Scaling High-Order Harmonic Generation From Laser-Solid
+  Interactions To Ultrahigh Intensity}
+  \field{volume}{110}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2013}
+\endentry
+
+\entry{AKLI2008LASER}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Akli}{A.}%
+     {Ku}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hansen}{H.}%
+     {Sb}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kemp}{K.}%
+     {Aj}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freeman}{F.}%
+     {Rr}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beg}{B.}%
+     {Fn}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clark}{C.}%
+     {Dc}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Sd}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hey}{H.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hatchett}{H.}%
+     {Sp}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Highbarger}{H.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{AK+1}
+  \strng{fullhash}{AKHSKAFRBFCDCSHDHSHKO1}
+  \field{number}{16}
+  \field{pages}{165002}
+  \field{title}{Laser Heating of Solid Matter By Light-Pressure-Driven Shocks
+  At Ultrarelativistic Intensities}
+  \field{volume}{100}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2008}
+\endentry
+
+\entry{YOUNG1998HIGH}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Young}{Y.}%
+     {Bkf}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osterheld}{O.}%
+     {Al}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Price}{P.}%
+     {Df}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shepherd}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stewart}{S.}%
+     {Re}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Faenov}{F.}%
+     {a~Ya}{a.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Magunov}{M.}%
+     {Ai}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pikuz}{P.}%
+     {Ta}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Skobelev}{S.}%
+     {I~Yu}{I.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flora}{F.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{YB+3}
+  \strng{fullhash}{YBOAPDSRSRFaYMAPTSIYFFO1}
+  \field{number}{12}
+  \field{pages}{4049\bibrangedash 4053}
+  \field{title}{High-Resolution X-Ray Spectrometer Based on Spherically Bent
+  Crystals for Investigations of Femtosecond Laser Plasmas}
+  \field{volume}{69}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{1998}
+\endentry
+
+\entry{OADES2004TARGET}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Oades}{O.}%
+     {Kevin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans}{E.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Slark}{S.}%
+     {Gary}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Foster}{F.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eagleton}{E.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clark}{C.}%
+     {Eugene}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{OK+1}
+  \strng{fullhash}{OKEASGFJERCE1}
+  \field{number}{10}
+  \field{pages}{4222\bibrangedash 4224}
+  \field{title}{Target Diagnostics for the Future Awe Orion Laser Facility}
+  \field{volume}{75}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2004}
+\endentry
+
+\entry{WORKMAN2001X}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Workman}{W.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kyrala}{K.}%
+     {Ga}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{WJKG1}
+  \strng{fullhash}{WJKG1}
+  \field{number}{1}
+  \field{pages}{678\bibrangedash 681}
+  \field{title}{X-Ray Yield Scaling Studies Performed on the Omega Laser}
+  \field{volume}{72}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2001}
+\endentry
+
+\entry{STOECKL2001HARD}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Stoeckl}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glebov}{G.}%
+     {V~Yu}{V.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meyerhofer}{M.}%
+     {Dd}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seka}{S.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yaakobi}{Y.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Town}{T.}%
+     {Rpj}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zuegel}{Z.}%
+     {Jd}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{SC+1}
+  \strng{fullhash}{SCGVYMDSWYBTRZJ1}
+  \field{number}{1}
+  \field{pages}{1197\bibrangedash 1200}
+  \field{title}{Hard X-Ray Detectors for Omega and Nif}
+  \field{volume}{72}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2001}
+\endentry
+
+\entry{LANDEN2001X}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farley}{F.}%
+     {Dr}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glendinning}{G.}%
+     {Sg}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Logory}{L.}%
+     {Lm}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bell}{B.}%
+     {Pm}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koch}{K.}%
+     {Ja}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Fd}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bradley}{B.}%
+     {Dk}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalantar}{K.}%
+     {Dh}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Back}{B.}%
+     {Ca}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{LO+1}
+  \strng{fullhash}{LOFDGSLLBPKJLFBDKDBCO1}
+  \field{number}{1}
+  \field{pages}{627\bibrangedash 634}
+  \field{title}{X-Ray Backlighting for the National Ignition Facility}
+  \field{volume}{72}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2001}
+\endentry
+
+\entry{HUDSON2002HIGH}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Hudson}{H.}%
+     {Lawrence~T}{L.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Henins}{H.}%
+     {Albert}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Deslattes}{D.}%
+     {Rd}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seely}{S.}%
+     {Jf}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holland}{H.}%
+     {Ge}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Atkin}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marlin}{M.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meyerhofer}{M.}%
+     {Dd}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stoeckl}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{HLT+1}
+  \strng{fullhash}{HLTHADRSJHGARMLMDSC1}
+  \field{number}{6}
+  \field{pages}{2270\bibrangedash 2275}
+  \field{title}{A High-Energy X-Ray Spectrometer Diagnostic for the Omega
+  Laser}
+  \field{volume}{73}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2002}
+\endentry
+
+\entry{DEWALD2004DANTE}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Dewald}{D.}%
+     {El}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {Km}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turner}{T.}%
+     {Re}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holder}{H.}%
+     {Jp}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kauffman}{K.}%
+     {Rl}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suter}{S.}%
+     {Lj}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landon}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rhodes}{R.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{DE+1}
+  \strng{fullhash}{DECKTRHJLOGSKRSLLMRMO1}
+  \field{number}{10}
+  \field{pages}{3759\bibrangedash 3761}
+  \field{title}{Dante Soft X-Ray Power Diagnostic for National Ignition
+  Facility}
+  \field{volume}{75}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2004}
+\endentry
+
+\entry{GREGORI2004ELECTRONIC}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Gregori}{G.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rogers}{R.}%
+     {Fj}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pollaine}{P.}%
+     {Sm}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blancard}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Faussurier}{F.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renaudin}{R.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kuhlbrodt}{K.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Redmer}{R.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{GG+1}
+  \strng{fullhash}{GGGSRFPSLOBCFGRPKSRR1}
+  \field{number}{5}
+  \field{pages}{2754\bibrangedash 2762}
+  \field{title}{Electronic Structure Measurements of Dense Plasmas}
+  \field{volume}{11}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2004}
+\endentry
+
+\entry{FORTMANN2012MEASUREMENT}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Fortmann}{F.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Hj}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\"O}Ppner}{D.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Falcone}{F.}%
+     {Rw}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kritcher}{K.}%
+     {Al}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{FC+1}
+  \strng{fullhash}{FCLHDTFRKALOGS1}
+  \field{number}{17}
+  \field{pages}{175006}
+  \field{title}{Measurement of the Adiabatic Index in Be Compressed By
+  Counterpropagating Shocks}
+  \field{volume}{108}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2012}
+\endentry
+
+\entry{LIDER2011X}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lider}{L.}%
+     {Vv}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{LV1}
+  \strng{fullhash}{LV1}
+  \field{number}{2}
+  \field{pages}{169\bibrangedash 189}
+  \field{title}{X-Ray Divergent-Beam (Kossel) Technique: a Review}
+  \field{volume}{56}
+  \field{journaltitle}{Crystallography Reports}
+  \field{year}{2011}
+\endentry
+
+\entry{SUGGIT2010NANOSECOND}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Suggit}{S.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kimminau}{K.}%
+     {Giles}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hawreliak}{H.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remington}{R.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Park}{P.}%
+     {Nigel}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wark}{W.}%
+     {Justin}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMKGHJRBPNWJ1}
+  \field{number}{8}
+  \field{pages}{083902}
+  \field{title}{Nanosecond X-Ray Laue Diffraction Apparatus Suitable for Laser
+  Shock Compression Experiments}
+  \field{volume}{81}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2010}
+\endentry
+
+\entry{BOURGADE2004NEW}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Bourgade}{B.}%
+     {Jl}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allouche}{A.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baggio}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bayer}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bonneau}{B.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chollet}{C.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darbon}{D.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Disdier}{D.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gontier}{G.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Houry}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{BJ+1}
+  \strng{fullhash}{BJAVBJBCBFCCDSDLGDHMO1}
+  \field{number}{10}
+  \field{pages}{4204\bibrangedash 4212}
+  \field{title}{New Constraints for Plasma Diagnostics Development Due To the
+  Harsh Environment of Mj Class Lasers}
+  \field{volume}{75}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2004}
+\endentry
+
+\entry{FENG2005ENERGY}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Feng}{F.}%
+     {Yejun}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somayazulu}{S.}%
+     {Ms}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jaramillo}{J.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenbaum}{R.}%
+     {Tf}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isaacs}{I.}%
+     {Ed}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Jingzhu}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mao}{M.}%
+     {Ho-Kwang}{H.-K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{FY+1}
+  \strng{fullhash}{FYSMJRRTIEHJMHK1}
+  \field{number}{6}
+  \field{pages}{063913}
+  \field{title}{Energy Dispersive X-Ray Diffraction of Charge Density Waves Via
+  Chemical Filtering}
+  \field{volume}{76}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2005}
+\endentry
+
+\entry{HOIDN2014PHOTOMETRIC}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hoidn}{H.}%
+     {Or}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gt}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{HOSG1}
+  \strng{fullhash}{HOSG1}
+  \field{number}{1}
+  \field{pages}{012707}
+  \field{title}{Photometric Study of Single-Shot Energy-Dispersive X-Ray
+  Diffraction At a Laser Plasma Facility}
+  \field{volume}{21}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2014}
+\endentry
+
+\entry{FENG2007PRESSURE}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Feng}{F.}%
+     {Yejun}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jaramillo}{J.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Srajer}{S.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lang}{L.}%
+     {Jc}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Islam}{I.}%
+     {Z}{Z}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somayazulu}{S.}%
+     {Ms}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shpyrko}{S.}%
+     {Og}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pluth}{P.}%
+     {Jj}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mao}{M.}%
+     {H-K}{H.-K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isaacs}{I.}%
+     {Ed}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{FY+1}
+  \strng{fullhash}{FYJRSGLJIZSMSOPJMHKIEO1}
+  \field{number}{13}
+  \field{pages}{137201}
+  \field{title}{Pressure-Tuned Spin and Charge Ordering in An Itinerant
+  Antiferromagnet}
+  \field{volume}{99}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2007}
+\endentry
+
+\entry{DESGRENIERS1989TIN}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Desgreniers}{D.}%
+     {Serge}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vohra}{V.}%
+     {Yogesh~K}{Y.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruoff}{R.}%
+     {Arthur~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{DSVYKRAL1}
+  \strng{fullhash}{DSVYKRAL1}
+  \field{number}{14}
+  \field{pages}{10359}
+  \field{title}{Tin At High Pressure: An Energy-Dispersive X-Ray-Diffraction
+  Study To 120 Gpa}
+  \field{volume}{39}
+  \field{journaltitle}{Physical Review B}
+  \field{year}{1989}
+\endentry
+
+\entry{BAUBLITZ1981ENERGY}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Baublitz~Jr}{B.~J.}%
+     {Millard~a}{M.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arnold}{A.}%
+     {Volker}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruoff}{R.}%
+     {Arthur~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{BJMaAVRAL1}
+  \strng{fullhash}{BJMaAVRAL1}
+  \field{number}{11}
+  \field{pages}{1616\bibrangedash 1624}
+  \field{title}{Energy Dispersive X-Ray Diffraction From High Pressure
+  Polycrystalline Specimens Using Synchrotron Radiation}
+  \field{volume}{52}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{1981}
+\endentry
+
+\entry{MADDOX2011ABSOLUTE}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Maddox}{M.}%
+     {Br}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Park}{P.}%
+     {Hs}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remington}{R.}%
+     {Ba}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Prisbrey}{P.}%
+     {St}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Comley}{C.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Back}{B.}%
+     {Ca}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szabo}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seely}{S.}%
+     {Jf}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{MB+1}
+  \strng{fullhash}{MBPHRBCCCSPSCaBCSCSJO1}
+  \field{number}{5}
+  \field{pages}{056709}
+  \field{title}{Absolute Measurements of X-Ray Backlighter Sources At Energies
+  Above 10 Kev A}
+  \field{volume}{18}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2011}
+\endentry
+
+\entry{AKLI2007TEMPERATURE}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Akli}{A.}%
+     {Ku}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Key}{K.}%
+     {Mh}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chung}{C.}%
+     {Hk}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hansen}{H.}%
+     {Sb}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freeman}{F.}%
+     {Rr}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Mh}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gregori}{G.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hatchett}{H.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hey}{H.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Izumi}{I.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{AK+1}
+  \strng{fullhash}{AKKMCHHSFRCMGGHSHDINO1}
+  \field{number}{2}
+  \field{pages}{023102}
+  \field{title}{Temperature Sensitivity of Cu K $\alpha$ Imaging Efficiency
+  Using a Spherical Bragg Reflecting Crystal}
+  \field{volume}{14}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2007}
+\endentry
+
+\entry{KRISHNAN2000X}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Krishnan}{K.}%
+     {Shankar}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Price}{P.}%
+     {David~L}{D.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Iop Publishing}%
+  }
+  \strng{namehash}{KSPDL1}
+  \strng{fullhash}{KSPDL1}
+  \field{number}{12}
+  \field{pages}{R145}
+  \field{title}{X-Ray Diffraction From Levitated Liquids}
+  \field{volume}{12}
+  \field{journaltitle}{Journal of Physics: Condensed Matter}
+  \field{year}{2000}
+\endentry
+
+\entry{GREGORI2009LOW}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gregori}{G.}%
+     {Gianluca}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gericke}{G.}%
+     {Dirk~O}{D.~O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{GGGDO1}
+  \strng{fullhash}{GGGDO1}
+  \field{number}{5}
+  \field{pages}{056306}
+  \field{title}{Low Frequency Structural Dynamics of Warm Dense Matter A}
+  \field{volume}{16}
+  \field{journaltitle}{Physics of Plasmas}
+  \field{year}{2009}
+\endentry
+
+\entry{SCHULKE2007ELECTRON}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sch{\"U}Lke}{S.}%
+     {Winfried}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{SW1}
+  \strng{fullhash}{SW1}
+  \field{title}{Electron Dynamics By Inelastic X-Ray Scattering}
+  \field{volume}{7}
+  \field{year}{2007}
+\endentry
+
+\entry{YOO2012GRAPHENE}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Yoo}{Y.}%
+     {Jae-Hyuck}{J.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bin~In}{B.~I.}%
+     {Jung}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bok~Park}{B.~P.}%
+     {Jong}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jeon}{J.}%
+     {Hojeong}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grigoropoulos}{G.}%
+     {Costas~P}{C.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{YJH+1}
+  \strng{fullhash}{YJHBIJBPJJHGCP1}
+  \field{number}{23}
+  \field{pages}{233124}
+  \field{title}{Graphene Folds By Femtosecond Laser Ablation}
+  \field{volume}{100}
+  \field{journaltitle}{Applied Physics Letters}
+  \field{year}{2012}
+\endentry
+
+\entry{VISCO2012MEASUREMENT}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Visco}{V.}%
+     {Aj}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drake}{D.}%
+     {Rp}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\"O}Ppner}{D.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gregori}{G.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Froula}{F.}%
+     {Dh}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grosskopf}{G.}%
+     {Mj}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{VA+1}
+  \strng{fullhash}{VADRGSDTGGFDGM1}
+  \field{number}{14}
+  \field{pages}{145001}
+  \field{title}{Measurement of Radiative Shock Properties By X-Ray Thomson
+  Scattering}
+  \field{volume}{108}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2012}
+\endentry
+
+\entry{FREUND1996X}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Freund}{F.}%
+     {Andreas~K}{A.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Munkholm}{M.}%
+     {Anneli}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brennan}{B.}%
+     {Sean}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FAKMABS1}
+  \strng{fullhash}{FAKMABS1}
+  \field{booktitle}{Proc. Spie}
+  \field{pages}{68\bibrangedash 79}
+  \field{title}{X-Ray Diffraction Properties of Highly Oriented Pyrolytic
+  Graphite}
+  \field{volume}{2856}
+  \field{year}{1996}
+\endentry
+
+\entry{TOMMASINI2010DEVELOPMENT}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Tommasini}{T.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hatchett}{H.}%
+     {Sp}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hey}{H.}%
+     {Ds}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Izumi}{I.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koch}{K.}%
+     {Ja}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mackinnon}{M.}%
+     {Aj}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Delettrez}{D.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glebov}{G.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stoeckl}{S.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Lawrence Livermore National Laboratory (Llnl), Livermore, Ca}%
+  }
+  \strng{namehash}{TR+1}
+  \strng{fullhash}{TRHSHDINKJLOMADJGVSC1}
+  \field{number}{Llnl-Jrnl-462711}
+  \field{title}{Development of Compton Radiography Diagnostics for Inertial
+  Confinement Fusion Implosions}
+  \field{volume}{18}
+  \field{journaltitle}{Physics of Plasmas, Vol. 18, No. 5, May 19, 2011, Pp.
+  056309}
+  \field{year}{2010}
+\endentry
+
+\entry{KRITCHER2008ULTRAFAST}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Kritcher}{K.}%
+     {Andrea~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neumayer}{N.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castor}{C.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\"O}Ppner}{D.}%
+     {Tilo}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Falcone}{F.}%
+     {Roger~W}{R.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Otto~L}{O.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Hae~Ja}{H.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Richard~W}{R.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morse}{M.}%
+     {Edward~C}{E.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ng}{N.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{KAL+1}
+  \strng{fullhash}{KALNPCJDTFRWLOLLHJLRWMECNAO1}
+  \field{number}{5898}
+  \field{pages}{69\bibrangedash 71}
+  \field{title}{Ultrafast X-Ray Thomson Scattering of Shock-Compressed Matter}
+  \field{volume}{322}
+  \field{journaltitle}{Science}
+  \field{year}{2008}
+\endentry
+
+\entry{GREGORI2006MEASUREMENT}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Gregori}{G.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chung}{C.}%
+     {H-K}{H.-K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Froula}{F.}%
+     {Dh}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Rw}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meezan}{M.}%
+     {Nb}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moody}{M.}%
+     {Jd}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Niemann}{N.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holst}{H.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GG+1}
+  \strng{fullhash}{GGGSCHKFDLRMNMJNCLOHBO1}
+  \field{number}{1}
+  \field{pages}{225\bibrangedash 237}
+  \field{title}{Measurement of Carbon Ionization Balance in High-Temperature
+  Plasma Mixtures By Temporally Resolved X-Ray Scattering}
+  \field{volume}{99}
+  \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative
+  Transfer}
+  \field{year}{2006}
+\endentry
+
+\entry{PAK2004X}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Pak}{P.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gregori}{G.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knight}{K.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Price}{P.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hammel}{H.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Landen}{L.}%
+     {Ol}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glenzer}{G.}%
+     {Sh}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{Pa+1}
+  \strng{fullhash}{PaGGKJCKPDHBLOGS1}
+  \field{number}{10}
+  \field{pages}{3747\bibrangedash 3749}
+  \field{title}{X-Ray Line Measurements with High Efficiency Bragg Crystals}
+  \field{volume}{75}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2004}
+\endentry
+
 \entry{mcneil2010x}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -2656,7 +6277,7 @@
   \list{publisher}{1}{%
     {American Physical Society}%
   }
-  \strng{namehash}{AE+1}
+  \strng{namehash}{AE+2}
   \strng{fullhash}{AECFCMDMDBSCTMDNG1}
   \verb{doi}
   \verb 10.1103/PhysRevLett.100.174801
@@ -3215,32 +6836,6 @@
   \field{year}{2009}
 \endentry
 
-\entry{valenza2016warm}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Valenza}{V.}%
-     {Ryan~A}{R.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Seidler}{S.}%
-     {Gerald~T}{G.~T.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {APS}%
-  }
-  \strng{namehash}{VRASGT1}
-  \strng{fullhash}{VRASGT1}
-  \field{number}{11}
-  \field{pages}{115135}
-  \field{title}{Warm dense crystallography}
-  \field{volume}{93}
-  \field{journaltitle}{Physical Review B}
-  \field{year}{2016}
-\endentry
-
 \entry{herrmann2013cspad}{article}{}
   \true{moreauthor}
   \name{author}{10}{}{%
@@ -3326,6 +6921,432 @@
   \strng{fullhash}{MDHO+1}
   \field{journaltitle}{Physics Review B}
   \field{year}{in preparation}
+\endentry
+
+\entry{PLATEAU2012LOW}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Plateau}{P.}%
+     {Gr}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Geddes}{G.}%
+     {Cgr}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thorn}{T.}%
+     {Db}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benedetti}{B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Esarey}{E.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonsalves}{G.}%
+     {Aj}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matlis}{M.}%
+     {Nh}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nakamura}{N.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schroeder}{S.}%
+     {Cb}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Others}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aps}%
+  }
+  \strng{namehash}{PG+1}
+  \strng{fullhash}{PGGCTDCMBCEEGAMNNKSCO1}
+  \field{number}{6}
+  \field{pages}{064802}
+  \field{title}{Low-Emittance Electron Bunches From a Laser-Plasma Accelerator
+  Measured Using Single-Shot X-Ray Spectroscopy}
+  \field{volume}{109}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2012}
+\endentry
+
+\entry{HUOTARI2005IMPROVING}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Huotari}{H.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vank{\'O}}{V.}%
+     {Gy}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albergamo}{A.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ponchut}{P.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Graafsma}{G.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Henriquet}{H.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verbeni}{V.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Monaco}{M.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{HS+2}
+  \strng{fullhash}{HSVGAFPCGHHCVRMG1}
+  \field{number}{4}
+  \field{pages}{467\bibrangedash 472}
+  \field{title}{Improving the Performance of High-Resolution X-Ray
+  Spectrometers With Position-Sensitive Pixel Detectors}
+  \field{volume}{12}
+  \field{journaltitle}{Journal of Synchrotron Radiation}
+  \field{year}{2005}
+\endentry
+
+\entry{SERVOLI2010CHARACTERIZATION}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Servoli}{S.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biagetti}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Passeri}{P.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gattuso}{G.}%
+     {E~Spanti}{E.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Iop Publishing}%
+  }
+  \strng{namehash}{SL+1}
+  \strng{fullhash}{SLBDPDGES1}
+  \field{number}{07}
+  \field{pages}{P07003}
+  \field{title}{Characterization of Standard Cmos Pixel Imagers As Ionizing
+  Radiation Detectors}
+  \field{volume}{5}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2010}
+\endentry
+
+\entry{LANE2012X}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lane}{L.}%
+     {David~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{LDW1}
+  \strng{fullhash}{LDW1}
+  \field{pages}{29\bibrangedash 32}
+  \field{title}{X-Ray Imaging and Spectroscopy Using Low Cost Cots Cmos
+  Sensors}
+  \field{volume}{284}
+  \field{journaltitle}{Nuclear Instruments and Methods In Physics Research
+  Section B: Beam Interactions With Materials and Atoms}
+  \field{year}{2012}
+\endentry
+
+\entry{SEIDLER2014LABORATORY}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Seidler}{S.}%
+     {Gt}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mortensen}{M.}%
+     {Dr}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remesnik}{R.}%
+     {Aj}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pacold}{P.}%
+     {Ji}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ball}{B.}%
+     {Na}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barry}{B.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Styczinski}{S.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoidn}{H.}%
+     {Or}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{SG+1}
+  \strng{fullhash}{SGMDRAPJBNBNSMHO1}
+  \field{number}{11}
+  \field{pages}{113906}
+  \field{title}{A Laboratory-Based Hard X-Ray Monochromator For High-Resolution
+  X-Ray Emission Spectroscopy and X-Ray Absorption Near Edge Structure
+  Measurements}
+  \field{volume}{85}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2014}
+\endentry
+
+\entry{PACOLD2012MINIATURE}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Pacold}{P.}%
+     {Ji}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bradley}{B.}%
+     {Ja}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mattern}{M.}%
+     {Ba}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lipp}{L.}%
+     {Mj}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gt}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chow}{C.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xiao}{X.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rod}{R.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rusthoven}{R.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Quintana}{Q.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {International Union of Crystallography}%
+  }
+  \strng{namehash}{PJ+1}
+  \strng{fullhash}{PJBJMBLMSGCPXYRERBQJ1}
+  \field{number}{2}
+  \field{pages}{245\bibrangedash 251}
+  \field{title}{A Miniature X-Ray Emission Spectrometer (Minixes) For
+  High-Pressure Studies In a Diamond Anvil Cell}
+  \field{volume}{19}
+  \field{journaltitle}{Journal of Synchrotron Radiation}
+  \field{year}{2012}
+\endentry
+
+\entry{MATTERN2012PLASTIC}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Mattern}{M.}%
+     {Ba}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gt}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haave}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pacold}{P.}%
+     {Ji}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gordon}{G.}%
+     {Ra}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Planillo}{P.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Quintana}{Q.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rusthoven}{R.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{MB+2}
+  \strng{fullhash}{MBSGHMPJGRPJQJRB1}
+  \field{number}{2}
+  \field{pages}{023901}
+  \field{title}{A Plastic Miniature X-Ray Emission Spectrometer Based on the
+  Cylindrical Von Hamos Geometry}
+  \field{volume}{83}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2012}
+\endentry
+
+\entry{DICKINSON2008SHORT}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Dickinson}{D.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seidler}{S.}%
+     {Gt}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Webb}{W.}%
+     {Zw}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bradley}{B.}%
+     {Ja}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nagle}{N.}%
+     {Kp}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heald}{H.}%
+     {Sm}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gordon}{G.}%
+     {Ra}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chou}{C.}%
+     {I-Ming}{I.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Aip}%
+  }
+  \strng{namehash}{DB+1}
+  \strng{fullhash}{DBSGWZBJNKHSGRCIM1}
+  \field{number}{12}
+  \field{pages}{123112}
+  \field{title}{A Short Working Distance Multiple Crystal X-Ray Spectrometer}
+  \field{volume}{79}
+  \field{journaltitle}{Review of Scientific Instruments}
+  \field{year}{2008}
 \endentry
 
 \lossort

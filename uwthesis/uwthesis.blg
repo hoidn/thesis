@@ -2,6 +2,41 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: uwthesis.aux
 The style file: biblatex.bst
+Case mismatch error between cite keys GLENZER2009X and glenzer2009x
+---line 208 of file uwthesis.aux
+ : \citation{GLENZER2009X
+ :                       }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys LILJEQUIST1983SIMPLE and liljequist1983simple
+---line 238 of file uwthesis.aux
+ : \citation{LILJEQUIST1983SIMPLE
+ :                               }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys Krishnan1998structure and KRISHNAN1998STRUCTURE
+---line 318 of file uwthesis.aux
+ : \citation{Krishnan1998structure
+ :                                }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys Krishnan1998structure and KRISHNAN1998STRUCTURE
+---line 320 of file uwthesis.aux
+ : \citation{Krishnan1998structure
+ :                                }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 394 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 395 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys valenza2016warm and VALENZA2016WARM
+---line 404 of file uwthesis.aux
+ : \citation{valenza2016warm
+ :                          }
+I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -13,7 +48,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 16954 items from 5000.
+Reallocated field_info (elt_size=4) to 28074 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
 Repeated entry---line 824 of file uwthesis.bib
@@ -24,6 +59,38 @@ Repeated entry---line 835 of file uwthesis.bib
  : @article{mattern2012real
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1040 of file uwthesis.bib
+ : @article{Glenzer2009x
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1112 of file uwthesis.bib
+ : @article{Valenza2016warm
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1234 of file uwthesis.bib
+ : @article{Hoidn2017nonlocal
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1305 of file uwthesis.bib
+ : @article{Liljequist1983simple
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1664 of file uwthesis.bib
+ : @article{GLENZER2009X
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1684 of file uwthesis.bib
+ : @article{LEE2009X
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1704 of file uwthesis.bib
+ : %@article{MATTERN2013CONDENSED
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1821 of file uwthesis.bib
+ : @article{KRISHNAN1998STRUCTURE
+ :                               ,
+I'm skipping whatever remains of this entry
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -31,45 +98,45 @@ Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, P
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry fano1963penetration
 while executing---line 2659 of file biblatex.bst
-You've used 86 entries,
+You've used 166 entries,
             6047 wiz_defined-function locations,
-            1630 strings with 25080 characters,
-and the built_in function-call counts, 303242 in all, are:
-= -- 12499
-> -- 10031
-< -- 2359
-+ -- 3875
-- -- 4100
-* -- 25122
-:= -- 18255
+            2094 strings with 45123 characters,
+and the built_in function-call counts, 623685 in all, are:
+= -- 25630
+> -- 20917
+< -- 4577
++ -- 8415
+- -- 8526
+* -- 54574
+:= -- 37836
 add.period$ -- 0
-call.type$ -- 86
-change.case$ -- 1541
+call.type$ -- 166
+change.case$ -- 3094
 chr.to.int$ -- 35
-cite$ -- 170
-duplicate$ -- 35515
-empty$ -- 31263
-format.name$ -- 7753
-if$ -- 66724
+cite$ -- 330
+duplicate$ -- 73509
+empty$ -- 63249
+format.name$ -- 17181
+if$ -- 135700
 int.to.chr$ -- 0
-int.to.str$ -- 248
+int.to.str$ -- 498
 missing$ -- 0
-newline$ -- 3279
-num.names$ -- 4278
-pop$ -- 27916
+newline$ -- 7228
+num.names$ -- 8504
+pop$ -- 54942
 preamble$ -- 1
-purify$ -- 2044
+purify$ -- 4240
 quote$ -- 0
-skip$ -- 16725
+skip$ -- 34022
 stack$ -- 0
-substring$ -- 7388
-swap$ -- 12065
-text.length$ -- 2000
-text.prefix$ -- 121
+substring$ -- 15143
+swap$ -- 25008
+text.length$ -- 4003
+text.prefix$ -- 281
 top$ -- 1
-type$ -- 3255
+type$ -- 6294
 warning$ -- 0
-while$ -- 1401
+while$ -- 2720
 width$ -- 0
-write$ -- 3192
-(There were 4 error messages)
+write$ -- 7061
+(There were 19 error messages)

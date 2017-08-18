@@ -1,12 +1,5 @@
+Electronic Structure Effects in Crystalline Tepid Dense Matter
 
-\emph{This chapter was prepared as an article for submission to Physical Review B (currently in preparation)}
-
-
-\author[1]{aaaab}
-
-\affil[1]{afiil}
-
-{\centering
 Oliver Hoidn\textsuperscript{1}, Ryan Valenza\textsuperscript{1}, Gerald
 T. Seidler\textsuperscript{1,(*)}\textsubscript{,} Alexander
 Ditter\textsuperscript{1}, William Holden\textsuperscript{1}, Evan
@@ -14,14 +7,13 @@ Jahrman\textsuperscript{1}, Samuel Vinko\textsuperscript{2}, Josh
 Kas\textsuperscript{1}, Fer Vila\textsuperscript{1}, Alison M.
 Saunders\textsuperscript{3}, Luis Avila\textsuperscript{4}, Galen
 O'Neil\textsuperscript{4}, Hae Ja Lee\textsuperscript{5}, Bob
-Nagler\textsuperscript{5}
+Nagler\textsuperscript{5},
 
-\bigbreak
-
-\textsuperscript{1}Department of Physics , University of Washington,
+\textsuperscript{1}Department of Physics, University of Washington,
 Seattle WA 98122
 
-\textsuperscript{2} Department of Physics, Clarendon Laboratory, University of Oxford, Parks Road, Oxford OX1 3PU, UK
+\textsuperscript{2} Department of Physics, Clarendon Laboratory,
+University of Oxford, Parks Road, Oxford OX1 3PU, UK
 
 \textsuperscript{3}Department of Physics, University of California,
 Berkeley CA 94720
@@ -32,40 +24,41 @@ Boulder CO 80305
 \textsuperscript{5}Stanford Linear Accelerator Center, Menlo Park CA
 94025
 
-}
-
-\bigbreak
-
-\begin{addmargin}[4em]{1em}
-We report a study of the x-ray diffraction of nanocrystalline MgO during
-heating by high-intensity x-ray pulses from an x-ray free electron laser
-(XFEL). Careful consideration of the three lowest angle Bragg peaks
-gives strong evidence that the MgO remains crystalline during the XFEL
-pulse. As a consequence of the purely constructive or purely destructive
-interference between unit cell sites for the different Bragg peaks, we
-are able to measure the the difference of nominal ionization of the Mg
-and O crystallographic sites as a function of incident flux density. We
-find an anomalously low threshold for the onset of substantial O
-2\emph{p} ionization, requiring that the intense x-ray illumination
-induces a large density of states in the MgO ground-state energy gap.
-Unlike usual ionization potential depression effects resulting from
-screening, we propose that the early onset of O 2p ionization may be a
-consequence of high site disorder of the charge state of the Mg and O
-ions, giving a distinct, valence-level mechanism for nonlinear response
-to x-ray heating. Unlike core-level x-ray nonlinearities that occur due
-to lifetime effects, i.e., bleaching, the present nonlinearity is a
-consequence of the changes in the electronic potentials experienced by
-the free or weakly bound charge density. In an attempt to elucidate the
-likely dominant mechanisms in the heating and relaxation cascades, the
-dependence of Bragg peak intensities over the available range of
-incident flux density results are compared and contrasted with a variety
-of theories spanning usual approached in solid state physics, molecular
-chemistry, and low-density plasma physics
-\end{addmargin}
+X-ray heating by x-ray free electron laser (XFEL) pulses is emerging as
+an important method to create matter under extreme conditions. Many
+prior reports of XFEL heating have focused on achieving extremely high
+levels of ionization, and then have used advanced x-ray methods to with
+the goal of evaluating the use of traditional plasma-theoretic
+approaches to the resulting warm dense matter (WDM) where such
+approaches may, or may not, be perturbatively applicable. Here, we adopt
+a complementary strategy wherein we use more modest XFEL heating to
+create more weakly ionized, `tepid' dense matter so as to investigate
+the earliest stages of ionization and elucidate the boundaries of
+applicability of traditional solid state physics ideas upon the
+breakdown of its assumptions of, e.g., high electronic degeneracy and
+coincident long range order of ion cores and valence charge density.
+Specifically, we choose to study the early stages of XFEL heating of MgO
+because of its large ground state bandgap, whose existence is a direct
+consequence of such long range order, and because the rocksalt structure
+of MgO holds special benefits in that its x-ray diffraction (XRD)
+pattern can be used not only to look for changes in average ionization
+of the unit cell but also for differential ionization between Mg and O
+sites. We find an anomalously low onset for valence-level O 2p
+ionization that requires the presence a large density of states within
+the ground state band gap, despite the strong evidence that no ion core
+motion has occurred during the x-ray pulse itself and despite the fact
+that the O 2p ionization is still much too small for screening effects
+to cause ionization potential depression. We propose that this may
+instead be a consequence of the destruction of long-range order of the
+electronic potentials due to site-disorder of the ionization, an effect
+that would be an extreme manifestation of the Lifshitz tail effect that
+is well-known in semiconductor physics.
 
 (*) seidler@uw.edu
 
-\section{I. Introduction}
+\textbf{\\}
+
+\textbf{I. Introduction}
 
 The `warm dense matter' (WDM) regime resides in an important and
 theoretically interesting middle-ground between the conditions typical
@@ -74,113 +67,126 @@ of great interest to traditional plasma physics, where atoms are fully
 ionized. WDM is defined by partial ionization, solid-like or higher
 densities, substantial Fermi degeneracy (\(T \leq \ E_{F}\)), and values
 for the plasma coupling parameter Γ of order unity or larger. {[}1{]}
-Beyond intrinsic interest in understanding this exotic physical regime,
-the collective properties of WDM---such as its equations of state (EOS),
+The collective properties of WDM---such as its equations of state (EOS),
 opacities, and viscosities---are of fundamental importance in
 geophysics, planetary and stellar astrophysics, and inertial confinement
 fusion (ICF). {[}2,3{]}
 
-WDM, however, presents unique practical challenges. While some obvious
-difficulties accrue from the details of how this transient state of
-matter is actually created, hard problems arise from the question of
-experimental diagnostics. Specifically, the high opacity of dense,
-partially-ionized matter renders ineffective the well-developed suite of
-optical-wavelength tools that are regularly used to obtain detailed
-microscopic information for low density plasmas. The community has
-therefore turned to x-ray wavelength diagnostics, each of which has a
-different connection to microscopic observables of interest. X-ray
-absorption spectroscopy interrogates the unoccupied electronic density
-of states, x-ray fluorescence informs us about semi-core and core-level
-occupancies of the ions, and elastic and inelastic x-ray scattering
-characterize the real-space charge density and momentum-space
-distribution functions, respectively. {[}4-6{]}
+However, the very intermediacy of WDM between condensed matter and
+plasma physics conditions poses new challenges to fundamental
+theoretical treatment of this state of matter because, on the one hand,
+high degrees of ionization and incomplete Fermi degeneracy are poorly
+treated even at a perturbative level by solid state physics electronic
+structure methods and, on the other hand, the importance of the ion core
+potentials, possible long-range order, and exchange interactions between
+valence and core electrons pose unsolved challenges to adaptations of
+theories intended for dense, more-completely ionized plasmas. In this
+context, WDM created by electronic heating from x-ray free electron
+laser (XFEL) pulses holds special promise, and has led to interesting
+results for the electronic structure of matter at solid density and
+relatively extreme degrees of valence-level ionization. {[}4,5{]} Such
+results are enabled not only by the creation of the WDM state by the
+x-ray pulse but also by the experimental diagnostics enabled by those
+same pulses, such as x-ray diffraction (XRD) and different
+implementations of x-ray spectroscopies. {[}6-10{]}
 
-The role of elastic x-ray scattering, i.e., x-ray diffraction (XRD), in
-the study of crystalline WDM has recently been discussed by Valenza and
-Seidler. {[}7{]} While all early XRD studies of WDM were performed in
-laser-shock studies where long-range crystalline order of the target is
-destroyed, those authors instead address the question of XRD from WDM
-created by heating of crystalline targets by the extremely fast pulses
-created by x-ray free electron lasers (XFELs). {[}8{]} While one key
-result of that work is the large contribution to XRD of the nominally
-`free' electrons for low-Z systems, there are two overarching
-perspectives in that work that help motivate the present study. First,
-XRD from crystalline WDM provides an important testing ground for
-finite-T electronic structure theory, giving direct measurement of the
-fundamental quantity predicted in DFT approaches, i.e., the spatial
-distribution of charge density. For example, for low-Z systems, finite-T
-studies of XRD might be used to give an especially salient inquiry into
-exchange functional effects under intermediate degeneracy of the unbound
-electrons. Second, and of greater relevance here, XRD from a WDM state
-where the ion cores are at least effectively stationary is a rich
-experiment that, through the careful choice of target material crystal
-structure, can be designed to have far higher information content about
-microscopic parameters, such as species-specific ionization states, than
-has been the case in studies of disordered WDM. In particular, we show
-here that high ionization state sensitivity can be obtained by
-judiciously selecting a crystalline compound whose diffraction peaks
-express a combination of destructive and constructive interference
-between different atomic sites in the unit cell.
+However, we choose here a complementary paradigm for the scientific
+opportunity provided by XFEL heating of dense matter. In contrast to
+extreme ionization and inquiry into the perturbative persistence of
+theories from the dense plasma physics literature, we instead seek to
+finely interrogate the earliest stages of XFEL heating with an eye
+toward seeing how far methods of solid state physics can find new,
+extended relevance in a `tepid dense matter' regime where
+plasma-theoretic approaches to electronic structure, such as screening
+approaches to ionization potential depression, will not be applicable
+because of choice of material or degree of ionization. In particular, we
+report here a wide-angle XRD study of XFEL heating of the wide-bandgap
+semiconductor MgO. The choice of method and material are intertwined and
+are motivated by our overall scientific mission via two main
+considerations.
 
-We report here a study of the XRD from nanophase XFEL-heated targets of
-the simple compound MgO. In the context of the above discussion, this
-choice is highly desirable. First, MgO, which has the NaCl rock-salt
-structure, is an example of the simplest crystal structure where there
-are low-angle Bragg peaks that have either purely constructive or purely
-destructive interference between the dissimilar species in the unit
-cell. This property is nontrivial, and it gives the experiment
-sensitivity to not just the average ionization across the unit cell but
-also to the ionization of each species. Second, the combination of
-slightly heavier atoms than in the Valenza {[}7{]} work together with
-favorably distributed conduction-band charge densities allows
-interpretation in the context of a simple atomic form factor (AFF) model
-that ignores the contributions to XRD from the unbound electrons. Third,
-the long semicore lifetime of Mg 2p holes provides an interesting
-problem for the present work, where there is then a meaningful
-competition between O valence-level and Mg 2p-level depopulation, but
-also provides a preludeto the future where variable-delay x-ray
-pump/probe studies will be able to measure systems' responses to
-long-lived electronic excitations with fine time resolution compared to
-durations of the nonequilibrium states involved. Finally, while the
-nanophase nature of the target poses some added complications in
-calculating the average energy actually deposited in each unit cell, it
-ensures good sample isotropy so that the XRD rings are uniform and
-ensemble-averaged for each single shot. This averts a problem that can
-arise in coarse-grained powder diffraction samples, wherein a relatively
-small number of crystallites in the probed sample volume results in
-insufficient sampling of the distribution of random crystallite
-orientations.
+First, a novel perspective on the use of elastic x-ray scattering, i.e.,
+XRD, in the study of crystalline WDM has recently been presented by
+Valenza and Seidler. {[}11{]} While all early XRD studies of WDM were
+performed in laser-shock studies where long-range crystalline order of
+the target is destroyed, {[}12{]} those authors instead address the
+question of XRD from WDM created by heating of crystalline targets by
+the extremely fast pulses created by x-ray free electron lasers (XFELs).
+One key result of Valenza and Seidler is the large contribution to XRD
+of the nominally `free' electrons for low-Z systems, but there are two
+more overarching perspectives in that work that are more relevant for
+the present study. To begin, XRD from crystalline WDM provides an
+important testing ground for finite-T electronic structure theory,
+giving direct measurement of the fundamental quantity predicted in DFT
+approaches, i.e., the spatial distribution of charge density. For
+example, for low-Z systems, finite-T studies of XRD might give an
+especially salient inquiry into exchange functional effects under
+intermediate degeneracy of the unbound electrons. {[}13-15{]} Next, and
+of greater relevance here, XRD from a WDM state where the ion cores are
+at least effectively stationary is a rich experiment that, through the
+careful choice of target material crystal structure, can be designed to
+have far higher information content about microscopic parameters, such
+as species-specific ionization states, than has been the case in studies
+of disordered WDM or simple elemental metal targets. In particular, we
+show here that species-specific ionization state sensitivity can be
+obtained by judiciously selecting a crystalline compound whose
+diffraction peaks express a combination of destructive and constructive
+interference between different atomic sites in the unit cell. The
+rock-salt structure taken by MgO is a classic textbook example of
+exactly this effect. Of relevance here, the (200) and (220) Bragg peaks
+have perfect constructive interference between charge density at the Mg
+and O sites in the unit cell, whereas the (111) peak instead has perfect
+destructive interference.
 
-During the single-shot studies where heating and diffraction occur
-simultaneously, we find no signatures of long-range lattice disorder,
-such as Deybe-Waller or `Bragg gating' effects, across a range of energy
+Second, the choice of MgO is particularly appropriate here because of
+its ground state electronic structure. MgO is a strongly ionic, very
+wide-band gap insulator. As such, unlike with an elemental metal target
+such as Al or Cu, the valence electronic charge density is quite
+spatially localized and has a strong contribution to the XRD that must
+rapidly change upon ionization. For example, prior study of strongly
+electronically excited KH\textsubscript{2}PO\textsubscript{4} using
+optical bandgap excitation and XRD diagnostics found clean signatures of
+the resulting changes in real space charge distribution. In the present
+case, with an ionic rather than molecular crystal, it is important to
+recognize that the wide bandgap of MgO, 7.8 eV, is a special
+manifestation of the ground state crystalline symmetry and long-range
+order of both the atomic positions and the local electronic structure.
+As such, the large ground-state band gap provides a special, potentially
+very sensitive, opportunity to see the initial consequences of the
+breakdown of the ground-state symmetries.
+
+With background complete, we summarize our results. During the
+single-shot studies, where heating and diffraction occur simultaneously,
+we find no signatures of long-range lattice disorder, such as either
+Debye-Waller or `Bragg gating' effects, across a range of energy
 deposition densities reaching 150 eV per unit cell. However, we measure
-a monotonic rise in intensity of the (111) peak of MgO with increasing
-XFEL flux density. This effect is the fully expected signature of of a
-loss of destructive interference within the MgO unit cell as the valence
-electrons of O progressively delocalize. This is an observation of
+a monotonic rise in normalized intensity of the (111) peak of MgO with
+increasing XFEL flux density. This effect is the fully expected
+signature of a loss of destructive interference within the MgO unit cell
+as the valence electrons progressively delocalize from their O
+2\emph{p}-like ground state locations. This is an observation of
 short-range, purely electronic charge reorganization in a solid-density,
 partially-ionized plasma that constitutes an initial demonstration of
 the general type of `warm dense crystallographic' effect predicted by
-Valenza, et al. {[}7{]} The observed onset for O 2p ionization is,
-however, anomalously low when compared to constraints that would be
-imposed by the large ground-state band gap of nearly 8 eV. We propose
-that the site-disorder of ionization that is a hallmark of x-ray heating
-is likely resulting in a great enhancement of states in the ground state
-band gap, thus giving a new mechanism, independent of, e.g., traditional
-inonization potential depression (IPD), for enhanced ionization effects
-in WDM. Such `Lifshitz tails' are well known in the theory of
-semiconductor physics but have not previously been discussed in the
-context of WDM. Although the lack of local thermal equilibrium (LTE) in
-the present study limits the utility of comparisons to theory, the
-experiment validates wide-angle XRD as an effective probe of local
-real-space electronic reorganization in crystalline warm dense matter.
-It thus presents the appealing prospect of future XRD studies on
-XFEL-heated WDM and solid-density plasmas designed to empirically
-constrain DFT-based predictions of finite-temperature electronic
-structure, especially for experiments performed using two-color x-ray
-pump, x-ray probe methods where many limitations of the present study
-will be ameliorated.
+Valenza, et al. {[}11{]} The observed onset for strong O 2\emph{p}
+ionization is, however, anomalously low when compared to constraints
+that would be imposed by the large ground-state band gap of nearly 8 eV.
+We propose that the site-disorder of ionization that is a hallmark of
+x-ray heating is likely introducing a significant density of states
+within the ground state band gap, thus giving a new mechanism,
+independent of, e.g., traditional inonization potential depression
+(IPD), for enhanced ionization effects in WDM. Such `Lifshitz tails' are
+well known in the theory of semiconductor physics but have not
+previously been discussed in the context of WDM. Although the lack of
+local thermal equilibrium (LTE) in the present study limits the utility
+of comparisons to theory, the experiment validates wide-angle XRD as an
+effective probe of local real-space electronic reorganization in
+crystalline warm dense matter. It thus presents the appealing prospect
+of future XRD studies on XFEL-heated WDM and solid-density plasmas
+designed to empirically constrain DFT-based predictions of
+finite-temperature electronic structure, especially for experiments
+performed using two-color x-ray pump, x-ray probe methods where many
+limitations of the present study will be ameliorated.
 
 We continue as follows. First, in section II we describe experimental
 methods. In section III we discuss approaches for modeling variations in
@@ -195,9 +201,9 @@ and providing a new route for effective enhancement of ionization
 effects that is specific to crystalline dense plasmas.. Finally, in
 section IV we conclude and discuss future directions.
 
-\section{II. Experimental Methods}
+\textbf{II. Experimental Methods}
 
-\subsection{II. A. Experimental Details}
+\textbf{II. A. Experimental Details}
 
 The experiment was performed at the matter of extreme conditions (MEC)
 endstation of the Linac Coherent Light Source (LCLS), where XFEL pulses
@@ -207,38 +213,38 @@ on an 8 µm-thick polyimide substrate. We used self-amplified stimulated
 emission (SASE) pulses of 45 fs mean duration, average pulse energies of
 2 mJ, and a nominal x-ray energy of 9 keV. Variations in the mean photon
 energy of each pulse are monitored by a downstream dispersive
-spectrometer. We controlled flux density incident on the sample via a
-stack of Be lenses, with which we varied the focal spot diameter of XFEL
-pulses at the sample position from 2 to 60 µm; these diameters were
+spectrometer. We controlled the flux density incident on the sample via
+a stack of Be lenses, with which we varied the focal spot diameter of
+XFEL pulses at the sample position from 2 to 60 µm; these diameters were
 determined using an ablative imprint method to measure the spatial
-profile of the focused XFEL beam. {[}9{]} Using the full available range
-of focal spot sizes and the unattenuated beam, we obtained incident flux
-densities ranging from 30 to 2000 J/cm\textsuperscript{2}.
+profile of the focused XFEL beam. {[}16{]} Using the full available
+range of focal spot sizes and the unattenuated beam, we obtained
+incident flux densities ranging from 30 to 2000 J/cm\textsuperscript{2}.
 
 During data collection the sample's position was rastered at a rate of
 100 µm between the XFEL pulses, whose repetition rate was 120 Hz. At
 every XFEL pulse the Bragg scattering signal was collected and read out
 from a quad CSPAD solid state detector having 800 x 800 resolution and a
-pixel pitch of 100 µm. {[}10,11{]} The 8 x 8 cm\textsuperscript{2}
+pixel pitch of 100 µm. {[}17,18{]} The 8 x 8 cm\textsuperscript{2}
 active area of the detector subtended the range of scattering angles
 from 10 to 58 degrees, encompassing the (111), (200), and (220) Bragg
 reflections of MgO (located at 33.5, 38.8, and 55.9 degrees,
 respectively, for 9 keV incident photons).
 
-\subsection{II.B. Data Reduction and Analysis}
+\textbf{II.B. Data Reduction and Analysis}
 
 Several steps of processing and event selection were performed prior to
 generating powder diffraction patterns. For each event the quad CSPAD
 readout was corrected by subtracting pixel pedestals (measured using
 previously-collected dark exposures) as well as common-mode noise in
-each of the detector's 16 individual tiles. {[}10,11{]} Due to the small
+each of the detector's 16 individual tiles. {[}17,18{]} Due to the small
 number of photon hits in a single shot residual ADC noise often
 dominated the Bragg scattering signal. To address this we made use of a
 standard component of the analysis pipeline for CSPAD data in low-photon
 count rate experiments at the LCLS, such as macromolecular imaging and
 crystallography, which identifies clusters of spatially-concentrated
 signal resulting from x-ray photon hits, rejecting the output of
-noise-dominated pixels. {[}12{]}
+noise-dominated pixels. {[}19{]}
 
 For each LCLS pulse a powder diffraction pattern is generated from the
 quad CSPAD frame by the summation of elliptically-shaped strips of
@@ -271,7 +277,7 @@ intensity of its (200) peak in order to control for variations in sample
 thickness, or fluctuations in nanoparticle volume in the beam, such as
 from nonuniform aggregation..
 
-\subsection{III. Modeling Methods}
+\textbf{III. Modeling Methods}
 
 Finally, the relationship between the incident flux density and the
 resultant energy density in the MgO nanoparticles requires some care.
@@ -279,20 +285,20 @@ The small (100 nm) sample thickness requires that a significant portion
 of higher-energy electrons created in the relaxation cascade following,
 e.g., primary photoionization of the Mg 1s orbital, will necessarily
 escape into the surrounding low-Z substrate and surrounding binder,
-causing a reduction in the density of \emph{deposited,} versus absorbed,
-energy. This effect has recently been discussed in detail, and proposed
-to be especially important for the design of XFEL x-ray heating targets.
-In the present case, using the methods described in {[}13{]} we use
-PENELOPE to perform Monte Carlo simulations for 9 keV incident photons
-striking a target consisting of a 50-nm thick MgO layer clad with
-graphite, where graphite is taken as representative of carbonaceous
-binder and substrate materials. This simulation implements
-particle-tracking simulation of electron showers in which elastic
-scattering differential cross sections are calculated from partial-wave
-solutions to the Dirac equation, while inelastic interactions (involving
-both impact ionization and collective excitations) are represented using
-a modified version of Liljequist's `delta-oscillator' generalized
-oscillator strength (GOS) model. {[}14{]}
+causing a reduction in the density of \emph{locally deposited,} versus
+absorbed, energy from the incident XFEL pulse. This effect has recently
+been discussed in detail, and proposed to be especially important for
+the design of XFEL x-ray heating targets. {[}20{]} In the present case,
+using the methods described in {[}20{]} we use PENELOPE to perform Monte
+Carlo simulations for 9 keV incident photons striking a target
+consisting of a 50-nm thick MgO layer clad with graphite, where graphite
+is taken as representative of carbonaceous binder and substrate
+materials. This simulation implements particle-tracking simulation of
+electron showers in which elastic scattering differential cross sections
+are calculated from partial-wave solutions to the Dirac equation, while
+inelastic interactions (involving both impact ionization and collective
+excitations) are represented using a modified version of Liljequist's
+`delta-oscillator' generalized oscillator strength (GOS) model. {[}20{]}
 
 The average energy deposited per unit cell is then calculated on the
 basis of the incident pulse energy, the focal spot size, standard (cold)
@@ -306,7 +312,7 @@ the pulse.
 
 To model the dependence of the XRD signal on the electronic
 configurations of the Mg and O ions we use the Hartree-Fock code of
-Cowan {[}15{]} to calculate the atomic form factors of Mg and O
+Cowan {[}21{]} to calculate the atomic form factors of Mg and O
 decomposed by subshell. The crystal's structure factor is subsequently
 calculated as a sum over basis atoms and subshells; i.e.,
 
@@ -332,7 +338,7 @@ In the high-energy density regime, defined as having mean temperatures
 above 2 eV, we simulated the temporal evolution of the MgO charge state
 distribution (CSD) over the course of an XFEL pulse using a variant of
 the collisional radiative code SCFLY that Vinko et al. have modified to
-self-consistently support elemental mixtures. {[}16{]} The code
+self-consistently support elemental mixtures. {[}5{]} The code
 implements a local density-based treatment of continuum lowering that
 Vinko et al. have demonstrated accurately reproduces experimental
 ionization potential shifts at high charge states in several
@@ -343,7 +349,7 @@ ionization and Auger decay). Its principal caveat in the current
 setting, where the plasma is heated via photoexcitation by photons with
 energies far above the absorption edges of Mg and O, is its assumption
 of an instantly-equilibrating thermal distribution of free electrons.
-{[}17{]}
+{[}22{]}
 
 Our inputs to SCFLY were the sample composition and XFEL photon energy,
 flux density, and temporal profile (which we took as a Gaussian with a
@@ -357,12 +363,12 @@ each simulated incident flux density.
 In the low-energy density regime we instead adopt three alternate models
 that capture aspects of the condensed phase physics under contrasting
 assumptions and limiting conditions. First, we use the Vienna ab-initio
-Simulation Package (VASP) {[}18{]}, a density functional theory (DFT)
+Simulation Package (VASP) {[}23{]}, a density functional theory (DFT)
 code, to compute the X-ray diffraction signal at finite temperature
 using the charge distributions of Kohn-Sham eigenstates populated by
 Fermi-Dirac Statistics. The relation between temperature and deposited
 energy density is derived from the zero-temperature density of states of
-MgO, which we compute using the code FEFF. {[}19{]} Under this model it
+MgO, which we compute using the code FEFF. {[}24{]} Under this model it
 is assumed that the potential landscape and density of states are not
 significantly altered by finite-temperature redistribution of charge.
 Additionally, the presence of local thermal equilibrium is implicit.
@@ -380,28 +386,13 @@ Third and finally, we consider the limit in which perturbation of the
 electronic structure creates a large density of states in the band gap
 and the O \emph{2p} ionization potential is determined by local
 interactions alone. In this molecular model we approximate the
-ionization potential of O\textsuperscript{2-} using a delta SCF
-(self-consistent field) calculation. {[}20{]} This approximation yields
-an ionization potential of 1.9 eV, from which the XRD response can be
-calculated in the same fashion as in the ground state model
+ionization potential of O\textsuperscript{2-}, embedded in a dielectric
+background mimicking bulk MgO, using a delta SCF (self-consistent field)
+calculation. {[}25{]} This approximation yields an ionization potential
+of 1.9 eV, from which the XRD response can be calculated in the same
+fashion as in the ground state model
 
-\section{III. Results and Discussion}
-
-\begin{center}
-\includegraphics{MgO_2.2.docx1502866987/media/image1.png}
-\end{center}
-\textbf{Fig. 1}. (a): Experimental intensity of the (220) Bragg peak
-from a sample of MgO simultaneously heated and probed by 45-fs duration
-XFEL pulses, as a function of XFEL energy deposited per MgO unit cell,
-with no normalization across individual data points. (b): Equivalent
-data for the (200) peak. (c): Experimental intensities of the (111)
-peak, compared to several models. Each experimental data point is
-normalized by (1) its intensity at minimum flux density and (2) the
-(200) peak intensity. For each of the four displayed models, the shaded
-region corresponds to the locus of possible curves once the loss of
-in-sample energy deposition due to nonlocal heat transport by hot
-electrons is accounted for. See the text for discussion.
-\bigbreak
+\textbf{III. Results and Discussion}
 
 To begin, in Fig. 1 (a), we show the experimentally measured intensity
 of the MgO (200) peak as a function of energy deposited per MgO unit
@@ -412,7 +403,7 @@ sample. Consequently, our first result is clear: the MgO nanoparticles
 remained substantially, and possible completely, crystalline for the
 duration of the XFEL pulse. There is no evidence for `Bragg-gating' or
 other self-limiting diffraction signals that are known to be important
-in the context of macromolecular crystallography at XFELs. {[}21{]}
+in the context of macromolecular crystallography at XFELs. {[}26{]}
 
 In Fig. 1 (b) we plot the normalized experimental intensity of the (111)
 and (220) Bragg peaks of MgO as a function of incident flux density
@@ -447,7 +438,7 @@ lattices shifted by half of the FCC lattice constant in the direction of
 one of the lattice basis vectors. This has consequences for the
 dependence of the (200), (111), and (220) Bragg peak intensities on the
 characteristics of the ions on the two sites in the primitive basis, as
-is frequently discussed in introductory texts. {[}22{]} In particular,
+is frequently discussed in introductory texts. {[}27{]} In particular,
 the (200) and (220) peaks result from perfect constructive interference
 between the two unit cell sites while the (111) peak, on the other hand,
 instead has perfect destructive interference between the two unit cell
@@ -492,19 +483,7 @@ dominant effect is a slow decrease in intensity due to uniform reduction
 of the scattering amplitude contributions of all 2p electrons in the
 unit cell.
 
-\begin{center}
-\includegraphics{MgO_2.2.docx1502866987/media/image2.png}
-\end{center}
-\textbf{Fig. 2}. Dependence of
-\hyperdef{}{OLEux5fLINK16}{}{\hyperdef{}{OLEux5fLINK17}{}{\hyperdef{}{OLEux5fLINK18}{}{}}}\(I_{111}/I_{200}\)
-on population of the \emph{2p} orbitals of
-\hyperdef{}{OLEux5fLINK14}{}{\hyperdef{}{OLEux5fLINK15}{}{}}\(\text{Mg}^{2 +}\)
-and \(O^{2 -}\), according to an atomic form factor (AFF) based model of
-ionization. This ratio reaches a maximum factor of 13.8 times the
-unperturbed value at full ionization of the O 2p electrons.
-\bigbreak
-
-Referring back to the results of Fig, 1
+Referring back to the results of Fig, 1c
 for\hyperdef{}{OLEux5fLINK1}{}{\hyperdef{}{OLEux5fLINK2}{}{\hyperdef{}{OLEux5fLINK5}{}{}}}
 \(I_{111}/I_{200}\), we see a more gradual enhancement than is the case
 for a thermalized system with only O 2\emph{p} ionization and there is
@@ -514,8 +493,13 @@ intermediate between (i) and (ii), where any theoretical treatment will
 need to include both the lifetime of the Mg 2\emph{p} core holes during
 the x-ray excitation and also the presence and significant, if
 incomplete, thermalization of O 2\emph{p} valence-level electrons.
-
-\FloatBarrier
+Because of the counteracting effects of O and Mg \emph{2p} ionization in
+this regime, the value of \(I_{111}/I_{200}\) does not fully constrain
+the extent of either O or Mg \emph{2p} ionization. Trajectory (i)
+nevertheless delimits the minimum extent of O \emph{2p} delocalization
+as a function of \(I_{111}/I_{200}\); the largest experimental value of
+\(I_{111}/I_{200}\) corresponds to an O \emph{2p} ionization level of at
+least 5 \%.
 
 Hence, predicting the consequences of single-pulse XFEL heating on XRD
 requires separate calculation of an average of the probed Mg and O
@@ -523,11 +507,11 @@ ionization states ---both temporal (over the duration of an XFEL pulse)
 and spatial (over all probed unit cells). We begin with the low-energy
 limit. In the regime where energy deposition per unit cell is less than
 1 eV, condensed matter physics and the details of valence-level
-electronic structure are predominant. For example, prior work on the XRD
-from KH2PO4 after strong optical excitation from the valence band to the
-conduction band could be well-interpreted in the general arena defined
-by the ground-state electronic structure of the crystalline phase.
-{[}23{]}
+electronic structure should be dominant. For example, prior work on the
+XRD from KH\textsubscript{2}PO\textsubscript{4} after strong optical
+excitation from the valence band to the conduction band could be
+well-interpreted in the general arena defined by the ground-state
+electronic structure of the crystalline phase. {[}28{]}
 
 Here, the absence of local thermal equilibrium (LTE) is a challenge for
 modeling fs-scale electronic reorganization in the 0.1-1eV temperature
@@ -548,61 +532,62 @@ the level of O 2\emph{p} ionization. The results of this naïve ground
 state model are shown as a shaded region (orange) with label AFF 7.8 eV
 in Fig. 1. Under this condition, and defining \(\rho_{E}\) as the
 density of deposited XFEL energy, it follows that \({\rho_{E}/E}_{g}\)
-is an upper bound on the concentration of O 2p excitations (i.e.,
-corresponding to all XFEL energy coupled into O 2p excitation). The
-yellow shaded region of Fig. 1 shows the ground state model's predicted
-intensity progression of the (111) Bragg reflection as a consequence of
-a density of deposited energy equal to \({\rho_{E}/E}_{g}.\) The
-measured onset of the (111) peak intensity's rise is much delayed
-compared to the model's prediction, from which we can infer that the
-experimental level of O 2p delocalization is significantly higher than
-that allowed by the ground state density of states of MgO -- in other
-words, there must be a plethora of states in the band gap that occur as
-a consequence of the x-ray excitation, even while periodicity of the
-ion-core locations is preserved. This inconsistency is corroborated by
-comparison of the experimental progression with a more advanced
-calculation of the same ilk, a finite-temperature DFT-based calculation,
-which also fails to reproduce the (111) peak's early rise (teal region
-in Fig. 1, labeled VASP).
+is an upper bound on the concentration of O 2\emph{p} excitations (i.e.,
+corresponding to all XFEL energy coupled into O 2\emph{p} excitation).
+The yellow shaded region of Fig. 1 shows the ground state model's
+predicted intensity progression of the (111) Bragg reflection as a
+consequence of a density of deposited energy equal to
+\({\rho_{E}/E}_{g}.\) The measured onset of the (111) peak intensity's
+rise is much delayed compared to the model's prediction, from which we
+can infer that the experimental level of O 2\emph{p} delocalization is
+significantly higher than that allowed by the ground state density of
+states of MgO -- in other words, there must be a plethora of states in
+the band gap that occur as a consequence of the x-ray excitation, even
+while periodicity of the ion-core locations is preserved. This
+inconsistency is corroborated by comparison of the experimental
+progression with a more advanced calculation of the same ilk, a
+finite-temperature DFT-based calculation, which also fails to reproduce
+the (111) peak's early rise (teal region in Fig. 1, labeled VASP).
 
-Second, as an alternative bounding case, an isolated, molecular
-Mg\textsuperscript{2+}O\textsuperscript{2-} system with a much lower,
-calculated ionization threshold of 1.9 eVcan be considered. The general,
-quadratic shape is still shown (color, label in Fig. 1), but this lowest
-possible ionization threshold results in an overestimate of the onset
-for O 2\emph{p} ionization. Hence, the dilute-plasma limit, modified
-only by ion-pairing for local neutrality, has omitted too much of the
-condensed phase physics.
+Second, as an alternative bounding case, one may consider an isolated,
+atomic O\textsuperscript{2-} in an MgO-like dielectric background
+results in a much lower calculated ionization threshold of 1.9 eV. This
+limit would be representative of a complete breakdown of any band-like
+effects. The general, quadratic shape is still shown (color, label in
+Fig. 1), but this lowest possible ionization threshold results in an
+overestimate of the onset for O 2\emph{p} ionization. Hence, the
+dilute-plasma limit, modified only by ion-pairing for local neutrality,
+has omitted too much of the condensed phase physics.
 
 Given the above discussion, the question then arises as to possible
 explanations for the observed enhancement of O 2\emph{p} ionization at
 lower incident energy densities. Prosaically, some part of this effect
 may be due to our choice of nanophase material. Unsurprisingly, the
 finite size of MgO nanostructures manifest surface states with energies
-inside the ground state band gap. {[}24{]}
-
-However, the magnitude of the present effect requires a more
-intrinsically bulk-like behavior. Though the effect superficially
-resembles ionization potential depression (IPD), conventional models of
-IPD inevitably fail in the low-energy density regime because they treat
-variations in the continuum level as a consequence of screening, with
-dependence only on the average ionization and ion density of a plasma.
-{[}16,25{]} As such, they are incapable of capturing the condensed phase
-physics and molecular chemistry that dominate behavior at low energy
-densities Here, the key physics may instead be the fact that long-range
-electronic order has been destroyed by the site-randomness of ionization
-even while perfect long-range order persists for the ion-core locations.
-It is known that site disorder in an otherwise perfectly crystalline
-solid (for instance lattice vacancies, impurities, or, as in our case,
-randomly-distributed electron vacancies) can introduce localized states
-with energies inside the band gap, spectra phenomena referred to as
-Lifshitz tails. {[}26{]} One particularly celebrated example of this is
-Anderson delocalization. {[}27{]} The possibility that this classic idea
-in condensed phase physics may find new application in dense plasma
-physics is an interesting result that can be further interrogated with,
-e.g., large-cluster quantum chemistry calculations or with other
-real-space DFT methods where site disorder of ionization state can be
-directly manipulated.
+inside the ground state band gap. {[}29{]} However, the magnitude of the
+present effect requires a more intrinsically bulk-like behavior. Though
+the effect superficially resembles ionization potential depression
+(IPD), conventional models of IPD inevitably fail in the low-energy
+density regime because they treat variations in the continuum level as a
+consequence of screening, with dependence only on the average ionization
+and ion density of a plasma, quantities that are showing only very small
+changes here compared to that needed for substantial changes in
+screening. {[}5,30{]} Here, the key physics may instead be the fact that
+while long-range structural order persists, long-range \emph{electronic}
+order has been significantly weakened by the site-randomness of
+ionization on both the O sites (by valence-level ionization) and on the
+Mg sites (due to the long lifetime of Mg 2p vacancies created during the
+relaxation cascade).. It is known that site disorder in an otherwise
+perfectly crystalline solid (for instance lattice vacancies, impurities,
+or, as in our case, randomly-distributed electron vacancies) can
+introduce localized states with energies inside the band gap, a spectral
+phenomena referred to as Lifshitz tails. {[}31{]} One particularly
+celebrated example of this is Anderson delocalization. {[}32{]} The
+possibility that this classic idea in solid state physics may find new
+application in dense plasma physics is an interesting result that can be
+further interrogated with, e.g., large-cluster quantum chemistry
+calculations or with other real-space DFT methods where site disorder of
+ionization state can be directly manipulated.
 
 We now turn our attention to high energy deposition densities in Fig. 1.
 In this regime, treatment of the interaction between atomic and free
@@ -611,25 +596,6 @@ lowering, becomes necessary. The above atomic and solid state treatments
 become inappropriate---even for the purpose of establishing rough bounds
 on the concentration of excitations---and we instead turn to
 time-resolved collisional radiative simulation.
-
-\begin{center}
-\includegraphics{MgO_2.2.docx1502866987/media/image3.png}
-\end{center}
-\textbf{Fig. 3}. Electronic temperature evolution during an XFEL pulse
-simulated by the radiative collisional code SCFLY. The incident XFEL
-photon energy and flux density are 9 keV and 2 x 10\textsuperscript{4}
-J/cm\textsuperscript{2}, respectively. The dashed line represents the
-temporal profile of the incident XFEL pulse.
-
-\begin{center}
-\includegraphics{MgO_2.2.docx1502866987/media/image4.png}
-\end{center}
-
-\textbf{Fig. 4}. Evolution of the mean charge states Mg and O of during
-an XFEL pulse simulated by the radiative collisional code SCFLY. The
-incident XFEL photon energy and flux density are 9 keV and 2 x
-10\textsuperscript{4} J/cm\textsuperscript{2}, respectively. The dashed
-line represents the temporal profile of the incident XFEL pulse.
 
 The principal outputs of such a simulation are temporal evolutions in
 electron temperature and atomic species charge states. Figs. 3 and 4
@@ -640,13 +606,11 @@ athermal: the difference between the initial and final Mg 2p population
 levels is 0.8 electrons, which exceeds the equilibrium ionization level
 corresponding to the final temperature of 19 eV by a large factor. One
 reason for the lack of LTE is readily apparent. The lifetime of Mg 2p
-holes is large compared to the 45 fs XFEL pulse duration {[}28,29{]} and
+holes is large compared to the 45 fs XFEL pulse duration {[}33,34{]} and
 the simulated free-electronic temperatures are far below the Mg 2p
 binding energy. Consequently, the production of Mg 2p holes will be
 dominated by rates of 2p and 1s photoionization and electron impact
 ionization during the XFEL pulse.
-
-\FloatBarrier
 
 The low value of the free electronic temperature relative to the
 \emph{K} shell binding energies of O and Mg allows a simplification in
@@ -676,7 +640,7 @@ the rate of ionization may arise from an increase in the 2\emph{p}
 ionization potential as more electrons enter excited states (though this
 effect competes with IPD).
 
-\section{IV. Conclusion and Future Directions}
+\textbf{IV. Conclusion and Future Directions}
 
 We have explored the use of single hard x-ray XFEL pulses to
 simultaneously create and probe crystalline WDM via wide-angle x-ray
@@ -696,18 +660,44 @@ in the highest occupied molecular orbital (HOMO).
 The experimental data shows a rapid delocalization of O 2p electrons at
 deposited energy densities per unit cell far below the 7.8 eV band gap
 of MgO, which constitutes evidence for the creation of excitations
-within the ground state band gap. However, interpretation of the data is
-made difficult by the lack of LTE (a consequence of the presence of
-long-lived Mg 2p holes), and robust comparison to finite-temperature DFT
-calculations is therefore impossible. Consequently, future experiments
-will aim for a closer approach to local thermal equilibrium. This can be
-achieved in two ways: first, by choosing a system free of long-lived
-semicore excitations and second, by carrying out time-resolved
-measurements using two-color pump-probe operations of the XFEL.
+within the ground state band gap. Significantly, we find no indication
+of a loss of long-range order in the positions of ion cores; we propose
+that the presence of states in the ground state band gap is instead a
+consequence of long-range disorder in the electric potential caused by
+ionization-derived site disorder.
 
-\emph{\\}
+Theoretical interpretation of the data is made difficult by the lack of
+LTE (a consequence of the presence of long-lived Mg 2p holes), which
+renders comparison to finite-temperature DFT calculations impossible.
+Consequently, future experiments will aim for a closer approach to local
+thermal equilibrium in the probed system. One way of achieving this will
+be by studying systems free of long-lived excitations like those of the
+Mg 2p core hole that complicate the present analysis. Heavier rock-salt
+materials such as KCl are promising candidates as they exhibit
+shorter-lived \emph{p} vacancies than MgO while sharing its most
+important features: namely, a large band gap and a diffraction signal
+with high sensitivity to site-specific charge delocalization. A closer
+approach to local thermal equilibrium can also be achieved by using
+time-resolved measurements under two-color pump-probe operation of the
+XFEL: specifically, a sufficient delay between pump and probe provides
+time for thermalization of electronic degrees of freedom. An additional
+benefit of two-color pump/probe configurations is the ability to
+interrogate temporally uniform states, instead of integration over a
+sample's evolution during XFEL stimulation (as is the case with
+single-pulse simultaneous pump/probe). Given the present hypothesis of
+strong changes in the density of states within the ground-state bandgap,
+it is also interesting to consider x-ray pump studies with optical (or
+UV) probe to directly evaluate changes to the electronic energy
+landscape on the energy scale of the band gap and ionization thresholds.
+In future studies it may be worthwhile, finally, to study non-rock salt
+compounds that similarly manifest a combination of destructive- and
+constructive-interference diffraction peaks. One possibility is layered
+binary dielectrics, in which one would expect strong sensitivity to
+interplanar charge reorganization effects.
 
-\section{References}
+\textbf{\\}
+
+\textbf{References}
 
 {[}1{]} M. Koenig \emph{et al.}, Plasma Physics and Controlled Fusion
 \textbf{47}, B441 (2005).
@@ -719,92 +709,144 @@ University Press on Demand, 2004), Vol. 125.
 {[}3{]} G. Faussurier, C. Blancard, P. Cossé, and P. Renaudin, Physics
 of Plasmas \textbf{17}, 052707 (2010).
 
-{[}4{]} A. Höll \emph{et al.}, High Energy Density Physics \textbf{3},
+{[}4{]} D. Rackstraw \emph{et al.}, Physical review letters
+\textbf{114}, 015003 (2015).
+
+{[}5{]} O. Ciricosta \emph{et al.}, Nature Communications \textbf{7},
+11713 (2016).
+
+{[}6{]} A. Höll \emph{et al.}, High Energy Density Physics \textbf{3},
 120 (2007).
 
-{[}5{]} B. E. Warren, \emph{X-ray Diffraction} (Courier Corporation,
+{[}7{]} B. E. Warren, \emph{X-ray Diffraction} (Courier Corporation,
 1969).
 
-{[}6{]} J. Yano and V. K. Yachandra, Photosynthesis Research
+{[}8{]} J. Yano and V. K. Yachandra, Photosynthesis Research
 \textbf{102}, 241 (2009).
 
-{[}7{]} R. A. Valenza and G. T. Seidler, Physical Review B \textbf{93},
+{[}9{]} B. W. McNeil and N. R. Thompson, Nature photonics \textbf{4},
+814 (2010).
+
+{[}10{]} H. N. Chapman \emph{et al.}, Nature \textbf{470}, 73 (2011).
+
+{[}11{]} R. A. Valenza and G. T. Seidler, Physical Review B \textbf{93},
 115135 (2016).
 
-{[}8{]} T. Ma \emph{et al.}, Physical Review Letters \textbf{110},
+{[}12{]} T. Ma \emph{et al.}, Physical Review Letters \textbf{110},
 065001 (2013).
 
-{[}9{]} J. Chalupsky \emph{et al.}, Nuclear Instruments and Methods in
+{[}13{]} V. V. Karasiev, T. Sjostrom, and S. Trickey, Physical Review E
+\textbf{86}, 056704 (2012).
+
+{[}14{]} J. W. Dufty and S. Trickey, Physical Review B \textbf{84},
+125118 (2011).
+
+{[}15{]} T. Sjostrom, F. E. Harris, and S. Trickey, Physical Review B
+\textbf{85}, 045125 (2012).
+
+{[}16{]} J. Chalupsky \emph{et al.}, Nuclear Instruments and Methods in
 Physics Research Section A: Accelerators, Spectrometers, Detectors and
 Associated Equipment \textbf{631}, 130 (2011).
 
-{[}10{]} S. Herrmann \emph{et al.}, Nuclear Instruments and Methods in
+{[}17{]} S. Herrmann \emph{et al.}, Nuclear Instruments and Methods in
 Physics Research Section A: Accelerators, Spectrometers, Detectors and
 Associated Equipment \textbf{718}, 550 (2013).
 
-{[}11{]} P. Hart \emph{et al.}, in \emph{Proc. SPIE} \textbf{8504},
+{[}18{]} P. Hart \emph{et al.}, in \emph{Proc. SPIE} \textbf{8504},
 \emph{The CSPAD megapixel x-ray camera at LCLS,} 2012, p. 85040C.
 
-{[}12{]} D. Damiani \emph{et al.}, Journal of Applied Crystallography
+{[}19{]} D. Damiani \emph{et al.}, Journal of Applied Crystallography
 \textbf{49}, 672 (2016).
 
-{[}13{]} O. R. Hoidn and G. T. Seidler, (in preparation).
+{[}20{]} O. R. Hoidn and G. T. Seidler, arXiv preprint arXiv:1704.04348
+(2017).
 
-{[}14{]} F. Salvat, J. M. Fernández-Varea, and J. Sempau, \textbf{7},
-\emph{PENELOPE-2006: A code system for Monte Carlo simulation of
-electron and photon transport,} OECD Publishing, Paris, 2006.
-
-{[}15{]} J. Abdallah Jr, R. E. Clark, and R. D. Cowan, Theoretical
+{[}21{]} J. Abdallah Jr, R. E. Clark, and R. D. Cowan, Theoretical
 atomic physics code development I: CATS: Cowan Atomic Structure Code,
 1988.
 
-{[}16{]} O. Ciricosta \emph{et al.}, Nature Communications \textbf{7},
-11713 (2016).
-
-{[}17{]} H.-K. Chung, B. Cho, O. Ciricosta, S. Vinko, J. Wark, and R.
+{[}22{]} H.-K. Chung, B. Cho, O. Ciricosta, S. Vinko, J. Wark, and R.
 Lee, in \emph{AIP Conference Proceedings} \textbf{1811}, \emph{Atomic
 processes modeling of X-ray free electron laser produced plasmas using
 SCFLY code,} AIP Publishing, 2017, p. 020001.
 
-{[}18{]} J. Hafner, Journal of computational chemistry \textbf{29}, 2044
+{[}23{]} J. Hafner, Journal of computational chemistry \textbf{29}, 2044
 (2008).
 
-{[}19{]} A. L. Ankudinov, B. Ravel, J. J. Rehr, and S. D. Conradson,
+{[}24{]} A. L. Ankudinov, B. Ravel, J. J. Rehr, and S. D. Conradson,
 Physical Review B \textbf{58}, 7565 (1998).
 
-{[}20{]} F. Neese, JBIC Journal of Biological Inorganic Chemistry
+{[}25{]} F. Neese, JBIC Journal of Biological Inorganic Chemistry
 \textbf{11}, 702 (2006).
 
-{[}21{]} C. Caleman, N. Timneanu, A. V. Martin, H. O. Jonsson, A.
+{[}26{]} C. Caleman, N. Timneanu, A. V. Martin, H. O. Jonsson, A.
 Aquila, A. Barty, H. A. Scott, T. A. White, and H. N. Chapman, Optics
 Express \textbf{23}, 1213 (2015).
 
-{[}22{]} C. Kittel, \emph{Introduction to Solid State Physics} (Wiley,
+{[}27{]} C. Kittel, \emph{Introduction to Solid State Physics} (Wiley,
 2005).
 
-{[}23{]} F. Zamponi, P. Rothhardt, J. Stingl, M. Woerner, and T.
+{[}28{]} F. Zamponi, P. Rothhardt, J. Stingl, M. Woerner, and T.
 Elsaesser, Proceedings of the National Academy of Sciences \textbf{109},
 5207 (2012).
 
-{[}24{]} S. Stankic, M. Müller, O. Diwald, M. Sterrer, E. Knözinger, and
+{[}29{]} S. Stankic, M. Müller, O. Diwald, M. Sterrer, E. Knözinger, and
 J. Bernardi, Angewandte Chemie International Edition \textbf{44}, 4917
 (2005).
 
-{[}25{]} S. Vinko, O. Ciricosta, and J. Wark, Nature communications
+{[}30{]} S. Vinko, O. Ciricosta, and J. Wark, Nature communications
 \textbf{5}, 3533 (2014).
 
-{[}26{]} T. M. Nieuwenhuizen, Physical Review Letters \textbf{62}, 357
+{[}31{]} T. M. Nieuwenhuizen, Physical Review Letters \textbf{62}, 357
 (1989).
 
-{[}27{]} F. A. de Moura and M. L. Lyra, Physical Review Letters
+{[}32{]} F. A. de Moura and M. L. Lyra, Physical Review Letters
 \textbf{81}, 3735 (1998).
 
-{[}28{]} O. Keski-Rahkonen and M. O. Krause, Atomic Data and Nuclear
+{[}33{]} O. Keski-Rahkonen and M. O. Krause, Atomic Data and Nuclear
 Data Tables \textbf{14}, 139 (1974).
 
-{[}29{]} J. C. Fuggle and J. E. Inglesfield, in \emph{Unoccupied
+{[}34{]} J. C. Fuggle and J. E. Inglesfield, in \emph{Unoccupied
 Electronic States} (Springer, 1992), pp. 1.
 
+\textbf{\\}
 
+\includegraphics{media/image1.png}
 
+\textbf{Fig. 1}. (a): Experimental intensity of the (220) Bragg peak
+from a sample of MgO simultaneously heated and probed by 45-fs duration
+XFEL pulses, as a function of XFEL energy deposited per MgO unit cell,
+with no normalization across individual data points. (b): Equivalent
+data for the (200) peak. (c): Experimental intensities of the (111)
+peak, compared to several models. Each experimental data point is
+normalized by (1) its intensity at minimum flux density and (2) the
+(200) peak intensity. For each of the four displayed models, the shaded
+region corresponds to the locus of possible curves once the loss of
+in-sample energy deposition due to nonlocal heat transport by hot
+electrons is accounted for. See the text for discussion.
 
+\includegraphics{media/image2.png}
+
+\textbf{Fig. 2}. Dependence of
+\hyperdef{}{OLEux5fLINK16}{}{\hyperdef{}{OLEux5fLINK17}{}{\hyperdef{}{OLEux5fLINK18}{}{}}}\(I_{111}/I_{200}\)
+on population of the \emph{2p} orbitals of
+\hyperdef{}{OLEux5fLINK14}{}{\hyperdef{}{OLEux5fLINK15}{}{}}\(\text{Mg}^{2 +}\)
+and \(O^{2 -}\), according to an atomic form factor (AFF) based model of
+ionization. This ratio reaches a maximum factor of 13.8 times the
+unperturbed value at full ionization of the O 2p electrons.
+
+\includegraphics{media/image3.png}
+
+\textbf{Fig. 3}. Electronic temperature evolution during an XFEL pulse
+simulated by the radiative collisional code SCFLY. The incident XFEL
+photon energy and flux density are 9 keV and 2 x 10\textsuperscript{4}
+J/cm\textsuperscript{2}, respectively. The dashed line represents the
+temporal profile of the incident XFEL pulse.
+
+\includegraphics{media/image4.png}
+
+\textbf{Fig. 4}. Evolution of the mean charge states Mg and O of during
+an XFEL pulse simulated by the radiative collisional code SCFLY. The
+incident XFEL photon energy and flux density are 9 keV and 2 x
+10\textsuperscript{4} J/cm\textsuperscript{2}, respectively. The dashed
+line represents the temporal profile of the incident XFEL pulse.

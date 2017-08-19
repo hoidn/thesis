@@ -16,102 +16,103 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 31966 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
-Repeated entry---line 824 of file uwthesis.bib
+Repeated entry---line 823 of file uwthesis.bib
  : @article{chihara2000interaction
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 835 of file uwthesis.bib
+Repeated entry---line 834 of file uwthesis.bib
  : @article{mattern2012real
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1071 of file uwthesis.bib
+Repeated entry---line 1070 of file uwthesis.bib
  : @article{Glenzer2009x
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1321 of file uwthesis.bib
+Repeated entry---line 1314 of file uwthesis.bib
  : @article{Liljequist1983simple
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1533 of file uwthesis.bib
+Repeated entry---line 1526 of file uwthesis.bib
  : @article{mcneil2010x
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1543 of file uwthesis.bib
+Repeated entry---line 1536 of file uwthesis.bib
  : @article{chapman2011femtosecond
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1553 of file uwthesis.bib
+Repeated entry---line 1546 of file uwthesis.bib
  : @article{ma2013x
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1563 of file uwthesis.bib
+Repeated entry---line 1556 of file uwthesis.bib
  : @article{karasiev2012comparison
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1613 of file uwthesis.bib
+Repeated entry---line 1606 of file uwthesis.bib
  : @article{hoidn2017nonlocal
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1625 of file uwthesis.bib
+Repeated entry---line 1618 of file uwthesis.bib
  : @inproceedings{chung2017atomic
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1665 of file uwthesis.bib
+Repeated entry---line 1658 of file uwthesis.bib
  : @article{caleman2015ultrafast
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1692 of file uwthesis.bib
+Repeated entry---line 1685 of file uwthesis.bib
  : @article{vinko2014density
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1721 of file uwthesis.bib
+Repeated entry---line 1714 of file uwthesis.bib
  : @article{keski1974total
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1952 of file uwthesis.bib
+Repeated entry---line 1945 of file uwthesis.bib
  : @article{glenzer2009x
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1972 of file uwthesis.bib
+Repeated entry---line 1965 of file uwthesis.bib
  : @article{lee2009x
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1992 of file uwthesis.bib
+Repeated entry---line 1985 of file uwthesis.bib
  : @article{mattern2013condensed
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2027 of file uwthesis.bib
+Repeated entry---line 2020 of file uwthesis.bib
  : @article{yaakobi2005exafs
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2047 of file uwthesis.bib
+Repeated entry---line 2040 of file uwthesis.bib
  : @article{ma2013x
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2117 of file uwthesis.bib
+Repeated entry---line 2110 of file uwthesis.bib
  : @article{yaakobi2003extended
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2139 of file uwthesis.bib
+Repeated entry---line 2132 of file uwthesis.bib
  : @article{krishnan1998structure
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2169 of file uwthesis.bib
+Repeated entry---line 2162 of file uwthesis.bib
  : @article{chihara2000interaction
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2186 of file uwthesis.bib
+Repeated entry---line 2179 of file uwthesis.bib
  : @article{eisenberger1970compton
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2196 of file uwthesis.bib
+Repeated entry---line 2189 of file uwthesis.bib
  : @article{mattern2012real
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2254 of file uwthesis.bib
+Repeated entry---line 2247 of file uwthesis.bib
  : @article{glenzer2003demonstration
  :                                  ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "national2003high"
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -123,45 +124,45 @@ Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, P
 while executing---line 2659 of file biblatex.bst
 Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USA" for entry carlson1975photoelectron
 while executing---line 2659 of file biblatex.bst
-You've used 194 entries,
+You've used 193 entries,
             6047 wiz_defined-function locations,
-            2144 strings with 49278 characters,
-and the built_in function-call counts, 727776 in all, are:
-= -- 30288
-> -- 24365
-< -- 5459
-+ -- 9841
-- -- 9804
-* -- 62738
-:= -- 43849
+            2147 strings with 50071 characters,
+and the built_in function-call counts, 726015 in all, are:
+= -- 30198
+> -- 24275
+< -- 5420
++ -- 9823
+- -- 9782
+* -- 62774
+:= -- 43757
 add.period$ -- 0
-call.type$ -- 194
-change.case$ -- 3741
+call.type$ -- 193
+change.case$ -- 3722
 chr.to.int$ -- 35
-cite$ -- 386
-duplicate$ -- 85632
-empty$ -- 73776
-format.name$ -- 19787
-if$ -- 158855
+cite$ -- 384
+duplicate$ -- 85491
+empty$ -- 73595
+format.name$ -- 19793
+if$ -- 158318
 int.to.chr$ -- 0
-int.to.str$ -- 582
+int.to.str$ -- 581
 missing$ -- 0
-newline$ -- 8301
-num.names$ -- 10047
-pop$ -- 64185
+newline$ -- 8331
+num.names$ -- 10000
+pop$ -- 63876
 preamble$ -- 1
-purify$ -- 5057
+purify$ -- 5039
 quote$ -- 0
-skip$ -- 40070
+skip$ -- 39905
 stack$ -- 0
-substring$ -- 18205
-swap$ -- 29006
-text.length$ -- 4629
-text.prefix$ -- 322
+substring$ -- 18157
+swap$ -- 29012
+text.length$ -- 4617
+text.prefix$ -- 332
 top$ -- 1
-type$ -- 7357
+type$ -- 7319
 warning$ -- 0
-while$ -- 3157
+while$ -- 3147
 width$ -- 0
-write$ -- 8106
+write$ -- 8137
 (There were 28 error messages)

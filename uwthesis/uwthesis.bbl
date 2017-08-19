@@ -17,13 +17,7 @@
 \endgroup
 
 \entry{plasma2003frontiers}{book}{}
-  \true{moreauthor}
-  \name{author}{2}{}{%
-    {{}%
-     {Committee}{C.}%
-     {Plasma~Science}{P.~S.}%
-     {}{}%
-     {}{}}%
+  \name{author}{1}{}{%
     {{}%
      {Council}{C.}%
      {National~Research}{N.~R.}%
@@ -31,12 +25,35 @@
      {}{}}%
   }
   \list{publisher}{1}{%
-    {National Academies Press}%
+    {The National Academies Press}%
   }
-  \strng{namehash}{CPSCNR+1}
-  \strng{fullhash}{CPSCNR+1}
-  \field{title}{Frontiers in high energy density physics: the x-games of
-  contemporary science}
+  \strng{namehash}{CNR1}
+  \strng{fullhash}{CNR1}
+  \field{abstract}{%
+  Recent scientific and technical advances have made it possible to create
+  matter in the laboratory under conditions relevant to astrophysical systems
+  such as supernovae and black holes. These advances will also benefit inertial
+  confinement fusion research and the nation\u2019s nuclear weapon\u2019s
+  program. The report describes the major research facilities on which such
+  high energy density conditions can be achieved and lists a number of key
+  scientific questions about high energy density physics that can be addressed
+  by this research. Several recommendations are presented that would facilitate
+  the development of a comprehensive strategy for realizing these research
+  opportunities.\n%
+  }
+  \verb{doi}
+  \verb 10.17226/10544
+  \endverb
+  \field{isbn}{978-0-309-08637-0}
+  \field{title}{Frontiers in High Energy Density Physics: The X-Games of
+  Contemporary Science}
+  \verb{url}
+  \verb https://www.nap.edu/catalog/10544/frontiers-in-high-energy-density-phys
+  \verb ics-the-x-games-of
+  \endverb
+  \list{location}{1}{%
+    {Washington, DC}%
+  }
   \field{year}{2003}
 \endentry
 
@@ -511,30 +528,6 @@
   \field{volume}{106}
   \field{journaltitle}{Physical review letters}
   \field{year}{2011}
-\endentry
-
-\entry{national2003frontiers}{book}{}
-  \true{moreauthor}
-  \name{author}{2}{}{%
-    {{}%
-     {Council}{C.}%
-     {National~Research}{N.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Committee}{C.}%
-     {Plasma~Science}{P.~S.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {National Academies Press}%
-  }
-  \strng{namehash}{CNRCPS+1}
-  \strng{fullhash}{CNRCPS+1}
-  \field{title}{Frontiers in High Energy Density Physics: The X-Games of
-  Contemporary Science}
-  \field{year}{2003}
 \endentry
 
 \entry{sterne2016equations}{inproceedings}{}
@@ -2638,7 +2631,7 @@
      {}{}}%
     {{}%
      {Felten}{F.}%
-     {Jj}{J.}%
+     {JJ}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -2669,7 +2662,7 @@
   \name{author}{6}{}{%
     {{}%
      {Fortney}{F.}%
-     {Jj}{J.}%
+     {JJ}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -2710,29 +2703,6 @@
   \field{volume}{16}
   \field{journaltitle}{Physics of Plasmas}
   \field{year}{2009}
-\endentry
-
-\entry{national2003high}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Council}{C.}%
-     {National~Research}{N.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Others}{O.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{1}{%
-    {National}%
-  }
-  \strng{namehash}{CNRO1}
-  \strng{fullhash}{CNRO1}
-  \field{title}{High Energy Density Physics: The X-Games of Contemporary
-  Science}
-  \field{year}{2003}
 \endentry
 
 \entry{caleman2015ultrafast}{article}{}
@@ -2918,7 +2888,7 @@
   \name{author}{10}{}{%
     {{}%
      {Faure}{F.}%
-     {J{\'E}R{\^O}Me}{J.}%
+     {J{\'e}r{\^o}me}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -3719,7 +3689,7 @@
   \name{author}{5}{}{%
     {{}%
      {Pollock}{P.}%
-     {Ja}{J.}%
+     {JA}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -3761,7 +3731,7 @@
   \name{author}{4}{}{%
     {{}%
      {Zeiss}{Z.}%
-     {Gd}{G.}%
+     {GD}{G.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4684,7 +4654,7 @@
   \name{author}{11}{}{%
     {{}%
      {Akli}{A.}%
-     {Ku}{K.}%
+     {KU}{K.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4694,7 +4664,7 @@
      {}{}}%
     {{}%
      {Kemp}{K.}%
-     {Aj}{A.}%
+     {AJ}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4756,7 +4726,7 @@
   \name{author}{11}{}{%
     {{}%
      {Young}{Y.}%
-     {Bkf}{B.}%
+     {BKF}{B.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4951,7 +4921,7 @@
   \name{author}{11}{}{%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4976,7 +4946,7 @@
      {}{}}%
     {{}%
      {Koch}{K.}%
-     {Ja}{J.}%
+     {JA}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5104,7 +5074,7 @@
      {}{}}%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5176,7 +5146,7 @@
      {}{}}%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5247,7 +5217,7 @@
      {}{}}%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5274,7 +5244,7 @@
   \name{author}{1}{}{%
     {{}%
      {Lider}{L.}%
-     {Vv}{V.}%
+     {VV}{V.}%
      {}{}%
      {}{}}%
   }
@@ -5342,7 +5312,7 @@
   \name{author}{11}{}{%
     {{}%
      {Bourgade}{B.}%
-     {Jl}{J.}%
+     {JL}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5466,12 +5436,12 @@
   \name{author}{2}{}{%
     {{}%
      {Hoidn}{H.}%
-     {Or}{O.}%
+     {OR}{O.}%
      {}{}%
      {}{}}%
     {{}%
      {Seidler}{S.}%
-     {Gt}{G.}%
+     {GT}{G.}%
      {}{}%
      {}{}}%
   }
@@ -5528,7 +5498,7 @@
      {}{}}%
     {{}%
      {Pluth}{P.}%
-     {Jj}{J.}%
+     {JJ}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5629,7 +5599,7 @@
   \name{author}{11}{}{%
     {{}%
      {Maddox}{M.}%
-     {Br}{B.}%
+     {BR}{B.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5701,7 +5671,7 @@
   \name{author}{11}{}{%
     {{}%
      {Akli}{A.}%
-     {Ku}{K.}%
+     {KU}{K.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5824,7 +5794,7 @@
 \entry{schulke2007electron}{book}{}
   \name{author}{1}{}{%
     {{}%
-     {Sch{\"U}Lke}{S.}%
+     {Sch{\"u}lke}{S.}%
      {Winfried}{W.}%
      {}{}%
      {}{}}%
@@ -5884,7 +5854,7 @@
   \name{author}{7}{}{%
     {{}%
      {Visco}{V.}%
-     {Aj}{A.}%
+     {AJ}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5984,17 +5954,17 @@
      {}{}}%
     {{}%
      {Koch}{K.}%
-     {Ja}{J.}%
+     {JA}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
      {Mackinnon}{M.}%
-     {Aj}{A.}%
+     {AJ}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -6142,7 +6112,7 @@
      {}{}}%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
@@ -6205,7 +6175,7 @@
      {}{}}%
     {{}%
      {Landen}{L.}%
-     {Ol}{O.}%
+     {OL}{O.}%
      {}{}%
      {}{}}%
     {{}%
@@ -6315,6 +6285,74 @@
   \field{journaltitle}{Phys. Rev. Lett.}
   \field{year}{2008}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{andruszkow2000first}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Andruszkow}{A.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aune}{A.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ayvazyan}{A.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baboi}{B.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bakker}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balakin}{B.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barni}{B.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bazhan}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bernard}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bosotti}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{AJ+2}
+  \strng{fullhash}{AJABAVBNBRBVBDBABMBA+1}
+  \field{number}{18}
+  \field{pages}{3825}
+  \field{title}{First observation of self-amplified spontaneous emission in a
+  free-electron laser at 109 nm wavelength}
+  \field{volume}{85}
+  \field{journaltitle}{Physical Review Letters}
+  \field{year}{2000}
 \endentry
 
 \entry{milton2001exponential}{article}{}
@@ -7616,7 +7654,7 @@
      {}{}}%
     {{}%
      {Rehr}{R.}%
-     {Jj}{J.}%
+     {JJ}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -7825,7 +7863,7 @@
      {}{}}%
     {{}%
      {Gonsalves}{G.}%
-     {Aj}{A.}%
+     {AJ}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -7983,7 +8021,7 @@
   \name{author}{8}{}{%
     {{}%
      {Seidler}{S.}%
-     {Gt}{G.}%
+     {GT}{G.}%
      {}{}%
      {}{}}%
     {{}%
@@ -7993,12 +8031,12 @@
      {}{}}%
     {{}%
      {Remesnik}{R.}%
-     {Aj}{A.}%
+     {AJ}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Pacold}{P.}%
-     {Ji}{J.}%
+     {JI}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -8041,12 +8079,12 @@
   \name{author}{10}{}{%
     {{}%
      {Pacold}{P.}%
-     {Ji}{J.}%
+     {JI}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Bradley}{B.}%
-     {Ja}{J.}%
+     {JA}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -8061,7 +8099,7 @@
      {}{}}%
     {{}%
      {Seidler}{S.}%
-     {Gt}{G.}%
+     {GT}{G.}%
      {}{}%
      {}{}}%
     {{}%
@@ -8113,7 +8151,7 @@
      {}{}}%
     {{}%
      {Seidler}{S.}%
-     {Gt}{G.}%
+     {GT}{G.}%
      {}{}%
      {}{}}%
     {{}%
@@ -8123,7 +8161,7 @@
      {}{}}%
     {{}%
      {Pacold}{P.}%
-     {Ji}{J.}%
+     {JI}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -8170,7 +8208,7 @@
      {}{}}%
     {{}%
      {Seidler}{S.}%
-     {Gt}{G.}%
+     {GT}{G.}%
      {}{}%
      {}{}}%
     {{}%
@@ -8180,7 +8218,7 @@
      {}{}}%
     {{}%
      {Bradley}{B.}%
-     {Ja}{J.}%
+     {JA}{J.}%
      {}{}%
      {}{}}%
     {{}%

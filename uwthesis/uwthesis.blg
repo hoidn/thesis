@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 31966 items from 5000.
+Reallocated field_info (elt_size=4) to 31827 items from 5000.
 Database file #1: uwthesis-blx.bib
 Database file #2: uwthesis.bib
 Repeated entry---line 823 of file uwthesis.bib
@@ -112,7 +112,6 @@ Repeated entry---line 2247 of file uwthesis.bib
  : @article{glenzer2003demonstration
  :                                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "national2003high"
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -126,7 +125,7 @@ Too many commas in name 1 of "Annual Reviews 4139 El Camino Way, PO Box 10139, P
 while executing---line 2659 of file biblatex.bst
 You've used 193 entries,
             6047 wiz_defined-function locations,
-            2147 strings with 50071 characters,
+            2146 strings with 50055 characters,
 and the built_in function-call counts, 726015 in all, are:
 = -- 30198
 > -- 24275
